@@ -13,7 +13,7 @@
 ### 4-Layer Ownership Architecture
 
 ```
-Property (14,054) → Entity (8,139) → Company (619) → Principal (47,386)
+Property (14,054) → Entity (11,897) → Company (4,377) → Principal (47,386)
 ```
 
 - **Property** = SNF facility (CCN)
@@ -26,11 +26,11 @@ Property (14,054) → Entity (8,139) → Company (619) → Principal (47,386)
 | Table | Records | Description |
 |-------|---------|-------------|
 | `property_master` | 14,054 | SNF facilities (unique by CCN) |
-| `entities` | 8,139 | Legal entities (opcos from CMS Associate IDs) |
-| `companies` | 619 | Portfolio companies (CMS Affiliated Entities) |
+| `entities` | 11,897 | Legal entities (opcos from CMS Associate IDs) |
+| `companies` | 4,377 | Portfolio companies (619 chains + 3,758 standalone) |
 | `principals` | 47,386 | Individual owners, officers, directors, managers |
-| `property_entity_relationships` | 10,095 | Facility → Entity links (71.8% coverage) |
-| `principal_entity_relationships` | 64,676 | Principal → Entity role assignments |
+| `property_entity_relationships` | 14,054 | Facility → Entity links (100% coverage) |
+| `principal_entity_relationships` | 98,788 | Principal → Entity role assignments |
 | `principal_company_relationships` | 62,970 | Principal → Company (portfolio level) |
 | `deals` | 4,953 | Change of Ownership (CHOW) transactions |
 | `deals_parties` | 9,906 | Buyers and sellers on CHOW deals |
@@ -39,9 +39,9 @@ Property (14,054) → Entity (8,139) → Company (619) → Principal (47,386)
 
 | Relationship | Coverage |
 |--------------|----------|
-| Properties linked to Entity | 71.8% |
+| Properties linked to Entity | **100%** |
 | Entities linked to Principals | 100% |
-| Principals with Entity Roles | 37.5% |
+| Principals with Entity Roles | 57.4% |
 | CHOW Deals linked to Property | 97.0% |
 | CHOW Buyers linked to Opco | 82.2% |
 
@@ -128,9 +128,10 @@ docker exec -i 3ghcre-mysql mysql -u root -pdevpass atlas < init/02_load_propert
 | `05_phase1b_principals.sql` | Principals + company links |
 | `06_deals_schema.sql` | Deals tables (base + extensions) |
 | `07_phase1b_chow.sql` | Load CHOW into deals |
-| `08_phase1b_entities.sql` | **Entity layer + property-entity links** |
-| `09_phase1b_principal_entity.sql` | **Principal-entity relationships** |
-| `10_phase1b_validation.sql` | **Comprehensive 4-layer validation** |
+| `08_phase1b_entities.sql` | Entity layer + property-entity links |
+| `09_phase1b_principal_entity.sql` | Principal-entity relationships |
+| `10_phase1b_validation.sql` | Comprehensive 4-layer validation |
+| `11_phase1b_standalone_entities.sql` | **Standalone facility entities (100% coverage)** |
 
 ---
 
@@ -144,7 +145,7 @@ docker exec -i 3ghcre-mysql mysql -u root -pdevpass atlas < init/02_load_propert
  LAYER 1: ASSETS                LAYER 2: LEGAL ENTITIES           LAYER 3: PORTFOLIOS            LAYER 4: PEOPLE
 ┌─────────────────────┐        ┌─────────────────────┐           ┌─────────────────────┐        ┌─────────────────────┐
 │   property_master   │        │      entities       │           │      companies      │        │     principals      │
-│      (14,054)       │        │      (8,139)        │           │       (619)         │        │     (47,386)        │
+│      (14,054)       │        │     (11,897)        │           │      (4,377)        │        │     (47,386)        │
 ├─────────────────────┤        ├─────────────────────┤           ├─────────────────────┤        ├─────────────────────┤
 │ PK id               │        │ PK id               │           │ PK id               │        │ PK id               │
 │ UK ccn              │        │    entity_name      │           │    company_name     │        │    first_name       │
@@ -159,7 +160,7 @@ docker exec -i 3ghcre-mysql mysql -u root -pdevpass atlas < init/02_load_propert
            ▼                              │                                 │ 1:N                          │
 ┌─────────────────────────────────┐       │                    ┌───────────┴───────────┐                   │
 │ property_entity_relationships   │       │                    │                       │                   │
-│          (10,095)               │       │                    ▼                       │                   │
+│          (14,054)               │       │                    ▼                       │                   │
 ├─────────────────────────────────┤       │    ┌─────────────────────────────────┐     │                   │
 │ FK property_master_id ──────────┼───────┘    │ principal_company_relationships │     │                   │
 │ FK entity_id ───────────────────┼────────────┤          (62,970)               │◄────┼───────────────────┘
@@ -174,7 +175,7 @@ docker exec -i 3ghcre-mysql mysql -u root -pdevpass atlas < init/02_load_propert
            ▼
 ┌─────────────────────────────────┐            ┌─────────────────────────────────┐
 │ principal_entity_relationships  │◄───────────┤       (Entity-level roles)      │
-│          (64,676)               │            └─────────────────────────────────┘
+│          (98,788)               │            └─────────────────────────────────┘
 ├─────────────────────────────────┤
 │ FK principal_id ────────────────┼───────────────────────────────────────────────► principals
 │ FK entity_id ───────────────────┼───────────────────────────────────────────────► entities

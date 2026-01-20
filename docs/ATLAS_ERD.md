@@ -5,7 +5,7 @@
 ## 4-Layer Ownership Architecture
 
 ```
-Property (14,054) → Entity (8,139) → Company (619) → Principal (47,386)
+Property (14,054) → Entity (11,897) → Company (4,377) → Principal (47,386)
 ```
 
 - **Property** = SNF facility (CCN) - Layer 1: Assets
@@ -21,7 +21,7 @@ Property (14,054) → Entity (8,139) → Company (619) → Principal (47,386)
  LAYER 1: ASSETS                LAYER 2: LEGAL ENTITIES           LAYER 3: PORTFOLIOS            LAYER 4: PEOPLE
 ┌─────────────────────┐        ┌─────────────────────┐           ┌─────────────────────┐        ┌─────────────────────┐
 │   property_master   │        │      entities       │           │      companies      │        │     principals      │
-│      (14,054)       │        │      (8,139)        │           │       (619)         │        │     (47,386)        │
+│      (14,054)       │        │     (11,897)        │           │      (4,377)        │        │     (47,386)        │
 ├─────────────────────┤        ├─────────────────────┤           ├─────────────────────┤        ├─────────────────────┤
 │ PK id               │        │ PK id               │           │ PK id               │        │ PK id               │
 │ UK ccn              │        │    entity_name      │           │    company_name     │        │    first_name       │
@@ -39,7 +39,7 @@ Property (14,054) → Entity (8,139) → Company (619) → Principal (47,386)
            ▼                              │                                 │ 1:N                          │
 ┌─────────────────────────────────┐       │                    ┌───────────┴───────────┐                   │
 │ property_entity_relationships   │       │                    │                       │                   │
-│          (10,095)               │       │                    ▼                       │                   │
+│          (14,054)               │       │                    ▼                       │                   │
 ├─────────────────────────────────┤       │    ┌─────────────────────────────────┐     │                   │
 │ PK id                           │       │    │ principal_company_relationships │     │                   │
 │ FK property_master_id ──────────┼───────┘    │          (62,970)               │◄────┼───────────────────┘
@@ -55,7 +55,7 @@ Property (14,054) → Entity (8,139) → Company (619) → Principal (47,386)
 
 ┌─────────────────────────────────┐
 │ principal_entity_relationships  │
-│          (64,676)               │
+│          (98,788)               │
 │        (Entity Level)           │
 ├─────────────────────────────────┤
 │ PK id                           │
@@ -149,11 +149,11 @@ Property (14,054) → Entity (8,139) → Company (619) → Principal (47,386)
 | Table | Records | Description |
 |-------|---------|-------------|
 | `property_master` | 14,054 | SNF facilities from CMS |
-| `entities` | 8,139 | Legal entities (opcos from CMS Associate IDs) |
-| `companies` | 619 | Portfolio companies (CMS Affiliated Entities) |
+| `entities` | 11,897 | Legal entities (8,139 chain + 3,758 standalone) |
+| `companies` | 4,377 | Portfolio companies (619 chains + 3,758 standalone) |
 | `principals` | 47,386 | Individuals (owners, officers, directors) |
-| `property_entity_relationships` | 10,095 | Facility-entity links (71.8% coverage) |
-| `principal_entity_relationships` | 64,676 | Principal-entity links (100% entity coverage) |
+| `property_entity_relationships` | 14,054 | Facility-entity links (100% coverage) |
+| `principal_entity_relationships` | 98,788 | Principal-entity links (100% entity coverage) |
 | `principal_company_relationships` | 62,970 | Principal-company links (portfolio level) |
 | `deals` | 4,953 | All transactions |
 | `deals_chow` | 4,953 | CHOW-specific data |
@@ -236,9 +236,10 @@ Mortgage-specific data from REAPI (1:1 with deals where deal_type='mortgage').
 | 05 | `05_phase1b_principals.sql` | Principals + principal_company_relationships |
 | 06 | `06_deals_schema.sql` | Deals schema (all deals tables) |
 | 07 | `07_phase1b_chow.sql` | Load CHOW data into deals |
-| 08 | `08_phase1b_entities.sql` | **Entity layer + property_entity_relationships** |
-| 09 | `09_phase1b_principal_entity.sql` | **principal_entity_relationships** |
-| 10 | `10_phase1b_validation.sql` | **Comprehensive 4-layer validation** |
+| 08 | `08_phase1b_entities.sql` | Entity layer + property_entity_relationships |
+| 09 | `09_phase1b_principal_entity.sql` | principal_entity_relationships |
+| 10 | `10_phase1b_validation.sql` | Comprehensive 4-layer validation |
+| 11 | `11_phase1b_standalone_entities.sql` | **Standalone facility entities (100% coverage)** |
 
 ## Critical Graph Queries
 
