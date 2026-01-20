@@ -154,7 +154,7 @@ Property (14,054) → Entity (11,897) → Company (4,144) → Principal (47,386)
 | `principals` | 47,386 | Individuals (owners, officers, directors) |
 | `property_entity_relationships` | 14,054 | Facility-entity links (100% coverage) |
 | `principal_entity_relationships` | 98,788 | Principal-entity links (100% entity coverage) |
-| `principal_company_relationships` | 62,970 | Principal-company links (portfolio level) |
+| `principal_company_relationships` | 88,015 | Principal-company links (portfolio level) |
 | `deals` | 4,953 | All transactions |
 | `deals_chow` | 4,953 | CHOW-specific data |
 | `deals_sale` | 0 | Ready for REAPI |
@@ -240,7 +240,8 @@ Mortgage-specific data from REAPI (1:1 with deals where deal_type='mortgage').
 | 09 | `09_phase1b_principal_entity.sql` | principal_entity_relationships |
 | 10 | `10_phase1b_validation.sql` | Comprehensive 4-layer validation |
 | 11 | `11_phase1b_standalone_entities.sql` | Standalone facility entities (100% coverage) |
-| 12 | `12_consolidate_standalone_portfolios.sql` | **Consolidate multi-facility owners by principal** |
+| 12 | `12_consolidate_standalone_portfolios.sql` | Consolidate multi-facility owners by principal |
+| 13 | `13_fix_principal_company_links.sql` | **Add principal-company links for standalone/consolidated** |
 
 ## Critical Graph Queries
 

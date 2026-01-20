@@ -31,7 +31,7 @@ Property (14,054) → Entity (11,897) → Company (4,144) → Principal (47,386)
 | `principals` | 47,386 | Individual owners, officers, directors, managers |
 | `property_entity_relationships` | 14,054 | Facility → Entity links (100% coverage) |
 | `principal_entity_relationships` | 98,788 | Principal → Entity role assignments |
-| `principal_company_relationships` | 62,970 | Principal → Company (portfolio level) |
+| `principal_company_relationships` | 88,015 | Principal → Company (portfolio level) |
 | `deals` | 4,953 | Change of Ownership (CHOW) transactions |
 | `deals_parties` | 9,906 | Buyers and sellers on CHOW deals |
 
@@ -132,7 +132,8 @@ docker exec -i 3ghcre-mysql mysql -u root -pdevpass atlas < init/02_load_propert
 | `09_phase1b_principal_entity.sql` | Principal-entity relationships |
 | `10_phase1b_validation.sql` | Comprehensive 4-layer validation |
 | `11_phase1b_standalone_entities.sql` | Standalone facility entities (100% coverage) |
-| `12_consolidate_standalone_portfolios.sql` | **Consolidate multi-facility owners by principal** |
+| `12_consolidate_standalone_portfolios.sql` | Consolidate multi-facility owners by principal |
+| `13_fix_principal_company_links.sql` | **Add principal-company links for standalone/consolidated** |
 
 ---
 
