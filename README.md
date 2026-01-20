@@ -6,64 +6,183 @@
 
 ---
 
+## Current Status: Phase 1 Complete (CMS Data Loaded)
+
+**Last Updated:** January 2026
+
+### Data Loaded from CMS
+
+| Table | Records | Description |
+|-------|---------|-------------|
+| `property_master` | 14,054 | SNF facilities (unique by CCN) |
+| `companies` | 619 | Operating companies (Opcos from CMS Affiliated Entities) |
+| `principals` | 47,386 | Individual owners, officers, directors, managers |
+| `property_company_relationships` | 9,928 | Facility → Operator links (70.6% coverage) |
+| `principal_company_relationships` | 62,970 | Principal → Company role assignments |
+| `deals` | 4,953 | Change of Ownership (CHOW) transactions |
+| `deals_parties` | 9,906 | Buyers and sellers on CHOW deals |
+
+### Linkage Quality
+
+| Relationship | Coverage |
+|--------------|----------|
+| Properties linked to Operator | 70.6% |
+| Principals linked to Company | 37.5% |
+| CHOW Deals linked to Property | 97.0% |
+| CHOW Buyers linked to Opco | 82.2% |
+
+### What We Built
+
+1. **Docker MySQL Infrastructure** - One command setup with persistent data
+2. **Staging Tables** - Raw CMS data preserved for reprocessing
+3. **Normalized Schema** - Clean relational model with proper FKs
+4. **Deals System** - Unified transaction tracking ready for REAPI (sales, mortgages)
+5. **Full ERD Documentation** - See [docs/ATLAS_ERD.md](docs/ATLAS_ERD.md)
+
+### Next Phase: REAPI + Zoho Integration
+
+- Property enrichment (beds, sqft, year built, coordinates)
+- Sales transactions with pricing
+- Mortgage/financing data
+- Zoho CRM sync
+
+---
+
 ## Overview
 
 Atlas is a **two-tier system** for navigating skilled nursing facility (SNF) ownership networks:
 
-- **Tier 1 (41 Navigation Tools)**: Graph navigation engine querying CMS, REAPI, Zoho, and Graph data
-- **Tier 2 (11 Intelligence Tools)**: Orchestrates navigation + web research + AI synthesis into deliverables
+- **Tier 1 (Navigation Tools)**: Graph navigation engine querying CMS, REAPI, Zoho, and Graph data
+- **Tier 2 (Intelligence Tools)**: Orchestrates navigation + web research + AI synthesis into deliverables
 
 **Core Architecture**: Property ↔ Company ↔ Principal (with Companies as the many-to-many bridge)
 
 ---
 
-## Documentation Index
+## Quick Start
 
-### Core Technical Series (Numbered)
+### Prerequisites
 
-| # | Document | Description |
-|---|----------|-------------|
-| 01 | [Concept Graph](playbook/01_Concept_Graph.md) | Visual diagram showing Property → Company → Principal relationships. Explains Opco/Propco/MgmtCo roles and why the graph structure matters. |
-| 02 | [Data Sources Map](playbook/02_Data_Sources_Map.md) | Data flow from CMS + REAPI + Zoho into MySQL. The **60% rule** for address matching. Update frequencies and provenance tracking. |
-| 03 | [Schema ERD](playbook/03_Schema_ERD.md) | Complete database schema - 6 tables with fields, indexes, foreign keys. Critical SQL queries for graph traversal. |
-| 04 | [Zoho Module Map](playbook/04_Zoho_Module_Map.md) | CRM configuration guide. Companies module + junction modules (CompanyxProperty, CompanyxPrincipal). Picklists, validation rules, API endpoints. |
-| 05 | [Implementation Roadmap](playbook/05_Implementation_Roadmap.md) | **10-day sprint to production**. Day-by-day tasks with SQL scripts, validation checkpoints, Python sync scripts. |
-| 06 | [Walkthrough Example](playbook/06_Walkthrough_Example.md) | ST ANDREWS BAY SNF traced through the complete system. Shows exact SQL inserts, address matching, and hidden ownership discovery. |
-| 07 | [Toolkit Orchestration](playbook/07_Toolkit_Orchestration.md) | How the 52 tools work together. Tier 1 navigation patterns, Tier 2 intelligence workflows, real-world orchestration examples. |
+- Docker Desktop
+- CMS data files (download from data.cms.gov):
+  - `SNF_Enrollments_2025.12.02.csv`
+  - `SNF_All_Owners_2025.12.02.csv`
+  - `SNF_CHOW_2025.10.01.csv`
+  - `SNF_CHOW_Owners_2025.10.01.csv`
 
-### Reference Documents
+### Setup
 
-| Document | Description |
-|----------|-------------|
-| [Atlas Playbook](3G_Healthcare_Atlas_Playbook.md) | Comprehensive playbook covering entity model, tool catalog, MCP server architecture, use cases, deployment, and roadmap. |
-| [Presentation Deck](3G_Healthcare_Atlas_Presentation_Deck.md) | 6-slide executive presentation structure. Palantir-style design with flip cards. VÄV Atlas design system tokens. |
-| [Complete Data Architecture](Complete_Data_Architecture_PropertyxCompanyxPrincipal.md) | Full technical architecture for Property Master linking + many-to-many company relationships. CCN ↔ REAPI ID ↔ Zoho ID mapping. |
-| [CMS SNF Data Fields](CMS_SNF_Data_Fields_For_Graph_Building.md) | CMS data dictionary. Provider Information, SNF All Owners, and CHOW datasets. Affiliated Entity logic and field mappings. |
+```bash
+# 1. Clone the repo
+git clone https://github.com/3GHCRE/atlas.git
+cd atlas
+
+# 2. Place CMS CSV files in root directory
+
+# 3. Start MySQL container
+cd docker
+docker-compose up -d
+
+# 4. Wait for healthy status
+docker-compose ps
+
+# 5. Load CMS data (run as root for FILE privilege)
+docker exec -i 3ghcre-mysql mysql -u root -pdevpass atlas < init/01_load_csv_staging.sql
+docker exec -i 3ghcre-mysql mysql -u root -pdevpass atlas < init/02_load_property_master.sql
+# ... continue with remaining scripts
+```
+
+### SQL Init Scripts (Execute in Order)
+
+| Script | Purpose |
+|--------|---------|
+| `00_create_schema.sql` | Base tables and staging |
+| `01_load_csv_staging.sql` | Load CMS enrollments CSV |
+| `02_load_property_master.sql` | Deduplicate facilities by CCN |
+| `03_validation_queries.sql` | Phase 1A validation |
+| `04_phase1b_companies.sql` | Companies + property links |
+| `05_phase1b_principals.sql` | Principals + company links |
+| `06_deals_schema.sql` | Deals tables (base + extensions) |
+| `07_phase1b_chow.sql` | Load CHOW into deals |
 
 ---
 
-## Quick Reference
+## Schema Overview
 
-### The Core Problem
+```
+property_master (14,054)
+    │
+    ├──1:N──► property_company_relationships (9,928)
+    │              │
+    │              └──N:1──► companies (619)
+    │                            │
+    │                            └──1:N──► principal_company_relationships (62,970)
+    │                                           │
+    │                                           └──N:1──► principals (47,386)
+    │
+    └──1:N──► deals (4,953)
+                  │
+                  ├──1:1──► deals_chow (CMS CHOWs)
+                  ├──1:1──► deals_sale (ready for REAPI)
+                  ├──1:1──► deals_mortgage (ready for REAPI)
+                  │
+                  └──1:N──► deals_parties (9,906)
+                                │
+                                ├──► companies (if known opco)
+                                └──► principals (if individual)
+```
+
+See full ERD: [docs/ATLAS_ERD.md](docs/ATLAS_ERD.md)
+
+---
+
+## Documentation
+
+### Playbook (Implementation Guides)
+
+| Document | Description |
+|----------|-------------|
+| [01_Concept_Graph](playbook/01_Concept_Graph.md) | Property → Company → Principal relationships |
+| [02_Data_Sources_Map](playbook/02_Data_Sources_Map.md) | CMS + REAPI + Zoho data flow |
+| [03_Schema_ERD](playbook/03_Schema_ERD.md) | Database schema reference |
+| [04_Zoho_Module_Map](playbook/04_Zoho_Module_Map.md) | CRM configuration guide |
+| [05_Implementation_Roadmap](playbook/05_Implementation_Roadmap.md) | Sprint plan |
+| [06_Walkthrough_Example](playbook/06_Walkthrough_Example.md) | End-to-end example |
+| [07_Toolkit_Orchestration](playbook/07_Toolkit_Orchestration.md) | Tool integration patterns |
+
+### Technical Docs
+
+| Document | Description |
+|----------|-------------|
+| [ATLAS_ERD](docs/ATLAS_ERD.md) | Complete ERD with record counts |
+
+---
+
+## The Core Problem Atlas Solves
 
 ```
 ONE Property → MULTIPLE Companies (different roles) → MULTIPLE Principals
 ```
 
-- **Propco** (Landlord) owns real estate → from REAPI
-- **Opco** (Operator) runs the facility → from CMS Affiliated Entities  
+- **Opco** (Operator) runs the facility → from CMS Affiliated Entities
+- **Propco** (Landlord) owns real estate → from REAPI (Phase 2)
 - **MgmtCo** provides services → from CMS
 
-Each company has its OWN principal list and portfolio. Operating portfolio ≠ Ownership portfolio.
+Each company has its OWN principal list and portfolio. **Operating portfolio ≠ Ownership portfolio.**
 
 ### The 60% Rule
 
 ~60% of CMS individual owners also appear in REAPI as property owners. When addresses match:
+
 ```
 CMS Owner Address = REAPI Owner Address → Same Principal controls both Opco AND Propco
 ```
 
-### Key Tables
+This reveals hidden beneficial ownership across operating and property-owning entities.
+
+---
+
+## Key Tables
 
 | Table | Purpose |
 |-------|---------|
@@ -72,43 +191,14 @@ CMS Owner Address = REAPI Owner Address → Same Principal controls both Opco AN
 | `property_company_relationships` | Links properties to companies with `relationship_type` |
 | `principals` | Individual people (owners, executives) |
 | `principal_company_relationships` | Links people to companies with `role` |
-| `deals` | Transaction history (sales, CHOWs, refinances) |
-| `deal_participants` | Buyer/seller/lender roles per transaction |
-| `markets` | Geographic market definitions (state, MSA, custom) |
-| `segments` | Behavioral/strategic company tags |
-| `company_segments` | Links companies to segments with confidence scores |
-| `market_activity` | Time-series market metrics (deal volume, pricing) |
-
-### Tool Tiers
-
-**Tier 1 - Navigation (41 tools)**
-- Property Navigation (20): CMS, REAPI, Deals, CRM, Market queries
-- Network Navigation (6): Ownership chains, portfolios, graph visualization
-- Ownership Intelligence (4): History, partnerships, connected principals
-- Market Intelligence (5): Trends, comparisons, benchmarks
-- Markets & Segments (4): Geographic filtering, behavioral tagging
-- Utility (2): Database stats, data quality
-
-**Tier 2 - Intelligence (11 tools)**
-- Contact Intelligence (3): `generate_contact_brief`, `research_principal`, `batch_research_principals`
-- Network Intelligence (2): `generate_network_map`, `generate_network_report`
-- Deals Intelligence (3): `calculate_relationship_strength`, `generate_acquisition_profile`, `identify_strategic_partnerships`
-- Export Integration (3): Mailchimp, Terrakotta, PDF
+| `deals` | All transactions (CHOWs, sales, mortgages) |
+| `deals_parties` | Buyer/seller/lender roles per transaction |
+| `deals_chow` | CMS CHOW-specific fields |
+| `deals_sale` | REAPI sale-specific fields |
+| `deals_mortgage` | REAPI mortgage-specific fields |
 
 ---
 
-## Getting Started
+## License
 
-1. **Understand the concept**: Read [01_Concept_Graph.md](playbook/01_Concept_Graph.md)
-2. **See the data flow**: Review [02_Data_Sources_Map.md](playbook/02_Data_Sources_Map.md)
-3. **Study the schema**: Reference [03_Schema_ERD.md](playbook/03_Schema_ERD.md)
-4. **Follow the walkthrough**: Trace [06_Walkthrough_Example.md](playbook/06_Walkthrough_Example.md)
-5. **Implement**: Execute [05_Implementation_Roadmap.md](playbook/05_Implementation_Roadmap.md)
-
----
-
-## Status
-
-**Phase**: Planning & Architecture  
-**Version**: 1.0  
-**Last Updated**: January 2026
+Proprietary - 3G Healthcare Real Estate
