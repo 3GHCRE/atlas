@@ -6,19 +6,32 @@
 
 ---
 
-## Current Status: Phase 1 Complete (CMS Data Loaded)
+## Current Status: Phase 1B Revised Complete (Entity Layer Added)
 
 **Last Updated:** January 2026
+
+### 4-Layer Ownership Architecture
+
+```
+Property (14,054) → Entity (8,139) → Company (619) → Principal (47,386)
+```
+
+- **Property** = SNF facility (CCN)
+- **Entity** = Legal entity (LLC, Corp) - e.g., "Panama City FL Propco LLC"
+- **Company** = Portfolio/grouping layer - e.g., "Portopicolo Group"
+- **Principal** = Individual (owner, officer, director)
 
 ### Data Loaded from CMS
 
 | Table | Records | Description |
 |-------|---------|-------------|
 | `property_master` | 14,054 | SNF facilities (unique by CCN) |
-| `companies` | 619 | Operating companies (Opcos from CMS Affiliated Entities) |
+| `entities` | 8,139 | Legal entities (opcos from CMS Associate IDs) |
+| `companies` | 619 | Portfolio companies (CMS Affiliated Entities) |
 | `principals` | 47,386 | Individual owners, officers, directors, managers |
-| `property_company_relationships` | 9,928 | Facility → Operator links (70.6% coverage) |
-| `principal_company_relationships` | 62,970 | Principal → Company role assignments |
+| `property_entity_relationships` | 10,095 | Facility → Entity links (71.8% coverage) |
+| `principal_entity_relationships` | 64,676 | Principal → Entity role assignments |
+| `principal_company_relationships` | 62,970 | Principal → Company (portfolio level) |
 | `deals` | 4,953 | Change of Ownership (CHOW) transactions |
 | `deals_parties` | 9,906 | Buyers and sellers on CHOW deals |
 
@@ -26,10 +39,21 @@
 
 | Relationship | Coverage |
 |--------------|----------|
-| Properties linked to Operator | 70.6% |
-| Principals linked to Company | 37.5% |
+| Properties linked to Entity | 71.8% |
+| Entities linked to Principals | 100% |
+| Principals with Entity Roles | 37.5% |
 | CHOW Deals linked to Property | 97.0% |
 | CHOW Buyers linked to Opco | 82.2% |
+
+### Top Portfolios by Entity Count
+
+| Portfolio | Entities | Facilities |
+|-----------|----------|------------|
+| PACS GROUP | 240 | 240 |
+| THE ENSIGN GROUP | 225 | 350 |
+| GENESIS HEALTHCARE | 178 | 190 |
+| LIFE CARE CENTERS OF AMERICA | 140 | 179 |
+| SABER HEALTHCARE GROUP | 106 | 124 |
 
 ### What We Built
 
@@ -55,7 +79,7 @@ Atlas is a **two-tier system** for navigating skilled nursing facility (SNF) own
 - **Tier 1 (Navigation Tools)**: Graph navigation engine querying CMS, REAPI, Zoho, and Graph data
 - **Tier 2 (Intelligence Tools)**: Orchestrates navigation + web research + AI synthesis into deliverables
 
-**Core Architecture**: Property ↔ Company ↔ Principal (with Companies as the many-to-many bridge)
+**Core Architecture**: Property → Entity → Company → Principal (4-layer ownership hierarchy)
 
 ---
 
@@ -100,39 +124,95 @@ docker exec -i 3ghcre-mysql mysql -u root -pdevpass atlas < init/02_load_propert
 | `01_load_csv_staging.sql` | Load CMS enrollments CSV |
 | `02_load_property_master.sql` | Deduplicate facilities by CCN |
 | `03_validation_queries.sql` | Phase 1A validation |
-| `04_phase1b_companies.sql` | Companies + property links |
+| `04_phase1b_companies.sql` | Companies (portfolio layer) |
 | `05_phase1b_principals.sql` | Principals + company links |
 | `06_deals_schema.sql` | Deals tables (base + extensions) |
 | `07_phase1b_chow.sql` | Load CHOW into deals |
+| `08_phase1b_entities.sql` | **Entity layer + property-entity links** |
+| `09_phase1b_principal_entity.sql` | **Principal-entity relationships** |
+| `10_phase1b_validation.sql` | **Comprehensive 4-layer validation** |
 
 ---
 
-## Schema Overview
+## Schema Overview (4-Layer Architecture)
 
 ```
-property_master (14,054)
-    │
-    ├──1:N──► property_company_relationships (9,928)
-    │              │
-    │              └──N:1──► companies (619)
-    │                            │
-    │                            └──1:N──► principal_company_relationships (62,970)
-    │                                           │
-    │                                           └──N:1──► principals (47,386)
-    │
-    └──1:N──► deals (4,953)
-                  │
-                  ├──1:1──► deals_chow (CMS CHOWs)
-                  ├──1:1──► deals_sale (ready for REAPI)
-                  ├──1:1──► deals_mortgage (ready for REAPI)
-                  │
-                  └──1:N──► deals_parties (9,906)
-                                │
-                                ├──► companies (if known opco)
-                                └──► principals (if individual)
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                        3G HEALTHCARE REAL ESTATE ATLAS - 4-LAYER OWNERSHIP ERD                          │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+ LAYER 1: ASSETS                LAYER 2: LEGAL ENTITIES           LAYER 3: PORTFOLIOS            LAYER 4: PEOPLE
+┌─────────────────────┐        ┌─────────────────────┐           ┌─────────────────────┐        ┌─────────────────────┐
+│   property_master   │        │      entities       │           │      companies      │        │     principals      │
+│      (14,054)       │        │      (8,139)        │           │       (619)         │        │     (47,386)        │
+├─────────────────────┤        ├─────────────────────┤           ├─────────────────────┤        ├─────────────────────┤
+│ PK id               │        │ PK id               │           │ PK id               │        │ PK id               │
+│ UK ccn              │        │    entity_name      │           │    company_name     │        │    first_name       │
+│    facility_name    │        │    entity_type      │           │    company_type     │        │    last_name        │
+│    address          │        │ FK company_id ──────┼──────────►│    dba_name         │        │    full_name        │
+│    city/state/zip   │        │    dba_name         │           │    cms_affiliated_  │        │    title            │
+│    lat/lng          │        │    cms_associate_id │           │      entity_id      │        │    cms_associate_id │
+└──────────┬──────────┘        │    state_of_incorp  │           │    address/city/    │        │    address/city/    │
+           │                   └──────────┬──────────┘           │    state/zip        │        │    state/zip        │
+           │                              │                      └──────────┬──────────┘        └──────────┬──────────┘
+           │ 1:N                          │ N:1                             │                              │
+           ▼                              │                                 │ 1:N                          │
+┌─────────────────────────────────┐       │                    ┌───────────┴───────────┐                   │
+│ property_entity_relationships   │       │                    │                       │                   │
+│          (10,095)               │       │                    ▼                       │                   │
+├─────────────────────────────────┤       │    ┌─────────────────────────────────┐     │                   │
+│ FK property_master_id ──────────┼───────┘    │ principal_company_relationships │     │                   │
+│ FK entity_id ───────────────────┼────────────┤          (62,970)               │◄────┼───────────────────┘
+│    relationship_type            │            ├─────────────────────────────────┤     │
+│    (facility_operator/          │            │ FK principal_id                 │     │
+│     property_owner/lender...)   │            │ FK company_id ──────────────────┼─────┘
+│    data_source                  │            │    role (portfolio level)       │
+└─────────────────────────────────┘            │    ownership_percentage         │
+                                               └─────────────────────────────────┘
+           │
+           │ 1:N
+           ▼
+┌─────────────────────────────────┐            ┌─────────────────────────────────┐
+│ principal_entity_relationships  │◄───────────┤       (Entity-level roles)      │
+│          (64,676)               │            └─────────────────────────────────┘
+├─────────────────────────────────┤
+│ FK principal_id ────────────────┼───────────────────────────────────────────────► principals
+│ FK entity_id ───────────────────┼───────────────────────────────────────────────► entities
+│    role (entity level)          │
+│    ownership_percentage         │
+│    data_source                  │
+└─────────────────────────────────┘
 ```
 
-See full ERD: [docs/ATLAS_ERD.md](docs/ATLAS_ERD.md)
+### Relationship Summary
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│  property_master ◄──1:N──► property_entity_relationships ◄──N:1──► entities ◄──N:1──► companies        │
+│                                                                                                         │
+│  principals ◄──1:N──► principal_entity_relationships ◄──N:1──► entities (entity-level control)        │
+│                                                                                                         │
+│  principals ◄──1:N──► principal_company_relationships ◄──N:1──► companies (portfolio-level control)   │
+│                                                                                                         │
+│  property_master ◄──1:N──► deals ◄──1:1──► deals_chow | deals_sale | deals_mortgage                    │
+│                                                                                                         │
+│  deals ◄──1:N──► deals_parties ──► companies (optional) / principals (optional)                        │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+### Key Relationships
+
+| From | To | Type | Via |
+|------|-----|------|-----|
+| Property | Entity | N:M | `property_entity_relationships` |
+| Entity | Company | N:1 | `entities.company_id` |
+| Principal | Entity | N:M | `principal_entity_relationships` (entity control) |
+| Principal | Company | N:M | `principal_company_relationships` (portfolio control) |
+| Property | Deal | 1:N | `deals.property_master_id` |
+| Deal | Extension | 1:1 | `deals_chow`, `deals_sale`, `deals_mortgage` |
+| Deal | Party | 1:N | `deals_parties` |
+
+See full ERD documentation: [docs/ATLAS_ERD.md](docs/ATLAS_ERD.md)
 
 ---
 
@@ -187,10 +267,12 @@ This reveals hidden beneficial ownership across operating and property-owning en
 | Table | Purpose |
 |-------|---------|
 | `property_master` | Rosetta Stone linking CCN ↔ REAPI ID ↔ Zoho ID |
-| `companies` | Opco, Propco, MgmtCo entities |
-| `property_company_relationships` | Links properties to companies with `relationship_type` |
+| `entities` | **Legal entities (LLCs, Corps)** - the operator level |
+| `companies` | **Portfolio layer** - groups multiple entities |
+| `property_entity_relationships` | **Links properties to entities** with `relationship_type` |
+| `principal_entity_relationships` | **Links principals to entities** (entity-level control) |
 | `principals` | Individual people (owners, executives) |
-| `principal_company_relationships` | Links people to companies with `role` |
+| `principal_company_relationships` | Links people to companies (portfolio-level control) |
 | `deals` | All transactions (CHOWs, sales, mortgages) |
 | `deals_parties` | Buyer/seller/lender roles per transaction |
 | `deals_chow` | CMS CHOW-specific fields |

@@ -1,16 +1,31 @@
 # Visualization 3: The Schema ERD (Entity Relationship Diagram)
-## Complete Database Structure for Phase I
+## Complete Database Structure for Phase I (4-Layer Architecture)
+
+**Last Updated:** January 2026
+
+### Architecture Overview
+```
+Property (14,054) → Entity (8,139) → Company (619) → Principal (47,386)
+```
+
+- **Property** = SNF facility (CCN) - Layer 1: Assets
+- **Entity** = Legal entity (LLC, Corp) - Layer 2: Legal Entities
+- **Company** = Portfolio/grouping layer - Layer 3: Portfolios
+- **Principal** = Individual (owner, officer) - Layer 4: People
 
 ```mermaid
 erDiagram
-    property_master ||--o{ property_company_relationships : "has many"
+    property_master ||--o{ property_entity_relationships : "has many"
     property_master ||--o{ deals : "has transactions"
     property_master }o--o{ markets : "located in"
-    companies ||--o{ property_company_relationships : "has many"
+    entities ||--o{ property_entity_relationships : "operates"
+    entities }o--|| companies : "belongs to portfolio"
+    entities ||--o{ principal_entity_relationships : "has principals"
     companies ||--o{ principal_company_relationships : "has many"
     companies ||--o{ deal_participants : "participates in"
     companies }o--o{ segments : "tagged with"
-    principals ||--o{ principal_company_relationships : "has many"
+    principals ||--o{ principal_entity_relationships : "controls entities"
+    principals ||--o{ principal_company_relationships : "controls portfolios"
     deals ||--o{ deal_participants : "has participants"
     markets ||--o{ market_activity : "has activity"
     
@@ -33,7 +48,56 @@ erDiagram
         timestamp last_synced_from_cms
         timestamp last_synced_from_reapi
     }
-    
+
+    entities {
+        int id PK "Auto-increment"
+        varchar entity_name "Legal entity name"
+        enum entity_type "opco|propco|management|holding|pe_firm|reit|other"
+        int company_id FK "FK to companies.id (portfolio)"
+        varchar dba_name "Doing business as"
+        varchar ein "Employer ID Number"
+        varchar cms_associate_id "CMS Associate ID (legal entity level)"
+        varchar cms_affiliated_entity_id "Links to portfolio"
+        varchar address "Entity address"
+        varchar city "City"
+        char state "State"
+        varchar zip "ZIP"
+        char state_of_incorporation "State of incorporation"
+        varchar zoho_entity_id UK "Zoho Entity record ID"
+        timestamp created_at
+        timestamp updated_at
+    }
+
+    property_entity_relationships {
+        int id PK "Auto-increment"
+        int property_master_id FK "FK to property_master.id"
+        int entity_id FK "FK to entities.id"
+        enum relationship_type "facility_operator|property_owner|management_services|lender|other"
+        decimal ownership_percentage "0.00-100.00"
+        date effective_date "When relationship started"
+        date end_date "NULL means current"
+        enum data_source "cms|reapi|zoho|manual|web_scrape"
+        bool verified "Human-verified flag"
+        varchar zoho_junction_record_id UK "Zoho junction record ID"
+        timestamp created_at
+        timestamp updated_at
+    }
+
+    principal_entity_relationships {
+        int id PK "Auto-increment"
+        int principal_id FK "FK to principals.id"
+        int entity_id FK "FK to entities.id"
+        enum role "ceo|president|cfo|coo|board_member|owner_direct|owner_indirect|officer|manager|member|other"
+        decimal ownership_percentage "0.00-100.00"
+        date effective_date "When they assumed role"
+        date end_date "NULL means current"
+        bool is_primary "Primary decision maker flag"
+        enum data_source "cms|zoho|manual|web_scrape|sos_filing"
+        varchar zoho_junction_record_id UK "Zoho junction record ID"
+        timestamp created_at
+        timestamp updated_at
+    }
+
     companies {
         int id PK "Auto-increment"
         varchar company_name "Legal business name"
