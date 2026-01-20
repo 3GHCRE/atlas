@@ -13,7 +13,7 @@
 ### 4-Layer Ownership Architecture
 
 ```
-Property (14,054) → Entity (11,897) → Company (4,144) → Principal (47,386)
+Property (14,054) → Entity (16,261) → Company (4,144) → Principal (47,386)
 ```
 
 - **Property** = SNF facility (CCN)
@@ -26,7 +26,7 @@ Property (14,054) → Entity (11,897) → Company (4,144) → Principal (47,386)
 | Table | Records | Description |
 |-------|---------|-------------|
 | `property_master` | 14,054 | SNF facilities (unique by CCN) |
-| `entities` | 11,897 | Legal entities (opcos from CMS Associate IDs) |
+| `entities` | 16,261 | Legal entities (11,897 current + 4,364 historical) |
 | `companies` | 4,144 | Portfolio companies (619 chains + 264 principal portfolios + 3,261 standalone) |
 | `principals` | 47,386 | Individual owners, officers, directors, managers |
 | `property_entity_relationships` | 14,054 | Facility → Entity links (100% coverage) |
@@ -133,7 +133,9 @@ docker exec -i 3ghcre-mysql mysql -u root -pdevpass atlas < init/02_load_propert
 | `10_phase1b_validation.sql` | Comprehensive 4-layer validation |
 | `11_phase1b_standalone_entities.sql` | Standalone facility entities (100% coverage) |
 | `12_consolidate_standalone_portfolios.sql` | Consolidate multi-facility owners by principal |
-| `13_fix_principal_company_links.sql` | **Add principal-company links for standalone/consolidated** |
+| `13_fix_principal_company_links.sql` | Add principal-company links for standalone/consolidated |
+| `14_fix_deals_entity_links.sql` | Add entity_id to deals_parties, link buyers |
+| `15_historical_entities.sql` | **Historical entities for CHOW sellers (100% coverage)** |
 
 ---
 
@@ -147,7 +149,7 @@ docker exec -i 3ghcre-mysql mysql -u root -pdevpass atlas < init/02_load_propert
  LAYER 1: ASSETS                LAYER 2: LEGAL ENTITIES           LAYER 3: PORTFOLIOS            LAYER 4: PEOPLE
 ┌─────────────────────┐        ┌─────────────────────┐           ┌─────────────────────┐        ┌─────────────────────┐
 │   property_master   │        │      entities       │           │      companies      │        │     principals      │
-│      (14,054)       │        │     (11,897)        │           │      (4,144)        │        │     (47,386)        │
+│      (14,054)       │        │     (16,261)        │           │      (4,144)        │        │     (47,386)        │
 ├─────────────────────┤        ├─────────────────────┤           ├─────────────────────┤        ├─────────────────────┤
 │ PK id               │        │ PK id               │           │ PK id               │        │ PK id               │
 │ UK ccn              │        │    entity_name      │           │    company_name     │        │    first_name       │
