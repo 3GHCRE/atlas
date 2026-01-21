@@ -1,0 +1,13 @@
+{
+  "name": "cost-report-analysis",
+  "version": "1.0.0",
+  "description": "CMS HCRIS Cost Report Analysis Tools",
+  "scripts": {
+    "extract": "node scripts/extract_preparers.cjs",
+    "analyze": "node scripts/analyze_chains.cjs",
+    "load": "node scripts/load_certifiers_to_mysql.cjs"
+  },
+  "dependencies": {
+    "mysql2": "^3.16.1"
+  }
+}

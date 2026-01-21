@@ -1,21 +1,37 @@
-# CMS Data Files (large CSVs - download from CMS directly)
+# ============================================
+# DATA FILES - Raw sources (large, download from source)
+# ============================================
+
+# Cost Reports - Raw CMS HCRIS data
+data/cost_reports/raw/
+
+# Medicaid Rates - Source PDFs, Excel files
+data/medicaid_rates/raw/
+
+# Legacy patterns
 SNF_*.csv
 Alex*.csv
 Christian*.csv
 
-# Track Medicaid rates (compiled data)
-!data/medicaid_rates/*.csv
+# ============================================
+# DATA FILES - Track compiled/output (generated analysis)
+# ============================================
+
+# Track Medicaid rate CSVs
+!data/medicaid_rates/compiled/*.csv
+
+# Track Cost Report analysis output
+!data/cost_reports/output/*.csv
+
+# Track rate sources metadata
+!data/medicaid_rates/rate_sources.csv
+
+# Track master rates file
 !NF Medicaid Rates*.csv
 
-# Ignore source data files (PDFs, Excel) but keep CSVs
-data/medicaid_rates/*.pdf
-data/medicaid_rates/*.xlsx
-data/medicaid_rates/*.xls
-data/medicaid_rates/*.zip
-data/medicaid_rates/*.py
-data/medicaid_rates/*.cjs
-data/medicaid_rates/*.js
-data/medicaid_rates/compiled/
+# ============================================
+# DOCKER
+# ============================================
 
 # Docker volumes and data
 docker/mysql_data/
@@ -27,14 +43,20 @@ docker/scripts/*.xlsx
 docker/scripts/*.xls
 docker/scripts/*.pdf
 
-# Environment and secrets
+# ============================================
+# ENVIRONMENT AND SECRETS
+# ============================================
+
 .env
 .env.*
 *.env
 credentials.json
 secrets/
 
-# IDE and editor files
+# ============================================
+# IDE AND EDITOR
+# ============================================
+
 .idea/
 .vscode/
 *.swp
@@ -43,7 +65,10 @@ secrets/
 .DS_Store
 Thumbs.db
 
-# Python
+# ============================================
+# PYTHON
+# ============================================
+
 __pycache__/
 *.py[cod]
 *.pyo
@@ -52,22 +77,30 @@ venv/
 .venv/
 env/
 
-# Node
+# ============================================
+# NODE
+# ============================================
+
 node_modules/
 npm-debug.log
 yarn-error.log
+package-lock.json
 
-# Logs
+# ============================================
+# LOGS AND TEMP FILES
+# ============================================
+
 *.log
 logs/
-
-# Temporary files
 *.tmp
 *.temp
 tmp/
 temp/
 
-# OS generated files
+# ============================================
+# OS GENERATED
+# ============================================
+
 .DS_Store
 .DS_Store?
 ._*
