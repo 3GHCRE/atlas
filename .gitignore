@@ -1,10 +1,31 @@
 # CMS Data Files (large CSVs - download from CMS directly)
-*.csv
 SNF_*.csv
+Alex*.csv
+Christian*.csv
+
+# Track Medicaid rates (compiled data)
+!data/medicaid_rates/*.csv
+!NF Medicaid Rates*.csv
+
+# Ignore source data files (PDFs, Excel) but keep CSVs
+data/medicaid_rates/*.pdf
+data/medicaid_rates/*.xlsx
+data/medicaid_rates/*.xls
+data/medicaid_rates/*.zip
+data/medicaid_rates/*.py
+data/medicaid_rates/*.cjs
+data/medicaid_rates/*.js
+data/medicaid_rates/compiled/
 
 # Docker volumes and data
 docker/mysql_data/
 mysql_data/
+
+# Docker scripts data files (keep Python, ignore data)
+docker/scripts/*.csv
+docker/scripts/*.xlsx
+docker/scripts/*.xls
+docker/scripts/*.pdf
 
 # Environment and secrets
 .env

@@ -1,0 +1,478 @@
+state,facility_name,state_facility_id,daily_rate,effective_date,source_file
+MO,Abbey Senior Health,IR10547,288.1499999999999,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Aberdeen Heights,IR10094,341.09999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Abundant Acres Care and Rehab,IR10017,247.1500000000001,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Adair Village,IR10076,226.7,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Advanced Care of St Joseph,IR10252,286.96000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Aegis Health and Rehabilitation,IR10461,340.25999999999993,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Alpine Breeze Health and Wellness,IR10132,296.59,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Amberwood Estates Nursing and Rehabilitation,IR10438,242.20999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Anew Healthcare Brookfield,IR10212,283.56,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Anew Healthcare Odessa,IR10218,282.25999999999993,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Anew Healthcare Sarcoxie,IR10395,226.23000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Apple Ridge Care Center,IR10074,199.72000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Appleton City Manor,IR10158,197.55,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Arbor View Nursing and Rehabilitation,IR10347,307.53999999999996,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Armour Oaks Senior Living Community,IR10120,315.67999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Arrowhead Senior Living Community,IR10564,208.45999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Ash Grove Healthcare Facility,IR10121,287.76,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Ashley Manor Health & Rehabilitation,IR10327,218.09999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Aspen Point Health and Rehabilitation,IR10156,351.25,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Aspire Senior Living Advance,IR10326,217.49999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Aspire Senior Living East Prairie,IR10331,225.8,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Aspire Senior Living Excelsior Springs,IR10504,246.79000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Aspire Senior Living Jonesburg,IR10359,211.08,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Aspire Senior Living Malden,IR10339,217.86999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Aspire Senior Living Moberly,IR10343,217.89,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Aspire Senior Living New Florence,IR10217,197.94,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Aspire Senior Living Oak Grove,IR10052,254.16000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Aspire Senior Living Platte City,IR10350,255.57999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Aspire Senior Living Poplar Bluff,IR10421,207.32,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Athene Nursing and Rehabalitation,IR10155,286.71,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Atrium Place Health and Rehabilitation,IR10485,341.2899999999999,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Aurora Health and Rehabilitation,IR10096,293.40999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Aurora Nursing,IR10122,228.47999999999993,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Autumn Oaks Caring Center,IR10088,206.74,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Avalon View Health & Wellness,IR10164,360.41999999999996,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Baisch Nursing Center,IR10465,206.26999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Baptist Homes of Independence,IR10187,254.11,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Baptist Homes, Tri-County",IR10108,247.75,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Barnes-Jewish Extended Care,IR10422,318.84999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Beautiful Savior Home,IR10123,279.82,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Beauvais Rehab and Healthcare Center,IR10525,311.62,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Belleview Care Center,IR10310,347.41,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Belleview Valley Nursing Home,IR10124,237.19,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Beloved Health and Rehabilitation Center,IR10051,245.85000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Bentleys Extended Care,IR10466,188.93,2025-07-01,MO_SFY2026_rates.xlsx
+MO,BentWood Nursing & Rehab,IR10388,263.56,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Bernard Care Center,IR10035,260.39000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Bertrand Nursing and Rehab Center,IR10125,218.92000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Bethesda Dilworth,IR10128,290.0799999999999,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Bethesda Southgate,IR10244,307.6499999999999,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Beth-Haven Nursing Home,IR10126,255.27999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Big Bend Woods Healthcare Center,IR10139,288.22,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Big Spring Care Center for Rehab and Healthcare,IR10486,273.45,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Birch Pointe Health and Rehabilitation,IR10555,273.52,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Blue Circle Rehab and Nursing,IR10402,240.77,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Blue Springs Wellness & Rehabilitation,IR10095,290.45,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Bluebird Wellness and Rehabilitation,IR10494,297.2799999999999,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Bluffs, The",IR10131,248.24,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Brent B. Tinnin Manor,IR10284,174.04,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Bridgewood Health Care Center,IR10293,206.70999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Brooke Haven Healthcare,IR10269,214.03000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Brookhaven Nursing & Rehab,IR10023,195.04000000000005,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Brunswick Health Care Center,IR10338,289.89,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Buffalo Prairie Center for Rehab and Healthcare,IR10435,249.21,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Butler Center for Rehabilitation and Healthcare,IR10025,308.54999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,California Care Center,IR10282,219.53,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Camdenton Windsor Estates,IR10136,162.03000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Camelot Nursing & Rehabilitation Center,IR10059,286.38,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Cameron Nursing Center,IR10103,302.95,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Campbell Healthcare & Senior Living,IR10177,225.23000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Carmel Hills Wellness & Rehabilitation,IR10532,297.81,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Carnegie Village Rehabilitation & Health Care Center LLC,IR10552,334.63,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Carriage Square Rehab and Healthcare Center,IR10138,245.42000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Carrie Elligson Geitner Health Care Center,IR10481,217.17,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Carroll House,IR10484,233.68,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Carthage Health & Rehab Center,IR10341,269.19000000000005,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Cassville Health Center for Rehab and Healthcare,IR10415,279.55999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Cedar Pointe,IR10323,205.14,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Cedargate Healthcare,IR10140,220.95,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Chaffee Nursing Center,IR10362,257.59000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Chariton Park Health Care Center,IR10381,216.18,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Chateau Girardeau,IR10531,305.32,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Chestnut Rehab and Nursing,IR10416,276.58,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Christian Extended Care & Rehabilitation,IR10298,323.34999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Citizens Memorial Health Care Facility,IR10130,284.21999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Clara Manor Nursing Home,IR10372,168.23000000000005,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Clarence Care Center,IR10153,238.64,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Clark County Nursing Home,IR10154,202.93,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Clarks Mountain Nursing Center,IR10037,250.70999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Claru Deville Nursing Center,IR10452,221.83,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Clearview Nursing Center,IR10509,198.68,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Clinton Healthcare & Rehab Center,IR10144,179.1,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Colonial Springs Healthcare Center,IR10143,239.92000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Columbia Manor Health & Rehabilitation,IR10500,261.96000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Columbia Post Acute,IR10556,271.28999999999996,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Communities of Wildwood Ranch,IR10068,282.0199999999999,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Community Manor,IR10369,222.97,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Community Springs Healthcare Facility,IR10054,282.48,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Cotton Point Living Center,IR10238,176.18,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Country Aire Retirement Center,IR10440,253.21,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Country Club Rehab and Healthcare Center,IR10516,277.29999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Country Meadows,IR10380,173.18,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Country View Nursing,IR10390,266.21999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Crestview Home,IR10163,250.93,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Crestwood Health Care Center, LLC",IR10376,255.14000000000001,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Creve Coeur Manor,IR10171,185.54,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Crowley Ridge Care Center,IR10348,189.57,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Crown Rehab and Healthcare Center,IR10517,308.22999999999996,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Crystal Oaks,IR10499,306.01,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Cuba Manor, Inc.",IR10519,187.54000000000005,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Current River Nursing Center,IR10444,185.52999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Cypress Point-Skilled Nursing by Americare,IR10229,249.57,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Daviess County Nursing and Rehabilitation,IR10166,181.89,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Daybreak Nursing Center,IR10319,300.21999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Delhaven Manor,IR10032,219.53999999999996,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Delmar Gardens North,IR10377,243.51999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Delmar Gardens of Chesterfield,IR10267,260.4,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Delmar Gardens of Creve Coeur, Inc.",IR10162,287.96,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Delmar Gardens of Meramec Valley,IR10462,266.01,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Delmar Gardens of O'Fallon,IR10027,241.8,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Delmar Gardens on the Green,IR10083,275.25,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Delmar Gardens South,IR10360,297.79999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Delmar Gardens West,IR10168,275.31,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Delta South Nursing & Rehabilitation,IR10553,207.76,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Dixon Nursing & Rehab,IR10406,178.50000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,E W Thompson Health & Rehabilitation Center,IR10551,253.39999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Eastview Manor Care Center,IR10169,229.48000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Edgewood Manor Health Care Center,IR10414,232.57,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Eldon Nursing & Rehab,IR10221,181.54000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Ellisville Rehabilitation and Nursing,IR10536,335.23,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Elsberry Mo Health Care Center,IR10170,224.74,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Estates of Perryville, LLC (The)",IR10117,269.86999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Estates Of Spanish Lake (The),IR10404,273.25,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Estates of St. Louis, LLC (The)",IR10185,265.66,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Fair View Health Care Center,IR10510,269.53,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Farmington Presbyterian Manor,IR10285,273.81,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Fieser Nursing Center,IR10542,223.54000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Florissant Valley Health & Rehabilitation Center,IR10104,276.77,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Forsyth Care Center,IR10488,205.85000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Fountainbleau Lodge,IR10386,245.10999999999999,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Fountainbleau Nursing Center,IR10449,259.71,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Four Seasons Living Center,IR10133,219.63000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Foxwood Springs Living Center,IR10172,276.32,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Friendship Village Chesterfield,IR10175,288.09999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Friendship Village Sunset Hills,IR10174,267.49,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Fulton Manor Care Center,IR10505,264.63,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Fulton Nursing & Rehab,IR10287,180.02000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Gainesville Nursing,IR10353,216.32,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Garden View Care Center,IR10368,208.03999999999996,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Garden View Care Center of Chesterfield,IR10495,252.38,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Garden View Care Center of Dougherty Ferry,IR10541,267.66,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Gasconade Manor Nursing Home,IR10176,232.38,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Georgian Gardens Center for Rehab and Healthcare,IR10280,207.90000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Gideon Care Center,IR10409,198.44,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Glasgow Gardens,IR10159,217.34000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Glendale Gardens Nursing & Rehab,IR10434,200.71,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Glenwood Healthcare,IR10442,202.87000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Golden Age Living Center,IR10181,250.15999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Golden Age Nursing Home District,IR10180,183.93000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Golden Years Center for Rehab and Healthcare,IR10340,269.23,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Good Samaritan Care Center,IR10182,249.36,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Good Shepherd Care Center,IR10184,242.5,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Good Shepherd Community Care and Rehabilitation,IR10183,216.33000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Gower Convalescent Center, Inc.",IR10107,241.04000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Granby House,IR10429,201.48000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Grand Manor Health Care Center,IR10333,239.30999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Grand River Health Care,IR10443,217.59,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Grandview Healthcare Center,IR10397,225.03000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Greenville Health Care Center,IR10410,244.61000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Gregory Ridge Health Care Center,IR10031,218.60999999999999,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Hartville Care Center,IR10470,210.14000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Heart of the Ozarks Healthcare Center,IR10142,179.07,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Heartland Care & Rehab. Center,IR10137,186.94000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Heisinger Bluffs Healthcare Western Campus,IR10565,302.63999999999993,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Heisinger Bluffs Rehab and Healthcare Center,IR10544,312.05999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Heritage Care Center,IR10358,258.57000000000005,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Heritage Hall Nursing Center,IR10041,282.92999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Heritage Nursing Center - Skilled Nursing By Americare,IR10453,222.68000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Hermitage Nursing & Rehab,IR10304,189.32,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Hickory Manor,IR10250,206.34,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Highland Rehabilitation & Health Care Center,IR10092,257.64,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Hill Crest Manor,IR10110,166.53000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Hillcrest Care Center, Inc.",IR10511,198.97000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Hillside Rehab and Healthcare Center,IR10204,252.35000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Holden Manor Health & Rehabilitation,IR10482,213.39999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Houston House,IR10313,204.18,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Hunter Acres Caring Center,IR10075,193.51,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Ignite Medical Resort Blue Springs,IR10569,263.67,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Ignite Medical Resort Carondelet LLC,IR10336,264.98999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Ignite Medical Resort Kansas City, LLC",IR10559,303.2,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Ignite Medical Resort St. Mary's, LLC",IR10357,260.31999999999994,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Independence Care Center of Perry County,IR10225,244.64,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Independence Manor Care Center,IR10498,245.86000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Jackson Creek Post Acute,IR10189,273.30999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Jackson Manor,IR10063,309.61999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,James River Nursing and Rehabilitation,IR10457,247.14000000000001,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Jeanne Jugan Center,IR10349,226.05999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Jefferson City Manor Care Center,IR10325,258.21999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Jefferson City Nursing & Rehab Center, LLC",IR10273,251.48000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Jefferson Health Care,IR10064,190.50000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,John Knox Village Care Center,IR10190,292.8999999999999,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Johnson County Care Inc,IR10119,211.69000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Joplin Gardens,IR10151,224.03,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Joplin Health & Rehab Center,IR10344,272.21000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Kabul Nursing Homes, Inc.",IR10191,220.09000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Katy Manor,IR10391,233.85,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Kingdom Care Senior Living LLC,IR10276,254.89,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Kingswood,IR10540,273.92999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Kirksville Manor Care Center,IR10306,227.64999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Knox County Nursing Home District,IR10194,215.40999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,La Plata Nursing Home,IR10196,223.98000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,LaBelle Manor Care Center,IR10497,227.07999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Lacoba Homes Inc.,IR10423,249.13000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Lake Stockton Healthcare Facility,IR10245,283.63999999999993,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Lakeview Health Care & Rehab Center,IR10289,201.5,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Lakeview Post Acute,IR10437,335.54999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Lansdowne Village,IR10389,267.1,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Laurie Care Center,IR10049,205.47,2025-07-01,MO_SFY2026_rates.xlsx
+MO,LaVerna Manor Health & Rehabilitation,IR10197,262.19000000000005,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Lawrence County Manor,IR10198,257.29999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Lawson Manor & Rehab,IR10292,170.15000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Lebanon North Nursing & Rehab,IR10199,189.37,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Lebanon South Nursing & Rehab,IR10411,181.59,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Lee's Summit Place,IR10401,390.08,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Legendary Nursing & Rehabilitation, LLC",IR10454,215.39000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Lemay Nursing,IR10430,269.71,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Lenoir Health Care Center,IR10496,283.22999999999996,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Lewis & Clark Gardens,IR10141,228.20000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Lewis County Nursing Home District,IR10200,234.5,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Life Care Center of Bridgeton,IR10334,298.67999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Life Care Center of Brookfield,IR10272,249.29000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Life Care Center of Cape Girardeau,IR10271,294.93999999999994,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Life Care Center of Carrollton,IR10320,246.46000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Life Care Center of Grandview,IR10332,248.63000000000005,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Life Care Center of St. Louis,IR10507,286.18999999999994,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Life Care Center of Sullivan,IR10268,264.57,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Life Care Center of Waynesville,IR10087,255.24000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Lincoln Community Care Center,IR10201,202.06999999999996,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Lincoln County Nursing & Rehab,IR10417,193.26999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Linden Woods Village,IR10550,271.32,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Living Center, The",IR10528,254.56,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Living Community of St Joseph,IR10263,263.48999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Livingston Manor Care Center,IR10330,258.0999999999999,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Loch Haven,IR10203,241.44,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Luther Manor Retirement & Nrsg Ctr,IR10090,252.65999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Lutheran Convalescent Home,IR10277,281.4099999999999,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Lutheran Home (The),IR10361,309.40999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Lutheran Nursing Home,IR10206,274.94999999999993,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Lutheran Senior Services at Breeze Park,IR10537,298.68999999999994,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Lutheran Senior Services at Meramec Bluffs,IR10545,273.48999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Macon Health Care Center,IR10078,248.16000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Magnolia Square Nursing & Rehab,IR10213,258.69,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Manchester Rehab and Healthcare Center,IR10207,320.71,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Manor (The),IR10058,203.17000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Manor Grove Inc.,IR10329,284.09999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Maple Grove Lodge,IR10342,231.95000000000005,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Maple Grove Wellness & Rehabilitation,IR10405,261.42,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Maple Lawn Nursing Home,IR10303,243.57999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Maranatha Village, Inc.",IR10209,235.23000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Maries Manor,IR10305,178.95,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Mark Twain Nursing,IR10256,220.67000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Marshfield Care Center for Rehab and Healthcare,IR10480,200.94,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Mary Queen and Mother Center,IR10044,280.17999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Marymount Manor,IR10211,230.16000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Maryville Living Center,IR10210,216.81999999999994,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Mason Pointe Care Center,IR10188,290.05999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Maywood Terrace Living Center,IR10259,195.28,2025-07-01,MO_SFY2026_rates.xlsx
+MO,McClay Senior Care,IR10562,267.69999999999993,2025-07-01,MO_SFY2026_rates.xlsx
+MO,McDonald County Living Center,IR10067,228.87,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Meadow View Health & Rehabilitation,IR10135,260.30000000000007,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Medicalodges Butler,IR10019,247.22000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Medicalodges Neosho,IR10028,207.28,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Medicalodges of Nevada,IR10070,216.5,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Memory Lane Of Dexter,IR10060,263.60999999999996,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Meramec Nursing,IR10474,252.18000000000006,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Meyer Care Center,IR10392,282.15000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Milan Health Care Center,IR10016,226.93999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Miller County Care & Rehabilitation Center,IR10214,250.07999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Monarch Springs Wellness & Rehabiliation,IR10167,179.51000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Monroe City Manor Care Center,IR10371,242.79999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Monroe Manor,IR10021,243.81,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Monterey Park Rehabilitation & Health Care Center,IR10419,293.49999999999994,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Monticello House,IR10469,187.57999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Moore Few Care Center,IR10219,261.06,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Morningside Center,IR10030,259.08,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Mount Carmel Senior Living - St. Charles, LLC",IR10535,276.51,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Mountain View Healthcare,IR10407,211.51,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Mt. Vernon Nursing,IR10427,231.65000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Myers Nursing & Convalescent Center Inc.,IR10215,172.20000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Nathan Richard Health Care Center,IR10472,214.45000000000005,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Nazareth Living Center,IR10493,284.59,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Neighborhoods at Quail Creek, The",IR10396,273.30999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Neighborhoods Rehab & Skilled Nursing by Tiger Place,IR10548,296.17999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,New Haven Care Center,IR10295,213.21,2025-07-01,MO_SFY2026_rates.xlsx
+MO,New Madrid Living Center,IR10086,188.12,2025-07-01,MO_SFY2026_rates.xlsx
+MO,New Mark Rehab and Healthcare Center,IR10352,302.35999999999996,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"NHC Healthcare, Desloge",IR10047,244.22,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"NHC Healthcare, Joplin",IR10266,222.36,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"NHC Healthcare, Kennett",IR10048,230.97000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"NHC Healthcare, Maryland Heights",IR10034,271.54,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"NHC Healthcare, St. Charles",IR10053,263.39,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"NHC Healthcare, West Plains",IR10043,245.78000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Nick's Health Care Center, L.L.C.",IR10529,237.60000000000008,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Nixa Nursing & Rehab,IR10366,218.5,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Nodaway Healthcare,IR10356,283.25,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Normandy Nursing Center,IR10382,331.02,2025-07-01,MO_SFY2026_rates.xlsx
+MO,North Village Park,IR10383,223.76000000000005,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Northland Rehabilitation & Health Care Center,IR10558,294.68,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Northwood Hills Care Center,IR10312,247.30000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Oak Knoll Skilled Nursing & Rehabilitation Center,IR10526,199.06,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Oak Park Care Center,IR10384,249.69,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Oakdale Care Center,IR10473,222.54000000000008,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Oakridge of Plattsburg,IR10398,206.65000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Oregon Healthcare,IR10346,227.57,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Osage Beach Rehabilitation and Health Care Center,IR10084,250.71,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Ozark Nursing and Care Center,IR10050,206.56,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Ozark Rehabilitation & Health Care Center,IR10279,207.51999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Ozark Riverview Manor,IR10431,254.48,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Ozarks Methodist Manor (The),IR10478,219.35000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Pacific Care Center,IR10351,205.89999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Parkdale Manor Care Center,IR10475,256.38,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Parkside Manor,IR10335,213.54000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Parkview Health Care Facility,IR10455,246.87,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Parkview Healthcare,IR10179,270.18,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Parkway Health Care Center,IR10458,232.55,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Parkwood Skilled Nursing and Rehabilitation Center,IR10100,223.76999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Pearl's II Eden For Elders,IR10227,242.02000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Pillars of North County Health & Rehab, The",IR10281,223.34999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Pin Oaks Living Center,IR10071,183.87000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Pine Grove Manor,IR10464,236.49,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Pine View Manor Inc.,IR10226,216.98000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Pioneer Skilled Nursing Center,IR10080,211.94000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Pleasant Hill Health & Rehab Center,IR10394,262.22,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Pleasant Valley Manor Care Center,IR10502,247.13000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Pleasant View Nursing Home,IR10098,236.01000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Point Lookout Nursing & Rehab,IR10345,186.83,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Portageville Health Care Center,IR10445,236.64999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Potosi Manor,IR10527,194.79000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Prairie View Skilled Nursing,IR10057,231.58999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Putnam County Care Center,IR10228,180.69,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Puxico Nursing and Rehab Center,IR10062,203.20000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Quail Run Health Care Center,IR10056,195.03000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Rancho Rehab and Healthcare Center,IR10270,277.05,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Ratliff Care Center,IR10451,235.14000000000001,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Rehab of Kansas City South,IR10385,327.11,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Republic Nursing & Rehab,IR10364,210.37,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Rest Haven Health Care Center,IR10231,264.58000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Richland Care Center,IR10387,207.93999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Ridge Crest Nursing Center,IR10072,180.98,2025-07-01,MO_SFY2026_rates.xlsx
+MO,River City Living Community,IR10065,259.01,2025-07-01,MO_SFY2026_rates.xlsx
+MO,River Crossing Rehab and Healthcare Center,IR10471,316.62,2025-07-01,MO_SFY2026_rates.xlsx
+MO,River Oaks Care Center,IR10232,192.37,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Riverbend Heights Health & Rehabilitation,IR10195,244.98999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Riverdell Care Center,IR10379,178.04999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Riverside Nursing & Rehabilitation Center, LLC",IR10400,268.33,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Riverview At the Park Care and Rehabilitation Center,IR10233,219.60999999999999,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Riverview Nursing Center,IR10082,232.89,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Riverways Manor,IR10039,195.89000000000001,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Roaring River Health and Rehabilitation,IR10311,234.01,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Rock Point Nursing Center,IR10038,217.48999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Rocky Ridge Manor,IR10208,212.22000000000006,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Rolla Presbyterian Manor,IR10317,265.57,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Rosewood Rehab and Healthcare Center,IR10230,264.53,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Sage Nursing & Rehab,IR10523,288.34,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Salem Care Center,IR10318,228.49,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Salt River Community Care,IR10288,245.65999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Scenic Nursing & Rehabilitation Center, LLC",IR10301,223.68,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Schuyler County Nursing Home District,IR10236,234.21000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Seasons Rehab and Healthcare Center,IR10534,280.79999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Seneca Nursing,IR10448,197.40000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Seville Care Center,IR10036,232.43,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Shady Oaks Healthcare Center,IR10150,185.67000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Shepherd of the Hills Living Center,IR10033,195.94,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Sherbrooke Village,IR10413,352.04999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Shirkey Nursing & Rehabilitation Center,IR10240,252.36,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Sikeston Convalescent Center,IR10242,177.08,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Silex Community Care,IR10456,179.89,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Silverstone Place,IR10549,203.31,2025-07-01,MO_SFY2026_rates.xlsx
+MO,South County Health Care Center,IR10026,186.24,2025-07-01,MO_SFY2026_rates.xlsx
+MO,South Hampton Place,IR10508,225.29,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Southbrook Nursing Center,IR10042,244.62,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Southgate Living Center,IR10081,216.18000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Spring Valley Health & Rehabilitation Center,IR10290,276.22999999999996,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Springfield Rehab & Health Care Center,IR10045,259.21999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Springfield Skilled Care Center,IR10374,260.89,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Springfield Villa,IR10491,187.25,2025-07-01,MO_SFY2026_rates.xlsx
+MO,St. Andrew's at Francis Place,IR10294,264.09,2025-07-01,MO_SFY2026_rates.xlsx
+MO,St. Clair Nursing Center,IR10365,280.41,2025-07-01,MO_SFY2026_rates.xlsx
+MO,St. Elizabeth Care Center,IR10106,238.18000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,St. Francois Manor,IR10524,191.1,2025-07-01,MO_SFY2026_rates.xlsx
+MO,St. Genevieve Nursing,IR10363,212.54999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,St. James Living Center,IR10040,186.99,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"St. Joe Manor, Inc.",IR10446,223.08000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,St. Johns Place,IR10477,179.36,2025-07-01,MO_SFY2026_rates.xlsx
+MO,St. Joseph Chateau,IR10234,287.77,2025-07-01,MO_SFY2026_rates.xlsx
+MO,St. Joseph Manor Health & Rehabilitation,IR10129,240.20000000000005,2025-07-01,MO_SFY2026_rates.xlsx
+MO,St. Louis Altenheim,IR10539,284.27,2025-07-01,MO_SFY2026_rates.xlsx
+MO,St. Luke's Nursing and Rehabilitation,IR10097,252.41000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,St. Peters Post Acute,IR10546,278.59999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,St. Peters Rehab and Healthcare Center,IR10483,252.78000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,St. Sophia Health & Rehab Center,IR10235,238.17,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Steelville Senior Living,IR10563,222.25,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Stonebridge Adams Street,IR10146,231.41000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Stonebridge Chillicothe,IR10186,285.59999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Stonebridge Desoto,IR10503,261.51,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Stonebridge Florissant,IR10399,227.81,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Stonebridge Hermann,IR10309,182.05,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Stonebridge Lake Ozark,IR10538,236.69000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Stonebridge Marble Hill,IR10314,242.52000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Stonebridge Maryland Heights,IR10436,239.77,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Stonebridge Owensville,IR10490,211.53000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Stonebridge Villa Marie,IR10274,224.71,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Stonebridge Westphalia,IR10489,197.29,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Stonecrest Healthcare,IR10432,221.49,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Strafford Care Center,IR10518,219.19,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Summit (The),IR10476,188.06,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Sunnyview Nursing Home & Apts.,IR10246,231.16000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Sunrise Nursing and Memory Care,IR10425,311.51,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Sunset Health Care Center,IR10247,239.24000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Sunset Home,IR10248,212.01000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Surrey Place St. Luke's Hospital-Skilled Nursing & Residential Care Facility,IR10012,262.69,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Sylvia G. Thompson Residence Center, Inc",IR10450,196.63000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"The Bishop Spencer Place, Inc.",IR10514,284.3399999999999,2025-07-01,MO_SFY2026_rates.xlsx
+MO,The Estates of Hidden Lake,IR10291,231.83000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,The Hilltop at Blue River,IR10501,267.6,2025-07-01,MO_SFY2026_rates.xlsx
+MO,The Maples Health And Rehabilitation,IR10479,258.89,2025-07-01,MO_SFY2026_rates.xlsx
+MO,The Quarters at Des Peres,IR10024,296.76,2025-07-01,MO_SFY2026_rates.xlsx
+MO,The Rehabilitation Center of Independence,IR10530,302.26000000000005,2025-07-01,MO_SFY2026_rates.xlsx
+MO,The Villa at Blue Ridge,IR10160,241.69000000000005,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Tiffany Heights Nursing Home,IR10251,227.17000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Tiffany Springs Rehabilitation & Health Care Center,IR10554,305.14,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Tipton Oak Manor,IR10253,207.7,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Troy Manor LLC,IR10114,203.1,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Truman Healthcare & Rehabilitation Center,IR10148,195.23000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Truman Lake Manor, Inc.",IR10161,165.69,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Twin Pines Adult Care Center,IR10115,231.54000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,U-City Forest Manor,IR10408,209.90000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Union Nursing,IR10561,266.9799999999999,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Valley Manor & Rehab. Center,IR10055,180.33999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Valley View Health & Rehabilitation,IR10355,231.51999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Village Care Center Inc.,IR10513,201.53,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Warrensburg Manor Care Center,IR10512,214.39000000000001,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Warrenton Manor,IR10275,182.33000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Warsaw Health & Rehab Center,IR10403,223.19,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Webb City Health & Rehab Center,IR10337,221.83,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Webco Manor,IR10257,183.98999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Wellsville Health Care Center,IR10061,255.75999999999996,2025-07-01,MO_SFY2026_rates.xlsx
+MO,West Vue Nursing and Rehabilitation Center,IR10258,259.86,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Westchester House (The),IR10375,255.47000000000003,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Westgate,IR10566,223.04000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Westview Nursing Home, Inc.",IR10412,228.24000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Westwood Hills Health & Rehabilitation Center,IR10278,233.08,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Willard Care Center,IR10428,204.55999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Willow Care Nursing Home,IR10091,213.67000000000004,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Willowcreek Wellness & Rehabilitation,IR10492,280.18,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Wilshire at Lakewood Rehab Center,IR10463,307.7800000000001,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Wilson's Creek Nursing & Rehab,IR10022,183.59,2025-07-01,MO_SFY2026_rates.xlsx
+MO,"Winchester Nursing Center, Inc.",IR10560,236.14999999999998,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Windsor Estates Of St. Charles,IR10222,306.4699999999999,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Windsor Healthcare & Rehab Ctr,IR10439,247.75,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Woodland Manor,IR10220,250.79000000000005,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Woodland Manor Nursing Center,IR10354,219.04000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Worth County Convalescent Center,IR10260,271.08,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Arbor Hills Nursing and Rehabilitation Center,IR10571,252.21999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Baptist Homes of Adrian,IR10116,252.21999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Baptist Homes of Arcadia Valley,IR10575,252.21999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Brooking Park,IR10576,252.21999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Copper Rock Healthcare,IR10567,252.21999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Norterre,IR10570,252.21999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Stonebridge Oak Tree,IR10574,252.21999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Superior Manor of Festus,IR10573,252.21999999999997,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Madison Medical Center,IR10077,219.54000000000002,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Pemiscot County Memorial Hospital,IR10224,179.69,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Salem Memorial District Hospital,IR10013,285.78,2025-07-01,MO_SFY2026_rates.xlsx
+MO,SSM Health DePaul Hospital - Anna House,IR10262,274.07,2025-07-01,MO_SFY2026_rates.xlsx
+MO,University Health Lakewood Care Center,IR10264,271.61999999999995,2025-07-01,MO_SFY2026_rates.xlsx
+MO,Hope Care Center,IR10522,468.56999999999994,2025-07-01,MO_SFY2026_rates.xlsx

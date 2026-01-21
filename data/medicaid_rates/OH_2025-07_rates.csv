@@ -1,0 +1,912 @@
+state,facility_name,state_facility_id,daily_rate,effective_date,source_file
+OH,"Summit Acres, Inc.",1487685566,251.84,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Avenue At Brooklyn,1578137006,304.71,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Seven Acres Senior Living,1053029124,295.98,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Fairlawn Haven,1003813148,297.86,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Tamarack Ridge Health & Rehabilitation,1730815283,291.38,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Best Care Health And Rehabilitation,1265144364,236.53,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Bradford Place Care Center,1821700923,299.72,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Siena Woods Care Center,1689386781,275.51,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Allbridge Rehabilitation And Nursing Center,1306501465,315.01,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Widows Home Of Dayton,1497452619,294.57,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Vancrest Of Upper Sandusky,1093404857,259.92,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Medina Bsd Opco Llc,1205526324,278.98,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Brookdale Westlake Village,1083864854,214.25,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,St Theresa Care Center,1558051698,233.71,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Snf-The Villa At Marymount,1851085039,288.71,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Monterey Care Center,1245239862,254.43,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Momentous Health At Franklin,1982389094,279.9,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,West View Healthy Living,1740213842,262.01,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Jewish Home For The Aged,1861419814,295.78,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ohio Living Rockynol,1366438368,246.27,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Good Shepherd Home,1487653457,280.54,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Broadview Multi-Care Center,1508853383,294.14,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Adams County Manor,1548368251,269.13,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Pleasantview Care Center,1255432589,308.6,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Carecore At Margaret Hall, Llc",1679358139,252.13,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Concord Ridge Health And Rehabilitation,1285416883,282.55,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Serenity Spring Senior Living At Arlington,1407637424,239.01,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Luxe Rehabilitation And Care Center,1104693456,294.71,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Scioto Rehabilitation & Care Center,1649047994,282.45,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Llanfair Retirement Community,1366438343,288.72,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ohio Living Westminster-Thurber,1275529273,231.18,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Wexner Heritage House,1932197704,315.2,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ohman Family Living At Holly,1144392523,298.82,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Mount Pleasant Retirement Village,1821084807,302.68,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,King David Post Acute Nursing & Rehabilitation,1144007840,278.76,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Tranquility Of Richmond Heights,1396512356,239.38,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Daughters Of Miriam Center For Nursing &,1548048598,280.66,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Embassy Of Willard,1184492894,256.92,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Oaks Of West Kettering,1558139857,258.52,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Beechwood Home,1306849245,262.79,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Liberty Station Health Campus,1609557941,229.4,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ohman Family Living At Briar,1952388415,313.03,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Wayside Farms Inc,1306870738,279.1,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Marjorie P. Lee Community,1437130556,215.56,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Louisville Gardens Care Center,1669223491,271.05,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Atlantes Health Care And Rehabilitation,1770344947,240.81,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Willows At Bowling Green,1578244166,233.05,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Mckinley Health Care Center (The),1023857992,257.65,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Bethesda Care Center,1932942984,247.54,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Rae-Ann Westlake,1093705717,290.22,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Hawthorn Glen Nursing Center,1548016637,243.04,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Greenbriar Nursing Center,1497501589,249.01,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Walnut Creek Nursing Center,1164279022,247.64,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Autumnwood Care Center,1891539623,301.65,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Hudson Springs Nursing And Rehab,1295578243,309.3,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Copper Knoll Health And Rehab,1013763309,263.06,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Laurels Of Athens (The),1033405170,229.76,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Arc At Trotwood,1679324651,281.17,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Arc At Cincinnati,1922859909,304.06,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Park Terrace Rehabilitation Center,1588409759,279.43,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Oaks Of Brecksville,1043518038,302.89,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Chapel Hill Community,1972586980,277.93,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Austinwoods Rehabilitation Health Care Center,1265476931,314.19,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Valley Oaks Care Center,1720355076,253.84,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Maple Hills Skilled Nursing And Rehabilitation,1427167022,277.72,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Willowood Care Center Of Brunswick, Inc.",1609922020,266.02,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Court House Manor,1760653638,235.32,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Altercare Of Cuyahoga Falls Ctr For Rehab/Nur,1659369890,294.41,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Astoria Health & Rehab Center,1346513090,279.69,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Fox Run Manor,1528239498,244.15,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Gardens Of Fairfax Health Care Center,1598594442,250.08,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Gables Of Marysville Health And,1215769153,242.22,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Pine Ridge Skilled Nursing And Rehabilitation,1376601898,252.99,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Crestwood Ridge Skilled Nursing And,1902969330,275.72,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Mount St. Joseph Rehab Center,1053309211,277.91,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Arcadia Valley Skilled Nursing & Rehabilitation, I",1447275847,270.89,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Riverside Landing Nursing And Rehabilitation,",1528062882,256.74,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Willows At Willard,1750468872,270.58,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,National Church Residences First Community,1457334476,223.29,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Crystal Care Center Of Ashland,1346596871,272.23,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Sienna Skilled Nursing And Rehabilitation, Inc.",1457377020,279.12,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Sienna Hills Nursing And Rehabilitation, Inc.",1275588675,208.83,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Lincoln Crawford Care Center,1396008926,324.0,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Homestead Ii,1144588104,295.27,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Parkside At Wesley Ridge/Robert A Barnes,1346597754,218.69,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Anchor Lodge Nursing Home,1962492751,290.54,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Concordia At Sumner,1659453876,222.82,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Heritage Of Hudson,1619232337,296.81,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Kirtland Woods Of Journey,1821826603,234.32,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Sunnyslope Nursing Home,1154674513,213.7,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Lakes Of Monclova Health Campus,1740533363,301.69,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Circle Of Care,1992034557,200.69,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Woodlands Health And Rehabilitation Center,1790029510,291.1,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Villa Vista Royale Llc,1023342789,284.2,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Vancrest Of New Carlisle,1871839167,273.98,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Bath Creek Estates,1568716652,286.76,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Jag Healthcare Mansfield,1902624463,194.44,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Merit House Senior Community,1700125515,296.05,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Avenue At Medina,1205189313,312.02,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Bowerston Hills Skilled N,1265877369,291.52,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Carecore At Minster,1508697426,222.93,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Galion Meadows Skilled Nursing And,1982429544,255.4,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Laurels Of Huber Heights,1871938555,290.53,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Roscoe Gardens Skilled Nursing And Rehab,1811712466,258.45,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Hopewell Grove Rehabilitation And Healthcare,1457177594,227.83,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Inniswood Health And Rehabilitation,1205651098,258.38,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Laurels Of West Carrollton,1235574914,289.8,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Laurels Of New London,1053756734,286.27,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Forest Hills Center,1477985554,291.14,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Cedarvale Commons Rehabilitation And,1164248209,263.93,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Roselawn Gardens Nursing & Rehabilitation,1841625142,233.69,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Pavilion At Canal Fulton For Nursing And,1396565214,235.97,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Sapphire Rehabilitation And Care Center,1699599332,264.72,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Pavilion At Edgefield For Nursing And,1861212789,269.16,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Hopkins Rehabilitation And Care Center,1245054964,230.58,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Oaks Rehabilitation And Healthcare Center,1972323871,261.07,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Vancrest - Upper Valley,1205645348,292.83,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Wintersong Village,1881021830,296.53,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Royal Oak Nursing & Rehabilitation Center,1992050322,293.64,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Oaks At Bethesda,1295172047,259.32,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,St. Clare Commons,1619213022,291.46,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Community Skilled Healthcare,1174334635,232.07,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Grafton Oaks Nursing Center,1144038654,224.91,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Centerville Post Acute,1407674153,239.09,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Marietta Heights Post Acute,1447079538,203.58,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Mentor Hills Post Acute,1871312819,230.12,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Meadows Of Marion Health And,1235975996,276.37,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Willoughby Post Acute,1588483358,233.54,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Three Meadows Post Acute,1629897640,230.12,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Chillicothe Post Acute,1033937578,283.33,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Beavercreek Post Acute,1669291878,271.45,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Sycamore Trails Post Acute,1841019882,233.54,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Barberton Post Acute,1669290318,274.3,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Riverview Post Acute,1033938030,255.0,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Westerville Post Acute,1265251136,230.12,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Hillsboro Post Acute,1801615893,217.72,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Twinsburg Post Acute,1437978210,218.61,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,North Royalton Post Acute,1871312801,233.54,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Kettering Heights Post Acute,1760201859,280.0,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Unger Park Post Acute,1922826684,217.72,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Marion Valley Post Acute,1992524920,274.8,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Dublin Post Acute,1104644541,233.54,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Otterbein Tipp City,1699582064,300.57,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Majestic Care Of Bryan,1528875127,252.82,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Majestic Care Of Perrysburg,1295542892,265.71,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Majestic Care Of Clyde,1285441881,281.27,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Washington Square Healthcare Center,1639590409,296.33,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Alpine Nursing And Rehabilitation Center,1962211383,232.76,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Atrium Nursing And Rehabilitation,1982413449,218.05,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Majestic Care Of New Lexington,1588471189,287.64,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Willow Ridge Of Mennonite Home Communities,1174331656,208.34,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Mennonite Memorial Home,1831907005,220.29,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Aristos Nursing And Rehabilitation,1609685023,241.94,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Majestic Care Of Point Place,1386451987,293.71,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Masjestic Care Of Kent,1124835723,284.93,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Otterbein Green Hills,1023824679,215.49,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Pavilion At Stow For Nursing And,1508686429,242.68,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Muskingum Skilled Nursing & Rehabilitation,1629491782,265.16,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Chardon Woods,1467260182,250.21,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Lakeridge Villa Healthcare Center,1346665700,311.15,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Wellspring Health Center,1407270721,257.73,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Courtyard At Seasons,1992129399,240.07,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Colonial Nursing Center Of Rockford,1417369760,211.57,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Crocker Pointe Health And Rehabilitation,1467270314,276.37,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Florentine Gardens,1518371905,300.42,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,River Run Healthcare Of Portsmouth,1215344288,266.48,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,River Run Healthcare Of Franklin Furnace,1003223132,223.71,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Continuing Healthcare Of Mentor,1164836441,245.7,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Harvard Gardens Rehabilitation & Care Center,1700295573,269.15,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Village Green Rehabilitation And Healthcare,1992521884,231.44,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Springs At Wyandot Trail,1952167306,276.37,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Otterbein New Albany,1407262165,248.27,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Orchards Of East Liverpool,1497854061,213.25,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Marion Nursing & Rehab,1053126912,269.53,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Newark Nursing & Rehab,1144035007,268.31,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Heritage Healthcare Of Lyndhurst,1477358570,218.61,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Heritage Healthcare Of Painesville,1295530301,233.05,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Heritage Healthcare Of Euclid,1568267664,276.37,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Meadows Of Ottawa,1972908069,237.44,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Harrison Pavilion Care Center,1144618141,287.13,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Cedars Of Lebanon Care Center,1336537232,237.13,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Cedarview Care Center,1720476625,324.02,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Woods On French Creek Nursing &,1619373024,303.42,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Dunbar Health & Rehab Center,1720478472,249.25,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Oprs Communities Dba Cape May Retirement,1285801233,257.18,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Otterbein Gahanna Skilled Nursing And Rehab,1437548575,291.47,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Green Village Skilled Nursing & Rehabilitation,1982005906,308.7,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Calcutta Health Care Center,1649275009,277.53,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Avon Place Healthcare Center,1366245789,286.38,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Liberty Nursing Center Of Colerain Inc,1386040715,298.32,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Jennings Hall,1669879086,267.03,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Mapleview Country Villa,1790179497,296.82,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Mt. Healthy Christian Home, Inc.",1245213826,247.7,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Laurels Of Defiance (The),1245285337,265.82,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Grand,1346632247,269.11,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Forest Glen Rehabilitation And Healthcare,1912723800,241.37,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Elizabeth Scott Community,1942009634,285.45,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,St. Joseph Nursing Home,1376339499,274.95,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Village At St. Edward Nursing Care,1902889306,237.55,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Astoria Place Of Waterville Llc,1972980100,290.67,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Sanctuary Pointe Nursing & Rehab Center,1588053094,303.93,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Kimes Nursing And Rehab, Llc",1497547590,222.53,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Village At The Greene,1154335305,286.18,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Orchards Of Alliance,1164268199,276.37,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Enclave At Barnesville,1649164252,240.95,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Enclave At Cambridge,1225922834,203.58,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Eastbrook Healthcare Center,1427437698,302.96,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Hamilton Respiratory And Nursing Center,1801687249,276.57,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Arlington Pointe Care Center,1396533105,256.41,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Covenant Village Care Center,1902694722,269.67,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Avenue At Aurora,1205234622,318.81,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Trotwood Health & Rehab,1598650145,233.05,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Brookwood Care Center,1831987643,248.58,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Loveland Care Center,1366230179,253.05,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Northridge Rehabilitation And Care Center,1063202927,290.75,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Lincoln Knolls Health & Rehab,1063307619,233.05,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Blue Ash Care Center,1356236905,237.39,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Carecore At Gaymont,1194531558,235.8,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Alois Alzheimer Care Center,1184412991,253.39,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ohio Valley Manor Care Center,1972391795,256.96,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,London Health & Rehab Center,1912387879,282.07,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Arbors At Oregon,1962800839,327.1,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Arbors At Gallipolis,1881082006,240.45,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Arbors At Milford,1265830053,295.92,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Arbors At Mifflin,1033517990,225.13,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Arbors At Woodsfield,1639577521,266.84,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Arbors At Marietta,1265830012,268.72,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Arbors At Springfield,1467850305,265.93,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Arbors At Sylvania,1528466364,298.81,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Arbors At Delaware,1033517891,239.94,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Arbors At Carroll,1528466471,290.22,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Harmar Place,1073994893,206.91,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Arbors At Minerva,1740688688,263.03,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Arbors At Fairlawn,1568860310,290.1,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Arbors At Pomeroy,1770981649,230.14,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Arbors West,1558769448,279.62,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Arbors At Stow,1093113961,247.64,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Arbors At Streetsboro,1457759326,246.86,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Slovene Home For The Aged,1316916612,246.17,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Edith Lane Of Cincinnati,1619860616,242.5,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Parkvue Health Care Center,1508849605,256.18,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Hillsboro Health And Rehab,1013805217,223.65,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Holzer Senior Care Center,1275524480,252.25,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Concord Care Center Of Toledo,1255717971,283.59,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Meadowbrook Manor,1629454343,255.27,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Concord Care And Rehabilitation Center,1891171518,271.15,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Sanctuary Wadsworth Llc,1780050393,255.1,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Longmeadow Care Center,1912374083,287.44,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Highland Pointe Health & Rehabilitation Center,1073996658,301.4,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Brethren Care Village Health Care Center,1508235128,272.99,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Otterbein Union Township,1598131476,294.45,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Pickaway Manor Care Center, Inc.",1952300220,270.75,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Vancrest Health Care Center Van,1932283157,287.32,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,O'Neill Healthcare-Fairview Park,1518396472,290.8,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Daniel Drake Center For Post-Acute Care,1457370512,247.5,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Continuing Healthcare Of Milan,1376534610,243.19,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Autumn Hills Care Center,1063741445,290.96,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Continuing Healthcare Of Boardman,1295037463,306.63,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Continuing Healthcare Of Lisbon,1407843931,289.46,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Continuing Healthcare At The Ridge,1003849506,281.97,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Seven Hills Health & Rehab Center,1770954406,296.91,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Crystal Care Of Coal Grove,1801254883,214.53,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Vancrest Of Ada,1588020218,280.58,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Scarlet Oaks Nursing And Rehabilitation Center,1700250131,318.24,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Amherst Manor, Inc.",1598755951,281.22,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Meadow Grove Transitional Care,1326407339,313.24,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Otterbein Loveland,1780042622,246.59,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Woodland Country Manor,1982780680,245.5,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Sanctuary At Ohio Valley,1114389798,258.21,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Samaritan Care Center,1508228602,196.41,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Santuary At Tuttle Crossing,1659733723,248.01,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Sanctuary At Wilmington Place,1578917670,228.06,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Belpre Landing Nursing & Rehabilitation,1851752448,301.72,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,West Park Care Center,1720449788,224.31,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Country Court,1447317235,210.29,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Monarch Meadows Nursing And Rehabilitation,1063957645,241.11,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Northcrest Rehab And Nursing Center,1528416856,262.96,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Hillside Plaza,1528169836,306.21,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Jenkins Care Community,1558420828,221.64,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Wood Haven Health Care Senior Living And,1386643617,287.51,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Dba Cedarwood Plaza,1366543654,293.42,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Concord Village Skilled Nursing & Rehabilitation,1558737940,233.3,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Kensington At Anna Maria,1558368530,291.31,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Sycamore Run Nursing & Rehabilitation Center,1891739843,272.53,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Park Village Hc Np Llc,1447702543,219.01,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Jamestowne Rehabilitation,1679022917,216.59,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ohio Living Quaker Heights,1821063975,292.5,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Indian Lake Rehabilitation Center,1124561873,250.74,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Urbana Health & Rehab Center,1912440678,290.78,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Main Street Terrace Care Center,1083711352,271.93,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Lakes Of Sylvania,1932658549,306.95,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Valley View Health Campus,1255418364,289.89,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Rolling Hills Rehabilitation And Care Center Llc,1982159059,271.64,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Mt. Airy Gardens Rehabilitation And Nursing,1063967131,296.72,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Rocky River Gardens Rehabilitation And Nursing,1609321777,259.34,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Capital City Gardens Rehabilitation And Nursing,1245785310,290.4,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Prestige Gardens Rehabilitation And Nursing,1326593492,293.25,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Country Lane Gardens Rehabilitation And,1235684309,283.1,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Maple Gardens Rehabilitation And Nursing,1871048942,269.74,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Spring Meadows, A Villa Center",1508300658,289.42,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Wesley Glen,1215988423,258.48,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Liberty Retirement Community Of Lima Inc,1366989550,284.01,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Shepherd Of The Valley Poland,1447797022,284.22,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Cardinal Woods Skilled Nursing & Rehab Center,1225561376,287.29,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Eagle Pointe Skilled Nursing & Rehab,1497288542,305.12,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Lake Pointe Rehabilitation & Nursing Center,1033642186,290.26,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Welsh Home (The),1841289089,282.87,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Mentor Ridge Health And Rehabilitation,1255863635,287.38,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Otterbein-Cridersville,1710979141,275.6,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Avenue At Macedonia,1033650320,297.05,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Harbor Healthcare Of Ironton,1003341355,270.52,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Clifton Care Center, Inc.",1518941442,262.17,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Milcrest Nursing Center,1871016139,289.29,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Als Mount Vernon Inc,1275056491,256.12,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Continuing Healthcare Of Cuyahoga Falls,1588194849,232.76,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Continuing Healthcare Of Gahanna,1356871610,293.97,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Westmoreland Place,1417470527,244.63,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Montgomery Care Center,1851814982,283.16,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Regency At Chagrin Falls,1457873184,267.44,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ashtabula County Nursing Home,1588668305,274.66,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Atrium Mayfield Llc,1194279158,204.39,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Country Meadow Rehabilitation And Nursing,1811415110,283.54,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Legends Care Rehabilitation And Nursing Center,1447778741,243.16,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Crestline Rehabilitation And Nursing Center,1184142481,247.28,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Pavilion Rehabilitation And Nursing Center,1619495918,265.56,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Pinnacle Rehabilitation And Nursing Center,1528586831,287.68,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Buckeye Terrace Rehabilitation And Nursing,1518485820,287.07,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Whispering Hills Rehabilitation And Nursing,1245758333,293.76,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Addison Heights Health And Rehabilitation,1710405683,300.58,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Edgewood Manor Of Greenfield,1992223820,279.52,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Kenton Nursing & Rehabilitation Center,1831617745,271.06,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Edgewood Manor Of Lucasville Ii,1609394535,278.11,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Brunswick Pointe Transitional Care,1548780802,291.07,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Edgewood Manor Of Lucasville I,1083132914,279.9,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Parkview Care Center,1285152199,283.07,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Piketon Nursing Center,1679091565,276.86,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ridgewood Manor,1265950174,234.55,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Edgewood Manor Of Wellston,1477071371,274.29,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Grand River Health & Rehab Center,1710245774,294.99,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Windsor House At Canfield,1366960320,295.54,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Canal Winchester Care Center,1619486230,282.18,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Orchard Villa,1114028420,296.98,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Harmony Court Rehab And Nursing,1801303615,302.87,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Wooded Glen,1376054197,233.25,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Whitehouse Country Manor,1023523404,235.51,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Woods Edge Rehab And Nursing,1780191544,283.81,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Williams County Hillside Country Living,1144265901,212.39,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Meadows Of Delphos,1932154812,288.34,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Altercare Newark South, Inc.",1659888071,260.57,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Altercare Newark North, Inc.",1174030514,265.83,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Altercare Somerset, Inc.",1760999106,246.36,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Altercare Thornville, Inc.",1194232504,273.65,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Altercare Zanesville, Inc",1750898102,257.12,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Addison Healthcare Center,1053810358,295.37,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Pines Healthcare Center,1538667829,294.41,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Colony Healthcare Center,1710485701,276.37,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Grande Lake Healthcare Center,1851899603,280.1,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Salem North Healthcare Center,1447759410,284.59,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Evergreen Healthcare Center,1700384005,260.49,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Dixon Healthcare Center,1083113302,230.3,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Austintown Healthcare Center,1710486014,297.74,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Canfield Healthcare Center,1720587785,285.86,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Salem West Healthcare Center,1629577325,278.56,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Avenue At Wooster,1205347028,292.88,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Fair Haven/Shelby Co Home,1376690461,227.33,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Aristocrat Berea Healthcare And Rehabilitation,1437653961,290.45,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Candlewood Healthcare And Rehabilitation,1497259923,295.07,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Suburban Healthcare And Rehabilitation,1417451949,308.23,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Cityview Healthcare And Rehabilitation,1457855983,292.33,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ohio Eastern Star Health Care Center (The),1326047929,214.59,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Vancrest Of Payne,1609363241,274.38,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Eliza Jennings Home (The),1609870138,269.1,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Shaker Gardens Nursing And Rehabilitation,1174027619,304.75,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Laurels Of Massillon,1497701445,285.37,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Beavercreek Health And Rehab,1790272540,298.8,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Englewood Health And Rehab,1699262253,295.84,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Jamestown Place Health And Rehab,1962999516,247.39,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Glen,1255842084,295.56,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Advanced Health Care Of Cincinnati,1780188011,226.83,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Bellbrook Health And Rehab,1316434160,282.94,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Springs Of Lima,1760993687,297.71,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Centerville Health And Rehab,1396232146,264.32,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Portsmouth Health And Rehab,1457848210,280.25,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Xenia Health And Rehab,1801383666,289.38,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Carington Park,1255820171,267.52,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Pavilion At Piketon,1598260952,271.31,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Hickory Ridge Nursing & Rehabilitation Center,1568951309,255.46,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Oakpointe Nursing & Rehabilitation,1386133122,270.18,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Pine Grove Healthcare Center,1538658489,258.23,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,North Park Care Center,1699086942,236.16,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Scenic Pointe Nursing And Rehabilitation Center,1124068994,262.86,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Altercare Cambridge, Inc.",1538676945,255.22,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Altercare Coshocton, Inc.",1164939583,269.27,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Laurels Of Gahanna,1720583578,289.39,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Laurels Of Middletown,1407351067,277.83,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Laurels Of Milford,1689179244,290.12,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Laurels Of Heath,1851896419,291.0,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Laurels Of Walden Park,1396240958,295.41,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Beeghly Oaks Center For Rehabilitation And,1538668686,302.41,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Oasis Center For Rehabilitation And Healing,1043719107,303.61,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Astoria Place Of Cincinnati Llc,1558862789,234.19,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Astoria Place Of Silverton Llc,1144721234,212.87,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Tranquility Of Copley,1770080749,236.99,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Blue Stream Rehab And Nursing,1558856690,281.09,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Siena Gardens Rehabilitation & Transitional,1144713041,309.52,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,O'Neill Healthcare North Olmsted,1841347200,291.63,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Garden Park Health Care Center,1922586650,266.12,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Carecore At The Meadows,1437637980,253.37,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Countryside Manor Nursing & Rehabilitation,1952887549,293.76,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Versailles Rehabilitation And Healthcare Center,1962988360,275.07,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Villa Springfield,1154807550,290.09,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,White Oak Rehabilitation And Nursing At Divine,1790266005,298.51,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Apostolic Christian Home, Inc.",1518949445,252.91,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Villa Georgetown Rehabilitation And Healthcare,1255817862,297.26,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Wright Rehabilitation And Helthcare Center,1639655244,296.75,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Edgewood Manor Rehabilitation And Healthcare,1548746159,259.72,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Clovernook Healthcare And Rehabilitation,1508340571,299.92,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Meadows At Osborn Park (The),1881681054,256.98,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Brewster Parke, Inc.",1114921756,229.48,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ohman Family Living At Blossom,1053494799,234.99,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Autumn Aegis Nursing Home,1639169493,292.13,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Wyandot County Skilled Nursing And,1609864131,275.77,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Advanced Healthcare Center,1699242412,267.06,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Canterbury Of Twinsburg,1396215976,326.51,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Residence At Salem Woods,1154890275,303.18,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Glen Meadows,1881163905,300.95,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Als Woodstock, Inc",1558839167,227.14,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Stillwater Skilled Nursing And Rehabilitation,1922599729,301.83,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Greenfield Skilled Nursing And Rehabilitation,1386135184,297.91,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Northwood Skilled Nursing And Rehabilitation,1629569439,304.47,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Shelby Skilled Nursing And Rehabilitation,1811488612,292.92,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Sunrise Nursing Healthcare Llc,1487124731,295.61,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Locust Ridge Healthcare Llc,1033689385,292.65,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Continuing Healthcare At Adams Lane,1992276893,268.96,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Continuing Healthcare At Beckett House,1316414519,272.85,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Continuing Healthcare At Cedar Hill,1225505092,275.61,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Continuing Healthcare At Forest Hill,1366919136,269.35,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Continuing Healthcare Of Shadyside,1467929562,276.47,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Continuing Healthcare At Willow Haven,1194292292,277.42,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Gardens Of St. Francis,1952876328,293.62,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Phoenix Of Maple Heights,1952879538,274.32,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Windsong Nursing & Rehab,1174091755,277.6,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Heights Rehabilitation And Healthcare,1487127940,321.4,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Swanton Valley Rehabilitation And Healthcare,1740753201,265.65,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Troy Rehabilitation And Healthcare Center,1558834028,295.87,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Avon Oaks Nursing Home,1235127267,279.62,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Allen View Healthcare Center,1649747320,286.62,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,St. Francis Senior Ministries,1467924043,223.88,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Wesley Woods At New Albany,1215439039,271.62,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Maple Knoll Village,1194726588,266.93,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Flint Ridge Nursing & Rehabilitation Center,1205394558,310.01,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Avenue At Broadview Heights,1609343177,320.83,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Majestic Care Of Whitehall Llc,1023576303,266.6,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Orrville Skilled Nursing And Rehabilita,1528529435,266.51,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Canton Christian Home, Inc.",1982605507,221.82,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Burton Health Care Center,1962412692,273.64,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Shepherd Of The Valley-Boardman,1093808529,245.94,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Country Lawn Center For Rehabilitation And,1922070473,283.41,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Rae-Ann Suburban,1740270461,304.27,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Twilight Gardens Nursing & Rehabilitation,1851852925,284.02,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Park Village Health Care Center,1750375473,272.14,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Majestic Care Of Columbus Llc,1497310395,236.15,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Carecore At Lima, Llc",1003476334,290.64,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Bridgetown Nursing & Rehabilitation Centre,1336701242,240.43,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Divine Rehabilitation And Nursing At Sylvania,1295397362,289.35,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Circleville Post Acute,1861051757,314.42,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Buckeye Care And Rehabilitation,1104485093,298.62,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Presidential Post Acute,1265091151,303.95,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Larchwood Care,1013482314,298.72,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Capri Gardens,1972164713,343.88,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Vancrest Of St. Marys,1720633639,269.69,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Riverside Manor Nursing And Care Center,1578664272,254.52,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Willow Knoll Post Acute And Senior Living,1396391843,317.16,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Delhi Post Acute,1952957409,308.78,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Norwood Towers Post Acute,1063068518,293.23,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Brookside Healthcare Center,1346898095,296.42,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Three Rivers Healthcare Center,1841848447,277.56,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Burlington House Rehab & Alzheimer'S Care,1598313975,296.61,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Violet Springs Health Campus,1427604321,278.3,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Franklin Plaza Extended Care,1235230533,284.9,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Scioto Pointe,1538150362,261.5,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Willows At Tiffin,1083260988,282.64,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Enniscourt Nursing Care,1699771089,293.27,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Smith'S Mill Health Campus,1205482189,224.94,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Morrow Manor,1447248927,238.26,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Fulton Manor Nursing And Rehabilitation Center,1265427892,224.01,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,New Dawn Rehabilitation And Healthcare Center,1932755626,283.82,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Westerwood Rehabilitation,1730247024,233.48,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Crystal Care Center Of Mansfield,1720123318,268.63,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Hudson Elms Nursing Center,1023649175,247.14,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Park Vista Nursing And Rehab,1639709249,294.25,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Village Of The Falls,1639713712,246.66,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Divine Rehabilitation And Nursing At Canal,1811533227,286.29,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Stellar Care Campus,1730719568,255.46,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Trinity Community At Beavercreek,1760465884,289.06,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Mayfair Village Nursing Care Center,1578526406,238.06,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Liberty Health Care Center,1720098460,283.74,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Embassy Of Cambridge,1265066054,263.27,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Embassy Of Pickerington,1588298376,332.46,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Embassy Of Logan,1821622614,263.95,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Embassy Of Winchester,1548894330,267.0,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Embassy Of Lebanon,1013541812,313.5,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Embassy Of Woodview,1093349383,296.92,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Country Club Retirement Center,1598831869,289.94,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Bella Terrace Rehab And Nursing Center,1679108435,315.39,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Avenue At North Ridgeville,1396384194,315.48,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Waterview Pointe Nursing & Rehabilitation,1972139269,275.05,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Timberland Ridge Nursing & Rehabilitation,1790311082,304.04,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Country Club Center I,1821178427,277.05,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Shepherd Of The Valley-Liberty,1710071162,291.69,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Warren Nursing & Rehab,1720608334,321.3,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Altercare Of Louisville Ctr For Rehab & Nsg Care,1447222062,269.2,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Cottingham Retirement Community,1881233880,293.99,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Brookhaven Nursing And Rehabilitation Center,1790758423,243.21,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Rae Ann Geneva,1437149150,296.02,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Mt. Washington Care Center,1982688461,271.58,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Logan Elm Health Care,1326022898,295.7,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Autumn Court,1295351682,222.88,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Brookview Healthcare Center,1952927352,271.56,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Columbus Alzheimers,1043836430,291.79,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Cridersville Nursing And Rehab,1689290082,251.17,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Oak Grove Manor,1174149504,211.86,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Convalarium At Indian Run,1992321392,309.92,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Gardens At Celina,1356967756,280.5,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Gardens At St. Henry,1821614231,285.45,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Heatherdowns Rehabilitation & Residential,1568088995,231.83,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Mccrea Manor Nursing & Rehabilitation Center,1043836471,285.23,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Gardens At Paulding,1215553235,215.7,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Laurels Of West Columbus,1629694229,277.93,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Algart Health Care, Inc.",1740381094,287.81,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Omni Manor Health Care Center,1902816739,282.07,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Meadowbrook Care Center,1295341949,290.87,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Majestic Care Of Middletown,1225642168,250.07,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Majestic Care Of Fairfield,1730793779,244.29,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Sem Haven Health & Residential Care Center,1235112871,278.48,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Taylor Springs Health Campus,1548890338,224.4,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Gem City Healthcare And Rehabilitation Center,1194324350,219.21,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Altenheim,1053387449,298.98,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Guardian Health Care Center,1528078342,308.11,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Mason Health Care Center,1518562016,252.78,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Hall Of Fame Rehabilitation And Nursing Center,1235730748,259.3,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Divine Rehabilitation And Nursing At Shane Hill,1376144782,270.67,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Divine Rehabilitation And Nursing At Toledo,1710588124,313.28,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Continental Manor Nursing And Rehabilitation,1649874645,269.25,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Spring Creek Nursing And Rehabilitation Center,1114522919,241.09,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Gateway Springs Health Campus,1972106201,301.77,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Carroll Healthcare Center, Inc.",1861478174,264.23,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,O'Neill Healthcare Middleburg Heights,1376133678,296.52,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Austin Trace Health And Rehabilitation,1447842745,335.51,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Judson Park,1275533721,226.75,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Embassy Of Valley View,1053904151,224.61,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Carecore At Mary Scott,1508459769,224.97,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Park Center Nursing And Rehabilitation,1407444359,225.36,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Johnstown Pointe Nursing & Rehabilitation,1891387106,313.3,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Briarfield Place,1316530959,260.08,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Vancrest Of Hicksville,1851976658,272.31,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Friends Extended Care Center,1255322004,237.63,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Merriman,1508451584,283.34,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Tallmadge Health & Rehab Center,1356929608,303.77,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Harrison Trail Health Campus,1144815937,261.38,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Avenue At Lyndhurst,1174117824,307.91,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,New Lebanon Rehabilitation And Healthcare,1073192936,245.21,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Strongsville Healthcare And Rehabilitation,1780269118,312.6,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Geneva Center For Rehabilitation And Nursing,1659952356,293.35,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Medina Center For Rehabilitation And Nursing,1164003091,246.94,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Rockland Ridge Nursing & Rehabilitation Center,1902472392,283.51,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Laurels Of Kettering,1558949602,288.99,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Kenwood Healthcare Center,1871176016,286.37,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Southbrook Healthcare Center,1396328431,263.64,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Madeira Healthcare Center,1730762873,312.27,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ivy Woods Healthcare Center,1811570955,270.47,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Forest Hills Healthcare Center,1609459742,279.08,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Pleasant Ridge Healthcare Center,1124601265,276.25,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Chamberlin Healthcare Center,1396328449,257.18,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Vienna Springs Health Campus,1457946105,299.44,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Parkview Northwest Healthcare Center,1265007959,257.62,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Beachwood Pointe Care Center,1356915441,288.86,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,O'Brien Memorial Health Care Center,1942210760,290.65,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Elms Retirement Village Inc,1518957000,295.36,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Park View Care Center,1205504107,270.21,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Friendship Village Of Dublin Health Center,1891778536,259.74,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Sycamorespring Of Miamisburg,1154962835,324.72,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Norwich Springs Health Campus,1598350258,292.23,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,East Park Care Center,1467116210,283.31,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Aventura At Carriage Inn,1871256487,299.92,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Aventura At Shiloh Springs,1316600927,264.44,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Majestic Care Of Toledo Snf,1740947431,284.85,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Solon Pointe At Emerald Ridge,1790444552,295.58,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Highland Square Rehabilitation And Nursing,1750046652,294.26,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Gardens Of Belden Village,1124783022,282.75,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ayden Healthcare Of Jackson,1215695895,270.53,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ayden Healthcare Of Rosemount Pavilion,1720746837,264.95,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ayden Healthcare At Madeira Llc,1962160077,288.67,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ayden Healthcare Of Fairfield,1922766039,300.2,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Gardens Of Mayfield Village,1932864832,287.82,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Gardens Of Euclid Beach,1821753724,311.85,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ayden Healthcare Of Toledo,1295490217,284.29,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ayden Healthcare Of Piqua,1831854850,287.19,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ayden Healthcare Of Oregon,1477218493,290.05,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ayden Healthcare Of Waterville,1649935669,308.91,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ayden Healthcare Of Belle Springs,1447915467,283.08,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ayden Healthcare Of Greenville,1366107385,298.22,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ayden Healthcare Of Wauseon,1346905361,290.82,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Gardens Of North Olmsted,1811652712,316.94,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Meadow Wind Health Care Center,1407507932,304.37,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Willow Woods Rehabilitation And Nursing,1821744418,280.5,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Eastland Rehabilitation And Nursing Center,1669128252,302.38,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Minerva Rehabilitation And Nursing Center,1558017152,251.07,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Lost Creek Rehabilitation And Nursing Center,1912653510,284.25,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Crandall Medical Center,1124088794,275.84,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Aventura At Oakwood Village,1851054498,284.36,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Aventura At West Park,1144983784,262.75,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Aventura At Humility House,1215690854,292.93,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Aventura At Assumption Village,1639831944,271.68,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Majestic Care Of Cedar Village,1235889593,280.15,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Momentous Health At Sidney,1255071676,277.31,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Momentous Health At Vandalia,1063152486,226.25,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Landings Of Westerville Health And,1518600337,354.49,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ohio Living Breckenridge Village,1801882808,278.65,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,White Oak Manor,1144968512,216.48,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Twin Towers,1598812620,255.41,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Aventura At Walton Hills,1477285427,278.75,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Wayne County Care Center,1497741136,208.28,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Majora Lane Center For Rehabilitation And,1841262466,264.36,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Country Club Retirement Center,1144372137,322.23,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Bel-Air Care Center,1528062171,240.37,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Otterbein Sunset House,1437125358,248.84,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Delaware Court,1518022573,199.11,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Norwalk Memorial Home,1780602193,229.84,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Otterbein-Portage Valley,1629060058,299.48,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Worthington Christian Village,1194722744,282.85,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,O'Neill Healthcare North Ridgeville,1497800866,293.49,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Country Club Retirement Ctr Iv,1881747673,281.51,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Laurie Ann Nursing Home,1255433413,277.03,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Doylestown Health Care Center,1295745032,258.16,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Gillette Nursing Home,1184722522,273.39,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Pleasant Lake Villa,1811098148,285.86,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Bethany Village,1033201611,275.32,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Hillview Health Care Facility,1386708337,197.77,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,St. Mary'S Alzheimer'S Center,1285644906,279.85,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Overbrook Center,1043217011,200.41,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,National Church Residences Bristol Village,1962508069,238.73,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Foundation Park Alzheimer'S Care Center,1255315719,259.79,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Eastgate Health Care Center,1770581878,319.67,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Parkside Health Care Center,1790795201,262.23,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Pataskala Oaks Care Center,1134103617,298.87,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Bayley,1871581348,271.66,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Health Ctrs At The Renaissance,1497759849,247.09,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Aurora Manor Special Care Centre,1447350491,286.0,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Bath Manor Special Care Centre,1497855480,287.11,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Providence Care Center,1699757377,262.5,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Crestmont North Nursing Home,1487656773,286.25,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,St. Augustine Manor,1396883591,315.58,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Gardens Of Mcgregor And Amasa Stone,1003884594,281.97,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Regina Health Center,1245266915,225.98,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Otterbein-St. Marys,1801888235,310.55,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Brethrens Home,1316947054,241.69,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Winchester Terrace,1174506075,208.68,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Normandy Care Center,1487632832,274.28,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Laurels Of Mt. Vernon,1316993355,281.21,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Brown Memorial Home,1780617043,234.82,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Hillebrand Nursing And Rehabilitation Center,1578539003,283.15,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Springfield Masonic Community,1962510305,253.78,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Mohun Health Care Center,1518958354,267.21,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Mill Run Care Center,1467451179,304.0,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Joshua Tree Care Center,1235115387,278.16,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Vancrest Of Eaton,1275623092,290.33,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Riverview Care Center,1134128846,261.91,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Vancrest Of Delphos,1164512968,290.55,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Anderson (The),1407859481,224.04,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,New Albany Care Center,1548269160,291.51,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Oak Creek Terrace,1316934011,290.79,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Life Care Center Of Westlake,1578526372,262.46,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Parkside Nursing And Rehabilitation Center,1558358986,340.99,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Christian Village At Mason H,1427031012,298.49,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Maplecrest Nursing And Home For The Aged,1407932999,249.8,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ohio Living Sarah Moore,1063476802,291.3,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Life Care Center Of Elyria,1235192162,314.01,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Laurels Of Worthington,1215983275,296.6,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Laurels Of Norworth,1285689562,282.06,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Western Hills Retirement Village,1871580563,293.4,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Hillspring Health Care Center,1962400127,305.79,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Lodge Nursing & Rehab,1376530063,300.63,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Four Winds Nursing Facility,1144203449,266.48,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Hennis Care Centre Of Bolivar,1366455107,291.31,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Auburn Skilled Nursing And Rehabilitation,1003980160,255.54,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Franciscan Care Center,1316921794,275.32,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Lanfair Center For Rehabilitation And Nursing,1710959267,277.96,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Trinity Community At Fairborn,1528041647,273.91,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,St. Leonard,1851387047,292.15,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Jefferson Healthcare Center,1124076054,262.26,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Dayspring Of Miami Valley Health Care Center,1124026356,302.37,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Falls Village Skilled Nursing & Rehabilitation,1639242910,279.82,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Schoenbrunn Healthcare,1669475968,231.62,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Andover Village Skilled Nursing & Rehabilitation,1548241185,263.46,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Altercare Of Navarre Center For Rehabilitation,1942272570,280.43,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Altercare Of Wadsworth Center For,1386616829,293.25,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Altercare Of Alliance Center For Rehabilitation &,1295707883,269.37,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Altercare Of Bucyrus Center For Rehabilitation,1609848217,256.25,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Embassy Of Swanton,1306841713,262.8,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Good Shepherd Village Llc,1396862314,282.89,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Altercare Of Hartville Center For Rehabilitation &,1750353363,263.98,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Smithville Western Care Center,1144210634,270.38,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Mount Notre Dame Health Center,1710023759,279.84,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Rosary Care Center,1811084064,219.53,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Hennis Care Centre Of Dover Inc,1689613523,254.87,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Dba Welcome Nursing Home,1518945393,284.89,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Singleton Health Care Center,1356420509,302.51,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Parkside Villa,1619078938,297.81,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Crown Pointe Care Center,1316949589,305.66,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Western Reserve Masonic Community, Inc.",1144241324,229.39,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Belmont Manor,1457347650,273.24,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Swan Creek Health Care Center,1710973714,276.23,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Green Meadows Skilled Nursing And Rehab,1336142645,299.8,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Otterbein Sunset Village,1164498044,297.59,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Divine Rehabilitation And Nursing At Honeytown,1710980024,255.22,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Steubenville Country Club Manor,1245227941,210.87,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Amberwood Manor,1821190158,218.05,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Terrace View Gardens,1215911995,296.67,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Brentwood Health Care Center,1669522405,289.99,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Golden Years Nursing Home,1811971088,313.21,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Pearlview Rehab And Wellness Center,1396748612,292.16,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Home At Hearthstone (The),1598749764,301.45,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Shepherd Of The Valley-Howland,1689769846,214.26,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Vancrest Of Holgate,1760572564,278.78,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Country View Of Sunbury,1720080997,308.68,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Birchaven Retirement Village,1619967940,305.3,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Altercare Of Mayfield Village, Inc.",1508838053,246.18,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Northfield Village Skilled Nursing &,1477539070,284.37,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Liberty Nursing Center Of Mansfield,1568491694,273.35,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Anna Maria Of Aurora,1942207923,310.1,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Windsor House At Champion,1477563120,290.52,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Crestwood Care Center,1588645667,264.89,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Amherst Meadows Skilled Nursing And Rehab,1366445660,294.12,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Doverwood Village,1982766366,314.29,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Chesterwood Atc,1962564237,313.25,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,St. Catherine'S Manor Of Washington Court,1649294216,252.98,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Celina Manor,1629092275,219.35,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Bowling Green Manor,1265455521,270.06,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Piqua Manor,1851305833,244.21,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Manor At Greendale,1447264452,228.55,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Bethany Nursing Home, Inc.",1023118114,286.35,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Van Wert Manor Van,1851305858,234.99,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Manor At Perrysburg,1982618963,228.88,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Shawnee Manor,1659385656,290.59,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Roselawn Manor,1144234139,306.86,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Wapakoneta Manor,1811901713,222.31,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Parma Care Center,1871596288,298.18,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Briarfield At Ashley Circle,1134116650,282.98,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Briarfield Manor,1053308577,309.04,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Birchwood Care Center,1619030293,316.17,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Knolls Of Oxford (The),1811998206,230.9,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Caprice Health Care Center,1124023585,316.31,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,St. Luke Lutheran Community-Portage Lakes,1508952185,249.62,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Claymont Nursing & Rehabilitation Center,1790788552,283.0,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Canterbury Villa Of Alliance,1790787968,297.01,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Crawford Manor Health Care Center,1336250570,294.36,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Heritage Health Care Center Dba Grande,1669537049,265.06,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Rest Haven Nursing Home, Inc.",1578645214,300.53,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Heritage Nursing & Rehabilitation Center Aka,1770648081,326.16,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Residence At Huntington Court,1477541027,297.46,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Willow Brook Christian Home,1346210515,219.85,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Altercare Of Nobles Pond, Inc.",1770555237,283.46,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,University Manor Health Care Center,1760593818,257.33,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Lima Convalescent Home,1053353276,285.94,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Heritagespring Health Care,1912905167,309.47,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Mill Manor Nursing Home,1144234071,236.67,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,O'Neill Healthcare Bay Village,1720133226,289.32,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Batavia Nursing Care Center,1124016423,307.64,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Arlington Care Center,1306820691,319.08,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Highbanks Care Center,1588666788,298.07,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Cherith Care Center At Willow Brook,1811967078,272.89,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Gables Care Center,1790772291,227.08,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Meadows Of Cadiz,1285621276,222.97,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Carriage Inn Of Steubenville,1063409522,226.15,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Kingston Care Center Sylvania,1477540649,304.58,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Wesleyan Village,1528065737,291.71,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Riverside Healthcare Center,1114918836,241.71,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Wood Glen Alzheimers Community,1326039736,250.55,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Mother Angeline Mccrory Manor,1730243932,230.43,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Mcnaughten Pointe Nursing & Rehabilitation,1578567475,324.74,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Admiral'S Pointe Nursing & Rehabilitation,1417950288,275.03,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Marion Pointe,1285636480,294.7,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Harding Pointe,1740211481,297.03,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Hanover House,1326029836,269.5,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Copley Health Center,1861483430,287.97,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Windsor Lane Health Care,1740307784,288.99,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Heather Knoll Retirement Village, Inc.",1376533877,306.58,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Mount Alverna Village,1225066970,263.7,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Twin Lakes,1144377276,301.57,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Falling Water Healthcare Center,1881670222,281.8,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Grande Pointe Healthcare Community,1902897598,298.6,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Greenbrier Health Care Ctr,1841272762,286.58,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Pebble Creek,1366433690,290.27,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Lake Pointe Health Care,1366510398,299.63,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Wyant Woods Healthcare Center,1982695508,283.73,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Kingston Of Miamisburg,1972590115,299.42,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Kingston Of Vermilion,1356338594,291.06,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Kingston Of Ashland,1659368884,228.95,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Shawneespring Health Care Center,1346219987,319.82,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Heritage,1992759831,278.44,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Genoa Retirement Village,1669426599,296.06,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Meadows Of Leipsic,1588619571,253.98,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Springview Manor,1124073895,305.62,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Hickory Creek Nursing Center,1831114446,276.04,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Grace Brethren Village,1033100698,216.85,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Logan Acres Care Center,1013904226,193.85,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,O'Neill Healthcare Lakewood,1114935392,244.82,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Glendale Place Nursing & Rehab,1427081629,294.36,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Life Care Center Of Medina,1679536445,238.23,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Carlisle Health Care, Inc.",1245324276,273.81,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Home At Taylor'S Pointe (The),1982641221,300.77,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Hampton Woods Nursing Ctr Inc,1184786030,237.03,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Woodside Village Care Ctr,1902907959,287.0,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Lexington Court Care Center,1942301908,236.46,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Country Pointe,1598796310,251.81,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Orrville Pointe,1497786214,266.35,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Eagle Creek Nursing Center,1558392100,264.23,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Willows Health And Rehab Center,1528099181,293.61,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Seasons Nursing And Rehabilitation Center,1861531881,263.83,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Wilmington Nursing & Rehabilitation Center,1487731725,302.37,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Abbyshire Place Skilled Nursing And,1285785568,254.67,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Cortland Healthcare Center,1871641936,297.14,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,National Church Residences Chillicothe,1457305997,235.01,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ohio Living Lake Vista,1093826018,262.65,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Riverview Pointe Care Center,1265577845,301.78,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Austinburg Nursing&Rehab,1275724346,285.47,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Blossom Nursing&Rehab Ctr,1801087986,253.49,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Manor Of Grande Village,1477699742,300.54,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Veranda Gardens Nursing & Rehabilitation,1043330533,303.65,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Venetian Gardens,1275653768,266.14,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Meadows Of Kalida,1801966726,269.88,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Tuscany Gardens,1073634788,305.67,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Cumberland Pointe Care Center,1134316334,269.48,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Avalon By Otterbein Perrysburg,1003939786,302.4,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Emerald Pointe Health & Rehabilitation Center,1174727192,285.42,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Lafayette Pointe Nursing & Rehabilitation Center,1770770984,284.51,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Otterbein North Shore,1760605000,325.05,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Wickliffe County Place,1699773283,284.53,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Westpark Healthcare Campus,1497731541,237.62,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Westover Retirement Community,1275534265,233.29,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Main Street Care Center,1780861682,286.9,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Independence House,1275719049,288.83,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Diplomat Healthcare,1124206735,278.4,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Berea Alzheimer'S Care Center,1417135526,285.17,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Chardon Healthcare Center,1215115324,298.95,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Columbus Healthcare Center,1962680322,266.73,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Bridgeport Healthcare Center,1457539579,258.02,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Greenbriar Healthcare Center,1164600524,289.95,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Northwestern Healthcare Center,1235317694,290.74,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Union City Care Center,1730353970,279.98,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,St. Catherine'S Manor Of Fostoria,1992976567,213.12,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Briar Hill Health Campus,1689863888,279.42,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Otterbein Monclova,1801919584,305.47,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Huntington Woods Care & Rehabilitation Center,1659553733,257.59,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Willows At Bellevue,1457529950,278.08,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Walnut Hills Nursing Home,1760645485,236.33,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Vancrest Of Urbana, Inc.",1497926489,278.23,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Laurels Of Steubenville,1184848293,223.84,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Triple Creek Retirement Community,1649437815,297.14,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,"Altercare Post-Acute Rehabilitation Center, Inc.",1568434108,297.47,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Maria Joseph Living Care Center,1285885798,285.16,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Altercare Of Canal Winchester Post-Acute,1184894248,264.62,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Otterbein Springboro,1992977516,298.52,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Vineyards At Concord,1104905173,219.39,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Mill Creek Nursing & Rehabilitation,1891908331,299.98,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Keystone Pointe Health And Rehabilitation,1467600726,289.73,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Trueman Pointe Care Center,1649440702,327.73,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Respiratory And Nursing Center Of Dayton,1720225600,337.04,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Oak Hills Nursing Center,1730329590,291.17,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Autumnwood Nursing & Rehabilation Center,1104066968,227.27,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Springfield Nursing And Independent Living,1598905838,223.7,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Briarwood Village,1861416406,217.76,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Otterbein Middletown,1174795793,302.78,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Masternick Memorial Health Care Center,1497994610,296.37,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Park Health Center,1093946774,306.98,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Covington Skilled Nursing And Rehabiliation,1033349147,284.76,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Madison Health Care,1487981536,259.75,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Indianspring Of Oakley,1669608865,312.39,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Berkeley Square Retirement Center,1376535286,251.85,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,The Laurels Of Blanchester,1992032148,314.23,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Concord Health & Rehabilitation Center,1114176146,297.86,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Saybrook Landing,1093048936,290.14,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Cypress Pointe Health Campus,1629304399,285.68,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Deupree Cottages,1649472903,189.63,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Shelby Pointe,1144540899,221.32,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Darby Glenn Nursing & Rehabilitation Center,1609180322,302.61,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Stonespring Of Vandalia,1083930762,318.26,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Burbank Parke Care Center,1467689976,286.21,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Astoria Skilled Nursing And Rehabilitation,1720304538,318.46,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Highland Oaks Health Center,1083929186,250.04,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Otterbein At Maineville,1023337847,293.37,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Avenue Care And Rehabilitation Center (The),1306167515,326.38,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Centerburg Pointe,1033410295,319.26,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Wadsworth Pointe,1700187960,287.53,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Lutheran Village At Wolf Creek,1285938829,246.48,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Lutheran Home,1588968143,247.97,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Rose Lane Health And Rehabilitation,1487959391,277.85,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Grand Rapids Care Center,1174822886,304.88,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Bellevue Care Center,1730488685,258.49,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Good Shepherd Home,1457453334,277.39,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Lutheran Home At Concord Reserve,1619061199,249.11,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Morris Nursing Home,1811095425,256.58,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Dorothy Love Retirement Community,1760478952,261.88,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Ottawa County Riverview Nursing Home,1346232741,212.99,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Otterbein-Lebanon Retirement Community,1992797328,297.58,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Pleasant View Health Care Center,1508860180,250.92,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Rest Haven Nursing Home,1336135698,280.01,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,St. Luke Lutheran Home,1336232909,265.05,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Shady Lawn Nursing Home,1457338360,279.36,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf
+OH,Bennington Glen Nursing And Rehabilitation,1326865601,293.34,2025-07-01,NF-Rates-7.1.25-as-of-10.1.25.pdf

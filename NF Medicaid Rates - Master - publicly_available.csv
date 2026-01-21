@@ -1,0 +1,35 @@
+State,updated,baseUrl,sourceUrl,requiresUser,regexPattern,fileType,folderId,stateRules,notes,compiledOn
+AK,Biannually,https://health.alaska.gov,https://health.alaska.gov/media/ri3bdzew/orr-medicaid.pdf,FALSE,,pdf,,Hospital-based NFs with highest rates in US ($553-$2201/day). 20 facilities.,01/21/2026
+FL,Annually,https://ahca.myflorida.com,https://ahca.myflorida.com/medicaid/cost-reimbursement/nursing-home-rates,TRUE,,xlsx,1dtVSDrMmAAPLO74C_Y6amh-oqTDaXdPl,,,9/29/2025
+GA,Quarterly,https://dch.georgia.gov,https://dch.georgia.gov/providers/provider-types/nursing-home-providers/reimbursement-rates,FALSE,\/document\/document\/(\d{2}-\d{4}-nh-rate(?:-listing)?(?:-[\w-]*)?)\/download,pdf,1Z49Mzivb51EH-K7zjTW8tv37pxhyuAYe,LOOK FOR: Files containing 'nh-rate',,9/29/2025
+MS,Quarterly,https://medicaid.ms.gov,https://medicaid.ms.gov/providers/fee-schedules-and-rates/,FALSE,\/wp-content\/uploads\/(?:2024|2025)\/\d{2}\/(?:NF-Rates-Q[1-4]-(?:2024|2025)|NH-(?:2024|2025)-RATES.*)\.pdf,pdf,1cbG5t4Bwc0_pWvBOqa2F1ds1ECBa6Krz,,,09/30/2025
+VA,Biannually,https://www.dmas.virginia.gov,https://www.dmas.virginia.gov/for-providers/rates-and-rate-setting/nursing-facilities/,FALSE,"href=[""'][^""']*\.pdf[""']",pdf,1pqEihdKLKHl3DjdCBO1TpLSFjy4GB1xP,LOOK FOR: Files with 'nursing-facility-price-based-rates' in filename. Multiple periods per year (quarterly updates). Table format with 'Skilled Nursing Facility Name' column and 'Skilled Nursing Facility Rate' column.,,09/30/2025
+KY,Quarterly,https://www.chfs.ky.gov,https://www.chfs.ky.gov/agencies/dms/Pages/feesrates.aspx,TRUE,,xlsx,1GuQC606cXZTlAzRFK7mKIKaQUXLQtfjt,,,09/30/2025
+IN,Biannually,https://myersandstauffer.com,https://myersandstauffer.com/client-portal/indiana/indiana-long-term-care/#toggle-id-9,FALSE,/documents/IN/Long-Term\s*Care/Nursing\s*Facility/LTCIS\s*Reports/20\d{2}/Provider\s+Index\s+Report\s+-\s+Rate\s+Effective\s+Date\s+\d{2}-\d{2}-\d{4}\.xlsx,xlsx,1gKatvTzZEF4mIMNCQyjckgGReNmuH0Sn,LOOK FOR: 'Provider Index Report' files,,9/29/2025
+IL,Quarterly,https://hfs.illinois.gov,https://hfs.illinois.gov/medicalproviders/medicaidreimbursement/ltc.html,FALSE,"href=[\""'](/content/dam/soi/en/web/hfs/sitecollectiondocuments/[^\""']+\\.xlsx)[\""']",xlsx,1BDGjW8xieI79CK6NbJzQZWzeqBr3kqWZ,LOOK FOR: Files starting with 'allrt' (these are the main rate files),,09/30/2025
+IA,Annually,https://hhs.iowa.gov,http://hhs.iowa.gov/programs/welcome-iowa-medicaid/iowa-health-link/nursing-facility-rates,TRUE,,xlsx,1bNfuzUhjEwY7M0moWSgIz_oDbcbZ6o8k,,,09/30/2025
+KS,Annually,https://www.kdads.ks.gov,https://www.kdads.ks.gov/providers/nursing-facility/nf-annual-rate-letter,FALSE,,xlsx,,291 NF facilities with annual rate letters. Clean extraction from Excel.,01/21/2026
+MO,Biannually,https://mydss.mo.gov/,https://mydss.mo.gov/media/file/nursing-facility-rate-list,,,,1S91F9rVT5pBDPgIAiIMxHMx-u3L3h39N,,,09/30/2025
+SD,Annually,https://dhs.sd.gov/,,,,,1Y6MTwbvUDS42OUWF_qA7DXAsOghf0FFB,,,09/30/2025
+OH,Biannually,https://medicaid.ohio.gov,https://medicaid.ohio.gov/resources-for-providers/enrollment-and-support/provider-types/nursing-facilities/nursing-facilities,FALSE,"href=[""']([^""']*(?:(?:dam\.assets\.ohio\.gov/image/upload/medicaid\.ohio\.gov|medicaid\.ohio\.gov/static|/static)/[^""']*(?:NF|Provider.*Rate|NursingFacility)[^""']*\.pdf))[""']",pdf,1e_k4Ds90Q21ZsFIHG4CHV60FvNvQi0L3,"LOOK FOR current 2024-2025 rate files matching these patterns: 'RSProvRatecCmpDataNF' (Provider Rate Component), 'NF_Rates' with dates, 'NF_Provider_Rate_Update', 'Provider+Rate+Component', or 'NFR-' files from 2024-2025. EXCLUDE: All Fact Sheets, Private Room, Ventilator, IV Therapy, MDS, PDPM, Guidance, FAQs, memos, and files before 2024.",,09/30/2025
+PA,Quarterly,https://www.pa.gov/,https://www.pa.gov/agencies/dhs/resources/for-providers/ltc-providers/nursing-facilities-rates,FALSE,"href=[""'](/content/dam/copapwp-pagov/en/dhs/documents/providers/documents/long_term_nursing_facilities/[^""']+\.xlsx)[""']",xlsx,1OrWJolcx30IEzB4byeubwVrraoLnwHVT,"RETURN ONLY indices for CHC-MPR files from 2024-2025. These are files 1-8: 'q4-2025-chc-mpr', 'q3-2025-chc-mpr', 'q2-2025-chc-mpr', 'q1-2025', 'q4-update' (2024), 'q3-2024-update', 'April-2024_CHC-MPR', '2024-01-01-CHC-Minimum-Payment-Rates'. EXCLUDE ALL: County rates, non-county rates, nursing facility rates, condensed rates, and any files without 'CHC' or 'MPR' in the name.",,09/30/2025
+NY,Annually,https://www.health.ny.gov,https://www.health.ny.gov/facilities/long_term_care/reimbursement/nhr/,TRUE,,xlsx,18Pnwp-dBUz1EMre-3ubAn63N1b3GXBc3,,,09/30/2025
+MA,Annually,https://www.mass.gov,https://www.mass.gov/regulations/101-CMR-20600-standard-payments-to-nursing-facilities,FALSE,"href=""([^""]+/doc/[^""]+/download)""",xlsx,1qBmnDcSXBHbhew8uwNaKgRUbK8vD7PqF,"LOOK FOR: Files named 'standard-payments-to-nursing-facilities' or 'standard-nursing-facility-rates' with effective dates October 2024 or 2025. EXCLUDE: Supplemental payments, user fees, COVID payments, or older files",,09/30/2025
+NH,Biannually,https://www.dhhs.nh.gov,https://www.dhhs.nh.gov/programs-services/adult-aging-care/nursing-home-care,,,pdf,1fbDNlK1Ka1Mg3FJmLWKi_3k-aETwgs47,,,09/30/2025
+VT,Quarterly,https://dvha.vermont.gov,https://dvha.vermont.gov/document/medicaid-quarterly-rate-list,,,pdf,1K88Ggnkn_N4dARIpIZzovWPN2r0fkrzO,,,09/30/2025
+RI,Annually,https://eohhs.ri.gov/,https://eohhs.ri.gov/providers-partners/provider-directories/nursing-homes,,,xlsx,1gUNWzLw2jHkWOhArqczHrRd8XGhZQLld,,,09/30/2025
+TX,Annually,https://pfd.hhs.texas.gov/,https://pfd.hhs.texas.gov/long-term-services-supports/nursing-facility-nf,,,pdf,1utA9OPVdAFlYzpYjdXLLTjA-EqUZtilU,,,09/30/2025
+CO,Annually,https://hcpf.colorado.gov/,https://hcpf.colorado.gov/provider-rates-fee-schedule,,,pdf,13bRMQIJ5s7j_nr1YruuLOT-6hoGqb3ND,,,09/30/2025
+UT,Quarterly,https://medicaid.utah.gov/,https://medicaid.utah.gov/stplan/longtermcarehra/,FALSE,"href=[""']([^""']*medicaid-documents\.dhhs\.utah\.gov/stateplan/NursingHomes/Rates/NF/[^""']+\.pdf)[""']",pdf,1WRSHBn6YBmTx9IXAT8gMzJOWLaLkDk36,"LOOK FOR: Current nursing facility (NF) rate files for 2024-2026. Files follow pattern '202XX NF Rates' where X is year (4-5) and quarter (1-4). Include quarterly files from Q1 2024 through current quarter 2026. EXCLUDE: Files before 2024, non-NF rates, or any supplemental documents.",,09/30/2025
+MT,Annually,https://medicaidprovider.mt.gov/,https://medicaidprovider.mt.gov/26,,,pdf,1gfUOslo0mrQl9GEAZFn6RkhFJVuV64_V,,,09/30/2025
+WA,Biannually,https://www.dshs.wa.gov/,https://www.dshs.wa.gov/altsa/management-services-division/nursing-facility-rates-and-reports,,,,,,,09/30/2025
+CA,Annually,https://www.dhcs.ca.gov,https://www.dhcs.ca.gov/services/medi-cal/Pages/AB1629/LTC.aspx,TRUE,,xlsx,1XBbGYHGnEs8A0ROm2h_hxD1lSkSco1Q3,,,09/29/2025
+HI,Biannually,https://medquest.hawaii.gov/,,,,,,,,09/30/2025
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+, ,,,,,,,,,

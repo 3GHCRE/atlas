@@ -1,0 +1,21 @@
+state,provider_number,facility_name,daily_rate,effective_date,city
+AK,100001,Cordova Community Medical Center,1238.62,2026-01-01,Cordova
+AK,100002,PeaceHealth Ketchikan Medical Center/New Horizons Long-Term Care,1557.43,2025-07-01,Ketchikan
+AK,100003,Norton Sound Regional Hospital/Quyanna Care Center,2201.70,2025-10-01,Nome
+AK,100004,Petersburg Medical Center,1184.68,2025-07-01,Petersburg
+AK,100005,Providence Kodiak Island Medical Center/Chiniak Bay Elder House,1360.05,2026-01-01,Kodiak
+AK,100006,Providence Seward Medical Center/Seward Mountain Haven,1270.10,2026-01-01,Seward
+AK,100007,Providence Valdez Medical Center,1587.00,2026-01-01,Valdez
+AK,100008,South Peninsula Hospital,1573.39,2025-07-01,Homer
+AK,100009,Wrangell Medical Center (SEARHC),1507.29,2025-10-01,Wrangell
+AK,100010,Bartlett Regional Hospital/Wildflower Court,786.45,2025-10-13,Juneau
+AK,100011,Central Peninsula General Hospital/Heritage Place,591.01,2025-07-01,Soldotna
+AK,100012,Fairbanks Memorial Hospital/Denali Center,935.43,2026-01-01,Fairbanks
+AK,100013,Maple Springs of Palmer,833.12,2026-01-01,Palmer
+AK,100014,Maple Springs of Wasilla,969.11,2026-01-01,Wasilla
+AK,100015,Centennial Post Acute,553.56,2026-01-01,Anchorage
+AK,100016,Polaris Extended Care,810.87,2026-01-01,Anchorage
+AK,100017,Polaris Transitional Care Center,1100.69,2026-01-01,Anchorage
+AK,100018,Sitka Long-Term Care (SEARHC),1316.02,2025-10-01,Sitka
+AK,100019,Utuqqanaat Inaat dba Maniilaq Association,1715.20,2025-10-01,Kotzebue
+AK,100020,Yukon Kuskokwim Elders Home,1188.38,2025-10-01,Bethel

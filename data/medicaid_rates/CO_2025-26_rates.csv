@@ -1,0 +1,204 @@
+state,facility_name,state_facility_id,npi,daily_rate,effective_date,source_file
+CO,Adara Living,1038,1376540583,296.37,2025-07-01,CO_2025-26_rates.pdf
+CO,Allison Care Center,924,1275386252,292.32,2025-07-01,CO_2025-26_rates.pdf
+CO,Amberwood Post Acute,926,1174236046,270.64,2025-07-01,CO_2025-26_rates.pdf
+CO,Arbor View Care Center,1059,1518710599,309.45,2025-07-01,CO_2025-26_rates.pdf
+CO,Thornton Care Center,925,1326870650,307.74,2025-07-01,CO_2025-26_rates.pdf
+CO,Arvada Care and Rehabilitation Center,928,1174760805,286.91,2025-07-01,CO_2025-26_rates.pdf
+CO,Atlas Post Acute,1092,1275227092,303.84,2025-07-01,CO_2025-26_rates.pdf
+CO,Belmont Lodge Health Care Center,1036,1134627573,248.13,2025-07-01,CO_2025-26_rates.pdf
+CO,Bent County Healthcare Center,932,1528282522,267.18,2025-07-01,CO_2025-26_rates.pdf
+CO,Berkley Manor Care Center,933,1003903162,285.49,2025-07-01,CO_2025-26_rates.pdf
+CO,Berthoud Care and Rehabilitation,934,1821684200,268.33,2025-07-01,CO_2025-26_rates.pdf
+CO,Beth Israel at Shalom Park,935,1861430068,338.97,2025-07-01,CO_2025-26_rates.pdf
+CO,Bluestem Village,1428,1053956268,288.78,2025-07-01,CO_2025-26_rates.pdf
+CO,Boulder Canyon Health and Rehabilitation,937,1194311571,290.77,2025-07-01,CO_2025-26_rates.pdf
+CO,Boulder Post Acute,998,1912610890,276.95,2025-07-01,CO_2025-26_rates.pdf
+CO,Briarwood Health Care Center,938,1437167152,297.67,2025-07-01,CO_2025-26_rates.pdf
+CO,Brighton Care Center,939,1396465316,274.6,2025-07-01,CO_2025-26_rates.pdf
+CO,Broadview Health and Rehabilitation,985,1841033131,275.55,2025-07-01,CO_2025-26_rates.pdf
+CO,Brookshire Post Acute,940,1164135034,251.77,2025-07-01,CO_2025-26_rates.pdf
+CO,Brookside Inn,941,1124029053,332.2,2025-07-01,CO_2025-26_rates.pdf
+CO,"Bruce McCandless Colorado State Veterans
+Nursing Home",1039,1669470910,363.15,2025-07-01,CO_2025-26_rates.pdf
+CO,Cambridge Care Center,942,1679326656,284.81,2025-07-01,CO_2025-26_rates.pdf
+CO,Canon Lodge Care Center,943,1366450090,251.96,2025-07-01,CO_2025-26_rates.pdf
+CO,Casey's Pond Senior Living,961,1316764517,339.71,2025-07-01,CO_2025-26_rates.pdf
+CO,Castle Peak Senior Life and Rehabilitation,1412,1144698184,334.73,2025-07-01,CO_2025-26_rates.pdf
+CO,Cedars Healthcare Center,1043,1447801907,314.02,2025-07-01,CO_2025-26_rates.pdf
+CO,Centre Avenue Health and Rehabilitation,1120,1194719872,345.27,2025-07-01,CO_2025-26_rates.pdf
+CO,Cherrelyn Healthcare Center,947,1356992812,307.72,2025-07-01,CO_2025-26_rates.pdf
+CO,Cheyenne Manor,950,1871705756,341.03,2025-07-01,CO_2025-26_rates.pdf
+CO,Clear Creek Care Center,952,1740033737,298.46,2025-07-01,CO_2025-26_rates.pdf
+CO,Colonial Health and Rehabilitation Center,953,1235973181,252.93,2025-07-01,CO_2025-26_rates.pdf
+CO,"Colorado State Veterans Nursing Home -
+Fitzsimons",1051,1508931536,343.64,2025-07-01,CO_2025-26_rates.pdf
+CO,Colorado State Veterans Nursing Home - Rifle,1053,1093702722,334.48,2025-07-01,CO_2025-26_rates.pdf
+CO,"Colorado Veterans Community Living Center
+at Homelake",1052,1114085875,323.2,2025-07-01,CO_2025-26_rates.pdf
+CO,Colorow Health Care,954,1437138153,317.13,2025-07-01,CO_2025-26_rates.pdf
+CO,Columbine Manor Care Center,955,1467461103,255.49,2025-07-01,CO_2025-26_rates.pdf
+CO,Columbine West Health and Rehabilitation,956,1932178985,307.29,2025-07-01,CO_2025-26_rates.pdf
+CO,"Cottonwood Rehabilitation and Healthcare
+Center",1405,1700513439,321.48,2025-07-01,CO_2025-26_rates.pdf
+CO,Covenant Living of Colorado,1107,1700981644,328.78,2025-07-01,CO_2025-26_rates.pdf
+CO,"Creekside Village Health and Rehabilitation
+Center",1011,1588408447,352.42,2025-07-01,CO_2025-26_rates.pdf
+CO,Crestmoor Care Center,1082,1588496814,290.07,2025-07-01,CO_2025-26_rates.pdf
+CO,Crowley County Nursing Center,958,1932180346,250.71,2025-07-01,CO_2025-26_rates.pdf
+CO,Denver North Care Center,959,1881447878,272.5,2025-07-01,CO_2025-26_rates.pdf
+CO,Lakeshore Post Acute and Rehab Center,999,1316780604,263.16,2025-07-01,CO_2025-26_rates.pdf
+CO,Devonshire Acres,960,1194582189,249.18,2025-07-01,CO_2025-26_rates.pdf
+CO,Eagle Ridge Post Acute,962,1760195648,266.48,2025-07-01,CO_2025-26_rates.pdf
+CO,Eben Ezer Lutheran Care Center,963,1407852981,297.16,2025-07-01,CO_2025-26_rates.pdf
+CO,Wellsprings Care Center,1090,1649002973,266.06,2025-07-01,CO_2025-26_rates.pdf
+CO,Elk Ridge Health and Rehabilitation Center,1007,1235705252,298.31,2025-07-01,CO_2025-26_rates.pdf
+CO,Englewood Post Acute and Rehabilitation,949,1407274517,298.7,2025-07-01,CO_2025-26_rates.pdf
+CO,Evergreen Nursing Home,964,1952311623,273.21,2025-07-01,CO_2025-26_rates.pdf
+CO,"Fairacres Manor, Inc.",1060,1154300853,273.55,2025-07-01,CO_2025-26_rates.pdf
+CO,Falcon Heights Rehabilitation and Nursing,929,1528803301,256.11,2025-07-01,CO_2025-26_rates.pdf
+CO,Forest Ridge Senior Living,1410,1922479633,267.81,2025-07-01,CO_2025-26_rates.pdf
+CO,Forest Street Compassionate Care Center,965,1114939956,248.35,2025-07-01,CO_2025-26_rates.pdf
+CO,"Fountain View Health and Rehabilitation
+Center",1016,1851136634,254.67,2025-07-01,CO_2025-26_rates.pdf
+CO,Fowler Health Care,968,1053300640,262.99,2025-07-01,CO_2025-26_rates.pdf
+CO,Frasier Meadows Health Care Center,1063,1770574279,365.8,2025-07-01,CO_2025-26_rates.pdf
+CO,"Garden Terrace Alzheimer's Center of
+Excellence",1064,1154488674,289.17,2025-07-01,CO_2025-26_rates.pdf
+CO,Glenwood Springs Health Care,971,1932556073,253.49,2025-07-01,CO_2025-26_rates.pdf
+CO,Good Samaritan Society - Fort Collins Village,1062,1235110727,305.46,2025-07-01,CO_2025-26_rates.pdf
+CO,Good Samaritan Society - Loveland Village,1076,1073503728,291.63,2025-07-01,CO_2025-26_rates.pdf
+CO,Grace Manor Care Center,972,1790123669,268.31,2025-07-01,CO_2025-26_rates.pdf
+CO,Grand River Health Care Center,1056,1841374139,333.73,2025-07-01,CO_2025-26_rates.pdf
+CO,Gunnison Valley Health Senior Care Center,1067,1013952472,342.57,2025-07-01,CO_2025-26_rates.pdf
+CO,Hallmark Nursing Center,1068,1194130997,302.57,2025-07-01,CO_2025-26_rates.pdf
+CO,Hampden Hills Post Acute,948,1619687563,295.7,2025-07-01,CO_2025-26_rates.pdf
+CO,Harmony Pointe Nursing Center,973,1750389284,341.13,2025-07-01,CO_2025-26_rates.pdf
+CO,Health Center at Franklin Park,974,1184792939,313.77,2025-07-01,CO_2025-26_rates.pdf
+CO,Heritage Park Care Center,975,1912312711,339.83,2025-07-01,CO_2025-26_rates.pdf
+CO,Highline Post Acute,1069,1578276457,288.93,2025-07-01,CO_2025-26_rates.pdf
+CO,Hildebrand Care Center,976,1366430910,269.14,2025-07-01,CO_2025-26_rates.pdf
+CO,Hillcrest Care Center,977,1104268465,327.01,2025-07-01,CO_2025-26_rates.pdf
+CO,Hilltop Park Post Acute,1079,1619661097,305.98,2025-07-01,CO_2025-26_rates.pdf
+CO,Holly Heights Care and Rehabilitation,1070,1558110221,293.91,2025-07-01,CO_2025-26_rates.pdf
+CO,Holly Nursing Care Center,978,1285632372,305.66,2025-07-01,CO_2025-26_rates.pdf
+CO,Horizons Care Center,1071,1285795336,325.78,2025-07-01,CO_2025-26_rates.pdf
+CO,Irondale Post Acute,1110,1467006163,263.68,2025-07-01,CO_2025-26_rates.pdf
+CO,Julia Temple Healthcare Center,981,1366689085,309.45,2025-07-01,CO_2025-26_rates.pdf
+CO,Durango Health and Rehabilitation,967,1497598783,277.35,2025-07-01,CO_2025-26_rates.pdf
+CO,Juniper Village - The Spearly Center,982,1417955790,225.91,2025-07-01,CO_2025-26_rates.pdf
+CO,Kiowa Hills Rehabilitation and Nursing,945,1013752898,284.76,2025-07-01,CO_2025-26_rates.pdf
+CO,La Villa Grande Care Center,1073,1780235234,265.91,2025-07-01,CO_2025-26_rates.pdf
+CO,Lakeside Post Acute,951,1780397661,281.14,2025-07-01,CO_2025-26_rates.pdf
+CO,Lakewood Villa,1058,1073957908,254.06,2025-07-01,CO_2025-26_rates.pdf
+CO,Lamar Estates,983,1568861490,289.73,2025-07-01,CO_2025-26_rates.pdf
+CO,Larchwood Inns,986,1366443350,307.5,2025-07-01,CO_2025-26_rates.pdf
+CO,Lemay Avenue Health and Rehabilitation,1074,1881743102,325.14,2025-07-01,CO_2025-26_rates.pdf
+CO,Life Care Center of Aurora,1129,1376551077,330.97,2025-07-01,CO_2025-26_rates.pdf
+CO,Life Care Center of Colorado Springs,988,1649289372,303.98,2025-07-01,CO_2025-26_rates.pdf
+CO,Life Care Center of Evergreen,989,1730274572,367.64,2025-07-01,CO_2025-26_rates.pdf
+CO,Life Care Center of Greeley,990,1003825761,327.99,2025-07-01,CO_2025-26_rates.pdf
+CO,Life Care Center of Littleton,991,1306854013,314.11,2025-07-01,CO_2025-26_rates.pdf
+CO,Life Care Center of Longmont,992,1184711244,315.1,2025-07-01,CO_2025-26_rates.pdf
+CO,Life Care Center of Pueblo,993,1891882957,302.6,2025-07-01,CO_2025-26_rates.pdf
+CO,Life Care Center of Westminster,994,1124116728,314.99,2025-07-01,CO_2025-26_rates.pdf
+CO,Mcintosh Care And Rehabilitation Center,927,1750124947,277.64,2025-07-01,CO_2025-26_rates.pdf
+CO,Littleton Care and Rehabilitation Center,996,1164669891,306.28,2025-07-01,CO_2025-26_rates.pdf
+CO,Lowry Hills Care and Rehabilitation,930,1619486388,237.71,2025-07-01,CO_2025-26_rates.pdf
+CO,Malley Transitional Care Center,1077,1194445114,259.76,2025-07-01,CO_2025-26_rates.pdf
+CO,"Mantey Heights Rehabilitation and Care
+Center",1080,1316598865,285.12,2025-07-01,CO_2025-26_rates.pdf
+CO,Mapleton Post Acute,997,1891405650,257.15,2025-07-01,CO_2025-26_rates.pdf
+CO,Medallion Post Acute Rehabilitation,1044,1568907731,276.2,2025-07-01,CO_2025-26_rates.pdf
+CO,"Rock Creek Rehabilitation and Healthcare
+Center",984,1457107336,356.69,2025-07-01,CO_2025-26_rates.pdf
+CO,Mount St. Francis Nursing Center,1083,1427839646,305.16,2025-07-01,CO_2025-26_rates.pdf
+CO,Mountain View Post Acute,1048,1366136178,281.25,2025-07-01,CO_2025-26_rates.pdf
+CO,Mountain Vista Health Center,1084,1831187632,332.26,2025-07-01,CO_2025-26_rates.pdf
+CO,North Shore Health and Rehabilitation,1085,1790782639,294.13,2025-07-01,CO_2025-26_rates.pdf
+CO,Oakwood Care and Rehabilitation,936,1730959800,267.19,2025-07-01,CO_2025-26_rates.pdf
+CO,Orchard Park Health Care Center,1124,1679807598,295.93,2025-07-01,CO_2025-26_rates.pdf
+CO,Canyon View Care Center,1002,1528890852,276.88,2025-07-01,CO_2025-26_rates.pdf
+CO,Paonia Care and Rehabilitation Center,1086,1053768192,227.6,2025-07-01,CO_2025-26_rates.pdf
+CO,Park Forest Care Center,1087,1215910674,255.66,2025-07-01,CO_2025-26_rates.pdf
+CO,Parkview Care Center,1003,1518710524,269.08,2025-07-01,CO_2025-26_rates.pdf
+CO,"Pelican Pointe Health and Rehabilitation
+Center",1032,1033952320,279.02,2025-07-01,CO_2025-26_rates.pdf
+CO,Pikes Peak Post Acute,1091,1376237198,274.22,2025-07-01,CO_2025-26_rates.pdf
+CO,"Pine Ridge Rehabilitation and Healthcare
+Center",1004,1598492233,259.65,2025-07-01,CO_2025-26_rates.pdf
+CO,Pioneer Health Care Center,1005,1346697471,250.43,2025-07-01,CO_2025-26_rates.pdf
+CO,Poudre Canyon Rehabilitation and Nursing,966,1720823503,265.85,2025-07-01,CO_2025-26_rates.pdf
+CO,Storybrook Care & Rehabilitation,1065,1487481305,260.5,2025-07-01,CO_2025-26_rates.pdf
+CO,Prestige Care Center of Morrison,1035,1316694128,272.48,2025-07-01,CO_2025-26_rates.pdf
+CO,Progressive Care Center,1047,1689248882,241.3,2025-07-01,CO_2025-26_rates.pdf
+CO,Red Cliffs Post Acute,1081,1689368409,277.38,2025-07-01,CO_2025-26_rates.pdf
+CO,Regent Park Nursing and Rehabilitation,1093,1700416849,216.85,2025-07-01,CO_2025-26_rates.pdf
+CO,"Rehabilitation and Nursing Center of the
+Rockies",1094,1023643806,270.71,2025-07-01,CO_2025-26_rates.pdf
+CO,Ridgeview Post Acute,1111,1609413897,274.02,2025-07-01,CO_2025-26_rates.pdf
+CO,"Rio Grande Rehabilitation and Healthcare
+Center",1337,1215664958,270.52,2025-07-01,CO_2025-26_rates.pdf
+CO,"River Valley Rehabilitation and Healthcare
+Center",1420,1659008399,265.34,2025-07-01,CO_2025-26_rates.pdf
+CO,Riverbend Health And Rehab,1010,1205679594,251.43,2025-07-01,CO_2025-26_rates.pdf
+CO,Riverdale Post Acute,957,1538872411,269.25,2025-07-01,CO_2025-26_rates.pdf
+CO,"Rock Canyon Respiratory and Rehabilitation
+Center",1029,1194121988,228.68,2025-07-01,CO_2025-26_rates.pdf
+CO,"Rowan Community, Inc.",1095,1750360475,284.95,2025-07-01,CO_2025-26_rates.pdf
+CO,San Luis Care Center,1008,1487741138,280.66,2025-07-01,CO_2025-26_rates.pdf
+CO,Sandrock Ridge Care and Rehabilitation,1098,1801972906,245.91,2025-07-01,CO_2025-26_rates.pdf
+CO,Sedgwick County Memorial Nursing Home,1099,1073647459,290.02,2025-07-01,CO_2025-26_rates.pdf
+CO,"Sharmar Village Care Center, Inc.",1009,1265537591,301.02,2025-07-01,CO_2025-26_rates.pdf
+CO,Sierra Post Acute,1100,1932812815,252.04,2025-07-01,CO_2025-26_rates.pdf
+CO,"Silver Heights Skilled Nursing and
+Rehabilitation",944,1073061032,253.74,2025-07-01,CO_2025-26_rates.pdf
+CO,Skylake Post Acute,1057,1477236982,267.3,2025-07-01,CO_2025-26_rates.pdf
+CO,"Skyline Ridge Nursing and Rehabilitation
+Center",1101,1629629183,266.61,2025-07-01,CO_2025-26_rates.pdf
+CO,South Platte Health and Rehabilitation Center,1015,1710722590,262.77,2025-07-01,CO_2025-26_rates.pdf
+CO,South Valley Post Acute Rehabilitation,1072,1740876127,283.03,2025-07-01,CO_2025-26_rates.pdf
+CO,Southeast Colorado Hospital LTC Center,1102,1053302695,341.07,2025-07-01,CO_2025-26_rates.pdf
+CO,"Spanish Peaks Veterans Community Living
+Center",1054,1619986684,299.66,2025-07-01,CO_2025-26_rates.pdf
+CO,Springs Village Care Center,1012,1407407950,296.31,2025-07-01,CO_2025-26_rates.pdf
+CO,City Park Healthcare And Rehab Center,1103,1194564146,295.56,2025-07-01,CO_2025-26_rates.pdf
+CO,Sterling Health and Rehabilitation Center,1013,1891530689,269.68,2025-07-01,CO_2025-26_rates.pdf
+CO,"Highland Park and Rehabilitation & Care
+Center",1040,1851133474,298.52,2025-07-01,CO_2025-26_rates.pdf
+CO,Sundance Skilled Nursing and Rehabilitation,1000,1235563958,268.73,2025-07-01,CO_2025-26_rates.pdf
+CO,Sunny Vista Living Center,1014,1801016688,294.14,2025-07-01,CO_2025-26_rates.pdf
+CO,The Gardens,969,1912331604,248.75,2025-07-01,CO_2025-26_rates.pdf
+CO,The Green House Homes at Mirasol,1406,1598176828,320.17,2025-07-01,CO_2025-26_rates.pdf
+CO,The Heights Post Acute,931,1720792187,275.21,2025-07-01,CO_2025-26_rates.pdf
+CO,"The Katherine and Charles Hover Green
+Houses",1425,1639644016,279.84,2025-07-01,CO_2025-26_rates.pdf
+CO,The Pavilion at Villa Pueblo,1046,1285060756,263.91,2025-07-01,CO_2025-26_rates.pdf
+CO,The Peaks Care Center,1089,1699755660,287.71,2025-07-01,CO_2025-26_rates.pdf
+CO,The Rehabilitation Center at Sandalwood,1097,1669216552,284.9,2025-07-01,CO_2025-26_rates.pdf
+CO,The Suites at Clermont Park Care Center,1050,1598740755,320.75,2025-07-01,CO_2025-26_rates.pdf
+CO,The Suites at Someren Glen Care Center,1049,1871578039,323.7,2025-07-01,CO_2025-26_rates.pdf
+CO,Parker Post Acute,1343,1386414456,270.1,2025-07-01,CO_2025-26_rates.pdf
+CO,"The Valley Rehabilitation and Healthcare
+Center",1105,1467189100,266.8,2025-07-01,CO_2025-26_rates.pdf
+CO,The Villas at Sunny Acres,1108,1235674326,300.13,2025-07-01,CO_2025-26_rates.pdf
+CO,Trinidad Rehabilitation and Healthcare Center,1017,1083341721,265.04,2025-07-01,CO_2025-26_rates.pdf
+CO,University Heights Care Center,1096,1013760032,270.06,2025-07-01,CO_2025-26_rates.pdf
+CO,University Park Care Center,1018,1518068840,270.85,2025-07-01,CO_2025-26_rates.pdf
+CO,Uptown Health Care Center,1019,1558114587,273.35,2025-07-01,CO_2025-26_rates.pdf
+CO,Valley Manor Care Center,1020,1053332403,344.38,2025-07-01,CO_2025-26_rates.pdf
+CO,"Valley View Health Care Center, Inc.",1106,1679552301,284.77,2025-07-01,CO_2025-26_rates.pdf
+CO,Valley View Villa,1021,1114459039,264.87,2025-07-01,CO_2025-26_rates.pdf
+CO,Villa Manor Care Center,1022,1104917327,328.28,2025-07-01,CO_2025-26_rates.pdf
+CO,"Vista Grande Rehabilitation and Healthcare
+Center",1023,1437886181,246.3,2025-07-01,CO_2025-26_rates.pdf
+CO,Walbridge Memorial Convalescent Wing,1024,1841398369,329.27,2025-07-01,CO_2025-26_rates.pdf
+CO,Walsh Healthcare Center,1026,1780772269,320.5,2025-07-01,CO_2025-26_rates.pdf
+CO,Washington County Nursing Home,1027,1932221009,300.65,2025-07-01,CO_2025-26_rates.pdf
+CO,Western Hills Health Care Center,1028,1750448437,297.73,2025-07-01,CO_2025-26_rates.pdf
+CO,Westlake Care Community,970,1922147784,271.36,2025-07-01,CO_2025-26_rates.pdf
+CO,Westlake Health And Rehab Center,946,1841033032,283.57,2025-07-01,CO_2025-26_rates.pdf
+CO,Westwood Post Acute,1001,1639882517,277.52,2025-07-01,CO_2025-26_rates.pdf
+CO,Wheatridge Care Center,1030,1629821657,308.0,2025-07-01,CO_2025-26_rates.pdf
+CO,Willow Tree Care Center,1031,1225689771,267.32,2025-07-01,CO_2025-26_rates.pdf
+CO,Winding Trails Post Acute,1078,1508550997,290.29,2025-07-01,CO_2025-26_rates.pdf

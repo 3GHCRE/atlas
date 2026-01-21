@@ -1,0 +1,502 @@
+state,facility_name,state_facility_id,daily_rate,effective_date,source_file
+IN,Ambassador Healthcare,100288750,336.75,2025-07-01,IN_2025-07_rates.xlsx
+IN,Belltower Health & Rehabilitation Center,201381180,306.58,2025-07-01,IN_2025-07_rates.xlsx
+IN,Bertha D Garten Ketcham Memorial Center,100287340,294.54,2025-07-01,IN_2025-07_rates.xlsx
+IN,Bethel Manor,100275120,298.36,2025-07-01,IN_2025-07_rates.xlsx
+IN,Christian Care Retirement Community,100267760,305.88,2025-07-01,IN_2025-07_rates.xlsx
+IN,Compass Park,200090430,288.45,2025-07-01,IN_2025-07_rates.xlsx
+IN,Evansville Protestant Home,201272600,267.17,2025-07-01,IN_2025-07_rates.xlsx
+IN,Freelandville Community Home,100273640,294.13,2025-07-01,IN_2025-07_rates.xlsx
+IN,George Ade Memorial Health Care Center,100267170,296.38,2025-07-01,IN_2025-07_rates.xlsx
+IN,Grace Village Health Care Facility,100266260,291.45,2025-07-01,IN_2025-07_rates.xlsx
+IN,Greenwood Village South,100453660,321.32,2025-07-01,IN_2025-07_rates.xlsx
+IN,Healthwin,100288820,302.5,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hillside Manor Nursing Home,100287530,213.99,2025-07-01,IN_2025-07_rates.xlsx
+IN,Holy Cross Village at Notre Dame,200325990,307.27,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hooverwood,100275310,333.12,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hubbard Hill Estates,200823940,306.67,2025-07-01,IN_2025-07_rates.xlsx
+IN,"Maple Manor Christian Home, Inc.",100267610,316.94,2025-07-01,IN_2025-07_rates.xlsx
+IN,McGivney Health Care Center,100267350,299.5,2025-07-01,IN_2025-07_rates.xlsx
+IN,Middletown Nursing and Rehabilitation Center,100289600,298.16,2025-07-01,IN_2025-07_rates.xlsx
+IN,Milner Community Health Care,100286940,278.52,2025-07-01,IN_2025-07_rates.xlsx
+IN,Morgantown Woods of Journey,100289100,260.83,2025-07-01,IN_2025-07_rates.xlsx
+IN,Mulberry Health & Rehabilitation Center,100289210,310.1,2025-07-01,IN_2025-07_rates.xlsx
+IN,Newburgh Health Care,100290800,299.67,2025-07-01,IN_2025-07_rates.xlsx
+IN,Northern Lakes Nursing and Rehab Center,100275480,297.26,2025-07-01,IN_2025-07_rates.xlsx
+IN,Parkview Haven,100267280,313.33,2025-07-01,IN_2025-07_rates.xlsx
+IN,Peabody Retirement Community,100291190,311.78,2025-07-01,IN_2025-07_rates.xlsx
+IN,Providence Health Care Center,200429840,410.67,2025-07-01,IN_2025-07_rates.xlsx
+IN,Pulaski Health Care Center,100267430,294.19,2025-07-01,IN_2025-07_rates.xlsx
+IN,Rehabilitation Center at Hartsfield Village,200229550,306.16,2025-07-01,IN_2025-07_rates.xlsx
+IN,Robin Run Health Center,100453350,315.76,2025-07-01,IN_2025-07_rates.xlsx
+IN,Saint Anne Home,100274960,312.11,2025-07-01,IN_2025-07_rates.xlsx
+IN,Saint Anthony Rehab and Nursing Center,100267250,320.94,2025-07-01,IN_2025-07_rates.xlsx
+IN,St. Augustine Home for the Aged,100288920,349.1,2025-07-01,IN_2025-07_rates.xlsx
+IN,Swiss Village,100274540,321.86,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Cedars,100450890,298.89,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Health Center at Glenburn Home,100275000,308.76,2025-07-01,IN_2025-07_rates.xlsx
+IN,Timbercrest Church of the Brethren Home,100275140,275.5,2025-07-01,IN_2025-07_rates.xlsx
+IN,Wesley Manor Health Center,200221050,311.03,2025-07-01,IN_2025-07_rates.xlsx
+IN,Westminster Village - West Lafayette,201271750,283.55,2025-07-01,IN_2025-07_rates.xlsx
+IN,Westminster Village Health & Rehab,100266400,329.69,2025-07-01,IN_2025-07_rates.xlsx
+IN,Westminster Village Muncie,300067850,274.23,2025-07-01,IN_2025-07_rates.xlsx
+IN,Westminster Village North,100284600,312.31,2025-07-01,IN_2025-07_rates.xlsx
+IN,Adams Heritage,200289420,316.3,2025-07-01,IN_2025-07_rates.xlsx
+IN,Adams Woodcrest,100290130,315.05,2025-07-01,IN_2025-07_rates.xlsx
+IN,Cathedral Health Care Center,100289030,303.3,2025-07-01,IN_2025-07_rates.xlsx
+IN,Chase Center,100275270,308.98,2025-07-01,IN_2025-07_rates.xlsx
+IN,Chesterton Manor,100267000,259.3,2025-07-01,IN_2025-07_rates.xlsx
+IN,Cloverleaf of Knightsville,100467820,283.83,2025-07-01,IN_2025-07_rates.xlsx
+IN,Colonial Nursing Home,100290370,266.15,2025-07-01,IN_2025-07_rates.xlsx
+IN,Kendallville Manor,100267140,285.67,2025-07-01,IN_2025-07_rates.xlsx
+IN,Manderley Health Care Center,100291300,257.71,2025-07-01,IN_2025-07_rates.xlsx
+IN,Oak Village,100266770,266.89,2025-07-01,IN_2025-07_rates.xlsx
+IN,Pilgrim Manor,100275260,341.36,2025-07-01,IN_2025-07_rates.xlsx
+IN,River Bend Nursing and Rehabilitation,100266510,290.56,2025-07-01,IN_2025-07_rates.xlsx
+IN,River Terrace Health Care Center,200395060,274.0,2025-07-01,IN_2025-07_rates.xlsx
+IN,Shady Nook Care Center,100266810,251.37,2025-07-01,IN_2025-07_rates.xlsx
+IN,Silver Memories Health Care,100273470,283.63,2025-07-01,IN_2025-07_rates.xlsx
+IN,Warsaw Meadows,100274920,300.9,2025-07-01,IN_2025-07_rates.xlsx
+IN,Woodland Manor,100274880,292.33,2025-07-01,IN_2025-07_rates.xlsx
+IN,Yorktown Manor,100283890,266.34,2025-07-01,IN_2025-07_rates.xlsx
+IN,Aperion Care Arbors Michigan City,100271060,296.54,2025-07-01,IN_2025-07_rates.xlsx
+IN,Aperion Care Demotte,300035944,317.15,2025-07-01,IN_2025-07_rates.xlsx
+IN,Aperion Care Greenfield,100274720,345.38,2025-07-01,IN_2025-07_rates.xlsx
+IN,Aperion Care Hanover,100291080,297.44,2025-07-01,IN_2025-07_rates.xlsx
+IN,Aperion Care Kokomo,100274850,296.44,2025-07-01,IN_2025-07_rates.xlsx
+IN,Aperion Care Lincoln,100289580,360.14,2025-07-01,IN_2025-07_rates.xlsx
+IN,Aperion Care Marion,201136580,297.42,2025-07-01,IN_2025-07_rates.xlsx
+IN,Aperion Care Monroe,100290620,377.98,2025-07-01,IN_2025-07_rates.xlsx
+IN,Aperion Care Peru,300059089,330.82,2025-07-01,IN_2025-07_rates.xlsx
+IN,Aperion Care Summerfield,100291250,290.83,2025-07-01,IN_2025-07_rates.xlsx
+IN,Aperion Care Tolleston Park,200064830,276.37,2025-07-01,IN_2025-07_rates.xlsx
+IN,Aperion Care Vincennes,100291500,279.11,2025-07-01,IN_2025-07_rates.xlsx
+IN,Allisonville Meadows,201014060,310.09,2025-07-01,IN_2025-07_rates.xlsx
+IN,American Village,100267330,324.09,2025-07-01,IN_2025-07_rates.xlsx
+IN,Arbor Grove Village,100287200,297.33,2025-07-01,IN_2025-07_rates.xlsx
+IN,Autumn Ridge Rehabilitation Centre,100289570,302.5,2025-07-01,IN_2025-07_rates.xlsx
+IN,Avalon Village,100267210,297.99,2025-07-01,IN_2025-07_rates.xlsx
+IN,Beech Grove Meadows,100275200,277.31,2025-07-01,IN_2025-07_rates.xlsx
+IN,Ben Hur Health & Rehabilitation,100275290,293.72,2025-07-01,IN_2025-07_rates.xlsx
+IN,Bethany Village,100266940,290.95,2025-07-01,IN_2025-07_rates.xlsx
+IN,Bethlehem Woods Nursing & Rehab,100267820,303.15,2025-07-01,IN_2025-07_rates.xlsx
+IN,Betz Nursing Home,100273860,290.16,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brownsburg Meadows,200851590,322.95,2025-07-01,IN_2025-07_rates.xlsx
+IN,Canterbury Nursing & Rehabilitation Center,100290930,317.61,2025-07-01,IN_2025-07_rates.xlsx
+IN,Cardinal Nursing & Rehabilitation Center,100275330,279.46,2025-07-01,IN_2025-07_rates.xlsx
+IN,Clark Rehabilitation & Skilled Nursing,100266560,290.65,2025-07-01,IN_2025-07_rates.xlsx
+IN,Clinton Gardens,100285040,279.41,2025-07-01,IN_2025-07_rates.xlsx
+IN,Columbia Healthcare Center,100266780,286.83,2025-07-01,IN_2025-07_rates.xlsx
+IN,Community Nursing & Rehabilitation Center,100274900,274.45,2025-07-01,IN_2025-07_rates.xlsx
+IN,Countryside Meadows,201028420,315.85,2025-07-01,IN_2025-07_rates.xlsx
+IN,Coventry Meadows,200814400,303.01,2025-07-01,IN_2025-07_rates.xlsx
+IN,Creekside Village,201002500,307.79,2025-07-01,IN_2025-07_rates.xlsx
+IN,Cypress Grove Rehabilitation Center,100290920,303.38,2025-07-01,IN_2025-07_rates.xlsx
+IN,Danville Regional Rehabilitation Center,100266570,299.68,2025-07-01,IN_2025-07_rates.xlsx
+IN,Eagle Valley Meadows,100266310,290.79,2025-07-01,IN_2025-07_rates.xlsx
+IN,East Lake Nursing & Rehabilitation Center,100267100,298.15,2025-07-01,IN_2025-07_rates.xlsx
+IN,Eastgate Manor Nursing & Rehabilitation,100289090,284.99,2025-07-01,IN_2025-07_rates.xlsx
+IN,Edgewater Woods,100274820,297.22,2025-07-01,IN_2025-07_rates.xlsx
+IN,Elkhart Meadows,100289830,312.82,2025-07-01,IN_2025-07_rates.xlsx
+IN,Fairway Village,100266630,325.47,2025-07-01,IN_2025-07_rates.xlsx
+IN,Forest Creek Village,100275110,289.58,2025-07-01,IN_2025-07_rates.xlsx
+IN,Franklin Meadows,100289890,304.73,2025-07-01,IN_2025-07_rates.xlsx
+IN,Glenbrook Rehab & Skilled Nursing,100266090,309.99,2025-07-01,IN_2025-07_rates.xlsx
+IN,Good Samaritan Home & Rehabilitative Center,100273920,311.56,2025-07-01,IN_2025-07_rates.xlsx
+IN,Greenwood Meadows,201018510,322.0,2025-07-01,IN_2025-07_rates.xlsx
+IN,Harcourt Terrace Nursing & Rehab,100266190,320.7,2025-07-01,IN_2025-07_rates.xlsx
+IN,Harrison Terrace,100291310,313.07,2025-07-01,IN_2025-07_rates.xlsx
+IN,Heritage House Rehabilitation & Health Care,100267670,286.89,2025-07-01,IN_2025-07_rates.xlsx
+IN,Heritage Park,100274830,314.43,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hickory Creek at Columbus,100290690,308.43,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hickory Creek at Connersville,100286530,276.88,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hickory Creek at Crawfordsville,100267230,288.61,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hickory Creek at Franklin,100290720,316.86,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hickory Creek at Greensburg,100288790,300.49,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hickory Creek at Huntington,100288320,303.24,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hickory Creek at Madison,100288390,274.23,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hickory Creek at New Castle,100286550,319.11,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hickory Creek at Peru,100290540,306.72,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hickory Creek at Rochester,100290770,314.81,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hickory Creek at Scottsburg,100288340,280.26,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hickory Creek at Sunset,100274870,290.46,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hickory Creek at Winamac,100288550,308.43,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hillcrest Village,100271120,296.72,2025-07-01,IN_2025-07_rates.xlsx
+IN,Lake Pointe Village,100267020,293.45,2025-07-01,IN_2025-07_rates.xlsx
+IN,Lowell Healthcare,100266340,298.17,2025-07-01,IN_2025-07_rates.xlsx
+IN,Maple Park Village,100266390,327.14,2025-07-01,IN_2025-07_rates.xlsx
+IN,Markle Health & Rehabilitation,100267340,301.32,2025-07-01,IN_2025-07_rates.xlsx
+IN,Meadow Lakes,200809750,302.09,2025-07-01,IN_2025-07_rates.xlsx
+IN,Meadow View Health and Rehabilitation,100274800,305.81,2025-07-01,IN_2025-07_rates.xlsx
+IN,Monticello Healthcare,100287440,279.09,2025-07-01,IN_2025-07_rates.xlsx
+IN,Mount Vernon Nursing and Rehabilitation,100273490,325.5,2025-07-01,IN_2025-07_rates.xlsx
+IN,North Capitol Nursing & Rehabilitation Center,100274910,359.35,2025-07-01,IN_2025-07_rates.xlsx
+IN,North Park Nursing Center,100288980,307.24,2025-07-01,IN_2025-07_rates.xlsx
+IN,North Woods Village,100288770,284.87,2025-07-01,IN_2025-07_rates.xlsx
+IN,Park Terrace Village,100267620,300.98,2025-07-01,IN_2025-07_rates.xlsx
+IN,Prairie Village Nursing & Rehabilitation,100286510,339.78,2025-07-01,IN_2025-07_rates.xlsx
+IN,Riverside Village,200364160,293.11,2025-07-01,IN_2025-07_rates.xlsx
+IN,Riverview Village,100289640,288.37,2025-07-01,IN_2025-07_rates.xlsx
+IN,Riverwalk Village,100274940,291.07,2025-07-01,IN_2025-07_rates.xlsx
+IN,Rosebud Village,100266820,291.22,2025-07-01,IN_2025-07_rates.xlsx
+IN,Rosegate Village,200829340,287.14,2025-07-01,IN_2025-07_rates.xlsx
+IN,Rosewalk Village at Indianapolis,100274950,291.58,2025-07-01,IN_2025-07_rates.xlsx
+IN,Rosewalk Village at Lafayette,100275490,291.17,2025-07-01,IN_2025-07_rates.xlsx
+IN,Salem Crossing,100267680,283.19,2025-07-01,IN_2025-07_rates.xlsx
+IN,Seymour Crossing,100274710,275.33,2025-07-01,IN_2025-07_rates.xlsx
+IN,Spring Mill Meadows,100290050,297.06,2025-07-01,IN_2025-07_rates.xlsx
+IN,Springhill Village,200958030,273.45,2025-07-01,IN_2025-07_rates.xlsx
+IN,Springs Valley Meadows,100287850,296.74,2025-07-01,IN_2025-07_rates.xlsx
+IN,Stonebrooke Rehabilitation Center,100289330,306.59,2025-07-01,IN_2025-07_rates.xlsx
+IN,Summit City Nursing & Rehabilitation,100266160,360.98,2025-07-01,IN_2025-07_rates.xlsx
+IN,Swiss Villa Nursing and Rehabilitation,100291450,273.59,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Timbers of Jasper,100274210,291.91,2025-07-01,IN_2025-07_rates.xlsx
+IN,Todd Dickey Nursing and Rehabilitation,100291320,310.91,2025-07-01,IN_2025-07_rates.xlsx
+IN,Trailpoint Village,100291540,351.43,2025-07-01,IN_2025-07_rates.xlsx
+IN,University Nursing Center,100290330,283.07,2025-07-01,IN_2025-07_rates.xlsx
+IN,Valparaiso Care & Rehabilitation,100289670,339.39,2025-07-01,IN_2025-07_rates.xlsx
+IN,Washington Health Care Center,100289340,279.48,2025-07-01,IN_2025-07_rates.xlsx
+IN,Waters Edge Village,100266100,296.35,2025-07-01,IN_2025-07_rates.xlsx
+IN,West Bend Nursing & Rehabilitation,100275420,284.17,2025-07-01,IN_2025-07_rates.xlsx
+IN,Westview Nursing & Rehabilitation Center,100266600,306.81,2025-07-01,IN_2025-07_rates.xlsx
+IN,Williamsport Nursing & Rehabilitation,100290350,259.32,2025-07-01,IN_2025-07_rates.xlsx
+IN,Willowdale Village,100266270,336.38,2025-07-01,IN_2025-07_rates.xlsx
+IN,Zionsville Meadows,100267290,284.5,2025-07-01,IN_2025-07_rates.xlsx
+IN,Ascension Living Sacred Heart Village,100290810,305.82,2025-07-01,IN_2025-07_rates.xlsx
+IN,Westminster Village Kentuckiana,100266130,332.72,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brickyard Healthcare - Bloomington Care Center,100289860,282.05,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brickyard Healthcare - Brandywine Care Center,100266170,286.69,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brickyard Healthcare - Brentwood Care Center,100267510,305.43,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brickyard Healthcare - Brookview Care Center,100266150,317.77,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brickyard Healthcare - Churchman Care Center,100266210,311.53,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brickyard Healthcare - Elkhart Care Center,100275130,318.41,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brickyard Healthcare - Fountainview Care Center,100290310,286.13,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brickyard Healthcare - Golden Rule Care Center,100288220,270.01,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brickyard Healthcare - Knox Care Center,100289260,321.59,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brickyard Healthcare - Laporte Care Center,100289400,297.84,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brickyard Healthcare - Lincoln Hills Care Center,100275100,272.71,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brickyard Healthcare - Merrillville Care Center,100266660,286.68,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brickyard Healthcare - Muncie Care Center,100290970,322.16,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brickyard Healthcare - Petersburg Care Center,100266280,301.29,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brickyard Healthcare - Portage Care Center,100290980,284.34,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brickyard Healthcare - Richmond Care Center,100266490,334.66,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brickyard Healthcare - Sycamore Village Care Center,100289160,286.23,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brickyard Healthcare - Terrace Care Center,100288620,273.03,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brickyard Healthcare - Twelfth Street Care Center,100291400,283.75,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brickyard Healthcare - Valparaiso Care Center,100271400,285.08,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brickyard Healthcare - Willow Springs Care Center,100272170,294.39,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brickyard Healthcare - Woodbridge Care Center,100274170,338.0,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brickyard Healthcare - Woodlands Care Center,100266830,302.55,2025-07-01,IN_2025-07_rates.xlsx
+IN,Altenheim Health & Living Community,100290000,306.53,2025-07-01,IN_2025-07_rates.xlsx
+IN,Arbor Trace Health & Living,100291010,298.27,2025-07-01,IN_2025-07_rates.xlsx
+IN,Aspen Trace Health & Living Community,201221460,344.57,2025-07-01,IN_2025-07_rates.xlsx
+IN,Bell Trace Health and Living Center,201224380,347.82,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brookside Village,201274720,361.15,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brown County Health & Living Community,100290880,278.18,2025-07-01,IN_2025-07_rates.xlsx
+IN,Carmel Health & Living Community,100290490,332.6,2025-07-01,IN_2025-07_rates.xlsx
+IN,Copper Trace Health & Living Community,201341880,331.71,2025-07-01,IN_2025-07_rates.xlsx
+IN,Countryside Manor Health & Living Community,100267190,286.41,2025-07-01,IN_2025-07_rates.xlsx
+IN,Cumberland Trace Health & Living Community,201293440,324.79,2025-07-01,IN_2025-07_rates.xlsx
+IN,Greenwood Health and Living Community,100266620,301.56,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hamilton Trace of Fishers,201046710,340.19,2025-07-01,IN_2025-07_rates.xlsx
+IN,Harbour Manor Health & Living Community,100267400,314.42,2025-07-01,IN_2025-07_rates.xlsx
+IN,Lincoln Hills of New Albany,100286130,345.45,2025-07-01,IN_2025-07_rates.xlsx
+IN,Morristown Manor,100291030,309.35,2025-07-01,IN_2025-07_rates.xlsx
+IN,Paoli Health & Living Community,100267730,250.11,2025-07-01,IN_2025-07_rates.xlsx
+IN,Rawlins House Health & Living Community,100291470,306.56,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Terrace at Solarbron,201274710,315.1,2025-07-01,IN_2025-07_rates.xlsx
+IN,University Heights Health & Living Community,100267650,302.96,2025-07-01,IN_2025-07_rates.xlsx
+IN,Miller's at Oak Pointe,100288410,322.69,2025-07-01,IN_2025-07_rates.xlsx
+IN,Miller's Health & Rehab by Miller Merry,100267790,308.43,2025-07-01,IN_2025-07_rates.xlsx
+IN,Miller's Merry Manor - Culver,100291210,317.88,2025-07-01,IN_2025-07_rates.xlsx
+IN,Miller's Merry Manor - Garrett,100266120,308.0,2025-07-01,IN_2025-07_rates.xlsx
+IN,Miller's Merry Manor - Hope,100291000,294.37,2025-07-01,IN_2025-07_rates.xlsx
+IN,Miller's Merry Manor - Indianapolis East,100266220,305.14,2025-07-01,IN_2025-07_rates.xlsx
+IN,Miller's Merry Manor - Logansport,100266960,294.08,2025-07-01,IN_2025-07_rates.xlsx
+IN,Miller's Merry Manor - Marion,100287760,273.15,2025-07-01,IN_2025-07_rates.xlsx
+IN,Miller's Merry Manor - Mooresville,100291110,313.37,2025-07-01,IN_2025-07_rates.xlsx
+IN,Miller's Merry Manor - New Carlisle,100267110,339.76,2025-07-01,IN_2025-07_rates.xlsx
+IN,Miller's Merry Manor - Plymouth,100275400,316.43,2025-07-01,IN_2025-07_rates.xlsx
+IN,Miller's Merry Manor - Portage,100267390,317.88,2025-07-01,IN_2025-07_rates.xlsx
+IN,Miller's Merry Manor - Walkerton,100290380,274.53,2025-07-01,IN_2025-07_rates.xlsx
+IN,Miller's Merry Manor - Warsaw,100273830,316.78,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brookside Care Strategies,100285520,320.83,2025-07-01,IN_2025-07_rates.xlsx
+IN,Cardinal Care Strategies,100267720,272.79,2025-07-01,IN_2025-07_rates.xlsx
+IN,Gentle Care Strategies,100291370,292.9,2025-07-01,IN_2025-07_rates.xlsx
+IN,Poplar Care Strategies,100266920,302.47,2025-07-01,IN_2025-07_rates.xlsx
+IN,Sycamore Care Strategies,100289550,265.7,2025-07-01,IN_2025-07_rates.xlsx
+IN,Casa of Hobart,300038299,272.83,2025-07-01,IN_2025-07_rates.xlsx
+IN,Dyer Nursing and Rehabilitation Center,100266740,303.16,2025-07-01,IN_2025-07_rates.xlsx
+IN,Harbor Health & Rehab,100267410,262.44,2025-07-01,IN_2025-07_rates.xlsx
+IN,Lincolnshire Health & Rehab Center,100266950,281.85,2025-07-01,IN_2025-07_rates.xlsx
+IN,Munster Med-Inn,100289450,283.44,2025-07-01,IN_2025-07_rates.xlsx
+IN,Spring Mill Health Campus,300036555,325.13,2025-07-01,IN_2025-07_rates.xlsx
+IN,Beaumont Rehabilitation and Healthcare Center,100270840,293.3,2025-07-01,IN_2025-07_rates.xlsx
+IN,Chalet Rehabilitation and Healthcare Center,100266850,326.28,2025-07-01,IN_2025-07_rates.xlsx
+IN,Chateau Rehabilitation and Healthcare Center,100266910,320.11,2025-07-01,IN_2025-07_rates.xlsx
+IN,Clinton House Rehab and Healthcare Center,100291120,278.3,2025-07-01,IN_2025-07_rates.xlsx
+IN,Lakeland Rehabilitation and Healthcare Center,100290510,334.06,2025-07-01,IN_2025-07_rates.xlsx
+IN,McCormick's Creek Rehabilitation and Healthcare Center,200197620,312.0,2025-07-01,IN_2025-07_rates.xlsx
+IN,Owen Valley Rehabilitation and Healthcare Center,200229560,313.28,2025-07-01,IN_2025-07_rates.xlsx
+IN,University Park Rehabilitation and Healthcare Center,100289700,318.93,2025-07-01,IN_2025-07_rates.xlsx
+IN,Waldron Rehabilitation and Healthcare Center,100290450,297.74,2025-07-01,IN_2025-07_rates.xlsx
+IN,Crown Point Christian Village,100471000,268.48,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hoosier Christian Village,100290530,271.44,2025-07-01,IN_2025-07_rates.xlsx
+IN,Allison Pointe Healthcare Center,100267130,338.97,2025-07-01,IN_2025-07_rates.xlsx
+IN,Bridgewater Healthcare Center,201023760,323.48,2025-07-01,IN_2025-07_rates.xlsx
+IN,Caroleton Healthcare Center,100266550,300.34,2025-07-01,IN_2025-07_rates.xlsx
+IN,Evergreen Crossing and the Lofts,201270670,316.42,2025-07-01,IN_2025-07_rates.xlsx
+IN,Great Lakes Healthcare Center,100266720,293.62,2025-07-01,IN_2025-07_rates.xlsx
+IN,Greenfield Healthcare Center,100291140,303.39,2025-07-01,IN_2025-07_rates.xlsx
+IN,Greenwood Healthcare Center,100291290,368.07,2025-07-01,IN_2025-07_rates.xlsx
+IN,Harrison Healthcare Center,200204440,299.48,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hawthorne Healthcare Center,200983560,293.05,2025-07-01,IN_2025-07_rates.xlsx
+IN,Indian Creek Healthcare Center,100284940,307.42,2025-07-01,IN_2025-07_rates.xlsx
+IN,Kokomo Healthcare Center,100291430,275.3,2025-07-01,IN_2025-07_rates.xlsx
+IN,Rolling Hills Healthcare Center,100266970,312.11,2025-07-01,IN_2025-07_rates.xlsx
+IN,Sellersburg Healthcare Center,200221040,359.14,2025-07-01,IN_2025-07_rates.xlsx
+IN,Southpointe Healthcare Center,300029591,310.06,2025-07-01,IN_2025-07_rates.xlsx
+IN,Southwood Healthcare Center,100285610,265.41,2025-07-01,IN_2025-07_rates.xlsx
+IN,Valley View Healthcare Center,100266930,295.48,2025-07-01,IN_2025-07_rates.xlsx
+IN,Wedgewood Healthcare Center,100267080,300.5,2025-07-01,IN_2025-07_rates.xlsx
+IN,Wildwood Healthcare Center,100267520,301.33,2025-07-01,IN_2025-07_rates.xlsx
+IN,Elwood Health and Living,100289060,311.43,2025-07-01,IN_2025-07_rates.xlsx
+IN,Northview Health and Living,100267150,324.59,2025-07-01,IN_2025-07_rates.xlsx
+IN,Summit Health and Living,100288730,342.46,2025-07-01,IN_2025-07_rates.xlsx
+IN,Serenity Spring Senior Living at Jasonville,100367980,296.17,2025-07-01,IN_2025-07_rates.xlsx
+IN,Serenity Spring Senior Living at Northwood,100274190,283.56,2025-07-01,IN_2025-07_rates.xlsx
+IN,Core of Bedford,100290790,239.44,2025-07-01,IN_2025-07_rates.xlsx
+IN,Core of Dale,100287490,285.01,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brownsburg Health Care Center,100287670,299.28,2025-07-01,IN_2025-07_rates.xlsx
+IN,Castleton Health Care Center,100266840,321.1,2025-07-01,IN_2025-07_rates.xlsx
+IN,Plainfield Health Care Center,100290940,315.56,2025-07-01,IN_2025-07_rates.xlsx
+IN,Celebrate Senior Living of Fort Wayne,100291490,264.46,2025-07-01,IN_2025-07_rates.xlsx
+IN,Envive of Anderson,100266180,311.91,2025-07-01,IN_2025-07_rates.xlsx
+IN,Envive of Beech Grove,100274990,315.17,2025-07-01,IN_2025-07_rates.xlsx
+IN,Envive of Berne,100267370,322.08,2025-07-01,IN_2025-07_rates.xlsx
+IN,Envive of Evansville,100275070,298.73,2025-07-01,IN_2025-07_rates.xlsx
+IN,Envive of Hartford City,100379970,314.88,2025-07-01,IN_2025-07_rates.xlsx
+IN,Envive of Huntington,100267660,333.6,2025-07-01,IN_2025-07_rates.xlsx
+IN,Envive of Indianapolis,100273330,313.93,2025-07-01,IN_2025-07_rates.xlsx
+IN,Envive of Lawrenceburg,100274510,350.74,2025-07-01,IN_2025-07_rates.xlsx
+IN,Envive of River City,100273770,339.95,2025-07-01,IN_2025-07_rates.xlsx
+IN,Envive of Sullivan,100267010,281.14,2025-07-01,IN_2025-07_rates.xlsx
+IN,University Place Health Center & Assisted Living,200450890,251.82,2025-07-01,IN_2025-07_rates.xlsx
+IN,Golden Years Homestead,100287520,310.68,2025-07-01,IN_2025-07_rates.xlsx
+IN,Greencroft Healthcare,100288710,306.82,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hamilton Grove,100275150,302.44,2025-07-01,IN_2025-07_rates.xlsx
+IN,Oak Grove Christian Retirement Village,200236630,305.83,2025-07-01,IN_2025-07_rates.xlsx
+IN,Southfield Village,200315930,306.5,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Heritage Center,100290960,316.01,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hutsonwood at Brazil,100266800,285.75,2025-07-01,IN_2025-07_rates.xlsx
+IN,Richland Bean Blossom Health Care Center,100267550,316.87,2025-07-01,IN_2025-07_rates.xlsx
+IN,Vernon Health & Rehabilitation,100271660,331.6,2025-07-01,IN_2025-07_rates.xlsx
+IN,Ignite Medical Resort Chesterton,201352370,267.96,2025-07-01,IN_2025-07_rates.xlsx
+IN,Ignite Medical Resort Crown Point,201299290,299.08,2025-07-01,IN_2025-07_rates.xlsx
+IN,Ignite Medical Resort Dyer,300065484,286.49,2025-07-01,IN_2025-07_rates.xlsx
+IN,Alpha Home - A Waters Community,100275510,309.23,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Batesville,100266500,311.54,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Castleton Skilled Nursing Facility,100267050,335.7,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Chesterfield Skilled Nursing Facility,100267090,330.95,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Clifty Falls,100266330,256.62,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Columbia City Skilled Nursing Facility,100273140,316.04,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Covington,100289650,272.45,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Dillsboro-Ross Manor,100273840,275.39,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Dunkirk Skilled Nursing Facility,100287230,332.47,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Fort Wayne Skilled Nursing Facility,100267240,329.95,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Georgetown,200909280,329.57,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Greencastle,100266290,292.43,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Hartford City Skilled Nursing Facility,100289460,326.21,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Hobart Skilled Nursing Facility,100289680,305.2,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Huntingburg,100290560,304.23,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Huntington Skilled Nursing Facility,100288690,294.1,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Indianapolis,100267270,291.76,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of LaGrange Skilled Nursing Facility,100270890,309.86,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Lebanon,100290470,321.93,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Martinsville,100290890,333.16,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Middletown Skilled Nursing Facility,100289140,326.64,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Muncie,100288970,338.76,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of New Castle,100267910,307.92,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Peru Skilled Nursing Facility,100288670,262.18,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Princeton,100274440,294.12,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Rising Sun,100273800,290.81,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Rockport Skilled Nursing Facility,100274810,300.39,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Rushville Skilled Nursing Facility,100273930,287.98,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Scottsburg,100290430,279.08,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Sullivan Skilled Nursing Facility,100291380,285.32,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Syracuse Skilled Nursing Facility,100267450,327.21,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Tipton Skilled Nursing Facility,100266350,295.73,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Wabash East Skilled Nursing Facility,100290220,290.18,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Wabash West Skilled Nursing Facility,100267810,336.34,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Waters of Wakarusa Skilled Nursing Facility,100266980,324.97,2025-07-01,IN_2025-07_rates.xlsx
+IN,Westpark A Waters Community,100290410,279.92,2025-07-01,IN_2025-07_rates.xlsx
+IN,Kingston Care Center of Fort Wayne,100267040,361.36,2025-07-01,IN_2025-07_rates.xlsx
+IN,Laurels of Dekalb,100266430,290.23,2025-07-01,IN_2025-07_rates.xlsx
+IN,Green Valley Care Center,100275370,307.86,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hammond-Whiting Care Center,100287460,305.13,2025-07-01,IN_2025-07_rates.xlsx
+IN,Heritage Healthcare,100291260,300.27,2025-07-01,IN_2025-07_rates.xlsx
+IN,Life Care Center of Fort Wayne,100273740,279.91,2025-07-01,IN_2025-07_rates.xlsx
+IN,Life Care Center of LaGrange,100267740,280.85,2025-07-01,IN_2025-07_rates.xlsx
+IN,Life Care Center of Michigan City,100287700,328.49,2025-07-01,IN_2025-07_rates.xlsx
+IN,Life Care Center of Rochester,100274300,296.06,2025-07-01,IN_2025-07_rates.xlsx
+IN,Life Care Center of the Willows,100289310,296.67,2025-07-01,IN_2025-07_rates.xlsx
+IN,Life Care Center of Valparaiso,100267700,323.26,2025-07-01,IN_2025-07_rates.xlsx
+IN,Mitchell Manor Nursing Home,100289590,250.24,2025-07-01,IN_2025-07_rates.xlsx
+IN,Parkview Care Center,100290150,301.72,2025-07-01,IN_2025-07_rates.xlsx
+IN,Rensselaer Care Center,100290840,305.22,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Lane House,100275380,286.72,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Woodlands,100275430,316.57,2025-07-01,IN_2025-07_rates.xlsx
+IN,Westside Retirement Village,100291530,315.06,2025-07-01,IN_2025-07_rates.xlsx
+IN,Lutheran Community Home,100275440,296.72,2025-07-01,IN_2025-07_rates.xlsx
+IN,Lutheran Life Villages,201131260,316.43,2025-07-01,IN_2025-07_rates.xlsx
+IN,Lutheran Life Villages,100275010,304.18,2025-07-01,IN_2025-07_rates.xlsx
+IN,Lutheran Life Villages,100275020,294.51,2025-07-01,IN_2025-07_rates.xlsx
+IN,Alexandria Care Center,100266670,350.53,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brooke Knoll Village,300023505,309.55,2025-07-01,IN_2025-07_rates.xlsx
+IN,Brookville Healthcare Center,100286110,291.71,2025-07-01,IN_2025-07_rates.xlsx
+IN,Camelot Care Center,100289810,467.3,2025-07-01,IN_2025-07_rates.xlsx
+IN,Especially Kidz Health & Rehab Center,100267870,455.61,2025-07-01,IN_2025-07_rates.xlsx
+IN,Grand Valley Health & Rehab,100266880,321.05,2025-07-01,IN_2025-07_rates.xlsx
+IN,Persimmon Ridge Rehabilitation Center,100275500,291.87,2025-07-01,IN_2025-07_rates.xlsx
+IN,Pine Knoll Rehabilitation Centre,100267180,301.25,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Belmont Health & Rehabilitation,100283340,314.42,2025-07-01,IN_2025-07_rates.xlsx
+IN,Twin City Health Care,100266140,351.72,2025-07-01,IN_2025-07_rates.xlsx
+IN,Vermillion Convalescent Center,100290340,302.78,2025-07-01,IN_2025-07_rates.xlsx
+IN,Westridge Healthcare Center,100266410,283.53,2025-07-01,IN_2025-07_rates.xlsx
+IN,Whitewater Commons Senior Living,100285440,275.4,2025-07-01,IN_2025-07_rates.xlsx
+IN,Willow Crossing Health & Rehabilitation,100267710,321.27,2025-07-01,IN_2025-07_rates.xlsx
+IN,Willowbend Living Center,100286100,319.32,2025-07-01,IN_2025-07_rates.xlsx
+IN,Majestic Care of Avon,100267900,287.04,2025-07-01,IN_2025-07_rates.xlsx
+IN,Majestic Care of Bedford,100274460,270.32,2025-07-01,IN_2025-07_rates.xlsx
+IN,Majestic Care of Bloomington,100275040,271.48,2025-07-01,IN_2025-07_rates.xlsx
+IN,Majestic Care of Carmel,200145500,296.28,2025-07-01,IN_2025-07_rates.xlsx
+IN,Majestic Care of Connersville,100286370,318.72,2025-07-01,IN_2025-07_rates.xlsx
+IN,Majestic Care of Deming Park,100267640,301.28,2025-07-01,IN_2025-07_rates.xlsx
+IN,Majestic Care of Fort Wayne,100289980,303.14,2025-07-01,IN_2025-07_rates.xlsx
+IN,Majestic Care of Goshen,100290080,293.69,2025-07-01,IN_2025-07_rates.xlsx
+IN,Majestic Care of Jefferson Pointe,100290870,286.23,2025-07-01,IN_2025-07_rates.xlsx
+IN,Majestic Care of Lafayette,100266900,300.43,2025-07-01,IN_2025-07_rates.xlsx
+IN,Majestic Care of McCordsville,100290860,314.75,2025-07-01,IN_2025-07_rates.xlsx
+IN,Majestic Care of New Haven,100266640,291.18,2025-07-01,IN_2025-07_rates.xlsx
+IN,Majestic Care of Newburgh,200258520,298.78,2025-07-01,IN_2025-07_rates.xlsx
+IN,Majestic Care of North Vernon,200232210,296.05,2025-07-01,IN_2025-07_rates.xlsx
+IN,Majestic Care of Sheridan,100290170,300.82,2025-07-01,IN_2025-07_rates.xlsx
+IN,Majestic Care of South Bend,100266730,289.67,2025-07-01,IN_2025-07_rates.xlsx
+IN,Majestic Care of Southport,100284060,299.35,2025-07-01,IN_2025-07_rates.xlsx
+IN,Majestic Care of Terre Haute,100267880,274.58,2025-07-01,IN_2025-07_rates.xlsx
+IN,Majestic of West Allen,100267600,283.27,2025-07-01,IN_2025-07_rates.xlsx
+IN,Saint Anthony,100274780,282.68,2025-07-01,IN_2025-07_rates.xlsx
+IN,Century Villa Health Care,100267470,298.5,2025-07-01,IN_2025-07_rates.xlsx
+IN,Charlestown Place at New Albany,200256980,311.23,2025-07-01,IN_2025-07_rates.xlsx
+IN,Morning Breeze Retirement Community,200299100,290.82,2025-07-01,IN_2025-07_rates.xlsx
+IN,Heritage Pointe of Fort Wayne,201278730,316.38,2025-07-01,IN_2025-07_rates.xlsx
+IN,Heritage Pointe of Huntington,200345390,293.52,2025-07-01,IN_2025-07_rates.xlsx
+IN,Heritage Pointe of Warren,100267380,326.44,2025-07-01,IN_2025-07_rates.xlsx
+IN,Northwest Manor Health Care Center,100273750,320.65,2025-07-01,IN_2025-07_rates.xlsx
+IN,Otterbein Franklin SeniorLife Comm Res &,200247220,284.72,2025-07-01,IN_2025-07_rates.xlsx
+IN,Premier Healthcare of New Harmony,100267530,278.31,2025-07-01,IN_2025-07_rates.xlsx
+IN,Flatrock River Lodge,200011300,265.19,2025-07-01,IN_2025-07_rates.xlsx
+IN,Lodge of the Wabash,200157070,239.56,2025-07-01,IN_2025-07_rates.xlsx
+IN,White River Lodge,200155900,264.99,2025-07-01,IN_2025-07_rates.xlsx
+IN,Byron Health Center,100273280,285.48,2025-07-01,IN_2025-07_rates.xlsx
+IN,Tranquility Nursing and Rehab,300029339,327.94,2025-07-01,IN_2025-07_rates.xlsx
+IN,Ripley Crossing,100266230,311.34,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Restoracy of Carmel,201362150,346.48,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Restoracy of Goshen,300012886,314.87,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Restoracy of Whitestown,300040744,365.07,2025-07-01,IN_2025-07_rates.xlsx
+IN,Grey Stone Health & Rehabilitation,201207690,286.91,2025-07-01,IN_2025-07_rates.xlsx
+IN,Sage Bluff Health & Rehab Center,201273090,297.29,2025-07-01,IN_2025-07_rates.xlsx
+IN,Signature Healthcare at Parkwood,100290270,311.37,2025-07-01,IN_2025-07_rates.xlsx
+IN,Signature Healthcare of Bremen,100266530,294.38,2025-07-01,IN_2025-07_rates.xlsx
+IN,Signature Healthcare of Muncie,100291200,344.94,2025-07-01,IN_2025-07_rates.xlsx
+IN,Signature Healthcare of Terre Haute,100275360,318.69,2025-07-01,IN_2025-07_rates.xlsx
+IN,Auburn Village,100285660,367.43,2025-07-01,IN_2025-07_rates.xlsx
+IN,Asbury Towers Health Care Center,200525120,291.5,2025-07-01,IN_2025-07_rates.xlsx
+IN,Briarcliff Health & Rehabilitation Center,201293620,329.02,2025-07-01,IN_2025-07_rates.xlsx
+IN,South Shore Health & Rehabilitation Center,100275190,336.02,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Milton Home,200905640,345.56,2025-07-01,IN_2025-07_rates.xlsx
+IN,Addison Pointe Health & Rehab Center,201110380,320.08,2025-07-01,IN_2025-07_rates.xlsx
+IN,Albany Health Care & Rehabilitation Center,100288960,318.05,2025-07-01,IN_2025-07_rates.xlsx
+IN,Ashton Creek Health & Rehab Center,201080610,336.24,2025-07-01,IN_2025-07_rates.xlsx
+IN,Avon Health and Rehabilitation Center,100283860,317.92,2025-07-01,IN_2025-07_rates.xlsx
+IN,Bethel Pointe Health and Rehab,100267630,328.4,2025-07-01,IN_2025-07_rates.xlsx
+IN,Colonial Oaks Health Care Center,100266300,307.82,2025-07-01,IN_2025-07_rates.xlsx
+IN,Creekside Health and Rehabilitation Center,200139920,332.04,2025-07-01,IN_2025-07_rates.xlsx
+IN,Englewood Health & Rehabilitation Center,100266110,327.37,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hamilton Pointe Health and Rehabilitation,201110390,324.17,2025-07-01,IN_2025-07_rates.xlsx
+IN,Homeview Center of Franklin,100291330,343.7,2025-07-01,IN_2025-07_rates.xlsx
+IN,Mason Health Care Center,100290600,314.04,2025-07-01,IN_2025-07_rates.xlsx
+IN,Ossian Health Care and Rehab Center,100266650,336.51,2025-07-01,IN_2025-07_rates.xlsx
+IN,Parker Health Care & Rehabilitation Center,100273190,326.98,2025-07-01,IN_2025-07_rates.xlsx
+IN,Rolling Meadows Health Care Center,100289950,292.23,2025-07-01,IN_2025-07_rates.xlsx
+IN,Wesleyan Health Care Center,100291240,312.47,2025-07-01,IN_2025-07_rates.xlsx
+IN,Transcendent Healthcare of Boonville,100266240,228.61,2025-07-01,IN_2025-07_rates.xlsx
+IN,Transcendent Healthcare of Boonville North,100273890,247.48,2025-07-01,IN_2025-07_rates.xlsx
+IN,Transcendent Healthcare of Owensville,100287960,270.31,2025-07-01,IN_2025-07_rates.xlsx
+IN,Amber Manor Care Center,100267780,301.64,2025-07-01,IN_2025-07_rates.xlsx
+IN,Arlington Place Health Campus,300101032,316.48,2025-07-01,IN_2025-07_rates.xlsx
+IN,Ashford Place Health Campus,200504460,323.57,2025-07-01,IN_2025-07_rates.xlsx
+IN,Aspen Place Health Campus,201104690,336.77,2025-07-01,IN_2025-07_rates.xlsx
+IN,Autumn Woods Health Campus,200308930,315.5,2025-07-01,IN_2025-07_rates.xlsx
+IN,Avalon Springs Health Campus,201051640,329.87,2025-07-01,IN_2025-07_rates.xlsx
+IN,Bethany Pointe Health Campus,200380790,340.75,2025-07-01,IN_2025-07_rates.xlsx
+IN,Blair Ridge Health Campus,201021970,341.91,2025-07-01,IN_2025-07_rates.xlsx
+IN,Bridgepointe Health Campus,200374360,304.28,2025-07-01,IN_2025-07_rates.xlsx
+IN,Cedar Creek Health Campus,201246060,317.88,2025-07-01,IN_2025-07_rates.xlsx
+IN,Clearvista Lake Health Campus,201251520,319.0,2025-07-01,IN_2025-07_rates.xlsx
+IN,Cobblestone Crossing Health Campus,201114960,342.8,2025-07-01,IN_2025-07_rates.xlsx
+IN,Covered Bridge Health Campus,200403740,308.32,2025-07-01,IN_2025-07_rates.xlsx
+IN,Creasy Springs Health Campus,201006770,335.57,2025-07-01,IN_2025-07_rates.xlsx
+IN,Cumberland Pointe Health Campus,100267440,315.39,2025-07-01,IN_2025-07_rates.xlsx
+IN,Forest Park Health Campus,200853180,313.32,2025-07-01,IN_2025-07_rates.xlsx
+IN,Glen Oaks Health Campus,200838150,285.53,2025-07-01,IN_2025-07_rates.xlsx
+IN,Greenleaf Health Campus,201056540,329.54,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hampton Oaks Health Campus,200813130,316.86,2025-07-01,IN_2025-07_rates.xlsx
+IN,Harrison Springs Health Campus,300018569,322.53,2025-07-01,IN_2025-07_rates.xlsx
+IN,Harrison's Crossing Health Campus,201290670,354.2,2025-07-01,IN_2025-07_rates.xlsx
+IN,Hearthstone Health Campus,201247830,302.44,2025-07-01,IN_2025-07_rates.xlsx
+IN,Homewood Health Campus,200309250,314.58,2025-07-01,IN_2025-07_rates.xlsx
+IN,Mill Pond Health Campus,200526450,310.81,2025-07-01,IN_2025-07_rates.xlsx
+IN,Morrison Woods Health Campus,200901690,315.26,2025-07-01,IN_2025-07_rates.xlsx
+IN,North River Health Campus,300025690,315.57,2025-07-01,IN_2025-07_rates.xlsx
+IN,Oakwood Health Campus,200278690,317.56,2025-07-01,IN_2025-07_rates.xlsx
+IN,Orchard Pointe Health Campus,300017697,319.85,2025-07-01,IN_2025-07_rates.xlsx
+IN,Paddock Springs,100291230,332.13,2025-07-01,IN_2025-07_rates.xlsx
+IN,Prairie Lakes Health Campus,200987990,343.28,2025-07-01,IN_2025-07_rates.xlsx
+IN,Ridgewood Health Campus,201027870,350.52,2025-07-01,IN_2025-07_rates.xlsx
+IN,River Oaks Health Campus,200491050,304.56,2025-07-01,IN_2025-07_rates.xlsx
+IN,River Pointe Health Campus,201068770,322.29,2025-07-01,IN_2025-07_rates.xlsx
+IN,River Terrace Health Campus,300018660,291.18,2025-07-01,IN_2025-07_rates.xlsx
+IN,Scenic Hills at the Monastery,100267220,293.99,2025-07-01,IN_2025-07_rates.xlsx
+IN,Silver Oaks Health Campus,200346570,340.82,2025-07-01,IN_2025-07_rates.xlsx
+IN,Springhurst Health Campus,201068810,351.46,2025-07-01,IN_2025-07_rates.xlsx
+IN,St. Andrews Health Campus,200538760,327.11,2025-07-01,IN_2025-07_rates.xlsx
+IN,St. Charles Health Campus,200299110,290.2,2025-07-01,IN_2025-07_rates.xlsx
+IN,St. Elizabeth Healthcare Center,100267300,326.61,2025-07-01,IN_2025-07_rates.xlsx
+IN,St. Mary Healthcare Center,100291350,330.95,2025-07-01,IN_2025-07_rates.xlsx
+IN,Stonebridge Health Campus,200472040,302.65,2025-07-01,IN_2025-07_rates.xlsx
+IN,Stonecroft Health Campus,201312610,309.44,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Springs at Lafayette,201285490,312.29,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Springs of Mooresville,300018361,322.75,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Springs of Richmond,300026664,360.92,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Villages at Historic Silvercrest,201238590,332.37,2025-07-01,IN_2025-07_rates.xlsx
+IN,The Villages at Oak Ridge,201305040,314.58,2025-07-01,IN_2025-07_rates.xlsx
+IN,Thornton Terrace Health Campus,200491220,325.75,2025-07-01,IN_2025-07_rates.xlsx
+IN,Waterford Crossing,200831020,348.72,2025-07-01,IN_2025-07_rates.xlsx
+IN,Waterford Place Health Campus,200300090,306.95,2025-07-01,IN_2025-07_rates.xlsx
+IN,Wellbrooke of Avon,201279600,336.07,2025-07-01,IN_2025-07_rates.xlsx
+IN,Wellbrooke of Carmel,201294880,340.19,2025-07-01,IN_2025-07_rates.xlsx
+IN,Wellbrooke of Crawfordsville,201279670,332.72,2025-07-01,IN_2025-07_rates.xlsx
+IN,Wellbrooke of Kokomo,201254360,332.28,2025-07-01,IN_2025-07_rates.xlsx
+IN,Wellbrooke of South Bend,201281730,315.54,2025-07-01,IN_2025-07_rates.xlsx
+IN,Wellbrooke of Wabash,201208210,329.83,2025-07-01,IN_2025-07_rates.xlsx
+IN,Wellbrooke of Westfield,201208220,332.41,2025-07-01,IN_2025-07_rates.xlsx
+IN,West River Health Campus,201039500,325.48,2025-07-01,IN_2025-07_rates.xlsx
+IN,White Oak Health Campus,201014410,329.4,2025-07-01,IN_2025-07_rates.xlsx
+IN,Woodbridge Health Campus,200456230,329.17,2025-07-01,IN_2025-07_rates.xlsx
+IN,Woodmont Health Campus,200309330,292.75,2025-07-01,IN_2025-07_rates.xlsx
+IN,Holy Cross Rehabilitation and Wellness,100380860,293.51,2025-07-01,IN_2025-07_rates.xlsx
+IN,Willows of Greensburg,100266460,295.83,2025-07-01,IN_2025-07_rates.xlsx
+IN,Willows of New Castle,100266250,284.58,2025-07-01,IN_2025-07_rates.xlsx
+IN,Willows of Richmond,100266080,229.67,2025-07-01,IN_2025-07_rates.xlsx
+IN,Willows of Shelbyville,100274760,254.29,2025-07-01,IN_2025-07_rates.xlsx

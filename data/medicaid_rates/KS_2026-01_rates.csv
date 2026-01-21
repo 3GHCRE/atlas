@@ -1,0 +1,292 @@
+state,provider_number,facility_name,daily_rate,effective_date,city
+KS,100001,St. Luke Living Center,308.77,2026-01-01,Marion
+KS,100002,Sheridan County Hospital,387.83,2026-01-01,Hoxie
+KS,100003,Trego Co. Lemke Memorial LTCU,324.83,2026-01-01,Wakeeney
+KS,100004,Salem Home,286.36,2026-01-01,Hillsboro
+KS,100005,Mitchell County Hospital LTCU,340.97,2026-01-01,Beloit
+KS,100006,F W Huston Medical Center,218.88,2026-01-01,Winchester
+KS,100007,Bethesda Home,359.75,2026-01-01,Goessel
+KS,100008,Ness County Hospital Dist.#2,347.23,2026-01-01,Ness City
+KS,100009,Stanton County Hospital- LTCU,348.60,2026-01-01,Johnson City
+KS,100010,"Recover Care Meadowbrook Rehab,LLC",438.08,2026-01-01,Gardner
+KS,100011,Attica Long Term Care,349.69,2026-01-01,Attica
+KS,100012,Wichita County Health Center,316.38,2026-01-01,Leoti
+KS,100013,Anderson County Hospital,336.43,2026-01-01,Garnett
+KS,100014,Bethel Care Center,358.32,2026-01-01,North Newton
+KS,100015,Paramount Community Living and Rehab,330.49,2026-01-01,Newton
+KS,100016,"Peabody Operator, LLC",243.83,2026-01-01,Peabody
+KS,100017,Medicalodges Wichita,330.66,2026-01-01,Wichita
+KS,100018,Brookdale Overland Park,376.99,2026-01-01,Overland Park
+KS,100019,Grand Plains - Skilled Nursing,255.36,2026-01-01,Pratt
+KS,100020,Brewster Health Center,362.72,2026-01-01,Topeka
+KS,100021,Topeka Presbyterian Manor Inc.,368.68,2026-01-01,Topeka
+KS,100022,Valley View Senior Life,288.35,2026-01-01,Junction City
+KS,100023,Wheat State Manor,314.17,2026-01-01,Whitewater
+KS,100024,Medicalodges Post Acute Care Center,290.60,2026-01-01,Kansas City
+KS,100025,Meridian Rehab and Health Care Cente,255.34,2026-01-01,Wichita
+KS,100026,Catholic Care Center Inc.,354.77,2026-01-01,Bel Aire
+KS,100027,Villa St. Francis Catholic Care Ctr.,365.43,2026-01-01,Olathe
+KS,100028,Medicalodges Great Bend,339.89,2026-01-01,Great Bend
+KS,100029,"Homestead Health Center, Inc.",332.22,2026-01-01,Wichita
+KS,100030,Westview of Derby Rehab & Health,246.87,2026-01-01,Derby
+KS,100031,Smoky Hill Rehabilitation Center,256.62,2026-01-01,Salina
+KS,100032,Lakepoint Nursing Center-El Dorado,286.61,2026-01-01,El Dorado
+KS,100033,Merriam Gardens Healthcare & Rehab,308.88,2026-01-01,Merriam
+KS,100034,Medicalodges Atchison,322.20,2026-01-01,Atchison
+KS,100035,Advena Living on Woodlawn,242.90,2026-01-01,Wichita
+KS,100036,Meadowlark Hills Retirement Communit,354.44,2026-01-01,Manhattan
+KS,100037,Advena Living on Tenth,266.63,2026-01-01,Topeka
+KS,100038,Kenwood View Health and Rehab Center,297.90,2026-01-01,Salina
+KS,100039,Downs Care and Rehab,314.92,2026-01-01,Downs
+KS,100040,Pioneer Manor,339.02,2026-01-01,Hugoton
+KS,100041,Halstead Health and Rehab Center,253.67,2026-01-01,Halstead
+KS,100042,Riverbend Post Acute Rehabilitation,325.75,2026-01-01,Kansas City
+KS,100043,Wichita Presbyterian Manor,346.10,2026-01-01,Wichita
+KS,100044,Diversicare of Hutchinson,299.18,2026-01-01,Hutchinson
+KS,100045,Diversicare of Haysville,229.07,2026-01-01,Haysville
+KS,100046,Medicalodges Leavenworth,346.19,2026-01-01,Leavenworth
+KS,100047,Brookside Manor,287.53,2026-01-01,Overbrook
+KS,100048,Heritage Health Care Center,260.17,2026-01-01,Chanute
+KS,100049,Tonganoxie Opco LLC,304.41,2026-01-01,Tonganoxie
+KS,100050,Lawrence Presbyterian Manor,355.49,2026-01-01,Lawrence
+KS,100051,"Salina Windsor SNF OPCO, LLC",253.35,2026-01-01,Salina
+KS,100052,Medicalodges Goddard,296.19,2026-01-01,Goddard
+KS,100053,Life Care Center of Andover,238.37,2026-01-01,Andover
+KS,100054,Emporia Presbyterian Manor,313.61,2026-01-01,Emporia
+KS,100055,Azria Health at Olathe,351.49,2026-01-01,Olathe
+KS,100056,McCrite Plaza Health Center,346.56,2026-01-01,Topeka
+KS,100057,Sandpiper Healthcare and Rehab Cente,280.43,2026-01-01,Wichita
+KS,100058,Rolling Hills Health Center,242.52,2026-01-01,Topeka
+KS,100059,Garden Terrace at Overland Park,301.76,2026-01-01,Overland Park
+KS,100060,Lakepoint Wichita LLC,304.05,2026-01-01,Wichita
+KS,100061,Great Plains Post Acute,307.80,2026-01-01,Wichita
+KS,100062,Swan Health at Overland Park,433.54,2026-01-01,Overland Park
+KS,100063,Garden Valley Retirement Village,240.32,2026-01-01,Garden City
+KS,100064,Delmar Gardens of Lenexa,253.19,2026-01-01,Lenexa
+KS,100065,Trinity Manor,300.42,2026-01-01,Dodge City
+KS,100066,Overland Park Post Acute,329.38,2026-01-01,Overland Park
+KS,100067,Ignite Medical Resort Overland Park,417.40,2026-01-01,Overland Park
+KS,100068,Medicalodges Independence,257.20,2026-01-01,Independence
+KS,100069,Pinnacle Park Nursing and Rehabilita,318.10,2026-01-01,Salina
+KS,100070,Hilltop Lodge Health and Rehab,295.47,2026-01-01,Beloit
+KS,100071,Delmar Gardens of Overland Park,340.31,2026-01-01,Overland Park
+KS,100072,Salina Presbyterian Manor,338.56,2026-01-01,Salina
+KS,100073,Stoneybrook Retirement Community,271.28,2026-01-01,Manhattan
+KS,100074,Legacy at College Hill,268.89,2026-01-01,Wichita
+KS,100075,Medicalodges Coffeyville on Midland,301.65,2026-01-01,Coffeyville
+KS,100076,Atchison Senior Village Rehab & NC,409.14,2026-01-01,Atchison
+KS,100077,Medicalodges Fort Scott,249.36,2026-01-01,Fort Scott
+KS,100078,Lake Point Nursing Center,266.43,2026-01-01,Augusta
+KS,100079,Clay Center Presbyterian Manor,315.84,2026-01-01,Clay Center
+KS,100080,"The Nicol Home, Inc.",283.72,2026-01-01,Glasco
+KS,100081,Medicalodges Frontenac,296.22,2026-01-01,Frontenac
+KS,100082,Legacy at Herington,303.09,2026-01-01,Herington
+KS,100083,Baldwin Healthcare & Rehab Center,328.34,2026-01-01,Baldwin City
+KS,100084,Shawnee Gardens Healthcare and Rehab,333.76,2026-01-01,Shawnee
+KS,100085,Good Sam Society-Ellsworth Village,311.45,2026-01-01,Ellsworth
+KS,100086,Hill Top House,350.83,2026-01-01,Bucklin
+KS,100087,Richmond Healthcare and Rehab Center,323.92,2026-01-01,Richmond
+KS,100088,"Bethel Home, Inc.",298.32,2026-01-01,Montezuma
+KS,100089,Kansas Christian Home,315.10,2026-01-01,Newton
+KS,100090,Newton Presbyterian Manor,326.38,2026-01-01,Newton
+KS,100091,Anew Healthcare,320.31,2026-01-01,Nortonville
+KS,100092,Good Samaritan Society-Olathe,364.61,2026-01-01,Olathe
+KS,100093,Bethany Home Association,339.31,2026-01-01,Lindsborg
+KS,100094,Pine Village,300.85,2026-01-01,Moundridge
+KS,100095,Willow Tree Post Acute,349.48,2026-01-01,Topeka
+KS,100096,Crestview Nursing & Residential Livi,272.40,2026-01-01,Seneca
+KS,100097,"Andbe Home, Inc.",264.16,2026-01-01,Norton
+KS,100098,Leonardville Nursing Home,340.25,2026-01-01,Leonardville
+KS,100099,Park Lane Nursing Home,320.49,2026-01-01,Scott City
+KS,100100,Cheney Golden Age Home Inc.,307.87,2026-01-01,Cheney
+KS,100101,Advena Living of Clearwater,295.93,2026-01-01,Clearwater
+KS,100102,Southwinds at Spearville,325.08,2026-01-01,Spearville
+KS,100103,Life Care Center of Burlington,309.40,2026-01-01,Burlington
+KS,100104,Winfield Senior Living Community,242.68,2026-01-01,Winfield
+KS,100105,Azria Health Great Bend,272.95,2026-01-01,Great Bend
+KS,100106,Chapman Valley Manor,298.88,2026-01-01,Chapman
+KS,100107,Schowalter Villa,374.54,2026-01-01,Hesston
+KS,100108,Good Sam Society-Hutchinson Village,311.61,2026-01-01,Hutchinson
+KS,100109,"Topside Manor, Inc",317.68,2026-01-01,Goodland
+KS,100110,Logan Manor Community Health Service,289.33,2026-01-01,Logan
+KS,100111,Linn Community Nursing Home,290.25,2026-01-01,Linn
+KS,100112,Sunporch of Dodge City,318.23,2026-01-01,Dodge City
+KS,100113,Good Samaritan Society-Hays,303.54,2026-01-01,Hays
+KS,100114,Good Samaritan Society-Liberal,315.43,2026-01-01,Liberal
+KS,100115,Parkview Health and Rehab LLC,270.99,2026-01-01,Osborne
+KS,100116,"Lincoln Park Manor, Inc.",290.21,2026-01-01,Lincoln
+KS,100117,Protection Valley Manor,256.19,2026-01-01,Protection
+KS,100118,Leisure Homestead at Stafford,283.94,2026-01-01,Stafford
+KS,100119,"Parkside Homes, Inc.",294.93,2026-01-01,Hillsboro
+KS,100120,Minneapolis Healthcare and Rehab,316.24,2026-01-01,Minneapolis
+KS,100121,Westy Community Care Home,275.59,2026-01-01,Westmoreland
+KS,100122,Medicalodges Eudora,299.69,2026-01-01,Eudora
+KS,100123,"Enterprise Estates Nursing Center, I",297.57,2026-01-01,Enterprise
+KS,100124,Park Villa Nursing Home,273.42,2026-01-01,Clyde
+KS,100125,Holton Health Care Center,422.91,2026-01-01,Holton
+KS,100126,Fowler Residential Care,321.51,2026-01-01,Fowler
+KS,100127,"Riverview Estates, Inc.",320.16,2026-01-01,Marquette
+KS,100128,"Mennonite Friendship Manor, Inc.",336.16,2026-01-01,South Hutchinson
+KS,100129,"Moundridge Manor, Inc.",313.54,2026-01-01,Moundridge
+KS,100130,"Smith Center Operator, LLC",270.49,2026-01-01,Smith Center
+KS,100131,Hilltop Manor Nursing Center,251.47,2026-01-01,Cunningham
+KS,100132,"Villa Maria, Inc.",318.64,2026-01-01,Mulvane
+KS,100133,Life Care Center of Seneca,296.64,2026-01-01,Seneca
+KS,100134,Minneola District Hospital-LTCU,371.33,2026-01-01,Minneola
+KS,100135,The Shepherd's Center,301.46,2026-01-01,Cimarron
+KS,100136,Elmhaven East,252.23,2026-01-01,Parsons
+KS,100137,"Oswego Operator, LLC",295.12,2026-01-01,Oswego
+KS,100138,Medicalodges Columbus,323.33,2026-01-01,Columbus
+KS,100139,Medicalodges Kinsley,317.30,2026-01-01,Kinsley
+KS,100140,Rossville Healthcare and Rehab Cente,328.62,2026-01-01,Rossville
+KS,100141,Valley Health Care Center,221.10,2026-01-01,Valley Falls
+KS,100142,Belleville Healthcare and Rehab Ctr,322.36,2026-01-01,Belleville
+KS,100143,"Seville Operator, LLC",323.27,2026-01-01,Wichita
+KS,100144,Lincoln Care and Rehab,280.20,2026-01-01,Wichita
+KS,100145,Medicalodges Health Care Ctr Arkans,262.47,2026-01-01,Arkansas City
+KS,100146,Medicalodges Paola,181.92,2026-01-01,Paola
+KS,100147,Locust Grove Village,264.96,2026-01-01,Lacrosse
+KS,100148,"Greeley County Hospital, LTCU",340.86,2026-01-01,Tribune
+KS,100149,Parsons Presbyterian Manor,340.12,2026-01-01,Parsons
+KS,100150,Eureka Nursing Center,238.37,2026-01-01,Eureka
+KS,100151,Colby Health and Rehab,339.93,2026-01-01,Colby
+KS,100152,Anew Healthcare Easton,341.60,2026-01-01,Easton
+KS,100153,"Arma Operator, LLC",310.91,2026-01-01,Arma
+KS,100154,"Montgomery Place Nursing Center,LLC",251.99,2026-01-01,Independence
+KS,100155,Tanglewood Nursing and Rehabilitatio,249.88,2026-01-01,Topeka
+KS,100156,Arkansas City Presbyterian Manor,294.77,2026-01-01,Arkansas City
+KS,100157,Brighton Place West Health Center,254.51,2026-01-01,Topeka
+KS,100158,"Community Hospital of Onaga, LTCU",380.16,2026-01-01,St. Mary's
+KS,100159,Pleasant Valley Manor,230.70,2026-01-01,Sedan
+KS,100160,"Hutchinson Operator, LLC",341.71,2026-01-01,Hutchinson
+KS,100161,Prairie Senior Living Complex,347.19,2026-01-01,Colby
+KS,100162,Anthony Community Care Center,282.89,2026-01-01,Anthony
+KS,100163,Logan County Senior Living,342.58,2026-01-01,Oakley
+KS,100164,Countryside Health Center,149.97,2026-01-01,Topeka
+KS,100165,Diversicare of Sedgwick,317.46,2026-01-01,Sedgwick
+KS,100166,Sabetha Nursing Center,246.94,2026-01-01,Sabetha
+KS,100167,Botkin Care and Rehab,261.81,2026-01-01,Wellington
+KS,100168,Chase County Care and Rehab,365.99,2026-01-01,Cottonwood Falls
+KS,100169,El Dorado Care and Rehab,335.20,2026-01-01,El Dorado
+KS,100170,Medicalodges Iola,317.22,2026-01-01,Iola
+KS,100171,Village Manor,336.34,2026-01-01,Abilene
+KS,100172,"Pratt Operator, LLC",270.53,2026-01-01,Pratt
+KS,100173,Moran Manor,250.09,2026-01-01,Moran
+KS,100174,Louisburg Healthcare and Rehab Cente,349.91,2026-01-01,Louisburg
+KS,100175,"Haviland Operator, LLC",196.94,2026-01-01,Haviland
+KS,100176,Diversicare of Council Grove,254.07,2026-01-01,Council Grove
+KS,100177,Diversicare of Chanute,282.19,2026-01-01,Chanute
+KS,100178,Flint Hills Care and Rehab Center,278.91,2026-01-01,Emporia
+KS,100179,Wathena Healthcare and Rehab Center,335.00,2026-01-01,Wathena
+KS,100180,Lansing Care and Rehab,314.38,2026-01-01,Lansing
+KS,100181,Solomon Valley Manor,299.79,2026-01-01,Stockton
+KS,100182,High Plains Retirement Village,369.98,2026-01-01,Lakin
+KS,100183,North Point Skilled Nursing Center,262.04,2026-01-01,Paola
+KS,100184,Heritage Gardens Health and Rehab,355.53,2026-01-01,Oskaloosa
+KS,100185,"Sumner Operator, LLC",264.23,2026-01-01,Wellington
+KS,100186,Lifecare Center of Kansas City,269.28,2026-01-01,Kansas City
+KS,100187,Wellsville Manor,256.63,2026-01-01,Wellsville
+KS,100188,Diversicare of Larned,249.21,2026-01-01,Larned
+KS,100189,Rock Creek of Ottawa,330.09,2026-01-01,Ottawa
+KS,100190,Hillside Village of DeSoto,295.81,2026-01-01,DeSoto
+KS,100191,Providence OpCo LLC,228.22,2026-01-01,Topeka
+KS,100192,Neodesha Care and Rehab,295.56,2026-01-01,Neodesha
+KS,100193,Parkway Care and Rehab,290.61,2026-01-01,Edwardsville
+KS,100194,Kaw River Care and Rehab,324.62,2026-01-01,Edwardsville
+KS,100195,Edwardsville Care and Rehab,204.73,2026-01-01,Edwardsville
+KS,100196,Spring Hill Care and Rehab,316.04,2026-01-01,Spring Hill
+KS,100197,Wilson Care and Rehab,343.51,2026-01-01,Wilson
+KS,100198,Advena Living at Fountainview,274.28,2026-01-01,Rose Hill
+KS,100199,Wakefield Care and Rehab,330.88,2026-01-01,Wakefield
+KS,100200,Eskridge Care and Rehab,259.78,2026-01-01,Eskridge
+KS,100201,Advena Living of Bonner Springs,293.87,2026-01-01,Bonner Springs
+KS,100202,Pittsburg Care and Rehab,263.15,2026-01-01,Pittsburg
+KS,100203,Access Mental Health,190.95,2026-01-01,Peabody
+KS,100204,Wheatland Nursing & Rehab Center,239.70,2026-01-01,Russell
+KS,100205,Kiowa District Manor,313.61,2026-01-01,Kiowa
+KS,100206,"McPherson Operator, LLC",318.02,2026-01-01,McPherson
+KS,100207,Quaker Hill Manor,267.99,2026-01-01,Baxter Springs
+KS,100208,Galena Nursing Home,241.62,2026-01-01,Galena
+KS,100209,Brighton Place North,139.78,2026-01-01,Topeka
+KS,100210,Advena Living of Cherryvale,256.03,2026-01-01,Cherryvale
+KS,100211,Maple Heights Nursing & Rehabilitative Center,269.51,2026-01-01,Hiawatha
+KS,100212,Phillips County Retirement Center,277.34,2026-01-01,Phillipsburg
+KS,100213,Parkview Heights Nursing and Rehab,306.35,2026-01-01,Garnett
+KS,100214,Evergreen Community of Johnson Count,370.49,2026-01-01,Olathe
+KS,100215,The Gardens at Aldersgate,333.09,2026-01-01,Topeka
+KS,100216,The Wheatlands,286.43,2026-01-01,Kingman
+KS,100217,Eastridge Nursing Home,361.53,2026-01-01,Centralia
+KS,100218,Manor of the Plains,341.75,2026-01-01,Dodge City
+KS,100219,Wesley Towers,289.32,2026-01-01,Hutchinson
+KS,100220,Cambridge Place,280.89,2026-01-01,Marysville
+KS,100221,"Sunset Home, Inc.",303.61,2026-01-01,Concordia
+KS,100222,Sharon Lane Health and Rehabilitatio,277.84,2026-01-01,Shawnee
+KS,100223,Aspen Health and Wellness,345.58,2026-01-01,Overland Park
+KS,100224,Recover-Care Plaza West Care Center,292.19,2026-01-01,Topeka
+KS,100225,Dooley Center,314.60,2026-01-01,Atchison
+KS,100226,The Health Care Center@Larksfield Pl,349.55,2026-01-01,Wichita
+KS,100227,Prairie Mission Retirement Village,261.68,2026-01-01,St. Paul
+KS,100228,"Cumbernauld Village, Inc.",344.96,2026-01-01,Winfield
+KS,100229,Life Care Center of Wichita,310.12,2026-01-01,Wichita
+KS,100230,Holiday Resort of Salina,286.55,2026-01-01,Salina
+KS,100231,Winfield Rest Haven II LLC,339.81,2026-01-01,Winfield
+KS,100232,Lexington Park Nursing and Post Acut,304.50,2026-01-01,Topeka
+KS,100233,"Village Shalom, Inc.",361.42,2026-01-01,Overland Park
+KS,100234,Prairie Sunset Manor,335.80,2026-01-01,Pretty Prairie
+KS,100235,Pioneer Ridge Retirement Community,244.60,2026-01-01,Lawrence
+KS,100236,"Aberdeen Village, Inc.",381.28,2026-01-01,Olathe
+KS,100237,Lakeview Village,345.62,2026-01-01,Lenexa
+KS,100238,Russell Regional Hospital,324.06,2026-01-01,Russell
+KS,100239,Wheatridge Park Care Center,313.28,2026-01-01,Liberal
+KS,100240,Via Christi Village Pittsburg,334.18,2026-01-01,Pittsburg
+KS,100241,Ascension Living Via Christi Village,310.35,2026-01-01,Manhattan
+KS,100242,Family Health & Rehabilitation Cente,358.49,2026-01-01,Wichita
+KS,100243,Derby Health and Rehabilitation,324.61,2026-01-01,Derby
+KS,100244,Kansas Soldiers' Home,341.19,2026-01-01,Fort Dodge
+KS,100245,Kansas Veterans' Home,367.78,2026-01-01,Winfield
+KS,100246,Western Prairie Senior Living,286.40,2026-01-01,Ulysses
+KS,100247,Caritas Center,323.39,2026-01-01,Wichita
+KS,100248,Via Christi Village Hays,361.73,2026-01-01,Hays
+KS,100249,Regent Park Rehab and Healthcare,309.03,2026-01-01,Wichita
+KS,100250,Providence Place LTCU,381.73,2026-01-01,Kansas City
+KS,100251,Avita Health & Rehab of Reeds Cove,323.41,2026-01-01,Wichita
+KS,100252,Twin Oaks Health & Rehab,296.67,2026-01-01,Lansing
+KS,100253,Westchester Village of Lenexa,377.19,2026-01-01,Lenexa
+KS,100254,Ascension Living Via Christi Village,345.95,2026-01-01,Wichita
+KS,100255,Nottingham Health & Rehab,342.69,2026-01-01,Olathe
+KS,100256,Ascension Living Via Christi Village,334.70,2026-01-01,Wichita
+KS,100257,"Tallgrass Creek, Inc.",414.52,2026-01-01,Overland Park
+KS,100258,"Ignite Med Resort Rainbow Blvd, LLC",332.52,2026-01-01,Kansas City
+KS,100259,The Healthcare Resort of Kansas City,362.40,2026-01-01,Kansas City
+KS,100260,Shawnee Post Acute Rehab Center,363.99,2026-01-01,Overland Park
+KS,100261,The Village at Mission,399.19,2026-01-01,Prairie Village
+KS,100262,The Healthcare Resort of Olathe,392.44,2026-01-01,Olathe
+KS,100263,Stratford Commons Rehab & HCC,353.71,2026-01-01,Overland Park
+KS,100264,The Healthcare Resort of Topeka,326.95,2026-01-01,Topeka
+KS,100265,The Healthcare Resort of Leawood,374.53,2026-01-01,Leawood
+KS,100266,Mount St Mary,354.88,2026-01-01,Wichita
+KS,100267,Brookdale Rosehill,353.18,2026-01-01,Shawnee
+KS,100268,Ranch House Senior Living,276.23,2026-01-01,Garden City
+KS,100269,Colonial Village,349.76,2026-01-01,Overland Park
+KS,100270,Sunporch of Smith County,330.06,2026-01-01,Smith Center
+KS,100271,Azria Health Wichita,380.79,2026-01-01,Wichita
+KS,100272,"Cheyenne County Village,Inc.",343.51,2026-01-01,St. Francis
+KS,100273,Pioneer Lodge,289.88,2026-01-01,Coldwater
+KS,100274,Good Samaritan Society-Decatur Co.,335.08,2026-01-01,Oberlin
+KS,100275,Good Samaritan Society-Ellis,285.26,2026-01-01,Ellis
+KS,100276,"Dawson Place, Inc.",269.29,2026-01-01,Hill City
+KS,100277,Good Samaritan Society-Parsons,287.37,2026-01-01,Parsons
+KS,100278,Pleasant View Home,319.00,2026-01-01,Inman
+KS,100279,"The Cedars, Inc.",353.55,2026-01-01,Mcpherson
+KS,100280,Lone Tree Retirement Community LLC,360.57,2026-01-01,Meade
+KS,100281,Apostolic Christian Home,309.96,2026-01-01,Sabetha
+KS,100282,"Onaga Operator, LLC",311.00,2026-01-01,Onaga
+KS,100283,Good Samaritan Society-Valley Vista,304.67,2026-01-01,Wamego
+KS,100284,Good Samaritan Society-Atwood,346.04,2026-01-01,Atwood
+KS,100285,"Buhler Sunshine Home, Inc.",327.45,2026-01-01,Buhler
+KS,100286,Sterling Village,334.97,2026-01-01,Sterling
+KS,100287,"Rooks County Senior Services, Inc.",306.19,2026-01-01,Plainville
+KS,100288,Spring View Manor Healthcare & Rehab,287.15,2026-01-01,Conway Springs
+KS,100289,"Frankfort Community Care Home, Inc.",324.90,2026-01-01,Frankfort
+KS,100290,Sandstone Heights Nursing Home,341.75,2026-01-01,Little River
+KS,100291,Osage Nursing & Rehab Center,264.24,2026-01-01,Osage City

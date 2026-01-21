@@ -1,0 +1,9 @@
+# Medicaid Rates ETL Dependencies
+# Install with: pip install -r requirements.txt
+
+pandas>=2.0.0
+openpyxl>=3.1.0
+xlrd>=2.0.0              # For .xls files (WA)
+mysql-connector-python>=8.0.0
+rapidfuzz>=3.0.0
+pdfplumber>=0.10.0       # For PDF extraction (KY, CO, SD, ND, NH, MT, VT)
