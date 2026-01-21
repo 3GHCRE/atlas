@@ -1,0 +1,651 @@
+state,provider_number,facility_name,daily_rate,effective_date,city
+FL,205745,Abbey Delray,298.19,2025-10-01,DELRAY BEACH
+FL,206865,Abbey Delray South,289.53,2025-10-01,DELRAY BEACH
+FL,151506,Advanced Care Center and Rehab,295.43,2025-10-01,LAUDERDALE LAKES
+FL,1096155,Advinia Care at Venice,250.41,2025-10-01,VENICE
+FL,1096157,AdviniaCare at Naples,252.12,2025-10-01,NAPLES
+FL,261254,Alhambra Healthcare and Rehabilitation Center,324.36,2025-10-01,SAINT PETERSBURG
+FL,1128403,Alliance Health and Rehabilitation Center,298.23,2025-10-01,DELAND
+FL,227251,Alpine Health and Rehabilitation Center,312.04,2025-10-01,ST PETERSBURG
+FL,324370,Ambassador Healthcare at College Park,302.87,2025-10-01,FORT MYERS
+FL,1109202,Anchor Care and Rehabilitation Center,261.69,2025-10-01,PALM BAY
+FL,227633,Apollo Healthcare and Rehabilitation Center,320.31,2025-10-01,SAINT PETERSBURG
+FL,1085549,Apopka Health and Rehabilitation Center,320.54,2025-10-01,WINTER HAVEN
+FL,15613,Arabella Health and Wellness of Carrabelle,344.87,2025-10-01,CARRABELLE
+FL,263478,Arbor Trail Rehab and Skilled Nursing Center,325.78,2025-10-01,INVERNESS
+FL,100509,Arcadia Health and Rehabilitation Center,297.87,2025-10-01,PENSACOLA
+FL,1108713,Aspire at Arbor Springs,274.99,2025-10-01,OCALA
+FL,43857,Aspire at Beneva,272.27,2025-10-01,FORT MYERS
+FL,43878,Aspire at Big Bend,306.60,2025-10-01,PERRY
+FL,147672,Aspire at Bradenton,307.97,2025-10-01,
+FL,43874,Aspire at Brentwood,277.03,2025-10-01,
+FL,43832,Aspire at Brooksville,267.61,2025-10-01,BROOKSVILLE
+FL,43876,Aspire at Bryan Dairy,277.09,2025-10-01,LARGO
+FL,43856,Aspire at Central Park,297.10,2025-10-01,WINTER GARDEN
+FL,43854,Aspire at Colonial Lakes,254.38,2025-10-01,WINTER GARDEN
+FL,43851,Aspire at Coral Bay,297.57,2025-10-01,WEST PALM BEACH
+FL,43872,Aspire at Countryside,296.41,2025-10-01,
+FL,60972,Aspire at Emerald Shores,300.45,2025-10-01,CALLAWAY
+FL,59855,Aspire at Englewood,302.84,2025-10-01,
+FL,43866,Aspire at Fletcher,308.92,2025-10-01,
+FL,43864,Aspire at Grand Oaks,269.96,2025-10-01,PALM COAST
+FL,43875,Aspire at Green Cove Springs,272.60,2025-10-01,GREEN COVE SPRINGS
+FL,47788,Aspire at Greenacres,298.97,2025-10-01,GREENACRES
+FL,43839,Aspire at Kissimmee Gardens,306.25,2025-10-01,KISSIMMEE
+FL,43871,Aspire at Lake Mary,271.36,2025-10-01,LAKE MARY
+FL,61140,Aspire at Lakeside Oaks,296.44,2025-10-01,DUNEDIN
+FL,43880,Aspire at North Florida,276.63,2025-10-01,GAINESVILLE
+FL,80400,Aspire at North Fort Myers,265.24,2025-10-01,NORTH FORT MYERS
+FL,43860,Aspire at Oakfield,302.68,2025-10-01,
+FL,1108695,Aspire at Oldsmar,273.00,2025-10-01,
+FL,80402,Aspire at Orange Park,305.82,2025-10-01,ORANGE PARK
+FL,43847,Aspire at Palm Bay,293.18,2025-10-01,PALM BAY
+FL,43859,Aspire at Palma Sola Bay,280.81,2025-10-01,BRADENTON
+FL,1108699,Aspire at Ridge Haven,268.41,2025-10-01,NEW PORT RICHEY
+FL,59869,Aspire at Rosewood,255.81,2025-10-01,
+FL,43861,Aspire at Saint Lucie,307.80,2025-10-01,FORT PIERCE
+FL,61102,Aspire at San Jose,299.56,2025-10-01,JACKSONVILLE
+FL,1108709,Aspire at Sand Key,249.69,2025-10-01,CLEARWATER
+FL,43877,Aspire at Sarasota,279.05,2025-10-01,
+FL,80409,Aspire at Seminole,275.14,2025-10-01,
+FL,59852,Aspire at Shoal Creek,237.20,2025-10-01,CRESTVIEW
+FL,43843,Aspire at South Daytona,275.03,2025-10-01,SOUTH DAYTONA
+FL,59877,Aspire at Spring Hill,242.54,2025-10-01,BROOKSVILLE
+FL,43853,Aspire at St. Cloud,258.72,2025-10-01,
+FL,43833,Aspire at Tallahassee,291.23,2025-10-01,TALLAHASSEE
+FL,43862,Aspire at The Bay,269.91,2025-10-01,
+FL,80428,Aspire at the Gardens - Tallahassee,326.06,2025-10-01,TALLAHASSEE
+FL,80406,Aspire at The Harbor,252.13,2025-10-01,SAFETY HARBOR
+FL,1108440,Aspire at the Palms,305.62,2025-10-01,
+FL,43873,Aspire at the Sea - Harbor Beach,288.07,2025-10-01,FT LAUDERDALE
+FL,43863,Aspire at the Sea - Pasadena,306.25,2025-10-01,SOUTH PASADENA
+FL,61107,Aspire at the Sea - Pompano Beach,295.57,2025-10-01,POMPANO BEACH
+FL,60993,Aspire at University Hills,247.48,2025-10-01,PENSACOLA
+FL,43835,Aspire at Venice,267.85,2025-10-01,NEW PORT RICHEY
+FL,47787,Aspire at West Palm Beach,300.35,2025-10-01,WEST PALM BEACH
+FL,59873,Aspire on Evans,275.71,2025-10-01,FORT MYERS
+FL,43848,Aspire on Santa Barbara,303.21,2025-10-01,CAPE CORAL
+FL,103165,Astoria Health and Rehabilitation Center,323.67,2025-10-01,WINTER HAVEN
+FL,250995,Athens Post Acute,260.06,2025-10-01,DELAND
+FL,263389,Atlantic Shores Nursing And Rehab Center,314.62,2025-10-01,MELBOURNE
+FL,210676,"Avante at Boca Raton, Inc.",323.18,2025-10-01,BOCA RATON
+FL,203220,Avante at Inverness,310.62,2025-10-01,INVERNESS
+FL,203238,"Avante at Lake Worth, Inc.",348.07,2025-10-01,LAKE WORTH
+FL,203122,Avante at Leesburg,289.94,2025-10-01,LEESBURG
+FL,252018,Avante At Melbourne Inc,316.52,2025-10-01,MELBOURNE
+FL,252042,Avante at Mt. Dora Inc.,310.86,2025-10-01,MOUNT DORA
+FL,5701,Avante at Ocala Inc,308.07,2025-10-01,OCALA
+FL,223808,Avante At Orlando Inc.,305.42,2025-10-01,ORLANDO
+FL,252034,Avante At Ormond Beach Inc.,305.06,2025-10-01,ORMOND BEACH
+FL,259870,"Avante at St. Cloud, Inc.",301.90,2025-10-01,SAINT CLOUD
+FL,200913,Avante Villa At Jacksonville Beach Inc,321.42,2025-10-01,JACKSONVILLE BEACH
+FL,200107,Aventura at the Bay,284.65,2025-10-01,SAINT PETERSBURG
+FL,1030069,Aventura Rehab and Nursing Center,354.03,2025-10-01,N MIAMI BEACH
+FL,227871,Ayers Health and Rehabilitation Center,306.83,2025-10-01,TRENTON
+FL,96150,Azalea Trace,291.98,2025-10-01,PENSACOLA
+FL,80436,Azure Shores Rehab,311.07,2025-10-01,MIAMI
+FL,1087765,Balanced Healthcare,270.18,2025-10-01,SAINT PETERSBURG
+FL,140648,Bartow Center,299.87,2025-10-01,BARTOW
+FL,86990,Bartram Crossing,327.67,2025-10-01,JACKSONVILLE
+FL,17225,Bay Breeze Senior Living And Rehabilitation Center,322.42,2025-10-01,GULF BREEZE
+FL,263834,Bay Pointe Nursing Pavilion,313.16,2025-10-01,SAINT PETERSBURG
+FL,18777,Bay Village of Sarasota,260.23,2025-10-01,SARASOTA
+FL,92681,Baya Pointe Nursing and Rehabilitation Center,301.07,2025-10-01,LAKE CITY
+FL,263575,Bayshore Pointe Nursing And Rehab Center,309.84,2025-10-01,TAMPA
+FL,161804,Bayside Care Center and Rehab,328.25,2025-10-01,PENSACOLA
+FL,17221,Bayside Health and Rehabilitation Center,290.75,2025-10-01,PENSACOLA
+FL,260444,Bayview Center,307.82,2025-10-01,EUSTIS
+FL,80432,Beach Breeze Rehab and Care Center,337.86,2025-10-01,WEST PALM BEACH
+FL,1065707,Beach Street Health and Rehabilitation Center,302.21,2025-10-01,DAYTONA BEACH
+FL,226351,Beachside Center for Rehabilitation and Nursing,311.11,2025-10-01,NEW SMYRNA BEACH
+FL,228567,Bear Creek Nursing Center,318.41,2025-10-01,HUDSON
+FL,59866,Bedrock Rehabilitation and Nursing Center at Island,297.84,2025-10-01,LAKELAND
+FL,5851,Bedrock Rehabilitation and Nursing Center at Lake Eustis,303.93,2025-10-01,EUSTIS
+FL,5519,Bedrock Rehabilitation and Nursing Center at Melbourne,303.68,2025-10-01,MELBOURNE
+FL,43850,Bedrock Rehabilitation and Nursing Center at Orlando South,254.02,2025-10-01,ORLANDO
+FL,5387,Bedrock Rehabilitation and Nursing Center at Suwannee,283.43,2025-10-01,LAKELAND
+FL,61109,Bedrock Rehabilitation and Nursing Center at Vista Manor,263.63,2025-10-01,TITUSVILLE
+FL,43867,Bedrock Rehabilitation and Nursing Center at Wedgewood,320.40,2025-10-01,LAKELAND
+FL,43868,Bedrock Rehabilitation and Nursing Center at West Volusia,260.71,2025-10-01,DELTONA
+FL,264521,Belleair Health Care Center,307.74,2025-10-01,CLEARWATER
+FL,33717,Benderson Family Skilled Nursing and Rehabilitation Center,285.71,2025-10-01,SARASOTA
+FL,325490,Birchwood Health and Rehabilitation Center,318.91,2025-10-01,SARASOTA
+FL,254291,Biscayne Health and Rehabilitation Center,349.73,2025-10-01,NORTH MIAMI
+FL,1160809,Blountstown Health and Rehabilitation Center,277.87,2025-10-01,BLOUNTSTOWN
+FL,1105166,Blue Heron Health and Rehabilitation,320.13,2025-10-01,WESLEY CHAPEL
+FL,250993,Blue Lake Post Acute,279.83,2025-10-01,DELAND
+FL,1212771,Blue Palms Health and Rehabilitation Center of Daytona Beach,327.69,2025-10-01,DAYTONA BEACH
+FL,212792,Blue Palms Health and Rehabilitation Center of DeLand,331.20,2025-10-01,DELAND
+FL,143762,Boca Ciega Center,308.16,2025-10-01,GULFPORT
+FL,11997,Boca Circle Rehabilitation Center,344.06,2025-10-01,BOCA RATON
+FL,325368,Boca Del Mar Nursing and Rehab Center,322.83,2025-10-01,VIERA
+FL,263842,Boca Raton Rehabilitation Center,280.19,2025-10-01,BOCA RATON
+FL,263443,Bonifay Nursing And Rehab Center,288.97,2025-10-01,BONIFAY
+FL,263613,Boulevard Rehabilitation Center,310.64,2025-10-01,BOYNTON BEACH
+FL,263460,Boynton Beach Rehabilitation Center,310.25,2025-10-01,BOYNTON BEACH
+FL,73324,"Braden River Rehabilitation Center, LLC",299.32,2025-10-01,BRADENTON
+FL,80391,Breezy Hills Rehab and Care Center,269.50,2025-10-01,LAKELAND
+FL,260371,Bridgeview Center,303.11,2025-10-01,ORMOND BEACH
+FL,1128679,"Bridgewalk on Harden Health and Rehabilitation, LLC",339.94,2025-10-01,LAKELAND
+FL,229220,Bridgewater Park Health and Rehabilitation Center,327.83,2025-10-01,OCALA
+FL,319244,Brookedale Palmer Ranch SNF,303.66,2025-10-01,SARASOTA
+FL,228958,Brooksville Healthcare Center,310.31,2025-10-01,BROOKSVILLE
+FL,324418,Brookwood Gardens Rehabilitation and Nursing Center,324.57,2025-10-01,FORT PIERCE
+FL,226335,Broward Nursing and Rehabilitation Center,318.29,2025-10-01,FORT LAUDERDALE
+FL,26536,Broward Oaks Nursing and Rehabilitation,328.02,2025-10-01,PLANTATION
+FL,1085913,Brynwood Health and Rehabilitation Center,307.75,2025-10-01,MONTICELLO
+FL,1147494,Buffalo Crossing Healthcare and Rehabilitation Center,312.83,2025-10-01,THE VILLAGES
+FL,325473,Capri Health and Rehabilitation Center,314.47,2025-10-01,VENICE
+FL,22138,Carlton Shores Healthcare and Rehabilitation Center,351.11,2025-10-01,DAYTONA BEACH
+FL,101959,Carrington Place of St. Pete,273.87,2025-10-01,ST PETERSBURG
+FL,263877,Carrollwood Care Center,314.10,2025-10-01,TAMPA
+FL,263885,Casa Mora Rehabilitation and Extended Care,288.21,2025-10-01,BRADENTON
+FL,1080823,Cedar Hill Nursing and Rehab Center,273.03,2025-10-01,JACKSONVILLE
+FL,325325,Cedarbrook Health and Rehabilitation Center,312.25,2025-10-01,FORT MYERS
+FL,264563,Centre Pointe Health and Rehab Center,323.37,2025-10-01,TALLAHASSEE
+FL,1052140,Century Center for Rehabilitation and Healing,324.89,2025-10-01,CENTURY
+FL,324477,Charlotte Bay Rehab and Care Center,313.13,2025-10-01,PORT CHARLOTTE
+FL,80393,Charming Lakes Rehab,317.46,2025-10-01,LAKELAND
+FL,1065544,Chatham Glen Healthcare and Rehabilitation Center,330.08,2025-10-01,THE VILLAGES
+FL,324361,Chautauqua Springs Health Center,313.84,2025-10-01,DEFUNIAK SPRINGS
+FL,5383,Chipola Health And Rehabilitation Center,285.52,2025-10-01,MARIANNA
+FL,147578,Citrus Health and Rehabilitation Center,311.97,2025-10-01,INVERNESS
+FL,208507,Claridge House Nursing and Rehabilitation Center,316.29,2025-10-01,NORTH MIAMI
+FL,140643,Clearwater Center,309.55,2025-10-01,CLEARWATER
+FL,221465,Clermont Health and Rehabilitation Center,303.18,2025-10-01,CLERMONT
+FL,1085670,Coastal Health and Rehabilitation Center,314.62,2025-10-01,DAYTONA BEACH
+FL,1123562,"Colonial Skilled Nursing Facility, LLC",307.40,2025-10-01,WEST PALM BEACH
+FL,103425,Community Convalescent Center,304.62,2025-10-01,PLANT CITY
+FL,98972,Community Health and Rehabilitation Center,308.85,2025-10-01,PANAMA CITY
+FL,251666,Concordia Manor,297.40,2025-10-01,ST PETERSBURG
+FL,242673,Concordia Village of Tampa,298.08,2025-10-01,TAMPA
+FL,80384,Consulate Health Care of Jacksonville,315.81,2025-10-01,
+FL,264512,Conway Lakes Health and Rehabilitation Center,305.16,2025-10-01,ORLANDO
+FL,260649,Coquina Center,324.31,2025-10-01,ORMOND BEACH
+FL,151697,Coral Bay at Pensacola LLC,286.05,2025-10-01,PENSACOLA
+FL,323772,Coral Gables Nursing and Rehabilitation Center,317.40,2025-10-01,MIAMI
+FL,282529,Coral Reef Subacute Care Center LLC,286.75,2025-10-01,MIAMI
+FL,161828,Courtyards of Orlando Care Center and Rehab,299.33,2025-10-01,ORLANDO
+FL,210188,Covenant Village Care Center,315.17,2025-10-01,PLANTATION
+FL,325465,Creekside Health and Rehabilitation Ctr,313.41,2025-10-01,SARASOTA
+FL,10453,Crescent Health and Rehabilitation Center,316.79,2025-10-01,SARASOTA
+FL,44886,Crestview Rehabilitation Center,305.53,2025-10-01,CRESTVIEW
+FL,173314,Cross City Nursing and Rehabilitation Center,292.85,2025-10-01,CROSS CITY
+FL,217263,Crystal River Health and Rehabilitation Center,289.20,2025-10-01,CRYSTAL RIVER
+FL,147948,Cypress Care Center and Rehab,323.26,2025-10-01,LAUDERDALE LAKES
+FL,228940,Cypress Cove Care Center,308.88,2025-10-01,CRYSTAL RIVER
+FL,122242,Cypress Village,305.46,2025-10-01,JACKSONVILLE
+FL,1108468,Dade City Health and Rehabilitation Center,295.59,2025-10-01,DADE CITY
+FL,317349,Darcy Hall of Life Care,304.45,2025-10-01,WEST PALM BEACH
+FL,1096950,Davenport Nursing and Rehab Center,303.24,2025-10-01,DAVENPORT
+FL,217743,Daytona Beach Health and Rehabilitation Center,310.06,2025-10-01,DAYTONA BEACH
+FL,1059598,De Luna Health and Rehabilitation Center,318.51,2025-10-01,PENSACOLA
+FL,1085662,Debary Health and Rehabilitation Center,314.62,2025-10-01,DEBARY
+FL,263851,Deerfield Beach Health and Rehabilitation Center,314.94,2025-10-01,POMPANO BEACH
+FL,221589,Delaney Park Health and Rehabilitation Center,308.65,2025-10-01,ORLANDO
+FL,103177,Desoto Health and Rehab,320.22,2025-10-01,ARCADIA
+FL,1207457,Destination Health and Rehabilitation Center,345.25,2025-10-01,DESTIN
+FL,256269,Diamond Ridge Health And Rehabilitation Center,338.30,2025-10-01,LECANTO
+FL,1059993,Dolphin Pointe Health Care Center,321.62,2025-10-01,JACKSONVILLE
+FL,168944,Eagle Lake Nursing and Rehab Care Center,272.02,2025-10-01,HILLSBOROUGH
+FL,325384,Eagleridge Health and Rehabilitation Center,315.03,2025-10-01,FORT MYERS
+FL,264539,East Bay Rehabilitation Center,313.57,2025-10-01,CLEARWATER
+FL,228788,East Ridge Retirement Village Inc,304.01,2025-10-01,CUTLER BAY
+FL,253707,Eden Springs Nursing And Rehab Center,297.66,2025-10-01,CRAWFORDVILLE
+FL,133348,Egret Cove Center,306.67,2025-10-01,ST PETERSBURG
+FL,22994,Elon Manor Nursing and Rehabilitation Center,287.02,2025-10-01,NORTH MIAMI
+FL,133196,Emerald Coast Center,261.24,2025-10-01,FORT WALTON BEACH
+FL,47795,Emerald Nursing and Rehabilitation Center,289.85,2025-10-01,HOLLYWOOD
+FL,263893,Evergreen Woods,308.40,2025-10-01,SPRING HILL
+FL,147958,Excel Care Center and Rehab,310.10,2025-10-01,LAUDERDALE LAKES
+FL,260690,Fairway Oaks Center,304.29,2025-10-01,TAMPA
+FL,1036415,Fernandina Beach Rehabilitation and Nursing Center,307.27,2025-10-01,FERNANDINA BEACH
+FL,205460,Finnish-American Village,313.24,2025-10-01,LAKE WORTH
+FL,227838,First Coast Health and Rehabilitation Center,322.06,2025-10-01,JACKSONVILLE
+FL,1085669,FLAGLER HEALTH AND REHABILITATION CENTER,315.97,2025-10-01,BUNNELL
+FL,163903,Fort Myers Rehabilitation and Nursing Center,312.15,2025-10-01,FORT MYERS
+FL,44888,Fort Walton Rehabilitation Center,296.69,2025-10-01,FORT WALTON BEACH
+FL,132449,Fountain Manor Health and Rehabilitation Center,307.57,2025-10-01,NORTH MIAMI
+FL,1075659,Fountains Rehabilitation at Mill Cove,325.46,2025-10-01,JACKSONVILLE
+FL,250339,Fouraker Hills Rehab and Nursing Center,306.76,2025-10-01,JACKSONVILLE
+FL,122239,Freedom Square Health Care Center,289.14,2025-10-01,SEMINOLE
+FL,134463,Ft Lauderdale Health and Rehabilitation Center,343.30,2025-10-01,FT LAUDERDALE
+FL,1108917,Gainesville Health and Rehabilitation,270.25,2025-10-01,GAINESVILLE
+FL,1150765,Gandy Post-Acute and Rehabilitation Center,323.59,2025-10-01,ST PETERSBURG
+FL,1096802,Garden View Health and Rehabilitation Center,307.82,2025-10-01,VERO BEACH
+FL,1233843,Gardens at Terracina Health and Rehabilitation,299.09,2025-10-01,NAPLES
+FL,122342,Gardens Healthcare and Rehabilitation Center,320.43,2025-10-01,DAYTONA BEACH
+FL,1078766,Gardens Nursing and Rehab Center,280.49,2025-10-01,MIAMI
+FL,1203517,Gateway Post-Acute and Rehabilitation Center,286.08,2025-10-01,ST PETERSBURG
+FL,203203,Glades Health Care Center,321.14,2025-10-01,PAHOKEE
+FL,153181,Glades West Rehabilitation and Nursing Center,354.70,2025-10-01,PEMBROKE PINES
+FL,19287,Golfcrest Nursing Center,314.15,2025-10-01,HOLLYWOOD
+FL,19085,Golfview Nursing Center,276.03,2025-10-01,SAINT PETERSBURG
+FL,268763,Good Samaritan Center,328.85,2025-10-01,LIVE OAK
+FL,205303,Good Samaritan Society-Kissimmee Village,306.25,2025-10-01,KISSIMMEE
+FL,1030145,Grace Healthcare of Lake Wales,258.86,2025-10-01,
+FL,324396,Graceville Health Center,288.20,2025-10-01,GRACEVILLE
+FL,17242,Grand Boulevard Health and Rehabilitation Center,327.79,2025-10-01,MIRAMAR BEACH
+FL,227625,Greenbriar Healthcare Rehabilitation and Nursing Center,330.73,2025-10-01,BRADENTON
+FL,1108606,Greenville Nursing and Rehab Center,306.34,2025-10-01,GREENVILLE
+FL,80062,Groves Center,306.60,2025-10-01,LAKE WALES
+FL,201651,Guardian Care Nursing and Rehabilitation Center,286.45,2025-10-01,ORLANDO
+FL,201120,Gulf Coast Village,291.77,2025-10-01,CAPE CORAL
+FL,161928,Gulf Shore Care Center and Rehab,314.69,2025-10-01,SAINT PETERSBURG
+FL,141512,Gulfport Nursing Center,333.61,2025-10-01,SOUTH PASADENA
+FL,1108473,Gulfside Health and Rehabilitation Center,268.01,2025-10-01,CLEARWATER
+FL,1036390,Haines City Rehabilitation and Nursing Center,300.31,2025-10-01,HAINES CITY
+FL,259586,Hamlin Place of Boynton Beach,286.85,2025-10-01,LANTANA
+FL,324027,Hampton Court Nursing and Rehabilitation Center,353.47,2025-10-01,NORTH MIAMI BEACH
+FL,80387,Harborview Health Center Kissimmee,271.65,2025-10-01,KISSIMMEE
+FL,80394,Harborview Health Center Melbourne,300.64,2025-10-01,MELBOURNE
+FL,122229,Harbour Health Center,288.04,2025-10-01,PORT CHARLOTTE
+FL,216399,Harbours Edge,321.99,2025-10-01,DELRAY BEACH
+FL,1154556,Harbourwood Health and Rehabilitation Center of DeLand,288.16,2025-10-01,DAYTONA BEACH
+FL,1031622,Harmony Health Center,311.83,2025-10-01,MIAMI
+FL,43865,Harts Harbor Health Care Center,291.34,2025-10-01,PORT CHARLOTTE
+FL,258831,Haven of Our Lady of Peace,316.04,2025-10-01,
+FL,1122901,Hawthorne Center for Rehabilitation and Healing of Brandon,330.14,2025-10-01,BRANDON
+FL,1098770,Hawthorne Center for Rehabilitation and Healing of Ocala,334.83,2025-10-01,BRANDON
+FL,1121563,Hawthorne Center for Rehabilitation and Healing of Sarasota,339.90,2025-10-01,SARASOTA
+FL,48441,Health Central Park,281.56,2025-10-01,WINTER GARDEN
+FL,263931,Healthcare and Rehabilitation of Sanford,270.79,2025-10-01,SANFORD
+FL,210587,Healthpark Care Center,339.08,2025-10-01,FORT MYERS
+FL,325309,Heartland Nursing and Rehab Center,317.87,2025-10-01,BOYNTON BEACH
+FL,228591,Heather Hill Healthcare Center,304.43,2025-10-01,NEW PORT RICHEY
+FL,324345,Heritage Park Nursing Center,308.97,2025-10-01,JACKSONVILLE
+FL,250988,Hialeah Shores Nursing and Rehab Center,324.49,2025-10-01,MIAMI
+FL,1152686,Hidden Lakes Senior Living Community,300.02,2025-10-01,VERO BEACH
+FL,263907,Highland Pines Rehabilitation Center,273.75,2025-10-01,CLEARWATER
+FL,260576,Highlands Lake Center,305.81,2025-10-01,LAKELAND
+FL,325708,Hillside Health and Rehabilitation Center,301.37,2025-10-01,ZEPHYRHILLS
+FL,46017,Homestead Manor a Palace Community,317.54,2025-10-01,HOMESTEAD
+FL,263605,Hunters Creek Nursing And Rehab Center,333.80,2025-10-01,ORLANDO
+FL,1078899,Indian Beach Nursing and Rehab Center,316.48,2025-10-01,SARASOTA
+FL,260665,Indian River Center,302.43,2025-10-01,WEST MELBOURNE
+FL,258750,Indigo Manor,315.64,2025-10-01,DAYTONA BEACH
+FL,228621,Inn at Sarasota Bay Club,301.49,2025-10-01,SARASOTA
+FL,260657,Island Lake Center,312.79,2025-10-01,LONGWOOD
+FL,122343,Isle Healthcare and Rehabilitation Center LLC,338.15,2025-10-01,ORANGE PARK
+FL,325376,Isles of Boynton Nursing and Rehab Center,319.20,2025-10-01,BOYNTON BEACH
+FL,253723,Jackson Gardens Health and Rehabilitation Center,348.74,2025-10-01,MIAMI
+FL,1054508,Jacksonville Center for Rehabilitation and Healthcare,279.74,2025-10-01,JACKSONVILLE
+FL,263494,Jacksonville Nursing And Rehab Center,294.88,2025-10-01,JACKSONVILLE
+FL,203769,John Knox Village of Pompano Beach,291.89,2025-10-01,POMPANO BEACH
+FL,166176,Jupiter Rehabilitation and Healthcare Center,314.69,2025-10-01,JUPITER
+FL,1021302,Kendall Lakes Healthcare and Rehab Center,369.50,2025-10-01,MIAMI
+FL,250330,Kensington Gardens Rehab and Nursing Center,300.99,2025-10-01,CLEARWATER
+FL,189252,KR at College Harbor,309.81,2025-10-01,ST PETERSBURG
+FL,32486,Lady Lake Specialty Care Center and Rehab,302.04,2025-10-01,LADY LAKE
+FL,173398,Lafayette Nursing and Rehabilitation Center,305.97,2025-10-01,MAYO
+FL,248829,Lake Bennet Center for Rehabilitation and Healing,330.68,2025-10-01,OCOEE
+FL,1045184,Lake City Healthcare and Rehabilitation Center,324.36,2025-10-01,LAKE CITY
+FL,1126367,Lake Haven Nursing and Rehab Center,291.62,2025-10-01,DUNEDIN
+FL,251399,Lake Mariam Health and Rehabilitation Center,311.19,2025-10-01,WINTER HAVEN
+FL,261629,Lake Montgomery Health and Rehabilitation Center,282.02,2025-10-01,LAKE CITY
+FL,173399,Lake Park of Madison Nursing and Rehabilitation Center,300.81,2025-10-01,MADISON
+FL,1085905,Lake Placid Health and Rehabilitation Center,310.47,2025-10-01,LAKE PLACID
+FL,122243,Lake Port Square Health Center,298.59,2025-10-01,LEESBURG
+FL,266124,Lake Worth Rehabilitation Center,314.53,2025-10-01,LAKE WORTH
+FL,80068,Lakeland Hills Center,272.00,2025-10-01,LAKELAND
+FL,157225,Lakeland Nursing and Rehabilitation,301.49,2025-10-01,BRADENTON
+FL,1085192,Lakes at Lutz Health and Rehabilitation Center,310.51,2025-10-01,LUTZ
+FL,256757,Lakeside Center for Rehabilitation and Healing,315.65,2025-10-01,JACKSONVILLE
+FL,207683,Lakeside Health Center,323.86,2025-10-01,WEST PALM BEACH
+FL,191618,Lakeview Terrace Rehabilitation and Health Care Center,318.98,2025-10-01,ALTOONA
+FL,1015069,Lanier Rehabilitation Center,312.98,2025-10-01,JACKSONVILLE
+FL,229202,Larsen Health Center,268.34,2025-10-01,FORT MYERS
+FL,1160111,Laurellwood Post-Acute and Rehabilitation Center,311.33,2025-10-01,ST PETERSBURG
+FL,320978,Lehigh Acres Healthcare & Rehabilitation Center,320.98,2025-10-01,LEHIGH ACRES
+FL,32553,Lexington Healthcare and Rehabilitation Center,317.23,2025-10-01,ST PETERSBURG
+FL,259080,Life Care Center at Inverrary,351.45,2025-10-01,LAUDERHILL
+FL,213161,Life Care Center at Wells Crossing,324.77,2025-10-01,ORANGE PARK
+FL,210137,Life Care Center of Altamonte Springs,292.02,2025-10-01,ALTAMONTE SPRINGS
+FL,157860,Life Care Center of Citrus County,321.62,2025-10-01,LECANTO
+FL,265381,Life Care Center of Estero,331.53,2025-10-01,ESTERO
+FL,200714,Life Care Center of Hilliard,311.57,2025-10-01,HILLIARD
+FL,283193,Life Care Center of Jacksonville,328.03,2025-10-01,JACKSONVILLE
+FL,228338,Life Care Center of Melbourne,312.93,2025-10-01,MELBOURNE
+FL,259357,Life Care Center of New Port Richey,327.46,2025-10-01,NEW PORT RICHEY
+FL,266108,Life Care Center of Ocala,325.95,2025-10-01,OCALA
+FL,284289,Life Care Center of Orange Park,316.33,2025-10-01,ORANGE PARK
+FL,213403,Life Care Center of Orlando,326.80,2025-10-01,ORLANDO
+FL,268186,Life Care Center of Palm Bay,321.44,2025-10-01,PALM BAY
+FL,315664,Life Care Center of Pensacola,339.69,2025-10-01,PENSACOLA
+FL,204305,Life Care Center of Port St. Lucie,321.69,2025-10-01,PORT ST LUCIE
+FL,311685,Life Care Center of Punta Gorda,324.20,2025-10-01,PUNTA GORDA
+FL,170521,Life Care Center of Sarasota,332.67,2025-10-01,SARASOTA
+FL,219380,Life Care Center of Winter Haven,327.15,2025-10-01,WINTER HAVEN
+FL,43846,Lotus Nursing and Rehabilitation Center,284.83,2025-10-01,ORLANDO
+FL,205923,"Lourdes-Noreen Mckeen Residence for Geriatric Care, Inc.",334.36,2025-10-01,WEST PALM BEACH
+FL,263516,MacClenny Nursing and Rehab Center,308.74,2025-10-01,MACCLENNY
+FL,213462,Madison Health and Rehabilitation Center,324.97,2025-10-01,MADISON
+FL,161896,Madison Pointe Care Center and Rehab,319.26,2025-10-01,SAINT PETERSBURG
+FL,1124247,Magnolia Ridge Health and Rehabilitation Center,329.89,2025-10-01,GAINESVILLE
+FL,269000,Majestic Oaks,306.52,2025-10-01,ORANGE CITY
+FL,202028,Manatee Springs Rehabilitation and Nursing Center,322.71,2025-10-01,BRADENTON
+FL,17222,Margate Health and Rehabilitation Center,335.27,2025-10-01,MARGATE
+FL,324426,Marianna Nursing and Care Center,319.21,2025-10-01,MARIANNA
+FL,208442,Marion and Bernard L. Samson Nursing Center,284.36,2025-10-01,ST PETERSBURG
+FL,148040,Martin Coast Center for Rehabilitation and Healthcare,297.70,2025-10-01,HOBE SOUND
+FL,325686,Meadowpark Heath and Rehabilitation Center,316.11,2025-10-01,DUNEDIN
+FL,263524,Medicana Nursing and Rehab Center,298.90,2025-10-01,LAKE WORTH
+FL,264547,Melbourne Terrace Rehabilitation Center,310.86,2025-10-01,MELBOURNE
+FL,229628,Menorah House,285.02,2025-10-01,BOCA RATON
+FL,263541,Metrowest Nursing And Rehab Center,310.02,2025-10-01,ORLANDO
+FL,200506,"Miami Jewish Health Systems, Inc.",322.89,2025-10-01,MIAMI
+FL,214035,Miami Shores Nursing and Rehab Center,315.88,2025-10-01,MIAMI
+FL,1036022,Miami Springs Nursing and Rehabilitation Center,312.05,2025-10-01,MIAMI SPRINGS
+FL,1082738,Middleburg Rehabilitation and Nursing Center,334.20,2025-10-01,MIDDLEBURG
+FL,202941,Miracle Hill Nursing And Rehabilitation Center Inc.,306.94,2025-10-01,TALLAHASSEE
+FL,326011,Moosehaven Inc.,296.41,2025-10-01,ORANGE PARK
+FL,206431,Morton Plant Rehabilitation Center,292.10,2025-10-01,BELLEAIR
+FL,263559,Moultrie Creek Nursing And Rehab Center,305.03,2025-10-01,SAINT AUGUSTINE
+FL,1065143,Naples Health and Rehabilitation Center,254.86,2025-10-01,NAPLES
+FL,1136354,Normandy Center for Nursing and Healing,327.04,2025-10-01,NEW SMYRNA BEACH
+FL,226068,North Bank Center for Rehabilitation and Healing,333.46,2025-10-01,JACKSONVILLE
+FL,228001,North Beach Healthcare and Rehabilitation Center,330.17,2025-10-01,NORTH MIAMI BEACH
+FL,103858,North Campus Rehabilitation and Health Center,329.78,2025-10-01,LEESBURG
+FL,1047077,North Dade Nursing and Rehabilitation Center,306.46,2025-10-01,NORTH MIAMI
+FL,227641,North Healthcare and Rehabilitation Center,325.59,2025-10-01,SAINT PETERSBURG
+FL,151590,North Lake Care Center and Rehab,337.02,2025-10-01,LAKE PARK
+FL,1036398,North Port Rehabilitation and Nursing Center,326.46,2025-10-01,NORTH PORT
+FL,1052176,Northbrook Center for Rehabilitation and Health,326.33,2025-10-01,BROOKSVILLE
+FL,1002777,Northdale Rehabilitation Center,315.15,2025-10-01,TAMPA
+FL,1002999,Nspire Healthcare Kendall,306.65,2025-10-01,MIAMI
+FL,1002969,Nspire Healthcare Lauderhill,306.79,2025-10-01,LAUDERHILL
+FL,1002974,Nspire Healthcare Miami Lakes,316.48,2025-10-01,HIALEAH
+FL,1002991,Nspire Healthcare Plantation,305.24,2025-10-01,PLANTATION
+FL,1002982,Nspire Healthcare Tamarac,297.65,2025-10-01,TAMARAC
+FL,1248463,Nursing and Rehabilitation Center of Bayonet Point,297.13,2025-10-01,TAMPA
+FL,80397,Nursing and Rehabilitation Center of New Port Richey,305.68,2025-10-01,NEW PORT RICHEY
+FL,250324,Oak Haven Rehab and Nursing Center,299.76,2025-10-01,AUBURNDALE
+FL,1101965,Oak Hill Health and Rehabilitation,316.28,2025-10-01,BROOKSVILLE
+FL,258342,Oak Manor Healthcare and Rehabilitation Center,312.08,2025-10-01,LARGO
+FL,130817,Oak View Health and Rehabilitation Center,311.20,2025-10-01,ORANGE PARK
+FL,325694,OakPark Health and Rehabilitation Center,312.93,2025-10-01,PALM HARBOR
+FL,263966,Oaks At Avon,295.79,2025-10-01,AVON PARK
+FL,1097928,Oasis at the Conch Republic Nursing and Rehab,299.41,2025-10-01,KEY WEST
+FL,1002711,Oasis at the Keys Nursing and Rehab,296.92,2025-10-01,TAVERNIER
+FL,217395,Ocala Health and Rehabilitation Center,312.69,2025-10-01,OCALA
+FL,48611,Ocala Oaks Rehabilitation Center,314.13,2025-10-01,OCALA
+FL,23067,Okeechobee Health Care Facility,311.03,2025-10-01,OKEECHOBEE
+FL,249986,Olive Branch Health and Rehabilitation Center,319.11,2025-10-01,PENSACOLA
+FL,263567,Orange City Nursing And Rehab Center,308.95,2025-10-01,DEBARY
+FL,1136355,Orange Park Center for Nursing and Healing,311.62,2025-10-01,ORANGE PARK
+FL,324434,Orange Park Rehabilitation and Nursing Center,308.03,2025-10-01,ORANGE PARK
+FL,1108336,Orchid Cove at Kissimmee,304.71,2025-10-01,
+FL,1108328,Orchid Cove at Labelle,312.80,2025-10-01,
+FL,1085914,Orchid Cove at Longwood,293.10,2025-10-01,
+FL,1065142,Orchid Cove at Rockledge,298.34,2025-10-01,
+FL,1065145,Orchid Cove at Venice,284.12,2025-10-01,
+FL,223654,Orlando Health and Rehabilitation Center,297.77,2025-10-01,ORLANDO
+FL,1049565,Orlando Health Center for Rehabilitation,253.48,2025-10-01,OCOEE
+FL,324442,Ormond Rehabilitation and Nursing Center,313.26,2025-10-01,ORMOND BEACH
+FL,92678,Osprey Point Nursing Center,339.74,2025-10-01,
+FL,1013748,Page Rehabilitation and Healthcare Center,318.39,2025-10-01,FORT MYERS
+FL,248888,Palatka Center for Rehabilitation and Healing,330.76,2025-10-01,PALATKA
+FL,1136,Palm Beach Nursing Center,324.63,2025-10-01,LAKE WORTH
+FL,263621,Palm City Nursing and Rehab Center,295.26,2025-10-01,PALM CITY
+FL,98577,Palm Garden of Aventura,322.97,2025-10-01,AVENTURA
+FL,98580,Palm Garden of Clearwater,280.30,2025-10-01,CLEARWATER
+FL,98581,Palm Garden of Gainesville,274.57,2025-10-01,GAINESVILLE
+FL,98582,Palm Garden of Jacksonville,311.68,2025-10-01,JACKSONVILLE
+FL,98583,Palm Garden of Largo,312.24,2025-10-01,LARGO
+FL,98584,Palm Garden of Ocala,310.99,2025-10-01,OCALA
+FL,98586,Palm Garden of Orlando,303.36,2025-10-01,ORLANDO
+FL,98587,Palm Garden of Pinellas,307.55,2025-10-01,LARGO
+FL,98588,Palm Garden of Port St. Lucie,309.35,2025-10-01,PORT ST LUCIE
+FL,98589,Palm Garden of Sun City,304.19,2025-10-01,SUN CITY CENTER
+FL,98590,Palm Garden of Tampa,312.64,2025-10-01,TAMPA
+FL,98591,Palm Garden of Vero Beach,288.33,2025-10-01,VERO BEACH
+FL,98592,Palm Garden of West Palm Beach,320.70,2025-10-01,WEST PALM BEACH
+FL,98593,Palm Garden of Winter Haven,300.32,2025-10-01,WINTER HAVEN
+FL,161944,Palmetto Care Center and Rehab,336.45,2025-10-01,HIALEAH
+FL,237766,Palmetto Subacute Care Center,332.04,2025-10-01,MIAMI
+FL,161951,Palms Care Center and Rehab,329.74,2025-10-01,LAUDERDALE LAKES
+FL,227765,Park Meadows Healthcare and Rehabilitation Center,330.71,2025-10-01,GAINESVILLE
+FL,250906,Park Ridge Nursing Center,318.83,2025-10-01,JACKSONVILLE
+FL,162068,Parklands Care Center and Rehab,315.84,2025-10-01,GAINESVILLE
+FL,1085667,Parkside Health and Rehabilitation Center,312.25,2025-10-01,DELAND
+FL,1002787,Parkview Rehabilitation Center at Winter Park,292.78,2025-10-01,WINTER PARK
+FL,324507,Peninsula Rehabilitation and Nursing Center,290.29,2025-10-01,STUART
+FL,80405,Pensacola Nursing and Rehabilitation Center,303.82,2025-10-01,PENSACOLA
+FL,1126348,Pine Trail Nursing and Rehab Center,332.19,2025-10-01,LAKE WORTH
+FL,225754,Pinecrest Rehabilitation Center,341.91,2025-10-01,BOYNTON BEACH
+FL,1161006,Pinellas Park Post-Acute and Rehabilitation Center,304.18,2025-10-01,ST PETERSBURG
+FL,263486,Pinellas Point Nursing And Rehab Center,305.17,2025-10-01,ST PETERSBURG
+FL,155062,Pines Nursing Home,243.79,2025-10-01,MIAMI
+FL,159109,Pines of Sarasota,342.76,2025-10-01,SARASOTA
+FL,226017,Plantation Nursing and Rehabilitation Center Pediatric,349.41,2025-10-01,MIAMI
+FL,249847,Plaza Health and Rehab Center,326.20,2025-10-01,OCALA
+FL,122232,Plaza West Health Center,292.02,2025-10-01,SUN CITY CENTER
+FL,263923,Pompano Health and Rehabilitation Center,270.60,2025-10-01,DEERFIELD BEACH
+FL,308251,Ponce Health and Rehabilitation Center,337.65,2025-10-01,MIAMI
+FL,319325,Port Charlotte Rehabilitation Center,314.29,2025-10-01,PORT CHARLOTTE
+FL,263508,Port Orange Nursing And Rehab Center,311.30,2025-10-01,PORT ORANGE
+FL,192835,Port St. Lucie Rehabilitation and Healthcare,301.53,2025-10-01,PORT ST LUCIE
+FL,325422,Promedica Skilled Nursing and Rehabilitation (Lely Palms),301.55,2025-10-01,
+FL,325341,Prosper Health and Rehabilitation Center,320.36,2025-10-01,PALM BEACH GARDENS
+FL,1038712,PruittHealth - Fleming Island,317.65,2025-10-01,FLEMING ISLAND
+FL,1208484,"PruittHealth - North Tampa, LLC",344.05,2025-10-01,LUTZ
+FL,1023745,PruittHealth - Panama City,326.74,2025-10-01,PANAMA CITY
+FL,259331,PruittHealth - Santa Rosa,312.71,2025-10-01,MILTON
+FL,1064829,Pruitthealth - Southwood,341.96,2025-10-01,TALLAHASSEE
+FL,1084762,Radiant Nursing and Rehab at Palatka,239.75,2025-10-01,PALATKA
+FL,122248,Regency Oaks Health Center,258.28,2025-10-01,CLEARWATER
+FL,223239,Regents Park at Aventura,329.65,2025-10-01,AVENTURA
+FL,269727,Regents Park of Jacksonville,279.61,2025-10-01,JACKSONVILLE
+FL,269697,Regents Park of Sunrise,331.66,2025-10-01,SUNRISE
+FL,269719,Regents Park of Winter Park,284.18,2025-10-01,WINTER PARK
+FL,263869,Rehab and Healthcare Center Of Cape Coral,270.70,2025-10-01,CAPE CORAL
+FL,263940,Rehabilitation and Healthcare Center of Tampa,282.28,2025-10-01,TAMPA
+FL,104875,Rehabilitation Center at Park Place,251.69,2025-10-01,GAINESVILLE
+FL,5380,Rehabilitation Center of Winter Park,288.23,2025-10-01,MAITLAND
+FL,282464,Ridgecrest Healthcare and Rehabilitation Center,320.16,2025-10-01,DELAND
+FL,1078092,River City Nursing and Rehab Center,335.21,2025-10-01,JACKSONVILLE
+FL,200859,River Garden Hebrew Home,331.39,2025-10-01,JACKSONVILLE
+FL,44889,River Valley Rehabilitation Center,289.10,2025-10-01,BLOUNTSTOWN
+FL,1085911,Riverchase Health and Rehabilitation Center,306.32,2025-10-01,QUINCY
+FL,46758,Riverside Care Center,339.17,2025-10-01,MIAMI
+FL,111543,Riverside Post Acute,280.35,2025-10-01,JACKSONVILLE
+FL,260673,Riverwood Center,279.36,2025-10-01,JACKSONVILLE
+FL,122344,Riverwood Healthcare and Rehabilitation Center,314.90,2025-10-01,STARKE
+FL,48807,Riviera Health Resort,358.98,2025-10-01,CORAL GABLES
+FL,263451,Riviera Palms Rehabilitation Center,332.03,2025-10-01,PALMETTO
+FL,227587,Rockledge Health and Rehabilitation Center,330.24,2025-10-01,NORTH MIAMI
+FL,17223,Rosewood Healthcare and Rehabilitation Center,305.44,2025-10-01,PENSACOLA
+FL,324213,Royal Care of Avon Park,292.22,2025-10-01,AVON PARK
+FL,228575,Royal Oak Nursing Center,317.98,2025-10-01,DADE CITY
+FL,263583,Royal Oaks Nursing And Rehab Center,317.18,2025-10-01,TITUSVILLE
+FL,1108325,Royal Palm Beach Health and Rehabilitation Center,298.54,2025-10-01,ROYAL PALM BEACH
+FL,260452,Ruleme Center,317.72,2025-10-01,EUSTIS
+FL,210951,Sabal Palms Health and Rehabilitation,300.36,2025-10-01,LARGO
+FL,250334,Sandgate Gardens Rehab and Nursing Center,307.21,2025-10-01,FORT PIERCE
+FL,1052155,Sandy Ridge Center for Rehabilitation and Healing,318.03,2025-10-01,MILTON
+FL,1052167,Santa Rosa Center for Rehabilitation and Healing,325.16,2025-10-01,MILTON
+FL,80413,Sarasota Center for Nursing and Rehabilitation,292.10,2025-10-01,SARASOTA
+FL,263982,Sarasota Health and Rehabilitation Center,271.70,2025-10-01,SARASOTA
+FL,85643,Sarasota Point Rehabilitation Center,321.19,2025-10-01,SARASOTA
+FL,312550,Savannah Cove,245.08,2025-10-01,
+FL,261637,Savannas Park Health and Rehabilitation Center,303.00,2025-10-01,PORT ST LUCIE
+FL,1009887,Scott Lake Health and Rehabilitation,325.76,2025-10-01,LAKELAND
+FL,250315,Sea Breeze Rehab and Nursing Center,311.62,2025-10-01,VERO BEACH
+FL,1108317,Seabranch Health and Rehabilitation Center,300.01,2025-10-01,STUART
+FL,1085659,Seaside Health and Rehabilitation Center,317.63,2025-10-01,DAYTONA BEACH
+FL,89220,Serenity Bay Nursing and Rehabilitation Center,330.77,2025-10-01,NORTH MIAMI BEACH
+FL,33175,Seven Hills Health and Rehabilitation Center,324.65,2025-10-01,TALLAHASSEE
+FL,151667,Shore Acres Nursing and Rehab,299.00,2025-10-01,SAINT PETERSBURG
+FL,1088821,Shores Nursing and Rehab Center,271.73,2025-10-01,PORT SAINT JOE
+FL,260771,Shoreside Health and Rehabilitation Center,347.04,2025-10-01,MIAMI
+FL,1046531,Sierra Lakes Nursing and Rehabilitation Center,308.01,2025-10-01,MIAMI
+FL,1065146,Siesta Key Health and Rehabilitation Center,299.99,2025-10-01,SARASOTA
+FL,17230,Silvercrest Health And Rehabilitation Center,295.97,2025-10-01,CRESTVIEW
+FL,1219717,Solaris Healthcare Apopka,332.82,2025-10-01,APOPKA
+FL,162218,Solaris Healthcare Bayonet Point,315.95,2025-10-01,HUDSON
+FL,1032432,Solaris Healthcare Celebration,335.44,2025-10-01,KISSIMMEE
+FL,162219,Solaris Healthcare Charlotte Harbor,318.09,2025-10-01,PORT CHARLOTTE
+FL,162220,Solaris Healthcare Coconut Creek,333.15,2025-10-01,COCONUT CREEK
+FL,320439,Solaris Healthcare College Park,308.59,2025-10-01,ORLANDO
+FL,162221,Solaris Healthcare Daytona,327.56,2025-10-01,DAYTONA BEACH
+FL,320421,Solaris Healthcare East Orlando,366.40,2025-10-01,ORLANDO
+FL,320463,Solaris Healthcare Forest Lake,375.37,2025-10-01,APOPKA
+FL,162222,Solaris Healthcare Imperial,321.43,2025-10-01,NAPLES
+FL,162224,Solaris Healthcare Lake City,320.53,2025-10-01,LAKE CITY
+FL,1219213,Solaris Healthcare Lake Zephyr,323.51,2025-10-01,ZEPHYRHILLS
+FL,162225,Solaris Healthcare Merritt Island,313.40,2025-10-01,MERRITT ISLAND
+FL,191262,Solaris Healthcare Osceola,294.05,2025-10-01,SAINT CLOUD
+FL,162228,Solaris Healthcare Parkway,310.33,2025-10-01,STUART
+FL,162230,Solaris Healthcare Pensacola,305.68,2025-10-01,PENSACOLA
+FL,162231,Solaris Healthcare Plant City,308.02,2025-10-01,PLANT CITY
+FL,1219939,Solaris Healthcare Waterman,326.12,2025-10-01,TAVARES
+FL,162232,Solaris Healthcare Windermere,333.48,2025-10-01,ORLANDO
+FL,320404,Solaris Healthcare Zephyrhills,320.50,2025-10-01,ZEPHYRHILLS
+FL,162226,Solaris Senior Living North Naples,322.61,2025-10-01,NAPLES
+FL,151771,South Campus Care Center and Rehab,310.23,2025-10-01,LEESBURG
+FL,1046541,South Dade Nursing and Rehabilitation Center,313.30,2025-10-01,MIAMI
+FL,226360,South Heritage Health and Rehabilitation Center,308.43,2025-10-01,ST PETERSBURG
+FL,261611,South Orange Health and Rehabilitation Center,260.43,2025-10-01,ORLANDO
+FL,19282,Southern Pines Nursing Center,297.20,2025-10-01,NEW PORT RICHEY
+FL,1162179,Specialty Health and Rehabilitation Center,300.15,2025-10-01,PENSACOLA
+FL,264571,Spring Lake Rehabilitation Center,322.57,2025-10-01,WINTER HAVEN
+FL,225631,Springtree Rehabilitation and Health Care Center,338.14,2025-10-01,SUNRISE
+FL,323799,St Andrews Bay Skilled Nursing and Rehabilitation Center,301.57,2025-10-01,PANAMA CITY
+FL,209473,"St Annes Nursing Center, St Annes Residence Inc",351.61,2025-10-01,MIAMI
+FL,217735,St Augustine Health And Rehabilitation Center,310.53,2025-10-01,SAINT AUGUSTINE
+FL,310841,"St Mark Village, Inc.",291.76,2025-10-01,PALM HARBOR
+FL,1113688,St. Andrew Post-Acute and Rehabilitation Center,290.49,2025-10-01,TAMPA
+FL,205800,St. Johns Nursing Center,336.41,2025-10-01,LAUDERDALE LAKES
+FL,157223,St. Petersburg Nursing and Rehabilitation,313.87,2025-10-01,BRADENTON
+FL,1004024,Stratford Court of Boca Raton,329.41,2025-10-01,BOCA RATON
+FL,251673,Stuart Rehabilitation and Healthcare,298.09,2025-10-01,STUART
+FL,80416,Sun Harbor Healthcare,318.54,2025-10-01,PORT CHARLOTTE
+FL,209856,Sun Terrace Health Care Center,325.51,2025-10-01,SUN CITY CENTER
+FL,202711,Sunnyside Nursing Home,342.96,2025-10-01,SARASOTA
+FL,207497,Sunrise Health and Rehabilitation Center,315.60,2025-10-01,SUNRISE
+FL,32551,Sunset Lake Healthcare and Rehabilitation Center,319.59,2025-10-01,VENICE
+FL,256277,Surrey Place Healthcare and Rehabilitation,339.20,2025-10-01,BRADENTON
+FL,1135,Surrey Place Nursing Center,311.66,2025-10-01,LIVE OAK
+FL,268062,Susanna Wesley Health Center,340.53,2025-10-01,HIALEAH
+FL,206300,Suwannee Valley Nursing Center,290.71,2025-10-01,JASPER
+FL,213098,"Tamarac Rehabilitation and Health Center, Inc.",328.82,2025-10-01,TAMARAC
+FL,202816,Tampa Lakes Health and Rehabilitation Center,324.61,2025-10-01,LUTZ
+FL,80079,Tarpon Bayou Center,275.26,2025-10-01,TARPON SPRINGS
+FL,207446,Taylor Care Center Inc.,316.98,2025-10-01,JACKSONVILLE
+FL,122346,Terrace Healthcare and Rehabilitation Center,332.02,2025-10-01,GAINESVILLE
+FL,162074,Terraces of Lake Worth Care Center and Rehab,349.50,2025-10-01,LAKE WORTH
+FL,263958,The Abbey Rehabilitation and Nursing Center,302.98,2025-10-01,ST PETERSBURG
+FL,208433,The Bristol Care Center,268.23,2025-10-01,TAMPA
+FL,204072,The Cedar at Mease Life,287.12,2025-10-01,DUNEDIN
+FL,1098821,The Club at Lake Gibson,308.13,2025-10-01,LAKELAND
+FL,72320,The Club Healthcare and Rehabilitation Center at the Villages,320.25,2025-10-01,THE VILLAGES
+FL,205796,The Commons at Orlando Lutheran Towers,289.11,2025-10-01,ORLANDO
+FL,210684,The Edgewater at Waterman Village,318.97,2025-10-01,MOUNT DORA
+FL,233588,"The Encore at Boca Raton Rehabilitation and Nursing Center, LLC",330.96,2025-10-01,BOCA RATON
+FL,146222,The Floridean Nursing and Rehabilitation Center,328.51,2025-10-01,MIAMI
+FL,201588,The Gardens at DePugh Nursing,325.17,2025-10-01,WINTER PARK
+FL,228320,The Gardens Court,340.81,2025-10-01,PALM BEACH GARDENS
+FL,122340,The Grove Healthcare and Rehabilitation Center and Rehab,311.23,2025-10-01,HERNANDO
+FL,122250,The Inn at Freedom Village,295.23,2025-10-01,BRADENTON
+FL,207381,"The Joseph L. Morse Health Center, Inc.",351.33,2025-10-01,WEST PALM BEACH
+FL,1078570,The Lakes of Clermont Health and Rehabilitation,304.94,2025-10-01,CLERMONT
+FL,204170,The Legacy at Boca Raton Rehabilitation and Nursing Center,335.80,2025-10-01,BOCA RATON
+FL,202606,The Lilac at Bayview,263.98,2025-10-01,ST AUGUSTINE
+FL,1166584,The Lilac at Silver Palms,346.56,2025-10-01,MIAMI
+FL,227773,The Lodge Healthcare and Rehabilitation Center,335.09,2025-10-01,OCALA
+FL,1117617,The Luxe at Jupiter Rehabilitation Center,345.37,2025-10-01,JUPITER
+FL,1247317,The Luxe at Wellington Rehabilitation Center,328.95,2025-10-01,WELLINGTON
+FL,135581,The Manor at Blue Water Bay,320.21,2025-10-01,NICEVILLE
+FL,203599,The Manor at Carpenters,316.83,2025-10-01,LAKELAND
+FL,323781,The Meadows Center for Nursing and Healing,308.01,2025-10-01,NEW SMYRNA BEACH
+FL,101391,The Oaks of Clearwater,249.17,2025-10-01,CLEARWATER
+FL,203327,The Palace at Kendall Nursing and Rehabilitation Center,337.42,2025-10-01,MIAMI
+FL,1220946,The Palms at Sebring Nursing and Rehabilitation,283.32,2025-10-01,SEBRING
+FL,312142,The Pavilion at Crescent Lake,291.61,2025-10-01,CRESCENT CITY
+FL,254878,The Pavilion at Jacksonville,262.81,2025-10-01,JACKSONVILLE
+FL,129312,The Pavilion for Healthcare,322.41,2025-10-01,PENNEY FARMS
+FL,254177,The Pearl at Fort Lauderdale Rehabilitation and Nursing Center,325.25,2025-10-01,WILTON MANORS
+FL,1022071,The Ponce Therapy Care Center and Rehab,317.52,2025-10-01,SAINT AUGUSTINE
+FL,1060909,The Preserve,339.00,2025-10-01,FORT MYERS
+FL,263915,The Rehabilitation Center of the Palm Beaches,324.73,2025-10-01,WEST PALM BEACH
+FL,235832,The Sands at South Beach Care Center,308.49,2025-10-01,MIAMI BEACH
+FL,256935,The Savoy at Fort Lauderdale Rehabilitation and Nursing Center,325.76,2025-10-01,FORT LAUDERDALE
+FL,267724,The Springs at Boca Ciega Bay,315.90,2025-10-01,SOUTH PASADENA
+FL,268780,The Springs at Lake Pointe Woods,327.13,2025-10-01,SARASOTA
+FL,209511,The Terrace at Bishops Glen,311.73,2025-10-01,HOLLY HILL
+FL,209325,The Terrace at Courtenay Springs,314.85,2025-10-01,MERRITT ISLAND
+FL,229610,The Terrace of Delray Beach Nursing and Rehabilitation Center,315.54,2025-10-01,DELRAY BEACH
+FL,265730,The Terrace of Hialeah,262.81,2025-10-01,HIALEAH
+FL,108507,The Terrace of Jacksonville,288.30,2025-10-01,JACKSONVILLE
+FL,223644,The Terrace of Kissimmee,280.17,2025-10-01,KISSIMMEE
+FL,223653,The Terrace of St. Cloud,269.16,2025-10-01,SAINT CLOUD
+FL,158851,The Villages Healthcare and Rehabilitation Center,267.24,2025-10-01,LADY LAKE
+FL,206610,The Waterford,311.28,2025-10-01,JUNO BEACH
+FL,260568,Tierra Pines Center,292.87,2025-10-01,LARGO
+FL,263532,Tiffany Hall Nursing and Rehab Center,293.52,2025-10-01,PORT SAINT LUCIE
+FL,1037353,TimberRidge Nursing and Rehabilitation Center,327.39,2025-10-01,OCALA
+FL,263974,Titusville Rehabilitation and Nursing Center,304.18,2025-10-01,TITUSVILLE
+FL,213934,TMH Skilled Nursing Facility,288.99,2025-10-01,
+FL,226602,Treasure Isle Care Center,309.22,2025-10-01,NORTH BAY VILLAGE
+FL,204625,Tri-County Nursing Home,318.60,2025-10-01,TRENTON
+FL,101961,Trinity Regional Rehab Center,297.26,2025-10-01,TRINITY
+FL,263591,Tuskawilla Nursing and Rehab Center,305.40,2025-10-01,WINTER SPRINGS
+FL,32482,Unity Healthcare and Rehabilitation Center,321.57,2025-10-01,MIAMI
+FL,169599,University Crossing,323.43,2025-10-01,JACKSONVILLE
+FL,82204,University Health and Rehabilitation Center,346.40,2025-10-01,MIAMI
+FL,265560,Valencia Hills Health and Rehabilitation Center,299.29,2025-10-01,LAKELAND
+FL,1085922,Ventura Health and Rehabilitation Center,320.71,2025-10-01,BOYNTON BEACH
+FL,80430,Vero Beach Care Center,307.74,2025-10-01,VERO BEACH
+FL,213837,Vi at Lakeside Village,314.60,2025-10-01,LANTANA
+FL,1222300,Victoria Crossing Rehabilitation Center,325.89,2025-10-01,BRANDON
+FL,46128,"Victoria Nursing and Rehabilitation Center, Inc.",344.81,2025-10-01,MIAMI
+FL,1032910,Viera Del Mar Health and Rehabilitation Center,320.32,2025-10-01,VIERA
+FL,110482,Viera Healthcare and  Rehabilitation Center,301.71,2025-10-01,MELBOURNE
+FL,122347,Villa Healthcare and Rehabilitation Center,329.39,2025-10-01,LADY LAKE
+FL,203165,Villa Maria Nursing Center,334.52,2025-10-01,NORTH MIAMI
+FL,1102178,Village on the Green,306.58,2025-10-01,LONGWOOD
+FL,210463,Village on the Isle,302.07,2025-10-01,VENICE
+FL,2400,Village Place Healthcare and Rehabilitation Center,327.56,2025-10-01,PORT CHARLOTTE
+FL,157224,Vivo Healthcare Clewiston,304.35,2025-10-01,CLEWISTON
+FL,1081367,Vivo Healthcare Fort Pierce,290.59,2025-10-01,FORT PIERCE
+FL,1121326,Vivo Healthcare Sebring,295.54,2025-10-01,SEBRING
+FL,1136360,Vivo Healthcare University,318.84,2025-10-01,JACKSONVILLE
+FL,1090451,Vivo Healthcare Wachula,312.24,2025-10-01,WAUCHULA
+FL,1139241,Vivo Healthcare Winter Haven,318.05,2025-10-01,WINTER HAVEN
+FL,324353,Washington Rehabilitation and Nursing Center,288.87,2025-10-01,CHIPLEY
+FL,324400,Waterford Nursing and Rehabilitation Center,305.79,2025-10-01,HIALEAH
+FL,1017621,Waters Edge Health and Rehabilitation,305.58,2025-10-01,PALM CITY
+FL,80431,West Altamonte Nursing and Rehabilitation Center,259.19,2025-10-01,ORLANDO
+FL,325520,West Delray Nursing and Rehab Center,321.65,2025-10-01,DELRAY BEACH
+FL,1087283,West Gables Health Care Center,337.92,2025-10-01,MIAMI
+FL,217727,West Melbourne Health and Rehabilitation Center,305.18,2025-10-01,WEST MELBOURNE
+FL,103852,West Orange Center for Nursing and Healing,308.77,2025-10-01,ORANGE PARK
+FL,202011,Westchester Gardens Rehabilitation and Care Center,307.29,2025-10-01,SAINT PETERSBURG
+FL,325481,Westgate Health and Rehabilitation Center,329.16,2025-10-01,WEST PALM BEACH
+FL,1126344,Westlake Nursing and Rehab Center,272.68,2025-10-01,DANIA BEACH
+FL,228734,Westminster Baldwin Park,309.75,2025-10-01,ORLANDO
+FL,203815,Westminster Bradenton,314.41,2025-10-01,TALLAHASSEE
+FL,212971,Westminster Lakeland,267.37,2025-10-01,TALLAHASSEE
+FL,200409,Westminster Oaks,315.67,2025-10-01,TALLAHASSEE
+FL,1008120,Westminster Saint Augustine,329.76,2025-10-01,ST AUGUSTINE
+FL,212709,Westminster Suncoast,296.21,2025-10-01,ST PETERSBURG
+FL,208540,Westminster Towers,305.73,2025-10-01,ORLANDO
+FL,209848,Westminster Winter Park,298.22,2025-10-01,WINTER PARK
+FL,212083,Westminster Woods on Julington Creek,319.75,2025-10-01,JACKSONVILLE
+FL,19284,Westside Oak Rehabilitation and Nursing Center,289.88,2025-10-01,JACKSONVILLE
+FL,173397,Westwood Nursing and Rehabilitation Center,305.19,2025-10-01,FORT WALTON BEACH
+FL,266612,Whispering Oaks,288.83,2025-10-01,TAMPA
+FL,162077,Williston Care Center and Rehab,303.51,2025-10-01,WILLISTON
+FL,206521,Willowbrooke Court at St Andrews Estates,297.62,2025-10-01,BOCA RATON
+FL,227579,Wilton Manors Healthcare and Rehabilitation Center,349.33,2025-10-01,WILTON MANORS
+FL,1085910,Windsor Health and Rehabilitation Center,303.94,2025-10-01,STARKE
+FL,263991,Windsor Woods Rehab And Healthcare Center,297.27,2025-10-01,HUDSON
+FL,264008,Winkler Court,275.63,2025-10-01,FORT MYERS
+FL,1036404,Winter Garden Rehabilitation and Nursing,309.02,2025-10-01,WINTER GARDEN
+FL,228702,Winter Haven Health And Rehabilitation Center,272.18,2025-10-01,WINTER HAVEN
+FL,1108305,Winter Park Care and Rehabilitation,269.86,2025-10-01,WINTER PARK
+FL,162078,Woodbridge Care Center and Rehab,316.30,2025-10-01,TAMPA
+FL,122341,Woodland Grove Healthcare and Rehabilitation Center,339.01,2025-10-01,JACKSONVILLE
+FL,325449,Woodside Health and Rehabilitation Center,311.11,2025-10-01,NAPLES
+FL,254762,Wrights Healthcare and Rehabilitation Center,272.88,2025-10-01,SEMINOLE
+FL,1052186,Ybor City Center for Rehabilitations and Healing,321.49,2025-10-01,TAMPA

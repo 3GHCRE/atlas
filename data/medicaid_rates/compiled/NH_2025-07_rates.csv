@@ -1,0 +1,73 @@
+state,provider_number,facility_name,daily_rate,effective_date,city
+NH,,"Alice Peck Day Memorial Hospital, Lebanon",180.25,2025-07-01,
+NH,,"Alpine HealthCare, Keene",290.94,2025-07-01,KEENE
+NH,,"Androscoggin Valley Hosp, Berlin",180.25,2025-07-01,
+NH,,"Applewood Care & Rehabilitation Center, Winchester",234.32,2025-07-01,WINCHESTER
+NH,,"Bedford Hills Center, Bedford",265.25,2025-07-01,BEDFORD
+NH,,"Bel Air Nursing & Rehabilitation Center, Goffstown",265.25,2025-07-01,GOFFSTOWN
+NH,,"Belknap County Nursing Home, Laconia",273.69,2025-07-01,LACONIA
+NH,,"Birch HealthCare, Rochester",268.80,2025-07-01,ROCHESTER
+NH,,"Cedar HealthCare, Portsmouth",312.34,2025-07-01,PORTSMOUTH
+NH,,"Cheshire Medical Center, Keene",180.25,2025-07-01,
+NH,,"Colonial Poplin Nursing Home, Freemont",265.25,2025-07-01,FREMONT
+NH,,"Coos County, Berlin",285.91,2025-07-01,BERLIN
+NH,,"Cottage Hospital, Woodsville",180.25,2025-07-01,
+NH,,"Country Village Center Genesis Healthcare, Lancaster",246.12,2025-07-01,LANCASTER
+NH,,"Crestwood Center, Milford",241.10,2025-07-01,MILFORD
+NH,,"Derry Center for Rehabilitation and Healthcare, Derry",265.25,2025-07-01,DERRY
+NH,,"Dover Center for Health and Rehabilitation, Dover",293.34,2025-07-01,DOVER
+NH,,"Exeter Rehabilitation Center, Exeter",250.08,2025-07-01,LACONIA
+NH,,"Fairview, Hudson",308.65,2025-07-01,HUDSON
+NH,,"Glencliff Home, Glencliff",427.60,2025-07-01,
+NH,,"Golden View Health Care Center, Meredith",276.70,2025-07-01,MEREDITH
+NH,,"Grafton County Nursing Home, Woodsville",253.01,2025-07-01,NORTH HAVERHILL
+NH,,"Hackett Hill Center, Manchester",283.03,2025-07-01,MANCHESTER
+NH,,"Hanover Hill Healthcare, Manchester",253.64,2025-07-01,MANCHESTER
+NH,,"Harris Hill Center Genesis Healthcare, Concord",251.04,2025-07-01,CONCORD
+NH,,"Havenwood-Heritage Heights, Concord",278.88,2025-07-01,CONCORD
+NH,,"Hillsboro House Nursing Home, Hillsboro",200.41,2025-07-01,HILLSBORO
+NH,,"Hillsborough County Nursing Home, Goffstown",246.90,2025-07-01,GOFFSTOWN
+NH,,"Hillsborough County, Goffstown",342.35,2025-07-01,GOFFSTOWN
+NH,,"Holy Cross Health Center, Manchester",265.17,2025-07-01,MANCHESTER
+NH,,"Huggins Hospital, Wolfeboro",180.25,2025-07-01,
+NH,,"Keene Center Genesis Healthcare, Keene",254.90,2025-07-01,KEENE
+NH,,"Laconia Rehab Center Genesis Healthcare, Laconia",267.03,2025-07-01,LACONIA
+NH,,"Lafayette Center, Franconia",276.74,2025-07-01,FRANCONIA
+NH,,"Langdon Place of Dover, Dover",265.25,2025-07-01,DOVER
+NH,,"Langdon Place of Keene, Keene",265.25,2025-07-01,KEENE
+NH,,"Lebanon Center Genesis Healthcare, Lebanon",279.90,2025-07-01,LEBANON
+NH,,"Littleton Hospital Assoc, Littleton",180.25,2025-07-01,
+NH,,"Maple Leaf Healthcare Center, Manchester",265.25,2025-07-01,MANCHESTER
+NH,,"Maplewood Nursing Home, Westmoreland",342.35,2025-07-01,
+NH,,"Maplewood Nursing Home, Westmoreland",266.60,2025-07-01,
+NH,,"Merrimack County Nursing Home, Penacook",273.94,2025-07-01,BOSCAWEN
+NH,,"Monadnock Community Hospital, Peterborough",180.25,2025-07-01,
+NH,,"Morrison Nursing Home, Whitefield",237.16,2025-07-01,WHITEFIELD
+NH,,"Mountain Ridge Center Genesis Healthcare, Franklin",234.44,2025-07-01,FRANKLIN
+NH,,"Mountain View Community, Ossipee",255.12,2025-07-01,OSSIPEE
+NH,,"Oceanside Skilled Nursing & Rehab, Hampton",234.01,2025-07-01,HAMPTON
+NH,,"Pheasant Wood Center, Peterborough",231.53,2025-07-01,PETERBOROUGH
+NH,,"Pleasant Valley Nursing Home, Derry",265.25,2025-07-01,
+NH,,"Pleasant View Center, Concord",298.82,2025-07-01,CONCORD
+NH,,"Presidential Oaks, Concord",255.43,2025-07-01,CONCORD
+NH,,"Ridgewood Center, Bedford",252.99,2025-07-01,BEDFORD
+NH,,"Riverside Rest Home, Dover",255.22,2025-07-01,DOVER
+NH,,"Rochester Manor, Rochester",210.20,2025-07-01,ROCHESTER
+NH,,"Rockingham County Nursing Home, Epping",290.20,2025-07-01,BRENTWOOD
+NH,,"Salemhaven Inc, Salem",272.23,2025-07-01,SALEM
+NH,,"Speare Memorial Hospital, Plymouth",180.25,2025-07-01,
+NH,,"St. Ann Rehab & Nursing Center, Dover",270.16,2025-07-01,DOVER
+NH,,"St. Francis Rehab & Nursing Center, Laconia",259.32,2025-07-01,LACONIA
+NH,,"St. Joseph Residence, Manchester",261.84,2025-07-01,MANCHESTER
+NH,,"St. Teresa's Rehab & Nursing Center, Manchester",246.71,2025-07-01,MANCHESTER
+NH,,"St. Vincent de Paul Rehab & Nursing Center, Berlin",260.62,2025-07-01,BERLIN
+NH,,"Sullivan County Healthcare, Claremont",250.17,2025-07-01,UNITY
+NH,,"The Elm's Center, Milford",265.25,2025-07-01,MILFORD
+NH,,"Upper Connecticut Valley Hospital Assoc, Colebrook",180.25,2025-07-01,
+NH,,"Valley Regional Hospital, Claremont",180.25,2025-07-01,
+NH,,"Villa Crest Nursing & Retirement, Manchester",265.25,2025-07-01,MANCHESTER
+NH,,"Warde Rehabilitation and Nursing Center, Windham",320.62,2025-07-01,JAFFREY
+NH,,"Webster at Rye, Rye",291.82,2025-07-01,RYE
+NH,,"Weeks Medical Center, Lancaster",180.25,2025-07-01,
+NH,,"Wolfeboro Bay Center, Wolfeboro",265.25,2025-07-01,WOLFEBORO
+NH,,"Woodlawn Care Center, Newport",265.25,2025-07-01,
