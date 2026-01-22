@@ -356,25 +356,142 @@ AK, CA, CO, FL, GA, HI, IA, IL, IN, KS, KY, MA, MO, MS, MT, ND, NH, NY, OH, PA, 
 
 ## Data Integration Roadmap
 
-### Phase 1: CMS Quality Stack (Recommended Next)
+### Phase 1: CMS Quality Stack ✅ SCHEMA READY
+
+**Schema Created:** `docker/init/30_cms_quality_schema.sql`
+
+**Tables Created:**
+- `cms_provider_info_staging` - Raw provider info import
+- `quality_ratings` - Star ratings with multi-period support
+- `staffing_data` - PBJ staffing metrics with multi-period support
+- `cms_cost_report_staging` - Raw HCRIS import
+- `cost_reports` - Parsed financial metrics with multi-period support
+- `cms_data_collection_log` - Data source tracking
+
+**Views Created:**
+- `v_quality_changes` - Period-over-period rating changes
+- `v_staffing_trends` - Period-over-period staffing changes
+- `v_financial_trends` - Period-over-period financial performance
+- `v_facility_performance` - Latest performance summary per facility
+
+---
+
+### Download URLs & Instructions
+
+#### 1. CMS Provider Info (Quality/Star Ratings)
+**Direct Download:**
 ```
-Week 1-2:
-├── Download CMS Quality/Star Ratings
-├── Download CMS Staffing (PBJ)
-├── Create quality_ratings table
-├── Create staffing_data table
-└── Join to property_master by CCN
+https://data.cms.gov/provider-data/api/1/datastore/query/4pq5-n9py/0/download?format=csv
 ```
 
+**Archived Versions (Multiple Periods):**
+```
+https://data.cms.gov/provider-data/archived-data/nursing-homes
+```
+Navigate to "Provider Information" section, download monthly snapshots.
+
+**Update Frequency:** Monthly
+**File Size:** ~15MB per snapshot
+
+---
+
+#### 2. CMS Staffing Data (PBJ)
+**Direct Download:**
+```
+https://data.cms.gov/provider-data/api/1/datastore/query/g6vv-u9sr/0/download?format=csv
+```
+
+**Update Frequency:** Quarterly
+**File Size:** ~10MB per snapshot
+
+---
+
+#### 3. CMS Cost Reports (HCRIS)
+
+**Option A: NBER Pre-Parsed (Recommended)**
+```
+https://www.nber.org/research/data/hcris-snf
+```
+- Formats: CSV, Stata, SAS
+- Years: 2010-2021 (Form 2540-10)
+- Files needed: `snf10_rpt.csv` (report table), `snf10_nmrc.csv` (numeric data)
+
+**Option B: CMS Direct (Raw)**
+```
+https://www.cms.gov/data-research/statistics-trends-and-reports/cost-reports/cost-reports-fiscal-year
+```
+- Download SNF-2010 zipped files per fiscal year
+- Contains: Rpt, Nmrc, Alphnmrc files
+- Note: Requires parsing - cannot open in Excel
+
+**Update Frequency:** Quarterly (18-month lag)
+**File Size:** ~500MB per year (all SNFs)
+
+---
+
+### Loading Scripts
+
+#### Step 1: Create Schema
+```bash
+docker exec -i 3ghcre-mysql mysql -u root -pdevpass atlas < docker/init/30_cms_quality_schema.sql
+```
+
+#### Step 2: Load Provider Info (Quality)
+```sql
+-- Place CSV in project root, then:
+LOAD DATA INFILE '/data/NH_ProviderInfo_Jan2026.csv'
+INTO TABLE cms_provider_info_staging
+FIELDS TERMINATED BY ',' ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+SET file_date = '2026-01-01';
+
+-- Transform to quality_ratings
+INSERT INTO quality_ratings (
+    property_master_id, rating_date, overall_rating, health_inspection_rating,
+    staffing_rating, quality_measure_rating, rn_staffing_rating,
+    special_focus_facility, abuse_icon, certified_beds, average_residents_per_day,
+    total_weighted_health_survey_score, number_of_fines, total_fines_dollars,
+    number_of_payment_denials, total_penalties
+)
+SELECT
+    pm.id,
+    s.file_date,
+    s.overall_rating,
+    s.health_inspection_rating,
+    s.staffing_rating,
+    s.qm_rating,
+    s.rn_staffing_rating,
+    CASE
+        WHEN s.special_focus_facility LIKE '%SFF%' THEN 'SFF'
+        WHEN s.special_focus_facility_candidate = 'Y' THEN 'SFF_Candidate'
+        ELSE 'None'
+    END,
+    s.abuse_icon = 'Y',
+    s.number_of_certified_beds,
+    s.average_number_of_residents_per_day,
+    s.total_weighted_health_survey_score,
+    s.number_of_fines,
+    s.total_amount_of_fines_in_dollars,
+    s.number_of_payment_denials,
+    s.total_number_of_penalties
+FROM cms_provider_info_staging s
+JOIN property_master pm ON pm.ccn = s.federal_provider_number
+WHERE s.file_date = '2026-01-01'
+ON DUPLICATE KEY UPDATE
+    overall_rating = VALUES(overall_rating),
+    health_inspection_rating = VALUES(health_inspection_rating);
+```
+
+#### Step 3: Load Staffing Data
+```sql
+-- Similar pattern - load staging then transform
+-- Use file_date field to track period
+```
+
+---
+
 ### Phase 2: Financial Layer
-```
-Week 3-4:
-├── Download full HCRIS cost reports
-├── Parse Worksheet S-3 (revenue/expenses)
-├── Create cost_reports table
-├── Calculate key ratios (margin, occupancy)
-└── Join to property_master by CCN
-```
 
 ### Phase 3: News Intelligence
 ```
