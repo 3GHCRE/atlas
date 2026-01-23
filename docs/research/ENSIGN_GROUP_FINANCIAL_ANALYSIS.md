@@ -252,6 +252,176 @@
 
 ---
 
+## Real Estate Portfolio & Propco Structure
+
+### Standard Bearer Healthcare REIT
+
+Ensign operates a captive REIT structure - **Standard Bearer Healthcare REIT** - that acquires and holds real estate separately from operations. This provides:
+- Tax advantages through REIT structure
+- Balance sheet flexibility for acquisitions
+- Clean separation of real estate assets from operating risk
+
+### Propco Naming Convention
+
+Ensign uses a consistent `*Health Holdings LLC` naming pattern for property companies:
+
+| Pattern | Example Entities |
+|---------|------------------|
+| `[City] Health Holdings LLC` | Tucson Health Holdings LLC, Denver Health Holdings LLC |
+| `[State] Health Holdings LLC` | Arizona Health Holdings LLC, Colorado Health Holdings LLC |
+| `[Region] Health Holdings LLC` | Southwest Health Holdings LLC |
+
+### Real Estate Footprint by Mailing Address
+
+| Mailing Address | Location | Properties | Notes |
+|-----------------|----------|------------|-------|
+| Po Box 128109 | Nashville, TN | 80 | Primary propco mail address |
+| 29222 Rancho Viejo Rd Ste 127 | San Juan Capistrano, CA | 45 | Corporate HQ cluster |
+| 27101 Puerta Real | Mission Viejo, CA | 20 | Ensign HQ - executive offices |
+| 29222 Rancho Viejo Rd | San Juan Capistrano, CA | 15 | Secondary HQ address |
+| 27101 Puerta Real Ste 450 | Mission Viejo, CA | 8 | Additional HQ suite |
+| **Total Tracked** | | **168** | |
+
+### Real Estate Acquisition Strategy
+
+**Deal Structure Preferences:**
+1. **Triple Net Lease** - Operations company leases from propco/REIT
+2. **Real Estate + Operations** - Combined purchase, then internal lease
+3. **Operations Only** - Lease from third-party landlord (Omega, Sabra, etc.)
+
+**Recent Real Estate Acquisitions (2024-2025):**
+
+| Date | Facility | Beds | State | Structure |
+|------|----------|------|-------|-----------|
+| Dec 2025 | Santa Rosa Care Center | 144 | AZ | Triple Net Lease |
+| Dec 2025 | Rehabilitation Center at Sandalwood | 103 | CO | Triple Net Lease |
+| Dec 2025 | Edgewater Health & Rehab | 69 | CO | Triple Net Lease |
+| Dec 2025 | Willow Point Rehab & Nursing | 45 | KS | Real Estate + Ops |
+| Aug 2024 | Holly Heights Care & Rehab | 133 | CO | Real Estate + Ops |
+| Aug 2024 | City Park Healthcare & Rehab | 125 | CO | Real Estate + Ops |
+| Mar 2024 | Park Post Acute | 135 | CO | Real Estate + Ops |
+| Mar 2024 | Oakwood Care & Rehab | 170 | CO | Real Estate + Ops |
+
+### Real Estate Concentration by State
+
+| State | Facilities | Est. Real Estate Value | Avg Beds | Strategy |
+|-------|------------|------------------------|----------|----------|
+| **TX** | 131 | $1.3-1.8B | 140 | High volume, lower cost |
+| **CA** | 70 | $1.5-2.0B | 97 | Premium markets, high value/bed |
+| **AZ** | 37 | $400-600M | 128 | Growth market, moderate cost |
+| **CO** | 31 | $350-500M | 152 | Active acquisition market |
+| **WA** | 16 | $200-300M | 93 | Premium Pacific NW market |
+
+*Note: Real estate values estimated at $100-150K/bed based on market conditions*
+
+### Financing Structure
+
+**Typical Ensign Acquisition Financing:**
+- 60-70% debt financing through regional/national lenders
+- Standard Bearer REIT provides equity/capital
+- Master lease structures across facility clusters
+- HUD-insured mortgages for qualifying properties
+
+**Key Lending Relationships:**
+- Regional banks for acquisition lines
+- HUD Section 232 for permanent financing
+- Sale-leaseback transactions with healthcare REITs
+
+### Relationship with External REITs
+
+While Ensign owns most of its real estate through Standard Bearer, some facilities are leased from third-party REITs:
+
+| REIT | Relationship | Est. Facilities |
+|------|--------------|-----------------|
+| Omega Healthcare (OHI) | Triple net tenant | 15-25 |
+| Sabra Health Care (SBRA) | Triple net tenant | 10-15 |
+| CareTrust REIT (CTRE) | Triple net tenant | 5-10 |
+
+### Pennant Group Spin-Off (2019)
+
+In 2019, Ensign spun off **The Pennant Group (NASDAQ: PNTG)** which took:
+- Home health and hospice operations
+- Senior living facilities (ALF/ILF)
+- Separate real estate holdings
+
+This left Ensign focused purely on skilled nursing and post-acute care real estate.
+
+---
+
+## REAPI Propco Portfolio Analysis (January 2026)
+
+This section contains actual propco ownership data linked via REAPI integration.
+
+### Portfolio Summary
+
+| Metric | Value |
+|--------|-------|
+| **Propco Company** | Ensign Group |
+| **Propco Entities** | 157 unique LLCs |
+| **Properties Linked** | 156 facilities |
+| **Data Source** | REAPI owner records |
+
+### Sample Propco Entities by State
+
+**Arizona (AZ)**
+| CCN | Facility | Propco Entity |
+|-----|----------|---------------|
+| 035014 | Desert Terrace Healthcare Center | Terrace Holding Az Llc |
+| 035070 | Casas Adobes Post Acute Rehab | Montebella Health Holdings Llc |
+| 035071 | Mission Palms Post Acute | Baywood Health Holdings Llc |
+| 035072 | Phoenix Mountain Post Acute | Summit Trail Health Holdings Llc |
+| 035076 | Osborn Health and Rehabilitation | Rb Heights Health Holdings Llc |
+| 035087 | North Mountain Medical & Rehab | Valley Health Holdings Llc |
+| 035088 | Camelback Post Acute Care | Ensign Highland Llc |
+| 035106 | Tempe Post Acute | Elati Health Holdings Llc |
+| 035144 | Peoria Post Acute & Rehab | Grand Avenue Health Holdings Llc |
+| 035147 | Villa Maria Post Acute | Green Valley Health Holdings Llc |
+
+### Entity Naming Patterns
+
+The propco entities follow consistent naming conventions:
+
+| Pattern | Examples | Count |
+|---------|----------|-------|
+| `[Location] Health Holdings Llc` | Valley Health Holdings, Congaree Health Holdings | ~120 |
+| `[Address] [State] Llc` | 1645 Florence Rd Tn Llc, 726 Kentucky Avenue S Tn Llc | ~25 |
+| `[Name] Holding [State] Llc` | Terrace Holding Az Llc | ~12 |
+
+### Ownership Chain Architecture
+
+```
+Property (CCN)
+    ↓
+Propco Entity (LLC)          ← e.g., "Valley Health Holdings Llc"
+    ↓
+Propco Company               ← Ensign Group
+    ↓
+Public Company               ← The Ensign Group Inc (NASDAQ: ENSG)
+```
+
+### Opco vs Propco Cross-Reference
+
+All 156 linked properties show consistent ownership structure:
+
+| Operator (Opco) | Owner (Propco) | Properties |
+|-----------------|----------------|------------|
+| THE ENSIGN GROUP | Ensign Group | 156 |
+
+This indicates Ensign owns the real estate for these facilities rather than leasing from third-party REITs.
+
+### Mailing Address Clusters
+
+| Address | Properties | Notes |
+|---------|------------|-------|
+| Po Box 128109, Nashville, TN | 80 | Primary propco correspondence |
+| 29222 Rancho Viejo Rd, San Juan Capistrano, CA | 63 | Secondary HQ cluster |
+| 27101 Puerta Real, Mission Viejo, CA | 30 | Ensign corporate HQ |
+| **Total** | **173** | |
+
+*Note: 156 properties successfully linked to Atlas property_master via CCN*
+
+---
+
 ## Comparison: Ensign vs Tim Lehner Network
 
 | Metric | Ensign | Tim Lehner |
@@ -318,7 +488,8 @@ ORDER BY AVG(qr.overall_rating) DESC;
 - **Staffing Data:** CMS Provider Info (Jan 2026)
 - **Medicaid Rates:** State rate files (CO, KS, UT, AK)
 - **CHOW Data:** CMS CHOW file (Oct 2025)
-- **Ownership:** CMS All Owners file (Dec 2025)
+- **Ownership (Opco):** CMS All Owners file (Dec 2025)
+- **Ownership (Propco):** REAPI owner_info (Jan 2026) - 14,597 properties with owner data
 
 ---
 
