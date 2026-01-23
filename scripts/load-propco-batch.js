@@ -7,27 +7,9 @@
  *        node scripts/load-propco-batch.js --list   (list available companies)
  */
 
-const mysql = require('mysql2/promise');
 const fs = require('fs');
 const path = require('path');
-
-// Database configs
-const REAPI_DB = {
-  host: 'YOUR_DB_HOST_HERE',
-  port: 25060,
-  user: 'YOUR_DB_USER_HERE',
-  password: 'YOUR_DB_PASSWORD_HERE',
-  database: 'cms_data',
-  ssl: { rejectUnauthorized: false }
-};
-
-const ATLAS_DB = {
-  host: 'localhost',
-  port: 3306,
-  user: 'root',
-  password: 'devpass',
-  database: 'atlas'
-};
+const { getAtlasConnection, getReapiConnection } = require('./lib/db-config');
 
 // Company configurations from owner_mappings.csv (top companies by property count)
 const COMPANY_CONFIGS = {
@@ -424,8 +406,8 @@ async function main() {
 
     // Connect to databases
     console.log('Connecting to databases...');
-    reapiConn = await mysql.createConnection(REAPI_DB);
-    atlasConn = await mysql.createConnection(ATLAS_DB);
+    reapiConn = await getReapiConnection();
+    atlasConn = await getAtlasConnection();
     console.log('✓ Connected to both databases\n');
 
     const results = [];
@@ -530,6 +512,7 @@ async function getOrCreateCompany(conn, companyName, config) {
 async function getOwnerData(conn, addresses) {
   const addressConditions = addresses.map(addr => `mail_address LIKE '%${addr}%'`).join(' OR ');
 
+  // Include Company type OR names that look like companies (LLC, Inc, LP, Trust, etc.)
   const query = `
     SELECT
       roi.property_id,
@@ -544,7 +527,20 @@ async function getOwnerData(conn, addresses) {
     FROM reapi_owner_info roi
     JOIN reapi_properties rp ON rp.property_id = roi.property_id
     WHERE (${addressConditions})
-      AND roi.owner1_type = 'Company'
+      AND (
+        roi.owner1_type = 'Company'
+        OR roi.owner1_full_name LIKE '%Llc%'
+        OR roi.owner1_full_name LIKE '%LLC%'
+        OR roi.owner1_full_name LIKE '%Inc%'
+        OR roi.owner1_full_name LIKE '% Lp%'
+        OR roi.owner1_full_name LIKE '% LP%'
+        OR roi.owner1_full_name LIKE '%Trust%'
+        OR roi.owner1_full_name LIKE '%Corp%'
+        OR roi.owner1_full_name LIKE '%Property%'
+        OR roi.owner1_full_name LIKE '%Realty%'
+        OR roi.owner1_full_name LIKE '%Holdings%'
+        OR roi.owner1_full_name LIKE '%Asset%'
+      )
     ORDER BY roi.owner1_full_name
   `;
 

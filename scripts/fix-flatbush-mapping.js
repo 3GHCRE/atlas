@@ -2,16 +2,10 @@
 /**
  * Fix 2071 Flatbush mapping: CareRite -> TL Management
  */
-const mysql = require('mysql2/promise');
+const { getAtlasConnection } = require('./lib/db-config');
 
 async function main() {
-  const conn = await mysql.createConnection({
-    host: 'localhost',
-    port: 3306,
-    user: 'root',
-    password: 'devpass',
-    database: 'atlas'
-  });
+  const conn = await getAtlasConnection();
 
   // Get or create TL Management company
   let [[tlManagement]] = await conn.execute(`
