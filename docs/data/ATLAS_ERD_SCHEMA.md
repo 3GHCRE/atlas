@@ -1,7 +1,7 @@
 # 3G Healthcare RE Atlas - ERD with REAPI Integration
 
 **Last Updated:** January 23, 2026
-**Version:** 2.0 (Post-REAPI Integration)
+**Version:** 2.1 (Deals Subsystem with REAPI Sales)
 
 ---
 
@@ -282,6 +282,129 @@ This reveals sale-leaseback arrangements, REIT-owned facilities, and third-party
 
 ---
 
+## Deals Subsystem (CHOW + Sales)
+
+The Deals subsystem unifies transaction data from CMS (CHOWs) and REAPI (Sales) into a single queryable structure.
+
+### Deals Schema
+
+```
+┌─────────────────────┐     ┌─────────────────────┐     ┌─────────────────────┐
+│       deals         │     │    deals_parties    │     │    deals_chow       │
+├─────────────────────┤     ├─────────────────────┤     ├─────────────────────┤
+│ PK id               │◄────┤ FK deal_id          │     │ PK id               │
+│ FK property_master  │     │    party_role       │     │ FK deal_id ─────────┼──┐
+│    ccn              │     │      (buyer/seller/ │     │    chow_type_code   │  │
+│    deal_type        │     │       borrower/     │     │    chow_type_text   │  │
+│      (chow/sale/    │     │       lender...)    │     │    buyer_enrollment │  │
+│       mortgage...)  │     │    party_name       │     │    seller_enrollment│  │
+│    effective_date   │     │ FK company_id       │     └─────────────────────┘  │
+│    amount           │     │ FK principal_id     │                              │
+│    document_type    │     │    enrollment_id    │     ┌─────────────────────┐  │
+│    data_source      │     └─────────────────────┘     │    deals_sale       │  │
+│      (cms/reapi)    │                                 ├─────────────────────┤  │
+│    verified         │◄────────────────────────────────┤ FK deal_id ─────────┼──┘
+└─────────────────────┘                                 │    sale_type        │
+                                                        │    price_per_bed    │
+                                                        │    price_per_sqft   │
+                                                        │    bed_count        │
+                                                        │    building_sqft    │
+                                                        │    year_built       │
+                                                        └─────────────────────┘
+```
+
+### Deal Types & Sources
+
+| deal_type | data_source | Count | Description |
+|-----------|-------------|-------|-------------|
+| `chow` | `cms` | ~4,953 | CMS Change of Ownership records |
+| `sale` | `reapi` | ~4,446 | REAPI property sales with amount > 0 |
+| `mortgage` | `reapi` | (pending) | Mortgage originations (reapi_mortgages) |
+| `assignment` | `reapi` | (future) | Mortgage assignments |
+
+### Party Roles
+
+| Party Role | Deal Types | Description |
+|------------|------------|-------------|
+| `buyer` | sale, chow | Property acquirer |
+| `seller` | sale, chow | Property seller |
+| `lender` | mortgage | Financing provider (bank, HUD, etc.) |
+| `borrower` | mortgage | Loan recipient (propco/opco) |
+| `assignor` | assignment | Mortgage assignor |
+| `assignee` | assignment | Mortgage assignee |
+
+### Sample Queries
+
+```sql
+-- Unified deals view (CHOWs + Sales)
+SELECT
+    d.deal_type,
+    d.effective_date,
+    d.amount,
+    pm.facility_name,
+    buyer.party_name AS buyer,
+    seller.party_name AS seller
+FROM deals d
+LEFT JOIN property_master pm ON pm.id = d.property_master_id
+LEFT JOIN deals_parties buyer ON buyer.deal_id = d.id AND buyer.party_role = 'buyer'
+LEFT JOIN deals_parties seller ON seller.deal_id = d.id AND seller.party_role = 'seller'
+WHERE d.effective_date >= '2020-01-01'
+ORDER BY d.effective_date DESC;
+
+-- Company acquisition activity
+SELECT
+    c.company_name,
+    SUM(CASE WHEN dp.party_role = 'buyer' THEN 1 ELSE 0 END) AS acquisitions,
+    SUM(CASE WHEN dp.party_role = 'seller' THEN 1 ELSE 0 END) AS dispositions,
+    SUM(CASE WHEN dp.party_role = 'buyer' THEN d.amount ELSE 0 END) AS buy_volume,
+    SUM(CASE WHEN dp.party_role = 'seller' THEN d.amount ELSE 0 END) AS sell_volume
+FROM deals d
+JOIN deals_parties dp ON dp.deal_id = d.id
+JOIN companies c ON c.id = dp.company_id
+WHERE d.deal_type IN ('chow', 'sale')
+GROUP BY c.company_name
+ORDER BY acquisitions DESC;
+
+-- Top lenders by mortgage volume (when mortgage data available)
+SELECT
+    dp.party_name AS lender,
+    COUNT(*) AS loans,
+    SUM(d.amount) AS total_volume,
+    AVG(dm.interest_rate) AS avg_rate
+FROM deals d
+JOIN deals_parties dp ON dp.deal_id = d.id AND dp.party_role = 'lender'
+LEFT JOIN deals_mortgage dm ON dm.deal_id = d.id
+WHERE d.deal_type = 'mortgage'
+GROUP BY dp.party_name
+ORDER BY total_volume DESC;
+
+-- Company financing activity (borrowing)
+SELECT
+    c.company_name,
+    COUNT(*) AS loans,
+    SUM(d.amount) AS total_borrowed
+FROM deals d
+JOIN deals_parties dp ON dp.deal_id = d.id
+JOIN companies c ON c.id = dp.company_id
+WHERE d.deal_type = 'mortgage' AND dp.party_role = 'borrower'
+GROUP BY c.company_name
+ORDER BY total_borrowed DESC;
+```
+
+### ETL Scripts
+
+| Script | Purpose | Run Order |
+|--------|---------|-----------|
+| `07_phase1b_chow.sql` | Load CMS CHOW data (buyer/seller) | Docker init |
+| `scripts/load-reapi-sales.js` | Load REAPI sales (buyer/seller) | Manual |
+| `scripts/load-reapi-mortgages.js` | Load REAPI mortgages (lender/borrower) | Manual (pending data) |
+| `scripts/link-sales-entities.js` | Link parties to entities | Manual (optional) |
+| `docker/init/50_sales_validation.sql` | Validation queries | After data load |
+
+**Note:** `load-reapi-mortgages.js` is ready but waiting for `reapi_mortgages` table to be populated. Run with `--check` to verify data availability.
+
+---
+
 ## Propco Company Mappings
 
 Properties are matched to companies via mailing address using `data/owner_mappings.csv`:
@@ -333,3 +456,6 @@ reapi_properties.ccn ──────────────►  property_ent
 - `docs/research/ENSIGN_GROUP_ACQUISITION_ANALYSIS.md` - Ensign case study
 - `docs/research/CASCADE_CAPITAL_GROUP_ACQUISITION_ANALYSIS.md` - Cascade case study
 - `data/owner_mappings.csv` - Address→Company mappings
+- `docker/init/50_sales_validation.sql` - Sales data validation queries
+- `scripts/load-reapi-sales.js` - REAPI sales ETL script
+- `scripts/link-sales-entities.js` - Entity linking for sales parties
