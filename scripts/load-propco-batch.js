@@ -172,6 +172,217 @@ const COMPANY_CONFIGS = {
     ],
     hq: { address: '575 Route 70', city: 'Brick', state: 'NJ' },
     notes: 'SNF Realty Llc pattern'
+  },
+  // === BATCH 2: Mid-tier operators ===
+  'Altitude Health Services': {
+    type: 'operator',
+    addresses: ['2201 Main St'],
+    hq: { address: '2201 Main St', city: 'Evanston', state: 'IL' },
+    notes: 'OMG entities, various Property Llc'
+  },
+  'Britthaven': {
+    type: 'operator',
+    addresses: ['Po Box 6159'],
+    hq: { address: 'Po Box 6159', city: 'Kinston', state: 'NC' },
+    notes: 'Britthaven Inc, Hillco Ltd, Neil Realty'
+  },
+  'NHC': {
+    type: 'operator',
+    addresses: ['100 E Vine St', 'Po Box 1398'],
+    hq: { address: '100 E Vine St', city: 'Murfreesboro', state: 'TN' },
+    notes: 'NHC Healthcare entities - distinct from NHI REIT'
+  },
+  'NHS Management': {
+    type: 'operator',
+    addresses: ['931 Fairfax Park'],
+    hq: { address: '931 Fairfax Park', city: 'Tuscaloosa', state: 'AL' },
+    notes: 'Health Realty Llc entities'
+  },
+  'Landmark Properties': {
+    type: 'operator',
+    addresses: ['Po Box 6016'],
+    hq: { address: 'Po Box 6016', city: 'Ridgeland', state: 'MS' },
+    notes: 'LA/MS healthcare entities'
+  },
+  'Centennial Healthcare': {
+    type: 'operator',
+    addresses: ['262 N University Ave', '140 N Union Ave Ste 230'],
+    hq: { address: '262 N University Ave', city: 'Farmington', state: 'UT' },
+    notes: 'Various address-based LLCs'
+  },
+  'Emerald Healthcare': {
+    type: 'operator',
+    addresses: ['1777 Avenue Of The States Ste 204', '1777 Avenue Of The States'],
+    hq: { address: '1777 Avenue Of The States Ste 204', city: 'Lakewood', state: 'NJ' },
+    notes: 'SNF Realty Llc pattern'
+  },
+  'Liberty Healthcare Properties': {
+    type: 'operator',
+    addresses: ['2334 41st St'],
+    hq: { address: '2334 41st St', city: 'Wilmington', state: 'NC' },
+    notes: 'Liberty Healthcare Properties of * pattern'
+  },
+  'YAD Healthcare': {
+    type: 'operator',
+    addresses: ['211 Boulevard Of Americas', '211 Boulevard Of Americas Ste 306'],
+    hq: { address: '211 Boulevard Of Americas', city: 'Lakewood', state: 'NJ' },
+    notes: 'Lakewood NJ operator - Propco Llc pattern'
+  },
+  'MFA Healthcare': {
+    type: 'operator',
+    addresses: ['400 Boulevard Of Americas Unit 401', '400 Boulevard Of Americas'],
+    hq: { address: '400 Boulevard Of Americas Unit 401', city: 'Lakewood', state: 'NJ' },
+    notes: 'Charles/Edward/Saul Family Trusts'
+  },
+  'LME Family Holdings': {
+    type: 'operator',
+    addresses: ['34 Lord Ave'],
+    hq: { address: '34 Lord Ave', city: 'Lawrence', state: 'NY' },
+    notes: 'Kennedy KY Holdings - 20+ facilities'
+  },
+  'Monarch Healthcare Management': {
+    type: 'operator',
+    addresses: ['638 Southbend Ave'],
+    hq: { address: '638 Southbend Ave', city: 'Mankato', state: 'MN' },
+    notes: 'Minnesota operator - founded 2005'
+  },
+  'LTC Properties': {
+    type: 'reit',
+    addresses: ['Po Box 20197'],
+    hq: { address: 'Po Box 20197', city: 'Atlanta', state: 'GA' },
+    notes: 'NYSE: LTC - senior housing REIT'
+  },
+  'Communicare Health Services': {
+    type: 'operator',
+    addresses: ['10123 Alliance Rd'],
+    hq: { address: '10123 Alliance Rd', city: 'Blue Ash', state: 'OH' },
+    notes: 'Ohio operator - OHI Asset and Leasing Co entities'
+  },
+  'CareRite Centers': {
+    type: 'operator',
+    addresses: ['2071 Flatbush Ave', '2071 Flatbush Ave # 22', '2420 Knapp St'],
+    hq: { address: '2071 Flatbush Ave', city: 'Brooklyn', state: 'NY' },
+    notes: 'Texas Operations Management, Recover-Care Healthcare'
+  },
+  'Genesis Healthcare': {
+    type: 'operator',
+    addresses: ['101 E State St'],
+    hq: { address: '101 E State St', city: 'Kennett Square', state: 'PA' },
+    notes: 'National operator - 200+ facilities'
+  },
+  'Black River Healthcare': {
+    type: 'operator',
+    addresses: ['362 E Kennedy Blvd'],
+    hq: { address: '362 E Kennedy Blvd', city: 'Lakewood', state: 'NJ' },
+    notes: 'Black River Healthcare LLC, Red River Management LLC, El Dorado Healthcare'
+  },
+  'Bluegrass Health Partners': {
+    type: 'operator',
+    addresses: ['300 Provider Ct'],
+    hq: { address: '300 Provider Ct', city: 'Richmond', state: 'KY' },
+    notes: 'Provider Management - Operating Propco Llc pattern'
+  },
+  'Care Initiatives': {
+    type: 'operator',
+    addresses: ['1611 West Lakes Pkwy', '1611 Westlakes Pkwy'],
+    hq: { address: '1611 West Lakes Pkwy', city: 'West Des Moines', state: 'IA' },
+    notes: 'Iowa largest nonprofit SNF operator - 43+ facilities'
+  },
+  'Complete Care Management': {
+    type: 'operator',
+    addresses: ['1730 Route 37 W'],
+    hq: { address: '1730 Route 37 W', city: 'Toms River', state: 'NJ' },
+    notes: 'Peace Capital Holdings LLC, Sam Stein - largest for-profit NJ SNF operator'
+  },
+  'Cantex Continuing Care': {
+    type: 'operator',
+    addresses: ['2537 Golden Bear Dr'],
+    hq: { address: '2537 Golden Bear Dr', city: 'Carrollton', state: 'TX' },
+    notes: 'Texas operator - 37 nursing centers, founded 1978'
+  },
+  'Vetter Senior Living': {
+    type: 'operator',
+    addresses: ['20220 Harney St'],
+    hq: { address: '20220 Harney St', city: 'Elkhorn', state: 'NE' },
+    notes: 'VSL entities - Nebraska nonprofit operator, 32 locations'
+  },
+  'Diversicare Healthcare': {
+    type: 'operator',
+    addresses: ['1621 Galleria Blvd'],
+    hq: { address: '1621 Galleria Blvd', city: 'Brentwood', state: 'TN' },
+    notes: '~50 SNFs in Southeast/Midwest/Southwest'
+  },
+  'Ethica Health': {
+    type: 'operator',
+    addresses: ['1005 Boulder Dr'],
+    hq: { address: '1005 Boulder Dr', city: 'Gray', state: 'GA' },
+    notes: 'Georgia operator - Holdings Llc pattern'
+  },
+  'Americare Senior Living': {
+    type: 'operator',
+    addresses: ['214 N Scott St'],
+    hq: { address: '214 N Scott St', city: 'Sikeston', state: 'MO' },
+    notes: 'Missouri operator - Nursing Llc pattern'
+  },
+  'Apple Healthcare': {
+    type: 'operator',
+    addresses: ['21 Waterville Rd'],
+    hq: { address: '21 Waterville Rd', city: 'Avon', state: 'CT' },
+    notes: 'Connecticut operator - Realty Llc pattern, 25+ homes'
+  },
+  'American Senior Communities': {
+    type: 'operator',
+    addresses: ['6900 Gray Rd'],
+    hq: { address: '6900 Gray Rd', city: 'Indianapolis', state: 'IN' },
+    notes: 'ASC - Indiana largest SNF operator, 59 CMS facilities'
+  },
+  'HCF Management': {
+    type: 'operator',
+    addresses: ['1100 Shawnee Rd'],
+    hq: { address: '1100 Shawnee Rd', city: 'Lima', state: 'OH' },
+    notes: 'Ohio/PA operator - HCF Realty entities, 26 facilities'
+  },
+  'DTD HC / Tara Cares': {
+    type: 'operator',
+    addresses: ['3690 Southwestern Blvd'],
+    hq: { address: '3690 Southwestern Blvd', city: 'Orchard Park', state: 'NY' },
+    notes: 'Leslie Wilson - Tara Therapy, Aurora Cares - NY SNF operator'
+  },
+  'HumanGood': {
+    type: 'operator',
+    addresses: ['1900 Huntington Dr'],
+    hq: { address: '1900 Huntington Dr', city: 'Duarte', state: 'CA' },
+    notes: 'CA largest nonprofit senior living - 122 communities'
+  },
+  'CommCare Corporation': {
+    type: 'operator',
+    addresses: ['950 W Causeway Approach'],
+    hq: { address: '950 W Causeway Approach', city: 'Mandeville', state: 'LA' },
+    notes: 'Louisiana nonprofit - 14 SNFs, founded 1994'
+  },
+  'Marquis Companies': {
+    type: 'operator',
+    addresses: ['4560 Se International Way Ste 100'],
+    hq: { address: '4560 Se International Way Ste 100', city: 'Milwaukie', state: 'OR' },
+    notes: 'Family-owned 39 years - OR/CA/NV senior living'
+  },
+  'Ciena Healthcare': {
+    type: 'operator',
+    addresses: ['4000 Town Ctr', '4000 Town Ctr Ste 2000', '4000 Town Ctr Ste 700'],
+    hq: { address: '4000 Town Ctr', city: 'Southfield', state: 'MI' },
+    notes: '83 facilities across 5 states'
+  },
+  'Autumn Lake Healthcare': {
+    type: 'operator',
+    addresses: ['4201 Us Highway 9'],
+    hq: { address: '4201 Us Highway 9', city: 'Howell', state: 'NJ' },
+    notes: 'Founded 2014 - NJ/CT/MD/WV/WI nursing homes and rehab centers'
+  },
+  'TL Management': {
+    type: 'operator',
+    addresses: ['2071 Flatbush Ave', '2071 Flatbush Ave # 22'],
+    hq: { address: '2071 Flatbush Ave', city: 'Brooklyn', state: 'NY' },
+    notes: 'Brooklyn SNF operator - distinct from CareRite'
   }
 };
 
