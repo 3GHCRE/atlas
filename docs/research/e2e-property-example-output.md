@@ -1,4 +1,4 @@
-# End-to-End Property Example: CHOW + Sale + Mortgage + CMS Principals
+# End-to-End Property Example: AUTUMN LAKE: CHOW + Sale + Mortgage + CMS Principals
 
 ## Property Profile: Autumn Lake Healthcare at Bridgepark
 
