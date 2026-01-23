@@ -55,17 +55,39 @@ Total estimated mortgage balance: $407.94B
 
 ## Mortgage Data Sources
 
-### Currently Available (Estimated Balances)
-- **5,762 properties** with estimated_mortgage_balance
-- **$407.94B** total estimated mortgage exposure
-- Source: REAPI property records (aggregate estimates)
+### Source Tables in REAPI (cms_data)
 
-### Pending (Detailed Transaction Data)
-- **reapi_mortgages table**: 0 rows currently
+| Table | Data Type | Status |
+|-------|-----------|--------|
+| `reapi_properties` | Estimated balances (aggregates) | ✅ 5,762 with balance data |
+| `reapi_sales_history` | Implied mortgages via LTV/down_payment | ✅ 522 financed purchases |
+| `reapi_mortgages` | Detailed mortgage transactions | ⏳ Schema ready, 0 rows |
+
+### Available: Estimated Balances (reapi_properties)
+- **5,762 properties** with `estimated_mortgage_balance`
+- **$407.94B** total estimated mortgage exposure
+- Source: Property valuation models (not actual recorded mortgages)
+- Fields: `estimated_mortgage_balance`, `open_mortgage_balance`, `estimated_mortgage_payment`
+
+### Available: Implied Mortgages (reapi_sales_history)
+- **522 financed purchases** with `purchase_method = 'Financed'`
+- LTV data allows calculating implied mortgage amount
+- Example: $19.2M sale @ 80% LTV → $15.36M mortgage
+- **Missing**: Lender names, interest rates, terms
+
+Sample financed purchases:
+```
+Jupiter Fl Realty Llc: $19.2M @ 80% LTV ($15.4M implied mortgage)
+Mountain Trace Nursing Adk Llc: $6.1M @ 81% LTV ($4.9M implied mortgage)
+Buena Sands Apartments Llc: $7.2M @ 57% LTV ($4.1M implied mortgage)
+```
+
+### Pending: Detailed Transactions (reapi_mortgages)
+- Schema ready with full mortgage details
 - When populated, will contain:
   - Individual mortgage transactions
-  - Lender and borrower names
-  - Interest rates and terms
+  - Lender and borrower names (`lender_name`, `grantee_name`)
+  - Interest rates and terms (`interest_rate`, `term`, `maturity_date`)
   - Document numbers and dates
 
 ## ETL Script Capabilities
