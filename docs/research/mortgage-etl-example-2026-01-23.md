@@ -59,9 +59,57 @@ Total estimated mortgage balance: $407.94B
 
 | Table | Data Type | Status |
 |-------|-----------|--------|
+| `reapi_properties.raw_json` | **Full mortgage history in JSON** | ✅ **19,966 mortgages found!** |
 | `reapi_properties` | Estimated balances (aggregates) | ✅ 5,762 with balance data |
 | `reapi_sales_history` | Implied mortgages via LTV/down_payment | ✅ 522 financed purchases |
-| `reapi_mortgages` | Detailed mortgage transactions | ⏳ Schema ready, 0 rows |
+| `reapi_mortgages` | Detailed mortgage transactions | ❌ Empty (data is in raw_json instead) |
+
+### **DISCOVERED: Full Mortgage Data in raw_json**
+
+The detailed mortgage data exists in `reapi_properties.raw_json` → `data.mortgageHistory` and `data.currentMortgages`:
+
+**Coverage:**
+- **8,163 properties** with mortgage data
+- **19,966 unique mortgages**
+- **4,395 unique lenders**
+- **$1.18 trillion** total mortgage amount
+
+**Top 10 Lenders:**
+| Rank | Lender | Mortgages |
+|------|--------|-----------|
+| 1 | Capital Funding | 498 |
+| 2 | Column Financial Inc | 399 |
+| 3 | JPMorgan Chase Bank NA | 374 |
+| 4 | Key Bank NA | 335 |
+| 5 | Oxford Finance LLC | 305 |
+| 6 | General Electric Capital Corp | 296 |
+| 7 | CIBC Bank USA | 272 |
+| 8 | The Huntington National Bank | 233 |
+| 9 | Wells Fargo Bank NA | 211 |
+| 10 | Bank of America NA | 210 |
+
+**JSON Structure:**
+```json
+{
+  "data": {
+    "mortgageHistory": [
+      {
+        "mortgageId": "749988",
+        "lenderName": "Walker & Dunlop Llc",
+        "lenderType": "Other (Company Or Corporation)",
+        "granteeName": "555 W Kahler Llc",  // borrower
+        "amount": 16240000,
+        "loanType": "Fha",
+        "interestRate": 0,
+        "term": "320",
+        "maturityDate": "2048-10-01",
+        "position": "First"
+      }
+    ],
+    "currentMortgages": [...]
+  }
+}
+```
 
 ### Available: Estimated Balances (reapi_properties)
 - **5,762 properties** with `estimated_mortgage_balance`
