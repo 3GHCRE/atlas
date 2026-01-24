@@ -6,9 +6,9 @@
 
 ---
 
-## Current Status: Bidirectional Navigation Complete
+## Current Status: Research Workflows Complete
 
-**Last Updated:** January 2026
+**Last Updated:** January 23, 2026
 
 ### The Power of Atlas
 
@@ -45,9 +45,9 @@ Other Properties ←── Deal History (12 deals) ←── Market Comps
 | property_owner | 14,094 | 14,054 | **100%** |
 | facility_operator | 14,054 | 14,054 | **100%** |
 | lender | 12,200 | 6,871 | 48.9% |
-| property_borrower | 4,818 | 3,859 | 27.5% |
-| property_buyer | 2,242 | 2,172 | 15.5% |
-| property_seller | 2,061 | 1,894 | 13.5% |
+| property_buyer | 5,953 | 5,953 | **42.4%** |
+| property_borrower | 5,680 | 5,680 | **40.4%** |
+| property_seller | 2,599 | 2,599 | 18.5% |
 
 ### Deal Types
 
@@ -239,11 +239,48 @@ node scripts/query-company.js "SABRA"
 
 ---
 
+## Research Workflows
+
+Atlas includes powerful research workflow scripts for market intelligence:
+
+```bash
+# Trace full ownership chain for any property
+node scripts/research/trace-ownership-chain.js "Mulberry Creek"
+
+# Track REIT disposition activity
+node scripts/research/reit-disposition-tracker.js "Omega"
+
+# Monitor operator acquisition activity
+node scripts/research/operator-expansion-monitor.js "Ensign"
+
+# Analyze lender portfolio exposure
+node scripts/research/lender-exposure-analyzer.js "Capital Funding"
+
+# State or national market analysis
+node scripts/research/market-activity-analyzer.js VA
+node scripts/research/market-activity-analyzer.js  # National overview
+```
+
+| Workflow | Purpose |
+|----------|---------|
+| `trace-ownership-chain.js` | Property → Entity → Company → Related Properties → Deal History |
+| `reit-disposition-tracker.js` | Track REIT sales, identify buyers, disposition trends |
+| `operator-expansion-monitor.js` | Monitor operator acquisitions, portfolio growth |
+| `lender-exposure-analyzer.js` | Portfolio risk by operator/owner/geography/quality |
+| `market-activity-analyzer.js` | Transaction trends, price per bed, top buyers |
+
+**See example output:** [Comprehensive Research Brief](docs/research/comprehensive-research-example.md)
+
+---
+
 ## Documentation
 
 | Document | Description |
 |----------|-------------|
 | [Navigation Showcase](docs/research/navigation-showcase.md) | E2E example of bidirectional navigation |
+| [Comprehensive Research Example](docs/research/comprehensive-research-example.md) | Full workflow chain demonstration |
+| [NC Portfolio Restructuring](docs/research/nc-portfolio-restructuring-2025.md) | Internal restructuring case study |
+| [Kissito-CareTrust Acquisition](docs/research/kissito-caretrust-acquisition-2025.md) | Third-party sale analysis |
 | [ATLAS_ERD](docs/ATLAS_ERD.md) | Complete ERD with record counts |
 | [REAPI Schema](docs/data/REAPI_SCHEMA.md) | Real estate data schema |
 
@@ -275,12 +312,24 @@ node scripts/query-company.js "SABRA"
 | `showcase-navigation.js` | Simple navigation demo |
 | `query-company.js` | Query company details |
 
+### Research (scripts/research/)
+
+| Script | Purpose |
+|--------|---------|
+| `trace-ownership-chain.js` | Full ownership network trace |
+| `reit-disposition-tracker.js` | REIT sales and buyer tracking |
+| `operator-expansion-monitor.js` | Operator acquisition activity |
+| `lender-exposure-analyzer.js` | Lender portfolio risk analysis |
+| `market-activity-analyzer.js` | State/national transaction trends |
+
 ---
 
 ## Next Steps
 
-- [ ] Load CRM Principals for complete people network
+- [x] ~~Load deal party relationships (buyer/seller/borrower)~~ ✓ 42.4% buyer, 40.4% borrower coverage
+- [x] ~~Build research workflow scripts~~ ✓ 5 workflows complete
 - [ ] Build MCP tools for Claude integration
+- [ ] Integrate Zoho CRM for prospect tracking
 - [ ] Create API endpoints for navigation queries
 - [ ] Add real-time CMS data sync
 
