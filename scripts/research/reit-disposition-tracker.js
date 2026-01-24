@@ -67,7 +67,7 @@ async function track() {
     const [dispositions] = await db.execute(`
       SELECT d.id, d.amount, COALESCE(d.effective_date, d.recorded_date) as deal_date,
              pm.facility_name, pm.city, pm.state,
-             dp_buyer.party_name as buyer
+             MAX(dp_buyer.party_name) as buyer
       FROM deals d
       JOIN deals_parties dp_seller ON dp_seller.deal_id = d.id AND dp_seller.party_role = 'seller'
       JOIN entities e ON LOWER(dp_seller.party_name) LIKE CONCAT('%', LOWER(SUBSTRING_INDEX(e.entity_name, ' ', 3)), '%')
@@ -76,7 +76,7 @@ async function track() {
       LEFT JOIN deals_parties dp_buyer ON dp_buyer.deal_id = d.id AND dp_buyer.party_role = 'buyer'
       WHERE d.deal_type = 'sale'
         AND d.amount > 1000000
-      GROUP BY d.id
+      GROUP BY d.id, d.amount, deal_date, pm.facility_name, pm.city, pm.state
       ORDER BY deal_date DESC
       LIMIT 20
     `, [reit.id]);
@@ -85,8 +85,8 @@ async function track() {
     const [dispositions2] = await db.execute(`
       SELECT d.id, d.amount, COALESCE(d.effective_date, d.recorded_date) as deal_date,
              pm.facility_name, pm.city, pm.state,
-             dp_buyer.party_name as buyer,
-             dp_seller.party_name as seller
+             MAX(dp_buyer.party_name) as buyer,
+             MAX(dp_seller.party_name) as seller
       FROM deals d
       JOIN deals_parties dp_seller ON dp_seller.deal_id = d.id AND dp_seller.party_role = 'seller'
       JOIN property_master pm ON pm.id = d.property_master_id
@@ -94,6 +94,7 @@ async function track() {
       WHERE d.deal_type = 'sale'
         AND d.amount > 1000000
         AND (dp_seller.party_name LIKE ? OR dp_seller.party_name LIKE ?)
+      GROUP BY d.id, d.amount, deal_date, pm.facility_name, pm.city, pm.state
       ORDER BY deal_date DESC
       LIMIT 25
     `, [`%${reit.company_name.split(' ')[0]}%`, `%${reit.company_name.replace(/\s+/g, '%')}%`]);
