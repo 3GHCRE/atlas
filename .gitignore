@@ -49,7 +49,9 @@ docker/scripts/*.pdf
 
 .env
 .env.*
+!.env.example
 *.env
+.my.cnf
 credentials.json
 secrets/
 
@@ -85,6 +87,9 @@ node_modules/
 npm-debug.log
 yarn-error.log
 package-lock.json
+
+# MCP server build output
+mcp/dist/
 
 # ============================================
 # LOGS AND TEMP FILES

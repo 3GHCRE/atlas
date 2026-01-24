@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "3ghcre-atlas": {
+      "command": "node",
+      "args": ["C:/Users/MSuLL/dev/.projects/3GHCRE/mcp/dist/index.js"],
+      "env": {
+        "LOCAL_DB_HOST": "localhost",
+        "LOCAL_DB_PORT": "3306",
+        "LOCAL_DB_USER": "root",
+        "LOCAL_DB_PASSWORD": "YOUR_PASSWORD_HERE",
+        "LOCAL_DB_NAME": "atlas"
+      }
+    }
+  }
+}
