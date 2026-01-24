@@ -247,7 +247,7 @@ async function analyzeState(db, state) {
   `, [state]);
 
   majorOps.forEach(op => {
-    const quality = op.avg_quality ? `${op.avg_quality.toFixed(1)}★` : 'N/A';
+    const quality = op.avg_quality ? `${parseFloat(op.avg_quality).toFixed(1)}★` : 'N/A';
     console.log(`  ${op.company_name}: ${op.props} properties (avg quality: ${quality})`);
   });
 }
