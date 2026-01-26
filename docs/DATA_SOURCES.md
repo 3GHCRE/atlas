@@ -74,7 +74,7 @@ AK, CA, CO, FL, GA, HI, IA, IL, IN, KS, KY, MA, MO, MS, MT, ND, NH, NY, OH, PA, 
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
 │  property_master ──► entities ──► companies ──► principals                  │
-│     (14,054)        (16,261)      (4,144)       (47,386)                   │
+│     (14,054)        (29,574)     (10,489)       (54,714)                   │
 │                                                                             │
 │  SNF Facilities    Legal LLCs/    Portfolio      Individual                 │
 │  by CCN            Corps          Groups         Owners/Officers            │
@@ -86,11 +86,11 @@ AK, CA, CO, FL, GA, HI, IA, IL, IN, KS, KY, MA, MO, MS, MT, ND, NH, NY, OH, PA, 
 
 | Table | Records | Links |
 |-------|---------|-------|
-| property_entity_relationships | 14,054 | Property → Entity (100%) |
-| principal_entity_relationships | 98,788 | Principal → Entity |
-| principal_company_relationships | 88,015 | Principal → Company |
-| deals | 4,953 | CHOW transactions |
-| deals_parties | 9,906 | Buyer/Seller on deals |
+| property_entity_relationships | 56,721 | Property → Entity |
+| principal_entity_relationships | 99,049 | Principal → Entity |
+| principal_company_relationships | 65,135 | Principal → Company |
+| deals | 29,365 | All transactions (CHOW, sales, mortgages) |
+| deals_parties | 59,464 | Buyer/Seller/Lender on deals |
 | medicaid_rates | 8,206 | Rates → Property |
 
 ---
@@ -611,9 +611,10 @@ CREATE TABLE hud_mortgages (
 | Data Type | Coverage | Quality |
 |-----------|----------|---------|
 | Facility Master | 14,054 (100%) | High |
-| Ownership (Entity) | 16,261 (100%) | High |
-| Ownership (Principal) | 47,386 (100%) | High |
-| CHOW Transactions | 4,953 (97% linked) | High |
+| Ownership (Entity) | 29,574 (100%) | High |
+| Ownership (Company) | 10,489 | High |
+| Ownership (Principal) | 54,714 (100%) | High |
+| All Transactions | 29,365 | High |
 | Medicaid Rates | 5,809 (41.3%) | Medium |
 | Cost Report Certifiers | 14,242 (100%) | High |
 

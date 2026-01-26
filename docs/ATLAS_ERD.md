@@ -5,7 +5,7 @@
 ## 4-Layer Ownership Architecture
 
 ```
-Property (14,054) → Entity (16,261) → Company (4,144) → Principal (47,386)
+Property (14,054) → Entity (29,574) → Company (10,489) → Principal (54,714)
 ```
 
 - **Property** = SNF facility (CCN) - Layer 1: Assets
@@ -21,7 +21,7 @@ Property (14,054) → Entity (16,261) → Company (4,144) → Principal (47,386)
  LAYER 1: ASSETS                LAYER 2: LEGAL ENTITIES           LAYER 3: PORTFOLIOS            LAYER 4: PEOPLE
 ┌─────────────────────┐        ┌─────────────────────┐           ┌─────────────────────┐        ┌─────────────────────┐
 │   property_master   │        │      entities       │           │      companies      │        │     principals      │
-│      (14,054)       │        │     (16,261)        │           │      (4,144)        │        │     (47,386)        │
+│      (14,054)       │        │     (29,574)        │           │     (10,489)        │        │     (54,714)        │
 ├─────────────────────┤        ├─────────────────────┤           ├─────────────────────┤        ├─────────────────────┤
 │ PK id               │        │ PK id               │           │ PK id               │        │ PK id               │
 │ UK ccn              │        │    entity_name      │           │    company_name     │        │    first_name       │
@@ -39,10 +39,10 @@ Property (14,054) → Entity (16,261) → Company (4,144) → Principal (47,386)
            ▼                              │                                 │ 1:N                          │
 ┌─────────────────────────────────┐       │                    ┌───────────┴───────────┐                   │
 │ property_entity_relationships   │       │                    │                       │                   │
-│          (14,054)               │       │                    ▼                       │                   │
+│          (56,721)               │       │                    ▼                       │                   │
 ├─────────────────────────────────┤       │    ┌─────────────────────────────────┐     │                   │
 │ PK id                           │       │    │ principal_company_relationships │     │                   │
-│ FK property_master_id ──────────┼───────┘    │          (62,970)               │◄────┼───────────────────┘
+│ FK property_master_id ──────────┼───────┘    │          (65,135)               │◄────┼───────────────────┘
 │ FK entity_id ───────────────────┼────────────┤          (Portfolio Level)      │     │
 │    relationship_type            │            ├─────────────────────────────────┤     │
 │    (facility_operator/          │            │ FK principal_id                 │     │
@@ -55,7 +55,7 @@ Property (14,054) → Entity (16,261) → Company (4,144) → Principal (47,386)
 
 ┌─────────────────────────────────┐
 │ principal_entity_relationships  │
-│          (98,788)               │
+│          (99,049)               │
 │        (Entity Level)           │
 ├─────────────────────────────────┤
 │ PK id                           │
@@ -149,17 +149,14 @@ Property (14,054) → Entity (16,261) → Company (4,144) → Principal (47,386)
 | Table | Records | Description |
 |-------|---------|-------------|
 | `property_master` | 14,054 | SNF facilities from CMS |
-| `entities` | 16,261 | Legal entities (11,897 current + 4,364 historical) |
-| `companies` | 4,144 | Portfolio companies (619 chains + 264 principal portfolios + 3,261 standalone) |
-| `principals` | 47,386 | Individuals (owners, officers, directors) |
-| `property_entity_relationships` | 14,054 | Facility-entity links (100% coverage) |
-| `principal_entity_relationships` | 98,788 | Principal-entity links (100% entity coverage) |
-| `principal_company_relationships` | 88,015 | Principal-company links (portfolio level) |
-| `deals` | 4,953 | All transactions |
-| `deals_chow` | 4,953 | CHOW-specific data |
-| `deals_sale` | 0 | Ready for REAPI |
-| `deals_mortgage` | 0 | Ready for REAPI |
-| `deals_parties` | 9,906 | Transaction parties |
+| `entities` | 29,574 | Legal entities (LLCs, Corps) |
+| `companies` | 10,489 | Consolidated ownership groups |
+| `principals` | 54,714 | Individuals (owners, officers, directors) |
+| `property_entity_relationships` | 56,721 | Facility-entity links |
+| `principal_entity_relationships` | 99,049 | Principal-entity links |
+| `principal_company_relationships` | 65,135 | Principal-company links (portfolio level) |
+| `deals` | 29,365 | All transactions (CHOW, sales, mortgages) |
+| `deals_parties` | 59,464 | Transaction parties |
 
 ## Table Details
 

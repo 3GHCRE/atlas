@@ -8,11 +8,11 @@
 
 ## Current Status: Production Ready
 
-**Last Updated:** January 25, 2026
+**Last Updated:** January 26, 2026
 
 ### Recent Accomplishments
 
-- **MCP Server Complete** - 41 tools across 6 categories for Claude integration
+- **MCP Server Complete** - 70 tools across 9 categories for Claude integration
 - **CMS Certifier Linkage** - Automated principal discovery from CMS enrollment data
 - **90.6% Principal Coverage** - Companies with 5+ properties now have linked principals
 - **PropCo/OpCo Architecture** - Proper entity-level ownership structure linked to parent companies
@@ -41,9 +41,9 @@ Other Properties ←── Deal History (12 deals) ←── Market Comps
 | Entity | Count | Description |
 |--------|-------|-------------|
 | Properties | 14,054 | SNF facilities (unique by CCN) |
-| Companies | 9,749 | Consolidated ownership groups |
-| Entities | 29,508 | Legal entities (LLCs, Corps) |
-| Principals | 47,386 | Individual owners, officers, directors |
+| Companies | 10,489 | Consolidated ownership groups |
+| Entities | 29,574 | Legal entities (LLCs, Corps) |
+| Principals | 54,714 | Individual owners, officers, directors |
 | Deals | 29,365 | Transactions (mortgages, sales, CHOWs) |
 
 ### Relationship Coverage
@@ -70,7 +70,7 @@ Other Properties ←── Deal History (12 deals) ←── Market Comps
 ## 4-Layer Architecture
 
 ```
-Property (14,054) → Entity (29,508) → Company (9,749) → Principal (47,386)
+Property (14,054) → Entity (29,574) → Company (10,489) → Principal (54,714)
 ```
 
 - **Property** = SNF facility (CCN)
@@ -206,7 +206,7 @@ node scripts/query-company.js "SABRA"
 ```
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
 │ property_master │────▶│    entities     │────▶│   companies     │
-│    (14,054)     │     │    (29,508)     │     │    (9,749)      │
+│    (14,054)     │     │    (29,574)     │     │    (10,489)     │
 └────────┬────────┘     └────────┬────────┘     └────────┬────────┘
          │                       │                       │
          │                       │                       │
@@ -220,7 +220,7 @@ node scripts/query-company.js "SABRA"
          ▼
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
 │     deals       │────▶│  deals_parties  │     │   principals    │
-│    (29,365)     │     │    (19,951)     │     │    (47,386)     │
+│    (29,365)     │     │    (59,464)     │     │    (54,714)     │
 └────────┬────────┘     └─────────────────┘     └─────────────────┘
          │
     ┌────┴────┐
@@ -334,7 +334,7 @@ node scripts/research/market-activity-analyzer.js  # National overview
 
 ## MCP Server
 
-The Atlas MCP server provides **41 tools** for Claude integration across 6 categories:
+The Atlas MCP server provides **70 tools** for Claude integration across 9 categories:
 
 | Category | Tools | Description |
 |----------|-------|-------------|
@@ -343,7 +343,10 @@ The Atlas MCP server provides **41 tools** for Claude integration across 6 categ
 | Market | 5 | Market statistics, top buyers/sellers/lenders, hot markets |
 | Hierarchy | 4 | PropCo/OpCo portfolios, parent company hierarchy |
 | Performance | 5 | CMS quality ratings, staffing, cost reports, Medicaid rates |
-| Intelligence | 6 | SEC EDGAR filings, ProPublica nonprofit 990s |
+| Intelligence | 15 | SEC EDGAR, ProPublica 990s, CMS compliance, legal/court, news |
+| Analytics | 9 | Portfolio benchmarking, quality scoring, trend analysis, risk |
+| Geographic | 4 | Radius search, market competition, spatial analysis |
+| Workflow | 7 | Watchlists, saved searches, change detection |
 
 **[Full MCP Documentation →](mcp/README.md)**
 
@@ -353,7 +356,7 @@ The Atlas MCP server provides **41 tools** for Claude integration across 6 categ
 
 - [x] ~~Load deal party relationships~~ ✓ 42.4% buyer, 40.4% borrower coverage
 - [x] ~~Build research workflow scripts~~ ✓ 5 workflows complete
-- [x] ~~Build MCP tools for Claude integration~~ ✓ 41 tools across 6 categories
+- [x] ~~Build MCP tools for Claude integration~~ ✓ 70 tools across 9 categories
 - [ ] Integrate Zoho CRM for prospect tracking
 - [ ] Create API endpoints for navigation queries
 - [ ] Add real-time CMS data sync
