@@ -3,20 +3,10 @@
  * Analyzes transactions, buyers, sellers, lenders, financing for GA SNFs
  */
 
-const mysql = require('mysql2/promise');
-
-const DB_CONFIG = {
-  host: 'YOUR_DB_HOST_HERE',
-  port: 25060,
-  user: 'YOUR_DB_USER_HERE',
-  password: 'YOUR_DB_PASSWORD_HERE',
-  database: 'cms_data',
-  ssl: { rejectUnauthorized: false },
-  connectTimeout: 30000
-};
+const { getReapiConnection } = require('./lib/db-config');
 
 async function main() {
-  const conn = await mysql.createConnection(DB_CONFIG);
+  const conn = await getReapiConnection();
 
   console.log('=== GEORGIA PROPCO / TRANSACTION RESEARCH ===\n');
 

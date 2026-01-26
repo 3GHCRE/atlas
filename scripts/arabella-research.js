@@ -6,28 +6,9 @@
  * Generates detailed metrics for all 13 SNF facilities across AL and FL
  */
 
-require('dotenv').config();
-const mysql = require('mysql2/promise');
 const fs = require('fs');
 const path = require('path');
-
-// Database configurations
-const REAPI_DB = {
-  host: 'YOUR_DB_HOST_HERE',
-  port: 25060,
-  user: 'YOUR_DB_USER_HERE',
-  password: 'YOUR_DB_PASSWORD_HERE',
-  database: 'cms_data',
-  ssl: { rejectUnauthorized: false }
-};
-
-const ATLAS_DB = {
-  host: process.env.LOCAL_DB_HOST || 'localhost',
-  port: parseInt(process.env.LOCAL_DB_PORT || '3306'),
-  user: process.env.LOCAL_DB_USER || 'root',
-  password: process.env.LOCAL_DB_PASSWORD || 'devpass',
-  database: process.env.LOCAL_DB_NAME || 'atlas'
-};
+const { getAtlasConnection, getReapiConnection } = require('./lib/db-config');
 
 // Arabella facility CCNs from research plan
 const ARABELLA_CCNS = [
@@ -54,8 +35,8 @@ const ARABELLA_PATTERNS = [
 ];
 
 async function main() {
-  const reapi = await mysql.createConnection(REAPI_DB);
-  const atlas = await mysql.createConnection(ATLAS_DB);
+  const reapi = await getReapiConnection();
+  const atlas = await getAtlasConnection();
 
   console.log('═'.repeat(80));
   console.log('  ARABELLA HEALTH & WELLNESS - COMPREHENSIVE RESEARCH REPORT');

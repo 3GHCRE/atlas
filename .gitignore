@@ -56,6 +56,36 @@ credentials.json
 secrets/
 
 # ============================================
+# CLAUDE CODE / MCP CONFIGS (may contain credentials)
+# ============================================
+
+.claude/
+.mcp.json
+
+# ============================================
+# TEMPORARY DATA FILES (large, generated)
+# ============================================
+
+# Root-level CMS data files
+SNF10_*.csv
+NH_ProviderInfo_*.csv
+HCRIS_DATA_DICTIONARY.csv
+
+# Data directory generated files
+data/enrichment-output.txt
+data/enrichment-report.json
+data/gap-analysis-*.json
+data/*-mapping.json
+data/crm-exports/
+
+# Temporary query/test files
+query.sql
+test-db.js
+test-db.sh
+db-query.sh
+10000000
+
+# ============================================
 # IDE AND EDITOR
 # ============================================
 
