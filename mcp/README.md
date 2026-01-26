@@ -1,6 +1,6 @@
 # 3GHCRE Atlas MCP Server
 
-MCP (Model Context Protocol) server for the 3GHCRE Atlas SNF ownership database. Provides **41 tools** across 6 categories for querying, navigating, and analyzing skilled nursing facility ownership networks.
+MCP (Model Context Protocol) server for the 3GHCRE Atlas SNF ownership database. Provides **70 tools** across 9 categories for querying, navigating, and analyzing skilled nursing facility ownership networks.
 
 ## Quick Start
 
@@ -24,7 +24,10 @@ npm start
 | Market | 5 | Market statistics, top buyers/sellers/lenders, hot markets |
 | Hierarchy | 4 | PropCo/OpCo portfolios, parent company hierarchy |
 | Performance | 5 | CMS quality ratings, staffing, cost reports, Medicaid rates |
-| Intelligence | 6 | SEC EDGAR filings, ProPublica nonprofit 990s, REIT verification |
+| Intelligence | 15 | SEC EDGAR, ProPublica 990s, CMS compliance, legal/court, news |
+| Analytics | 9 | Portfolio benchmarking, quality scoring, trend analysis, risk |
+| Geographic | 4 | Radius search, market competition, spatial analysis |
+| Workflow | 7 | Watchlists, saved searches, change detection |
 
 ---
 
@@ -120,9 +123,9 @@ CMS quality metrics, staffing data, and financial performance.
 
 ---
 
-## Intelligence Tools (6 tools)
+## Intelligence Tools (15 tools)
 
-External data integration for REITs and nonprofits.
+External data integration for REITs, nonprofits, CMS compliance, legal, and news.
 
 ### SEC EDGAR (for publicly traded REITs)
 
@@ -145,6 +148,77 @@ External data integration for REITs and nonprofits.
 |------|-------------|----------------|
 | `verify_reit_portfolio` | Compare SEC data against Atlas database | `company_id`, `company_name`, `ticker` |
 
+### CMS Provider Search & Compliance
+
+| Tool | Description | Key Parameters |
+|------|-------------|----------------|
+| `cms_search_providers` | Search CMS Nursing Home Compare data | `state`, `city`, `facility_name`, `min_rating`, `special_focus`, `has_abuse_icon` |
+| `cms_get_sff_list` | Get Special Focus Facility list and candidates | `state`, `include_candidates` |
+| `cms_get_survey_results` | Get inspection survey results and deficiencies | `property_id`, `ccn`, `severity_filter` |
+| `cms_get_complaints` | Get complaint investigation results | `property_id`, `ccn`, `substantiated_only` |
+
+### Legal & Court Records (CourtListener)
+
+| Tool | Description | Key Parameters |
+|------|-------------|----------------|
+| `legal_search_federal_cases` | Search federal court cases by party/company | `query`, `company_id`, `principal_id`, `court`, `filed_after` |
+| `legal_get_bankruptcy_status` | Check bankruptcy filings for company/principal | `company_id`, `principal_id`, `query` |
+
+### News & Media
+
+| Tool | Description | Key Parameters |
+|------|-------------|----------------|
+| `news_search_articles` | Search SNF industry news articles | `keywords`, `topic`, `source`, `days`, `limit` |
+| `news_get_deal_announcements` | Find M&A and transaction news | `company_id`, `deal_type`, `days` |
+| `news_get_company_mentions` | Track company mentions across news sources | `company_id`, `company_name`, `days` |
+
+---
+
+## Analytics Tools (9 tools)
+
+Portfolio benchmarking, quality scoring, trend analysis, and risk assessment.
+
+| Tool | Description | Key Parameters |
+|------|-------------|----------------|
+| `benchmark_portfolio` | Compare company metrics against state/national averages | `company_id`, `state` |
+| `score_facility_quality` | Calculate composite quality score for a facility | `property_id`, `ccn`, `include_breakdown` |
+| `analyze_quality_trends` | Track quality rating changes over time | `property_id`, `ccn`, `company_id`, `months` |
+| `assess_operator_risk` | Evaluate operator risk profile (SFF, citations, turnover) | `company_id`, `include_facilities` |
+| `assess_financial_distress` | Identify financial distress signals | `company_id`, `property_id`, `ccn` |
+| `analyze_staffing_trends` | Track staffing levels and turnover over time | `property_id`, `ccn`, `company_id`, `quarters` |
+| `analyze_transaction_trends` | Analyze deal activity patterns | `company_id`, `state`, `deal_type`, `months` |
+| `compare_companies` | Side-by-side comparison of two companies | `company_id_1`, `company_id_2` |
+| `compare_markets` | Compare market metrics across states | `states`, `metrics` |
+
+---
+
+## Geographic Tools (4 tools)
+
+Radius search, market competition, and spatial analysis.
+
+| Tool | Description | Key Parameters |
+|------|-------------|----------------|
+| `search_properties_radius` | Find properties within radius (Haversine) | `property_id`, `ccn`, `latitude`, `longitude`, `radius_miles` |
+| `analyze_market_competition` | Analyze competitive landscape around a facility | `property_id`, `ccn`, `radius_miles` |
+| `get_portfolio_geography` | Map company portfolio distribution by state/region | `company_id`, `group_by` |
+| `get_geographic_clusters` | Identify facility clusters and density patterns | `state`, `min_cluster_size`, `radius_miles` |
+
+---
+
+## Workflow Tools (7 tools)
+
+Watchlists, saved searches, and change detection for monitoring.
+
+| Tool | Description | Key Parameters |
+|------|-------------|----------------|
+| `create_watchlist` | Create a new watchlist for monitoring | `name`, `description`, `user_id` |
+| `list_watchlists` | List all watchlists for a user | `user_id` |
+| `manage_watchlist_items` | Add/remove properties, companies, principals from watchlist | `watchlist_id`, `action`, `item_type`, `item_id` |
+| `save_search` | Save a search query for reuse | `name`, `search_type`, `parameters`, `user_id` |
+| `run_saved_search` | Execute a previously saved search | `search_id` |
+| `detect_watchlist_changes` | Check for changes to watched items | `watchlist_id`, `since_date` |
+| `get_recent_changes` | Get recent ownership/rating changes across all data | `change_type`, `days`, `state` |
+
 ---
 
 ## Data Model
@@ -154,9 +228,9 @@ property_master (14,054)
     ↓ property_entity_relationships
 entities (29,508)
     ↓ company_id FK
-companies (9,749)
+companies (10,489)
     ↓ principal_company_relationships
-principals (47,386)
+principals (54,714)
 ```
 
 ### Record Counts (as of January 2026)
@@ -165,8 +239,8 @@ principals (47,386)
 |-------|-------|-------------|
 | `property_master` | 14,054 | SNF facilities (unique by CCN) |
 | `entities` | 29,508 | Legal entities (LLCs, Corps) |
-| `companies` | 9,749 | Consolidated ownership groups |
-| `principals` | 47,386 | Individual owners, officers, directors |
+| `companies` | 10,489 | Consolidated ownership groups |
+| `principals` | 54,714 | Individual owners, officers, directors |
 | `deals` | 29,365 | Transactions (mortgages, sales, CHOWs) |
 | `property_entity_relationships` | 49,469 | Property ↔ Entity links |
 
@@ -242,6 +316,26 @@ Add to `%APPDATA%\Claude\claude_desktop_config.json` (Windows) or `~/Library/App
 - "Find the 990 for Good Samaritan Society"
 - "Verify CareTrust REIT portfolio against Atlas"
 
+### Analytics & Risk
+- "Benchmark Ensign's portfolio against Texas state averages"
+- "Assess operator risk for Genesis Healthcare"
+- "Compare quality trends for these two operators"
+
+### Geographic Analysis
+- "Find all SNFs within 25 miles of this facility"
+- "Analyze market competition around CCN 675432"
+- "Show geographic clusters of facilities in Indiana"
+
+### Compliance & Legal
+- "Search for federal court cases involving this company"
+- "Check bankruptcy status for these principals"
+- "Find facilities on the SFF list in Florida"
+
+### Monitoring
+- "Create a watchlist for Texas acquisition targets"
+- "Check for ownership changes in my watchlist this month"
+- "Get recent CHOW activity in California"
+
 ---
 
 ## Development
@@ -277,14 +371,30 @@ mcp/
 │   ├── index.ts              # MCP server entry point
 │   ├── db.ts                 # Database connection pool
 │   └── tools/
-│       ├── index.ts          # Tool registry (41 tools)
+│       ├── index.ts          # Tool registry (70 tools)
 │       ├── record/           # CRUD operations (9 tools)
 │       ├── graph/            # Network navigation (12 tools)
 │       ├── market/           # Market analytics (5 tools)
 │       ├── hierarchy/        # PropCo/parent hierarchy (4 tools)
 │       ├── performance/      # CMS quality/financial (5 tools)
-│       └── intelligence/     # SEC/nonprofit lookup (6 tools)
+│       ├── intelligence/     # SEC/nonprofit/CMS/legal/news (15 tools)
+│       ├── analytics/        # Benchmarking/trends/risk (9 tools)
+│       ├── geographic/       # Spatial analysis (4 tools)
+│       └── workflow/         # Watchlists/monitoring (7 tools)
 ├── dist/                     # Compiled JavaScript
 ├── package.json
 └── tsconfig.json
 ```
+
+---
+
+## Changelog
+
+### January 2026 (Phase 8-9)
+- Added **Analytics tools** (9): Portfolio benchmarking, quality scoring, trend analysis, risk assessment
+- Added **Geographic tools** (4): Radius search, market competition, spatial clustering
+- Added **Workflow tools** (7): Watchlists, saved searches, change detection
+- Added **CMS Compliance tools** (4): Provider search, SFF list, surveys, complaints
+- Added **Legal tools** (2): Federal case search, bankruptcy status via CourtListener
+- Added **News tools** (3): Article search, deal announcements, company mentions
+- Total tools: 41 → **70**
