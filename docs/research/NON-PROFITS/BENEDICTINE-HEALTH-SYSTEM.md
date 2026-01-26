@@ -137,17 +137,24 @@ Benedictine Health System is one of the **largest Catholic senior living organiz
 |-------|-------|
 | **Company ID** | 20 |
 | **Legal Name** | BENEDICTINE HEALTH SYSTEM |
+| **EIN** | 41-1531892 |
 | **Type** | Owner-Operator (Nonprofit) |
-| **Atlas HQ** | 2 Nazareth Ln, Saint Louis, MO 63129 |
-| **Operating Entities** | 10 OpCos |
-| **Properties in Atlas** | 10 SNF facilities |
-| **Total Certified Beds** | 787 |
-| **Geographic Footprint** | MN (7), MO (2), WI (1) |
+| **HQ Address** | 6499 University Ave NE, Suite 300, Minneapolis, MN 55432 |
+| **Website** | https://www.benedictineliving.org |
+| **Operating Entities** | 24 OpCos |
+| **Properties Owned/Operated** | 22 SNF facilities (matches CMS) |
+| **Total Property Relationships** | 25 (includes 3 sold facilities) |
+| **Total Certified Beds** | ~1,815 nursing beds |
+| **Geographic Footprint** | MN, MO, WI, ND, SD |
 | **Principals on Record** | 112 board members/officers |
+
+*Note: Data consolidated 2026-01-26 from 10 previously fragmented company records*
 
 ---
 
 ## Ownership Network Graph
+
+*Sample of 10 representative facilities - Full portfolio includes 22 owned/operated SNFs across 24 entities*
 
 ```
 BENEDICTINE HEALTH SYSTEM (Company #20)
@@ -280,6 +287,15 @@ Benedictine acquired from Church of St. Boniface / Diocese of St. Cloud:
 
 Rebranded as: **Benedictine Living Community-Cold Spring**
 
+### Former Properties (Sold/Divested)
+
+| Property | CCN | Transaction | Notes |
+|----------|-----|-------------|-------|
+| North Shore Estates | 245483B | Sale (2016) | Sold to North Shore Estates LLC |
+| Glenoaks Health Campus | - | Sale | No longer operated by Benedictine |
+| Gardens at Winsted | - | Sale | No longer operated by Benedictine |
+| Benedictine Manor of Wausau | 525310 | Sale (Nov 2024) | Sold to The Ensign Group |
+
 ### Historical Deals (Atlas Database)
 
 | Date | Property/CCN | Type | Amount | Buyer | Seller |
@@ -332,10 +348,10 @@ Per family reviews and public data:
 | Company | Properties | Entities | States | Notes |
 |---------|-----------|----------|--------|-------|
 | Monarch Healthcare Mgmt | 47 | 69 | MN | Largest regional |
+| **Benedictine Health System** | **22** | **24** | **MN, MO, WI, ND, SD** | **Catholic** |
 | Cassia | 17 | 17 | MN, IA, CO, ND | Lutheran-affiliated |
 | Presbyterian Homes & Services | 16 | 20 | MN | Faith-based |
 | St. Francis Health Services | 15 | 18 | MN | Catholic |
-| **Benedictine Health System** | **10** | **10** | **MN, MO, WI** | **Catholic** |
 | Ecumen | 9 | 4 | MN | Senior living focus |
 
 ### Strategic Positioning
