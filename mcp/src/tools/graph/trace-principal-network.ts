@@ -27,10 +27,10 @@ interface CompanyRelRow extends RowDataPacket {
   company_id: number;
   company_name: string;
   company_type: string | null;
-  role: string;
+  roles: string;  // Comma-separated list of roles
   ownership_percentage: number | null;
-  effective_date: Date | null;
-  end_date: Date | null;
+  earliest_effective_date: Date | null;
+  is_current: boolean;
 }
 
 interface PropertyRow extends RowDataPacket {
@@ -60,17 +60,21 @@ export async function execute(params: TracePrincipalNetworkParams): Promise<Tool
     return notFound('Principal', principal_id);
   }
 
-  // Get company relationships
+  // Get company relationships - group by company, aggregate roles
   const endDateFilter = include_historical ? '' : 'AND pcr.end_date IS NULL';
   const companyRels = await query<CompanyRelRow[]>(`
     SELECT c.id as company_id, c.company_name, c.company_type,
-           pcr.role, pcr.ownership_percentage, pcr.effective_date, pcr.end_date
+           GROUP_CONCAT(DISTINCT pcr.role ORDER BY pcr.role) as roles,
+           MAX(pcr.ownership_percentage) as ownership_percentage,
+           MIN(pcr.effective_date) as earliest_effective_date,
+           MAX(pcr.end_date IS NULL) as is_current
     FROM principal_company_relationships pcr
     JOIN companies c ON c.id = pcr.company_id
     WHERE pcr.principal_id = ?
       ${endDateFilter}
       AND c.company_name NOT LIKE '[MERGED]%'
-    ORDER BY pcr.end_date IS NULL DESC, pcr.ownership_percentage DESC, c.company_name
+    GROUP BY c.id, c.company_name, c.company_type
+    ORDER BY is_current DESC, ownership_percentage DESC, c.company_name
   `, [principal_id]);
 
   // Get properties for each company
@@ -90,14 +94,17 @@ export async function execute(params: TracePrincipalNetworkParams): Promise<Tool
     `, companyIds);
   }
 
-  // Group properties by company
-  const propertiesByCompany: Record<number, PropertyRow[]> = {};
+  // Group properties by company, dedupe by property_id
+  const propertiesByCompany: Record<number, Map<number, PropertyRow>> = {};
   for (const p of properties) {
-    if (!propertiesByCompany[p.company_id]) propertiesByCompany[p.company_id] = [];
-    propertiesByCompany[p.company_id].push(p);
+    if (!propertiesByCompany[p.company_id]) propertiesByCompany[p.company_id] = new Map();
+    // Keep first occurrence (or could merge relationship_types)
+    if (!propertiesByCompany[p.company_id].has(p.property_id)) {
+      propertiesByCompany[p.company_id].set(p.property_id, p);
+    }
   }
 
-  // Calculate totals
+  // Calculate totals (unique properties across all companies)
   const totalProperties = new Set(properties.map(p => p.property_id)).size;
   const totalStates = new Set(properties.map(p => p.state)).size;
 
@@ -113,28 +120,31 @@ export async function execute(params: TracePrincipalNetworkParams): Promise<Tool
       company_count: companyRels.length,
       total_properties: totalProperties,
       states_represented: totalStates,
-      active_companies: companyRels.filter(c => !c.end_date).length,
-      historical_companies: companyRels.filter(c => c.end_date).length
+      active_companies: companyRels.filter(c => c.is_current).length,
+      historical_companies: companyRels.filter(c => !c.is_current).length
     },
-    companies: companyRels.map(c => ({
-      id: c.company_id,
-      name: c.company_name,
-      type: c.company_type,
-      role: c.role,
-      ownership_percentage: c.ownership_percentage,
-      is_current: !c.end_date,
-      effective_date: c.effective_date,
-      end_date: c.end_date,
-      property_count: (propertiesByCompany[c.company_id] || []).length,
-      properties: (propertiesByCompany[c.company_id] || []).slice(0, 10).map(p => ({
-        id: p.property_id,
-        ccn: p.ccn,
-        facility_name: p.facility_name,
-        city: p.city,
-        state: p.state,
-        relationship_type: p.relationship_type
-      }))
-    }))
+    companies: companyRels.map(c => {
+      const companyProps = propertiesByCompany[c.company_id]
+        ? Array.from(propertiesByCompany[c.company_id].values())
+        : [];
+      return {
+        id: c.company_id,
+        name: c.company_name,
+        type: c.company_type,
+        roles: c.roles ? c.roles.split(',') : [],
+        ownership_percentage: c.ownership_percentage,
+        is_current: Boolean(c.is_current),
+        effective_date: c.earliest_effective_date,
+        property_count: companyProps.length,
+        properties: companyProps.slice(0, 10).map(p => ({
+          id: p.property_id,
+          ccn: p.ccn,
+          facility_name: p.facility_name,
+          city: p.city,
+          state: p.state
+        }))
+      };
+    })
   });
 }
 

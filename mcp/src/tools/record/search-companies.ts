@@ -10,13 +10,21 @@ import { RowDataPacket } from 'mysql2/promise';
 
 export const schema = z.object({
   name: z.string().optional().describe('Company name (partial match)'),
-  type: z.string().optional().describe('Company type (opco, propco, management, holding, pe_firm, reit)'),
+  type: z.string().optional().describe('Company type: owner_operator, ownership, lending, management, holding, pe_firm, other. Aliases: opco=owner_operator, propco=ownership, reit=ownership'),
   state: z.string().optional().describe('State code for headquarters'),
   min_properties: z.number().optional().describe('Minimum property count'),
   limit: z.number().min(1).max(100).default(25).describe('Maximum results (default 25, max 100)')
 });
 
 export type SearchCompaniesParams = z.infer<typeof schema>;
+
+// Map common aliases to actual database values
+const TYPE_ALIASES: Record<string, string> = {
+  'opco': 'owner_operator',
+  'propco': 'ownership',
+  'reit': 'ownership',
+  'lender': 'lending',
+};
 
 interface CompanyRow extends RowDataPacket {
   id: number;
@@ -40,8 +48,10 @@ export async function execute(params: SearchCompaniesParams): Promise<ToolResult
   }
 
   if (type) {
+    // Map aliases to actual database values
+    const normalizedType = TYPE_ALIASES[type.toLowerCase()] || type;
     conditions.push('c.company_type = ?');
-    values.push(type);
+    values.push(normalizedType);
   }
 
   if (state) {
@@ -85,12 +95,12 @@ export async function execute(params: SearchCompaniesParams): Promise<ToolResult
 
 export const definition = {
   name: 'search_companies',
-  description: 'Search portfolio companies by name, type (opco/propco/reit/etc), state, or minimum property count. Returns company statistics.',
+  description: 'Search portfolio companies by name, type, state, or minimum property count. Returns company statistics.',
   inputSchema: {
     type: 'object',
     properties: {
       name: { type: 'string', description: 'Company name (partial match)' },
-      type: { type: 'string', description: 'Company type (opco, propco, management, holding, pe_firm, reit)' },
+      type: { type: 'string', description: 'Company type: owner_operator, ownership, lending, management, holding, pe_firm, other. Aliases supported: opco, propco, reit, lender' },
       state: { type: 'string', description: 'State code for headquarters' },
       min_properties: { type: 'number', description: 'Minimum property count' },
       limit: { type: 'number', description: 'Maximum results (default 25, max 100)' }

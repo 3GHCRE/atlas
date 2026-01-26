@@ -1,6 +1,6 @@
 /**
- * Tool: trace_owner
- * Trace full ownership chain: Property → Entity → Company → Principals
+ * Tool: trace_lender
+ * Trace lending/financing chain: Property → Lender Entity → Lending Company → Principals
  */
 import { z } from 'zod';
 import { query, queryOne } from '../../database/connection.js';
@@ -19,37 +19,10 @@ export const schema = z.object({
 
 // Role categories in principal_company_relationships that indicate decision-making authority
 // pcr.role values: 'officer', 'owner', 'director', 'manager', 'managing_employee', 'other'
+// We filter for 'officer' and 'owner' to get corporate-level decision makers
 const DECISION_MAKER_ROLES = ['officer', 'owner'];
 
-// Executive-level title patterns for parent company decision makers
-// These filter out facility-level administrators, regional managers, JV partners, etc.
-// Only returns actual C-suite executives and board members
-// Note: MySQL LIKE is case-insensitive with utf8 collation
-const EXECUTIVE_TITLE_PATTERNS = [
-  '%ceo%', '%chief executive%',
-  '%cfo%', '%chief financial%',
-  '%coo%', '%chief operating%',
-  '%cio%', '%chief information%',
-  '%cto%', '%chief technology%',
-  '%president%',
-  '%chairman%', '%chair of%',
-  '%board%',
-  '%director%',            // Board director (exclusions filter out non-board)
-  '%general counsel%',
-  '%treasurer%',
-  '%secretary%'            // Corporate secretary (including assistant)
-];
-
-// Titles to exclude even if they match above patterns
-const EXCLUDED_TITLE_PATTERNS = [
-  '%principal of contracted%',  // Facility-level contracted management
-  '%licensing%',                // Operational role
-  '%accounts %',                // Accounting staff
-  '%director/manager%',         // Facility director, not board director
-  '%director of %'              // Director of Operations, etc. (not board)
-];
-
-export type TraceOwnerParams = z.infer<typeof schema>;
+export type TraceLenderParams = z.infer<typeof schema>;
 
 interface PropertyRow extends RowDataPacket {
   id: number;
@@ -60,7 +33,7 @@ interface PropertyRow extends RowDataPacket {
   state: string;
 }
 
-interface OwnerEntityRow extends RowDataPacket {
+interface LenderEntityRow extends RowDataPacket {
   entity_id: number;
   entity_name: string;
   entity_type: string | null;
@@ -73,13 +46,12 @@ interface OwnerEntityRow extends RowDataPacket {
 interface PrincipalRow extends RowDataPacket {
   principal_id: number;
   full_name: string;
-  title: string | null;
   role: string;
   ownership_percentage: number | null;
   level: string;
 }
 
-export async function execute(params: TraceOwnerParams): Promise<ToolResult> {
+export async function execute(params: TraceLenderParams): Promise<ToolResult> {
   const { property_id, ccn, reapi_property_id, include_all_principals = false } = params;
 
   if (!property_id && !ccn && !reapi_property_id) {
@@ -88,15 +60,9 @@ export async function execute(params: TraceOwnerParams): Promise<ToolResult> {
 
   // Build role filter for company-level principals (officers/decision makers)
   const roleList = DECISION_MAKER_ROLES.map(r => `'${r}'`).join(',');
-
-  // Build title filter for executive-level positions only
-  // NOTE: Title data is in principals.title, NOT principal_company_relationships.title
-  const titleIncludes = EXECUTIVE_TITLE_PATTERNS.map(p => `p.title LIKE '${p}'`).join(' OR ');
-  const titleExcludes = EXCLUDED_TITLE_PATTERNS.map(p => `p.title NOT LIKE '${p}'`).join(' AND ');
-
   const companyPrincipalFilter = include_all_principals
     ? ''
-    : `AND pcr.role IN (${roleList}) AND (${titleIncludes}) AND (${titleExcludes})`;
+    : `AND pcr.role IN (${roleList})`;
 
   // Get property by whichever ID was provided
   let property: PropertyRow | null;
@@ -121,8 +87,8 @@ export async function execute(params: TraceOwnerParams): Promise<ToolResult> {
     return notFound('Property', property_id || ccn || reapi_property_id || '');
   }
 
-  // Get owner entities (property_owner relationship type)
-  const ownerEntities = await query<OwnerEntityRow[]>(`
+  // Get lender entities (lender relationship type)
+  const lenderEntities = await query<LenderEntityRow[]>(`
     SELECT e.id as entity_id, e.entity_name, e.entity_type,
            c.id as company_id, c.company_name, c.company_type,
            per.relationship_type
@@ -130,28 +96,27 @@ export async function execute(params: TraceOwnerParams): Promise<ToolResult> {
     JOIN entities e ON e.id = per.entity_id
     JOIN companies c ON c.id = e.company_id
     WHERE per.property_master_id = ?
-      AND per.relationship_type = 'property_owner'
+      AND per.relationship_type = 'lender'
       AND c.company_name NOT LIKE '[MERGED]%'
   `, [property.id]);
 
-  // Get company-level principals for each owner company
-  // trace_owner focuses on beneficial ownership: Property → PropCo → Parent Company → Company Officers
-  // Entity-level principals are operational managers of the PropCo, not beneficial owners
+  // Get company-level principals for each lending company
+  // trace_lender focuses on financing: Property → Lender Entity → Lending Company → Company Officers
   const principalsByCompany: Record<number, PrincipalRow[]> = {};
 
-  for (const ownerEntity of ownerEntities) {
-    // Only get company-level principals (corporate officers of the parent company)
+  for (const lenderEntity of lenderEntities) {
+    // Only get company-level principals (corporate officers of the lending company)
     const principals = await query<PrincipalRow[]>(`
-      SELECT p.id as principal_id, p.full_name, p.title, pcr.role, pcr.ownership_percentage, 'company' as level
+      SELECT p.id as principal_id, p.full_name, pcr.role, pcr.ownership_percentage, 'company' as level
       FROM principal_company_relationships pcr
       JOIN principals p ON p.id = pcr.principal_id
       WHERE pcr.company_id = ?
         AND pcr.end_date IS NULL
         ${companyPrincipalFilter}
       ORDER BY p.full_name
-    `, [ownerEntity.company_id]);
+    `, [lenderEntity.company_id]);
 
-    principalsByCompany[ownerEntity.company_id] = principals;
+    principalsByCompany[lenderEntity.company_id] = principals;
   }
 
   return success({
@@ -163,21 +128,20 @@ export async function execute(params: TraceOwnerParams): Promise<ToolResult> {
       city: property.city,
       state: property.state
     },
-    ownership_chain: ownerEntities.map(oe => ({
+    lending_chain: lenderEntities.map(le => ({
       entity: {
-        id: oe.entity_id,
-        name: oe.entity_name,
-        type: oe.entity_type
+        id: le.entity_id,
+        name: le.entity_name,
+        type: le.entity_type
       },
       company: {
-        id: oe.company_id,
-        name: oe.company_name,
-        type: oe.company_type
+        id: le.company_id,
+        name: le.company_name,
+        type: le.company_type
       },
-      principals: (principalsByCompany[oe.company_id] || []).map(p => ({
+      principals: (principalsByCompany[le.company_id] || []).map(p => ({
         id: p.principal_id,
         name: p.full_name,
-        title: p.title,
         role: p.role,
         ownership_percentage: p.ownership_percentage,
         relationship_level: p.level
@@ -187,8 +151,8 @@ export async function execute(params: TraceOwnerParams): Promise<ToolResult> {
 }
 
 export const definition = {
-  name: 'trace_owner',
-  description: 'Trace the full ownership chain from property to ultimate beneficial owners: Property → PropCo (owner entity) → Parent Company → Corporate Officers. Returns company-level principals only (CEO, President, CFO, etc.) - not entity-level managers.',
+  name: 'trace_lender',
+  description: 'Trace the financing/lending chain: Property → Lender Entity → Lending Company → Corporate Officers. Returns company-level principals only (CEO, President, CFO, etc.) - not entity-level managers.',
   inputSchema: {
     type: 'object',
     properties: {
