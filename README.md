@@ -6,9 +6,17 @@
 
 ---
 
-## Current Status: Research Workflows Complete
+## Current Status: Production Ready
 
-**Last Updated:** January 23, 2026
+**Last Updated:** January 25, 2026
+
+### Recent Accomplishments
+
+- **MCP Server Complete** - 41 tools across 6 categories for Claude integration
+- **CMS Certifier Linkage** - Automated principal discovery from CMS enrollment data
+- **90.6% Principal Coverage** - Companies with 5+ properties now have linked principals
+- **PropCo/OpCo Architecture** - Proper entity-level ownership structure linked to parent companies
+- **SEC/Nonprofit Integration** - EDGAR filings and Form 990 lookup for REITs and nonprofits
 
 ### The Power of Atlas
 
@@ -324,11 +332,28 @@ node scripts/research/market-activity-analyzer.js  # National overview
 
 ---
 
+## MCP Server
+
+The Atlas MCP server provides **41 tools** for Claude integration across 6 categories:
+
+| Category | Tools | Description |
+|----------|-------|-------------|
+| Record | 9 | Get/search properties, entities, companies, principals, deals |
+| Graph | 12 | Trace ownership chains, navigate networks, find paths |
+| Market | 5 | Market statistics, top buyers/sellers/lenders, hot markets |
+| Hierarchy | 4 | PropCo/OpCo portfolios, parent company hierarchy |
+| Performance | 5 | CMS quality ratings, staffing, cost reports, Medicaid rates |
+| Intelligence | 6 | SEC EDGAR filings, ProPublica nonprofit 990s |
+
+**[Full MCP Documentation →](mcp/README.md)**
+
+---
+
 ## Next Steps
 
-- [x] ~~Load deal party relationships (buyer/seller/borrower)~~ ✓ 42.4% buyer, 40.4% borrower coverage
+- [x] ~~Load deal party relationships~~ ✓ 42.4% buyer, 40.4% borrower coverage
 - [x] ~~Build research workflow scripts~~ ✓ 5 workflows complete
-- [ ] Build MCP tools for Claude integration
+- [x] ~~Build MCP tools for Claude integration~~ ✓ 41 tools across 6 categories
 - [ ] Integrate Zoho CRM for prospect tracking
 - [ ] Create API endpoints for navigation queries
 - [ ] Add real-time CMS data sync
