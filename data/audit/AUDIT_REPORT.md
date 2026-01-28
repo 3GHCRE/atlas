@@ -1,6 +1,6 @@
 # Atlas Database Validation Audit Report
 
-**Generated:** 2026-01-27T23:55:23.565Z
+**Generated:** 2026-01-28T00:41:13.504Z
 **Database:** Atlas (3GHCRE)
 
 ## Executive Summary
@@ -21,8 +21,8 @@ cross-referencing internal data against external authoritative sources including
 | Companies | 9,899 |
 | Principals | 54,714 |
 | Property-Entity Relationships | 61,296 |
-| Principal-Entity Relationships | 99,049 |
-| Principal-Company Relationships | 64,790 |
+| Principal-Entity Relationships | 74,340 |
+| Principal-Company Relationships | 53,555 |
 
 ---
 

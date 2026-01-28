@@ -1,0 +1,1169 @@
+{
+  "timestamp": "2026-01-28T00:41:23.370Z",
+  "principal_validation": {
+    "total_principals": 54714,
+    "with_company_link": 37858,
+    "with_entity_link": 39405,
+    "orphaned": 13159,
+    "inflated_counts": 17,
+    "missing_source": 137,
+    "ownership_over_100": 100
+  },
+  "inflated_principals": [
+    {
+      "id": 22267,
+      "name": "CHAD B FULLMER",
+      "source": "cms_only",
+      "cms_id": "5597798108",
+      "company_count": 13,
+      "property_count": 729,
+      "max_ownership": "50.00",
+      "companies": "BEAVER VALLEY HOSPITAL | CASCADES HEALTHCARE | CREATIVE SOLUTIONS IN HEALTHCARE | EDURO HEALTHCARE | FUNDAMENTAL HEALTHCARE | HEALTH SERVICES MANAGEMENT | NEXION HEALTH | ROCKY MOUNTAIN CARE | SOUTHWEST LTC | STONEGATE SENIOR LIVING | THE ENSIGN GROUP | TOUCHSTONE COMMUNITIES | WELLSENTIAL HEALTH"
+    },
+    {
+      "id": 27142,
+      "name": "DARIN S MCSPADDEN",
+      "source": "cms_only",
+      "cms_id": "6709819675",
+      "company_count": 12,
+      "property_count": 722,
+      "max_ownership": "50.00",
+      "companies": "BEAVER VALLEY HOSPITAL | CREATIVE SOLUTIONS IN HEALTHCARE | EDURO HEALTHCARE | FUNDAMENTAL HEALTHCARE | HEALTH SERVICES MANAGEMENT | NEXION HEALTH | ROCKY MOUNTAIN CARE | SOUTHWEST LTC | STONEGATE SENIOR LIVING | THE ENSIGN GROUP | TOUCHSTONE COMMUNITIES | WELLSENTIAL HEALTH"
+    },
+    {
+      "id": 3764,
+      "name": "EDWARD PICKETT",
+      "source": "cms_only",
+      "cms_id": "0941579114",
+      "company_count": 10,
+      "property_count": 689,
+      "max_ownership": "15.00",
+      "companies": "CASCADES HEALTHCARE | CREATIVE SOLUTIONS IN HEALTHCARE | FUNDAMENTAL HEALTHCARE | HEALTH SERVICES MANAGEMENT | NEXION HEALTH | SOUTHWEST LTC | STONEGATE SENIOR LIVING | THE ENSIGN GROUP | TOUCHSTONE COMMUNITIES | WELLSENTIAL HEALTH"
+    },
+    {
+      "id": 36853,
+      "name": "JASON W CRUMP",
+      "source": "cms_only",
+      "cms_id": "9234162108",
+      "company_count": 10,
+      "property_count": 689,
+      "max_ownership": "24.75",
+      "companies": "CASCADES HEALTHCARE | CREATIVE SOLUTIONS IN HEALTHCARE | FUNDAMENTAL HEALTHCARE | HEALTH SERVICES MANAGEMENT | NEXION HEALTH | SOUTHWEST LTC | STONEGATE SENIOR LIVING | THE ENSIGN GROUP | TOUCHSTONE COMMUNITIES | WELLSENTIAL HEALTH"
+    },
+    {
+      "id": 14261,
+      "name": "CHARLES BRUCE STRATTON",
+      "source": "cms_only",
+      "cms_id": "3577756121",
+      "company_count": 10,
+      "property_count": 689,
+      "max_ownership": "15.00",
+      "companies": "CASCADES HEALTHCARE | CREATIVE SOLUTIONS IN HEALTHCARE | FUNDAMENTAL HEALTHCARE | HEALTH SERVICES MANAGEMENT | NEXION HEALTH | SOUTHWEST LTC | STONEGATE SENIOR LIVING | THE ENSIGN GROUP | TOUCHSTONE COMMUNITIES | WELLSENTIAL HEALTH"
+    },
+    {
+      "id": 17950,
+      "name": "PAUL HENRY",
+      "source": "cms_only",
+      "cms_id": "4486847035",
+      "company_count": 10,
+      "property_count": 689,
+      "max_ownership": "15.00",
+      "companies": "CASCADES HEALTHCARE | CREATIVE SOLUTIONS IN HEALTHCARE | FUNDAMENTAL HEALTHCARE | HEALTH SERVICES MANAGEMENT | NEXION HEALTH | SOUTHWEST LTC | STONEGATE SENIOR LIVING | THE ENSIGN GROUP | TOUCHSTONE COMMUNITIES | WELLSENTIAL HEALTH"
+    },
+    {
+      "id": 27141,
+      "name": "DEREK O WHITE",
+      "source": "cms_only",
+      "cms_id": "6709819667",
+      "company_count": 10,
+      "property_count": 689,
+      "max_ownership": "24.75",
+      "companies": "CASCADES HEALTHCARE | CREATIVE SOLUTIONS IN HEALTHCARE | FUNDAMENTAL HEALTHCARE | HEALTH SERVICES MANAGEMENT | NEXION HEALTH | SOUTHWEST LTC | STONEGATE SENIOR LIVING | THE ENSIGN GROUP | TOUCHSTONE COMMUNITIES | WELLSENTIAL HEALTH"
+    },
+    {
+      "id": 22736,
+      "name": "VICTOR BARRANCO",
+      "source": "cms_only",
+      "cms_id": "5698902591",
+      "company_count": 10,
+      "property_count": 689,
+      "max_ownership": "15.00",
+      "companies": "CASCADES HEALTHCARE | CREATIVE SOLUTIONS IN HEALTHCARE | FUNDAMENTAL HEALTHCARE | HEALTH SERVICES MANAGEMENT | NEXION HEALTH | SOUTHWEST LTC | STONEGATE SENIOR LIVING | THE ENSIGN GROUP | TOUCHSTONE COMMUNITIES | WELLSENTIAL HEALTH"
+    },
+    {
+      "id": 26065,
+      "name": "ROBERT SANDERS",
+      "source": "cms_only",
+      "cms_id": "6507093408",
+      "company_count": 10,
+      "property_count": 689,
+      "max_ownership": "15.00",
+      "companies": "CASCADES HEALTHCARE | CREATIVE SOLUTIONS IN HEALTHCARE | FUNDAMENTAL HEALTHCARE | HEALTH SERVICES MANAGEMENT | NEXION HEALTH | SOUTHWEST LTC | STONEGATE SENIOR LIVING | THE ENSIGN GROUP | TOUCHSTONE COMMUNITIES | WELLSENTIAL HEALTH"
+    },
+    {
+      "id": 11022,
+      "name": "WILLIAM FORREST",
+      "source": "cms_only",
+      "cms_id": "2769705912",
+      "company_count": 9,
+      "property_count": 605,
+      "max_ownership": "20.00",
+      "companies": "ADVANCED HEALTHCARE SOLUTIONS | FOCUSED POST ACUTE CARE PARTNERS | HAMILTON COUNTY HOSPITAL DISTRICT | NEXION HEALTH | PARAMOUNT HEALTHCARE | RUBY HEALTHCARE | SLP OPERATIONS | THE ENSIGN GROUP | TOUCHSTONE COMMUNITIES"
+    },
+    {
+      "id": 25743,
+      "name": "DENA MCGREGOR",
+      "source": "cms_only",
+      "cms_id": "6406189877",
+      "company_count": 9,
+      "property_count": 605,
+      "max_ownership": "20.00",
+      "companies": "ADVANCED HEALTHCARE SOLUTIONS | FOCUSED POST ACUTE CARE PARTNERS | HAMILTON COUNTY HOSPITAL DISTRICT | NEXION HEALTH | PARAMOUNT HEALTHCARE | RUBY HEALTHCARE | SLP OPERATIONS | THE ENSIGN GROUP | TOUCHSTONE COMMUNITIES"
+    },
+    {
+      "id": 3974,
+      "name": "MALISA A BLAKE",
+      "source": "cms_only",
+      "cms_id": "1052322328",
+      "company_count": 9,
+      "property_count": 591,
+      "max_ownership": "50.00",
+      "companies": "ADVANCED HEALTHCARE SOLUTIONS | AVIR HEALTH GROUP | CREATIVE SOLUTIONS IN HEALTHCARE | DYNASTY HEALTHCARE GROUP | GULF COAST LTC PARTNERS | MOMENTUM SKILLED SERVICES | NEXION HEALTH | THE ENSIGN GROUP | TOUCHSTONE COMMUNITIES"
+    },
+    {
+      "id": 38248,
+      "name": "ALFRED CISNEROS",
+      "source": "cms_only",
+      "cms_id": "9537492590",
+      "company_count": 9,
+      "property_count": 591,
+      "max_ownership": "33.33",
+      "companies": "ADVANCED HEALTHCARE SOLUTIONS | AVIR HEALTH GROUP | CREATIVE SOLUTIONS IN HEALTHCARE | DYNASTY HEALTHCARE GROUP | GULF COAST LTC PARTNERS | MOMENTUM SKILLED SERVICES | NEXION HEALTH | THE ENSIGN GROUP | TOUCHSTONE COMMUNITIES"
+    },
+    {
+      "id": 16654,
+      "name": "JACK H SANDERS",
+      "source": "both",
+      "cms_id": "4183602352",
+      "company_count": 9,
+      "property_count": 591,
+      "max_ownership": "50.00",
+      "companies": "ADVANCED HEALTHCARE SOLUTIONS | AVIR HEALTH GROUP | CREATIVE SOLUTIONS IN HEALTHCARE | DYNASTY HEALTHCARE GROUP | GULF COAST LTC PARTNERS | MOMENTUM SKILLED SERVICES | NEXION HEALTH | THE ENSIGN GROUP | TOUCHSTONE COMMUNITIES"
+    },
+    {
+      "id": 8022,
+      "name": "GARY R BLAKE",
+      "source": "both",
+      "cms_id": "2062322787",
+      "company_count": 9,
+      "property_count": 591,
+      "max_ownership": "50.00",
+      "companies": "ADVANCED HEALTHCARE SOLUTIONS | AVIR HEALTH GROUP | CREATIVE SOLUTIONS IN HEALTHCARE | DYNASTY HEALTHCARE GROUP | GULF COAST LTC PARTNERS | MOMENTUM SKILLED SERVICES | NEXION HEALTH | THE ENSIGN GROUP | TOUCHSTONE COMMUNITIES"
+    },
+    {
+      "id": 18687,
+      "name": "CLARK R SANDERSON",
+      "source": "cms_only",
+      "cms_id": "4688747041",
+      "company_count": 10,
+      "property_count": 570,
+      "max_ownership": "100.00",
+      "companies": "AVIR HEALTH GROUP | BONCREST RESOURCE GROUP | CREATIVE SOLUTIONS IN HEALTHCARE | CROSS HEALTHCARE MANAGEMENT | EDURO HEALTHCARE | FUNDAMENTAL HEALTHCARE | PRIORITY MANAGEMENT | STONEGATE SENIOR LIVING | SUMMIT LTC | THE ENSIGN GROUP"
+    },
+    {
+      "id": 10879,
+      "name": "KENDALL A BROUSSARD",
+      "source": "both",
+      "cms_id": "2769410802",
+      "company_count": 12,
+      "property_count": 540,
+      "max_ownership": "65.00",
+      "companies": "ADVANCED HEALTHCARE SOLUTIONS | ALLEN HEALTH CARE PARTNERS LLC | AVIR HEALTH GROUP | CREATIVE SOLUTIONS IN HEALTHCARE | CROSS HEALTHCARE MANAGEMENT | DYNASTY HEALTHCARE GROUP | EDURO HEALTHCARE | MOMENTUM SKILLED SERVICES | SLP OPERATIONS | SUMMIT LTC | THE ENSIGN GROUP | TOUCHSTONE COMMUNITIES"
+    }
+  ],
+  "ownership_issues": [
+    {
+      "entity_id": 9798,
+      "entity_name": "FAITH LUTHERAN HOME",
+      "company_name": "FAITH LUTHERAN HOME",
+      "total_ownership": "500.00",
+      "owner_count": 5,
+      "owners": "DALE TABBERT:100.00% | JIM MOODY:100.00% | LEANNA TROGE:100.00% | NANCY KLEMESRUD:100.00% | PAUL BODTKE:100.00%"
+    },
+    {
+      "entity_id": 7395,
+      "entity_name": "APERION CARE WAUCONDA LLC",
+      "company_name": "APERION CARE",
+      "total_ownership": "400.00",
+      "owner_count": 4,
+      "owners": "JOSHUA HOFFMAN:100.00% | DAVID A BERKOWITZ:100.00% | STEVEN TUROFSKY:100.00% | YOSEF MEYSTEL:100.00%"
+    },
+    {
+      "entity_id": 633,
+      "entity_name": "CARADAY HOUSTON LLC",
+      "company_name": "CARADAY HEALTHCARE",
+      "total_ownership": "399.00",
+      "owner_count": 5,
+      "owners": "STEPHEN WOOD:100.00% | ROBERT CHOI:100.00% | MARYANN MIYUN CHOI:99.00% | THOMAS STALLARD:50.00% | MAIRE AEDIN O'DONOGHUE-STALLARD:50.00%"
+    },
+    {
+      "entity_id": 1302,
+      "entity_name": "CARADAY TRINITY LLC",
+      "company_name": "CARADAY HEALTHCARE",
+      "total_ownership": "399.00",
+      "owner_count": 5,
+      "owners": "STEPHEN WOOD:100.00% | ROBERT CHOI:100.00% | MARYANN MIYUN CHOI:99.00% | THOMAS STALLARD:50.00% | MAIRE AEDIN O'DONOGHUE-STALLARD:50.00%"
+    },
+    {
+      "entity_id": 1451,
+      "entity_name": "CARADAY WURZBACH LLC",
+      "company_name": "CARADAY HEALTHCARE",
+      "total_ownership": "399.00",
+      "owner_count": 5,
+      "owners": "ROBERT CHOI:100.00% | STEPHEN WOOD:100.00% | MARYANN MIYUN CHOI:99.00% | THOMAS STALLARD:50.00% | MAIRE AEDIN O'DONOGHUE-STALLARD:50.00%"
+    },
+    {
+      "entity_id": 8934,
+      "entity_name": "LEGACY VILLAGE HEALTHCARE LLC",
+      "company_name": "LEGACY VILLAGE HEALTHCARE LLC",
+      "total_ownership": "395.00",
+      "owner_count": 8,
+      "owners": "STEPHEN MILES:50.00% | MARK HAMPTON:50.00% | PAUL FAIRHOLM:50.00% | GARY GRIFFITHS:50.00% | RICHARD WHITE:50.00% | RICHARD MILES:50.00% | COREY FAIRHOLM:50.00% | DAVID R WEBSTER:45.00%"
+    },
+    {
+      "entity_id": 5955,
+      "entity_name": "UVALDE COUNTY HOSPITAL AUTHORITY",
+      "company_name": "UVALDE COUNTY HOSPITAL AUTHORITY",
+      "total_ownership": "385.00",
+      "owner_count": 8,
+      "owners": "ARVIS TANTON:100.00% | KENDALL A BROUSSARD:65.00% | CHRISTOPHER M SLIMMER:51.00% | DEREK D RANKIN:50.00% | CHRISTOPHER MARTIN:50.00% | JUSTIN B JOHNSON:49.00% | TODD R BROUSSARD:10.00% | REUBEN BROUSSARD:10.00%"
+    },
+    {
+      "entity_id": 6263,
+      "entity_name": "PARAMOUNT HEALTHCARE CONSULTANTS -NEW IBERIA LLC",
+      "company_name": "PARAMOUNT HEALTHCARE CONSULTANTS",
+      "total_ownership": "360.00",
+      "owner_count": 13,
+      "owners": "ANTHONY JACOLA:50.00% | ADAM RICHARDSON:50.00% | KEVIN RALPH HOPPER:50.00% | DAWNE R SMITH:40.00% | GUY GUIDRY:30.00% | LUCAS COLLIGAN:25.00% | MICHAEL LANDRY:25.00% | JAMES STEWART:25.00% | DOTTIE BAILEY:16.00% | ANGENETTE DAVIS:15.00% | CLAUDE R MANN:15.00% | DENISE FUTCH:13.00% | MATTHEW RANDALL HALL:6.00%"
+    },
+    {
+      "entity_id": 77,
+      "entity_name": "ARC AT STREATOR LLC",
+      "company_name": "ARCADIA CARE",
+      "total_ownership": "347.51",
+      "owner_count": 4,
+      "owners": "YOSEF MEYSTEL:100.00% | DAVID A BERKOWITZ:100.00% | STEVEN TUROFSKY:100.00% | DOVID SEITLER:47.51%"
+    },
+    {
+      "entity_id": 1135,
+      "entity_name": "ARC AT NORMAL LLC",
+      "company_name": "ARCADIA CARE",
+      "total_ownership": "347.51",
+      "owner_count": 4,
+      "owners": "DAVID A BERKOWITZ:100.00% | STEVEN TUROFSKY:100.00% | YOSEF MEYSTEL:100.00% | DOVID SEITLER:47.51%"
+    },
+    {
+      "entity_id": 1804,
+      "entity_name": "ARCADIA CARE AUBURN LLC",
+      "company_name": "ARCADIA CARE",
+      "total_ownership": "345.01",
+      "owner_count": 4,
+      "owners": "YOSEF MEYSTEL:100.00% | DAVID A BERKOWITZ:100.00% | STEVEN TUROFSKY:100.00% | DOVID SEITLER:45.01%"
+    },
+    {
+      "entity_id": 2128,
+      "entity_name": "ELEVATE CARE COUNTRY CLUB HILLS LLC",
+      "company_name": "ELEVATE CARE",
+      "total_ownership": "332.50",
+      "owner_count": 4,
+      "owners": "YOSEF MEYSTEL:100.00% | DAVID A BERKOWITZ:100.00% | STEVEN TUROFSKY:100.00% | MEIR MEYSTEL:32.50%"
+    },
+    {
+      "entity_id": 9190,
+      "entity_name": "TANABELL HEALTH SERVICES, INC.",
+      "company_name": "BRYAN MOON",
+      "total_ownership": "324.32",
+      "owner_count": 11,
+      "owners": "TROY V BELL:100.00% | JAMIE BELL:50.00% | BRYAN MOON:50.00% | KEVIN AMAR:25.23% | JENELLE THUESON:25.00% | DAVID J THUESON:25.00% | MICHAEL WRIGHT:20.00% | GERALD AGNEW:11.23% | JAMES STOUT:10.00% | GREGORY ATKINSON:5.61% | ANDREW REED:2.25%"
+    },
+    {
+      "entity_id": 6025,
+      "entity_name": "SANDSTONE SPRING VALLEY LLC",
+      "company_name": "SANDSTONE HEALTHCARE GROUP",
+      "total_ownership": "318.75",
+      "owner_count": 4,
+      "owners": "YOSEF MEYSTEL:100.00% | DAVID A BERKOWITZ:100.00% | STEVEN TUROFSKY:100.00% | MEIR MEYSTEL:18.75%"
+    },
+    {
+      "entity_id": 4489,
+      "entity_name": "SANDSTONE OF TUCSON REHAB CENTRE LLC",
+      "company_name": "SANDSTONE HEALTHCARE GROUP",
+      "total_ownership": "317.92",
+      "owner_count": 4,
+      "owners": "YOSEF MEYSTEL:100.00% | DAVID A BERKOWITZ:100.00% | STEVEN TUROFSKY:100.00% | MEIR MEYSTEL:17.92%"
+    },
+    {
+      "entity_id": 3670,
+      "entity_name": "LIBERTY HEALTHCARE GROUP LLC",
+      "company_name": "LIBERTY SENIOR LIVING",
+      "total_ownership": "300.00",
+      "owner_count": 3,
+      "owners": "NOLAN G. BROWN:100.00% | RONALD BENJAMIN MCNEILL:100.00% | JOHN ALBERT MCNEILL:100.00%"
+    },
+    {
+      "entity_id": 9726,
+      "entity_name": "WALWORTH COUNTY CARE CENTER INC",
+      "company_name": "WALWORTH COUNTY CARE CENTER INC",
+      "total_ownership": "300.00",
+      "owner_count": 3,
+      "owners": "DANIEL J BIEL:100.00% | CRYSTAL R RUEB:100.00% | RENAE TISDALL:100.00%"
+    },
+    {
+      "entity_id": 10561,
+      "entity_name": "CLARENDON NH OPERATIONS",
+      "company_name": "CLARENDON NH OPERATIONS",
+      "total_ownership": "284.50",
+      "owner_count": 5,
+      "owners": "CARL L BRITTON:100.00% | PAUL F CHEBIB:100.00% | SCOTT S SPORE:49.50% | JIM E BULLARD:25.00% | ROGER J WOLCOTT:10.00%"
+    },
+    {
+      "entity_id": 724,
+      "entity_name": "GOLDWATER CARE GIBSON CITY LLC",
+      "company_name": "GOLDWATER CARE",
+      "total_ownership": "270.00",
+      "owner_count": 4,
+      "owners": "DAVID A BERKOWITZ:100.00% | YOSEF MEYSTEL:100.00% | MEIR KATZENSTEIN:35.00% | AARON TVERSKY:35.00%"
+    },
+    {
+      "entity_id": 1825,
+      "entity_name": "GOLDWATER CARE SPRING VALLEY LLC",
+      "company_name": "GOLDWATER CARE",
+      "total_ownership": "270.00",
+      "owner_count": 4,
+      "owners": "DAVID A BERKOWITZ:100.00% | YOSEF MEYSTEL:100.00% | MEIR KATZENSTEIN:35.00% | AARON TVERSKY:35.00%"
+    },
+    {
+      "entity_id": 3641,
+      "entity_name": "GOLDWATER CARE DANVILLE LLC",
+      "company_name": "GOLDWATER CARE",
+      "total_ownership": "270.00",
+      "owner_count": 4,
+      "owners": "DAVID A BERKOWITZ:100.00% | YOSEF MEYSTEL:100.00% | AARON TVERSKY:35.00% | MEIR KATZENSTEIN:35.00%"
+    },
+    {
+      "entity_id": 7065,
+      "entity_name": "COMMUNITY CARE CENTER OF VICKSBURG, LLC",
+      "company_name": "THE BEEBE FAMILY",
+      "total_ownership": "256.30",
+      "owner_count": 6,
+      "owners": "BOBBY L BEEBE:100.00% | DAVID W STALLARD:100.00% | ELTON G BEEBE:33.30% | STEVEN L DELANEY:12.00% | SHELLY NUGENT:6.00% | NANCY D BEEBE:5.00%"
+    },
+    {
+      "entity_id": 4412,
+      "entity_name": "ARCADIA CARE MORRIS LLC",
+      "company_name": "ARCADIA CARE",
+      "total_ownership": "245.02",
+      "owner_count": 3,
+      "owners": "DAVID A BERKOWITZ:100.00% | YOSEF MEYSTEL:100.00% | DOVID SEITLER:45.02%"
+    },
+    {
+      "entity_id": 5711,
+      "entity_name": "THE EARLWOOD, LLC",
+      "company_name": "GENESIS HEALTHCARE",
+      "total_ownership": "228.57",
+      "owner_count": 4,
+      "owners": "AVROHOM L TRESS:100.00% | AARON H ROBIN:100.00% | ARNOLD M WHITMAN:17.42% | STEVEN E FISHMAN:11.15%"
+    },
+    {
+      "entity_id": 3524,
+      "entity_name": "PIKE COMMUNITY CARE CENTER, LLC",
+      "company_name": "THE BEEBE FAMILY",
+      "total_ownership": "228.33",
+      "owner_count": 3,
+      "owners": "BOBBY L BEEBE:100.00% | DAVID W STALLARD:100.00% | ELTON G BEEBE:28.33%"
+    },
+    {
+      "entity_id": 6145,
+      "entity_name": "MONTICELLO COMMUNITY CARE CENTER, LLC",
+      "company_name": "THE BEEBE FAMILY",
+      "total_ownership": "228.33",
+      "owner_count": 3,
+      "owners": "BOBBY L BEEBE:100.00% | DAVID W STALLARD:100.00% | ELTON G BEEBE:28.33%"
+    },
+    {
+      "entity_id": 7698,
+      "entity_name": "COLLINS COMMUNITY CARE CENTER, LLC",
+      "company_name": "THE BEEBE FAMILY",
+      "total_ownership": "228.33",
+      "owner_count": 3,
+      "owners": "BOBBY L BEEBE:100.00% | DAVID W STALLARD:100.00% | ELTON G BEEBE:28.33%"
+    },
+    {
+      "entity_id": 1294,
+      "entity_name": "LAKESHORE OPCO LLC",
+      "company_name": "APERION CARE",
+      "total_ownership": "220.00",
+      "owner_count": 3,
+      "owners": "YOSEF MEYSTEL:100.00% | DAVID A BERKOWITZ:100.00% | MEIR MEYSTEL:20.00%"
+    },
+    {
+      "entity_id": 855,
+      "entity_name": "ISLAND CITY REHABILITATION CENTER, LLC",
+      "company_name": "APERION CARE",
+      "total_ownership": "216.66",
+      "owner_count": 3,
+      "owners": "DAVID A BERKOWITZ:100.00% | YOSEF MEYSTEL:100.00% | RITA LIPSHITZ:16.66%"
+    },
+    {
+      "entity_id": 4087,
+      "entity_name": "KANE COUNTY HUMAN RESOURCE SPECIAL SERVICE DISTRICT",
+      "company_name": "STONEHENGE OF UTAH",
+      "total_ownership": "210.00",
+      "owner_count": 8,
+      "owners": "WYATT LAMAR CLOWARD:47.00% | CORY R ROBISON:47.00% | KURT R LOVELESS:34.00% | STEPHEN J HOWELLS:33.00% | DEBORAH ANN GILLESPIE:33.00% | TYSON CICHOS:6.00% | JESSE N SPENCER:5.00% | TYLER JULUSON:5.00%"
+    },
+    {
+      "entity_id": 2695,
+      "entity_name": "APERION CARE WESLEY LLC",
+      "company_name": "APERION CARE",
+      "total_ownership": "209.00",
+      "owner_count": 5,
+      "owners": "YOSEF MEYSTEL:100.00% | DAVID A BERKOWITZ:100.00% | LISA ULBERT:4.00% | JAY MEYSTEL:3.00% | BRIAN GOLDFARB:2.00%"
+    },
+    {
+      "entity_id": 9728,
+      "entity_name": "STONE CREEK SENIOR PARTNERS, LLC",
+      "company_name": "STONE CREEK SENIOR PARTNERS, LLC",
+      "total_ownership": "208.00",
+      "owner_count": 6,
+      "owners": "JAMES BUSER:50.00% | RAYMOND A BUSER:50.00% | JON BOGERT:37.50% | WILLIAM BOGERT:37.50% | JAMES ANGSTMAN:25.00% | THOMAS L WAGG:8.00%"
+    },
+    {
+      "entity_id": 6453,
+      "entity_name": "PLAZA NURSING & REHAB CENTER, LLC",
+      "company_name": "APERION CARE",
+      "total_ownership": "207.00",
+      "owner_count": 3,
+      "owners": "YOSEF MEYSTEL:100.00% | DAVID A BERKOWITZ:100.00% | RITA LOWINGER:7.00%"
+    },
+    {
+      "entity_id": 70,
+      "entity_name": "RANDOLPH COUNTY HEALTH AND REHABILITATION, LLC",
+      "company_name": "RANDOLPH COUNTY HEALTH AND REHABILITATION, LLC",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "KIMBERLY F SHEFFIELD:100.00% | KIMBERLY C HODGES:100.00%"
+    },
+    {
+      "entity_id": 292,
+      "entity_name": "CLEARWATER LIVING, LLC",
+      "company_name": "CORNERSTONE GROUP HOLDINGS",
+      "total_ownership": "200.00",
+      "owner_count": 4,
+      "owners": "WILLIAM M NOVOTNY:75.00% | MIKE GENUTH:50.00% | MICHAEL GREENFIELD:50.00% | MICHELLE D NOVOTNY:25.00%"
+    },
+    {
+      "entity_id": 329,
+      "entity_name": "OSAGE NURSING, LLC",
+      "company_name": "AMERICARE SENIOR LIVING",
+      "total_ownership": "200.00",
+      "owner_count": 3,
+      "owners": "CLAY CROSSON:100.00% | ANNA C MONTGOMERY:50.00% | RICHARD HENLEY MONTGOMERY:50.00%"
+    },
+    {
+      "entity_id": 411,
+      "entity_name": "OAKVIEW NURSING & REHABILITATION CENTER LLC",
+      "company_name": "CLINICAL SERVICES, INC.",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "KIMBERLY F SHEFFIELD:100.00% | RENO D LAMBERT:100.00%"
+    },
+    {
+      "entity_id": 418,
+      "entity_name": "SENECA HEALTH CARE CENTER LLC",
+      "company_name": "THE MCGUIRE GROUP",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "EDWARD OSCAR FARBENBLUM:100.00% | ORLY LIEBERMAN:100.00%"
+    },
+    {
+      "entity_id": 563,
+      "entity_name": "SPARTA HEALTH CARE LLC",
+      "company_name": "CLINICAL SERVICES, INC.",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "GREGORY DAVIS:100.00% | KIMBERLY F SHEFFIELD:100.00%"
+    },
+    {
+      "entity_id": 1504,
+      "entity_name": "MONROE COUNTY NURSING HOME LLC",
+      "company_name": "MONROE COUNTY NURSING HOME LLC",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "GREGORY DAVIS:100.00% | KIMBERLY F SHEFFIELD:100.00%"
+    },
+    {
+      "entity_id": 1521,
+      "entity_name": "HART COUNTY HEALTH & REHABILITATION, LLC",
+      "company_name": "HART COUNTY HEALTH & REHABILITATION, LLC",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "KIMBERLY F SHEFFIELD:100.00% | RENO D LAMBERT:100.00%"
+    },
+    {
+      "entity_id": 1607,
+      "entity_name": "TOWNSEND PARK HEALTH AND REHABILITATION LLC",
+      "company_name": "CLINICAL SERVICES, INC.",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "KIMBERLY F SHEFFIELD:100.00% | RENO D LAMBERT:100.00%"
+    },
+    {
+      "entity_id": 1760,
+      "entity_name": "BERKSHIRE NURSING & REHAB CENTER, LLC",
+      "company_name": "APERION CARE",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "DAVID A BERKOWITZ:100.00% | YOSEF MEYSTEL:100.00%"
+    },
+    {
+      "entity_id": 1898,
+      "entity_name": "WHEATLAND NURSING LLC",
+      "company_name": "AMERICARE SENIOR LIVING",
+      "total_ownership": "200.00",
+      "owner_count": 3,
+      "owners": "CLAY CROSSON:100.00% | RICHARD HENLEY MONTGOMERY:50.00% | ANNA C MONTGOMERY:50.00%"
+    },
+    {
+      "entity_id": 2074,
+      "entity_name": "NORTH GATE HEALTH CARE FACILITY LLC",
+      "company_name": "THE MCGUIRE GROUP",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "EDWARD OSCAR FARBENBLUM:100.00% | ORLY LIEBERMAN:100.00%"
+    },
+    {
+      "entity_id": 2469,
+      "entity_name": "CHERRY BLOSSOM HEALTH CARE CENTER LLC",
+      "company_name": "CLINICAL SERVICES, INC.",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "GREGORY DAVIS:100.00% | KIMBERLY F SHEFFIELD:100.00%"
+    },
+    {
+      "entity_id": 2913,
+      "entity_name": "HARRIS HILL NURSING FACILITY, LLC",
+      "company_name": "THE MCGUIRE GROUP",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "EDWARD OSCAR FARBENBLUM:100.00% | ORLY LIEBERMAN:100.00%"
+    },
+    {
+      "entity_id": 3300,
+      "entity_name": "TISHOMINGO COMMUNITY CARE CENTER, LLC",
+      "company_name": "THE BEEBE FAMILY",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "BOBBY L BEEBE:100.00% | DAVID W STALLARD:100.00%"
+    },
+    {
+      "entity_id": 3304,
+      "entity_name": "OCONEE COUNTY HEALTH & REHABILITATION, LLC",
+      "company_name": "OCONEE COUNTY HEALTH & REHABILITATION, LLC",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "KIMBERLY F SHEFFIELD:100.00% | RENO D LAMBERT:100.00%"
+    },
+    {
+      "entity_id": 3315,
+      "entity_name": "THORP NURSING HOME, INC",
+      "company_name": "REAL PROPERTY HEALTH FACILITIES",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "CHRISTINA J PENN:100.00% | PATRICIA GREEN:100.00%"
+    },
+    {
+      "entity_id": 3381,
+      "entity_name": "CANDLER COUNTY II LTC LLC",
+      "company_name": "CLINICAL SERVICES, INC.",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "KIMBERLY F SHEFFIELD:100.00% | KIMBERLY C HODGES:100.00%"
+    },
+    {
+      "entity_id": 3455,
+      "entity_name": "TIGER PLACE, LLC",
+      "company_name": "AMERICARE SENIOR LIVING",
+      "total_ownership": "200.00",
+      "owner_count": 3,
+      "owners": "CLAY CROSSON:100.00% | RICHARD HENLEY MONTGOMERY:50.00% | ANNA C MONTGOMERY:50.00%"
+    },
+    {
+      "entity_id": 3658,
+      "entity_name": "ACCURA HEALTHCARE OF CASCADE LLC",
+      "company_name": "ACCURA HEALTHCARE",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "LISA TOTI:100.00% | TED A LENEAVE:100.00%"
+    },
+    {
+      "entity_id": 4009,
+      "entity_name": "MADISON COMMUNITY CARE CENTER, LLC",
+      "company_name": "THE BEEBE FAMILY",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "BOBBY L BEEBE:100.00% | DAVID W STALLARD:100.00%"
+    },
+    {
+      "entity_id": 4446,
+      "entity_name": "GARDEN GATE HEALTH CARE FACILITY LLC",
+      "company_name": "THE MCGUIRE GROUP",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "EDWARD OSCAR FARBENBLUM:100.00% | ORLY LIEBERMAN:100.00%"
+    },
+    {
+      "entity_id": 4536,
+      "entity_name": "SIENNA HILLS NURSING & REHABILITATION, INC.",
+      "company_name": "HILLSTONE HEALTHCARE",
+      "total_ownership": "200.00",
+      "owner_count": 7,
+      "owners": "PAUL B BERGSTEN:60.00% | MATTHEW DAPORE:40.00% | TIMOTHY S SPRENGER:25.00% | CHRISTOPHER MALLETT:25.00% | MARK SPRENGER:25.00% | BENJAMIN J PARSONS:20.00% | MICHAEL BUNNER:5.00%"
+    },
+    {
+      "entity_id": 5445,
+      "entity_name": "TOOMBS NURSING HOME LLC",
+      "company_name": "CLINICAL SERVICES, INC.",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "KIMBERLY C HODGES:100.00% | KIMBERLY F SHEFFIELD:100.00%"
+    },
+    {
+      "entity_id": 5447,
+      "entity_name": "GORDON HEALTH CARE CENTER LLC",
+      "company_name": "CLINICAL SERVICES, INC.",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "KIMBERLY F SHEFFIELD:100.00% | RENO D LAMBERT:100.00%"
+    },
+    {
+      "entity_id": 5545,
+      "entity_name": "FAIRACRES MANOR, INC",
+      "company_name": "FRONTLINE MANAGEMENT",
+      "total_ownership": "200.00",
+      "owner_count": 4,
+      "owners": "JILL W NELSON:100.00% | JAY H MOSKOWITZ:67.00% | STEVEN E SILVA:18.00% | JOHN D BRAMMEIER:15.00%"
+    },
+    {
+      "entity_id": 5601,
+      "entity_name": "BRIA OF ELMWOOD PARK LP",
+      "company_name": "BRIA HEALTH SERVICES",
+      "total_ownership": "200.00",
+      "owner_count": 4,
+      "owners": "NATAN WEISS:50.00% | AVRUM WEINFELD:50.00% | AMY WEISS:50.00% | DANIEL T WEISS:50.00%"
+    },
+    {
+      "entity_id": 5636,
+      "entity_name": "SARDIS COMMUNITY NURSING HOME, LLC",
+      "company_name": "THE BEEBE FAMILY",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "BOBBY L BEEBE:100.00% | DAVID W STALLARD:100.00%"
+    },
+    {
+      "entity_id": 6128,
+      "entity_name": "CONCORD HEALTHCARE, LLC",
+      "company_name": "COLEV GESTETNER",
+      "total_ownership": "200.00",
+      "owner_count": 3,
+      "owners": "TUVYA BLUMENKRANTZ:100.00% | ELIEZER GROSSMAN:55.00% | COLEV J GESTETNER:45.00%"
+    },
+    {
+      "entity_id": 6206,
+      "entity_name": "AUTUMN VIEW HEALTH CARE FACILITY LLC",
+      "company_name": "THE MCGUIRE GROUP",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "EDWARD OSCAR FARBENBLUM:100.00% | ORLY LIEBERMAN:100.00%"
+    },
+    {
+      "entity_id": 6669,
+      "entity_name": "CAMELOT HEALTHCARE, LLC",
+      "company_name": "MGM HEALTHCARE",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "BARUCH JEREMIAS:100.00% | JUDAH BIENSTOCK:100.00%"
+    },
+    {
+      "entity_id": 6883,
+      "entity_name": "BROOKHAVEN HEALTH CARE FACILITY LLC",
+      "company_name": "THE MCGUIRE GROUP",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "EDWARD OSCAR FARBENBLUM:100.00% | ORLY LIEBERMAN:100.00%"
+    },
+    {
+      "entity_id": 6937,
+      "entity_name": "HARRINGTON PARK HEALTH & REHABILITATION, LLC",
+      "company_name": "CLINICAL SERVICES, INC.",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "KIMBERLY F SHEFFIELD:100.00% | KIMBERLY C HODGES:100.00%"
+    },
+    {
+      "entity_id": 7223,
+      "entity_name": "PLEASANT VALLEY NURSING, LLC",
+      "company_name": "AMERICARE SENIOR LIVING",
+      "total_ownership": "200.00",
+      "owner_count": 3,
+      "owners": "CLAY CROSSON:100.00% | ANNA C MONTGOMERY:50.00% | RICHARD HENLEY MONTGOMERY:50.00%"
+    },
+    {
+      "entity_id": 7512,
+      "entity_name": "HERITAGE NURSING LLC",
+      "company_name": "AMERICARE SENIOR LIVING",
+      "total_ownership": "200.00",
+      "owner_count": 3,
+      "owners": "CLAY CROSSON:100.00% | RICHARD HENLEY MONTGOMERY:50.00% | ANNA C MONTGOMERY:50.00%"
+    },
+    {
+      "entity_id": 7709,
+      "entity_name": "CNNC, INC.",
+      "company_name": "ANTHONY & BRYAN ADAMS",
+      "total_ownership": "200.00",
+      "owner_count": 5,
+      "owners": "JAMES B COOPER:67.00% | BRYAN MILBURN ADAMS:50.00% | ANTHONY BRANDON ADAMS:50.00% | BENJAMIN COOPER:25.00% | ROBERT COOPER:8.00%"
+    },
+    {
+      "entity_id": 7841,
+      "entity_name": "GOLDEN AGE OAK VIEW HOME LLC",
+      "company_name": "CLINICAL SERVICES, INC.",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "GREGORY DAVIS:100.00% | KIMBERLY F SHEFFIELD:100.00%"
+    },
+    {
+      "entity_id": 8123,
+      "entity_name": "PMG OPCO-ALLEN LLC",
+      "company_name": "PRIORITY MANAGEMENT",
+      "total_ownership": "200.00",
+      "owner_count": 9,
+      "owners": "KELLY P BAUDER:25.00% | PARKER C BAUDER:25.00% | STEVEN D BOULWARE:25.00% | WILLIAM M BAUDER:25.00% | MADISON R BAUDER:25.00% | THOMAS C BOULWARE:25.00% | KATIE B WALKER:25.00% | SANDRA BOULWARE:12.50% | DOUGLAS B BOULWARE:12.50%"
+    },
+    {
+      "entity_id": 8265,
+      "entity_name": "CENTER FOR DISABILITY SERVICE HOLDING CORPORATION",
+      "company_name": "CENTER FOR DISABILITY SERVICE HOLDING CORPORATION",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "MARC ANTONUCCI:100.00% | DEBRA VAN NESS:100.00%"
+    },
+    {
+      "entity_id": 8336,
+      "entity_name": "COMMUNITY CARE CENTER OF DESTREHAN, LLC",
+      "company_name": "COMMUNITY CARE CENTER OF DESTREHAN, LLC",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "DAVID W STALLARD:100.00% | JOSEPH W SADLER:100.00%"
+    },
+    {
+      "entity_id": 8455,
+      "entity_name": "HAMLIN TERRACE FOUNDATION",
+      "company_name": "HAMLIN TERRACE FOUNDATION",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "LIONEL N JADOO:100.00% | JOSEPH DAMINO:100.00%"
+    },
+    {
+      "entity_id": 9178,
+      "entity_name": "PRESBYTERIAN VILLAGE EAST",
+      "company_name": "PRESBYTERIAN VILLAGE EAST",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "ROGER L MYERS:100.00% | DAVID MILLER:100.00%"
+    },
+    {
+      "entity_id": 9217,
+      "entity_name": "DIVERSIFIED HEALTHCARE ABBEVILLE, LLC",
+      "company_name": "BRIAN MAY",
+      "total_ownership": "200.00",
+      "owner_count": 3,
+      "owners": "DONNA M WIDNER:100.00% | MARTIN STOTT:50.00% | BRIAN MAY:50.00%"
+    },
+    {
+      "entity_id": 9448,
+      "entity_name": "WEST COAST HOSPITALS INC",
+      "company_name": "WEST COAST HOSPITALS INC",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "RICHARD MURPHY:100.00% | HEIDI MURPHY:100.00%"
+    },
+    {
+      "entity_id": 9805,
+      "entity_name": "PB HEALTHCARE OPERATIONS LLC",
+      "company_name": "PB HEALTHCARE OPERATIONS LLC",
+      "total_ownership": "200.00",
+      "owner_count": 3,
+      "owners": "DONNA M WIDNER:100.00% | MALCOLM B PRICE:50.00% | WILLIAM A BALL:50.00%"
+    },
+    {
+      "entity_id": 10661,
+      "entity_name": "CUMMINGS HEALTH CARE FACILITY INC.",
+      "company_name": "CUMMINGS HEALTH CARE FACILITY INC.",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "MELINDA E GOSLIN:100.00% | DAVID B GOSLIN:100.00%"
+    },
+    {
+      "entity_id": 11000,
+      "entity_name": "NC DEPT OF MILITARY AND VETERANS AFFAIRS",
+      "company_name": "NC DEPT OF MILITARY AND VETERANS AFFAIRS",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "KATHLEEN BANKS:100.00% | NICOLE STEPHENS:100.00%"
+    },
+    {
+      "entity_id": 11854,
+      "entity_name": "MESUN HEALTH SERVICES INC",
+      "company_name": "MESUN HEALTH SERVICES INC",
+      "total_ownership": "200.00",
+      "owner_count": 2,
+      "owners": "HANSON KIM:100.00% | EUGENE T KIM:100.00%"
+    },
+    {
+      "entity_id": 6554,
+      "entity_name": "SMITH COUNTY LTC, LLC",
+      "company_name": "MISSISSIPPI CARE CENTER",
+      "total_ownership": "199.99",
+      "owner_count": 6,
+      "owners": "GARRY H PACE:34.00% | HAROLD M BEEBE:33.33% | RICHARD E KEYES:33.33% | STEVEN L DELANEY:33.33% | HARRY STROHM:33.00% | STEPHEN PACE:33.00%"
+    },
+    {
+      "entity_id": 3043,
+      "entity_name": "COMPLETE CARE AT MANITOWOC LLC",
+      "company_name": "COMPLETE CARE",
+      "total_ownership": "199.94",
+      "owner_count": 5,
+      "owners": "SHALOM STEIN:66.60% | BENNY SCHLAFF:50.00% | NACHUM SCHLAFF:50.00% | YOSEF HELMAN:16.67% | NISANEL YAAKOV SILVERBERG:16.67%"
+    },
+    {
+      "entity_id": 7257,
+      "entity_name": "COMPLETE CARE AT NAZARETH LLC",
+      "company_name": "COMPLETE CARE",
+      "total_ownership": "199.94",
+      "owner_count": 5,
+      "owners": "SHALOM STEIN:66.60% | BENNY SCHLAFF:50.00% | NACHUM SCHLAFF:50.00% | YOSEF HELMAN:16.67% | NISANEL YAAKOV SILVERBERG:16.67%"
+    },
+    {
+      "entity_id": 7371,
+      "entity_name": "COMPLETE CARE AT VILLA PINES LLC",
+      "company_name": "ARIA HEALTHCARE",
+      "total_ownership": "199.94",
+      "owner_count": 5,
+      "owners": "SHALOM STEIN:66.60% | BENNY SCHLAFF:50.00% | NACHUM SCHLAFF:50.00% | YOSEF HELMAN:16.67% | NISANEL YAAKOV SILVERBERG:16.67%"
+    },
+    {
+      "entity_id": 5392,
+      "entity_name": "ALDEN-MEADOW PARK HEALTH CARE CENTER, INC.",
+      "company_name": "THE ALDEN NETWORK",
+      "total_ownership": "199.87",
+      "owner_count": 10,
+      "owners": "FLOYD A SCHLOSSBERG:100.00% | RANDI SCHULLO:20.77% | LAUREN H MAGNUSSON:20.77% | AUDRA B ELISCO:20.77% | JOSEPH SCHULLO:6.26% | GARRETT E MAGNUSSON:6.26% | ARIN G ELISCO:6.26% | CHARLES L ELISCO:6.26% | NICOLE SCHULLO:6.26% | PAIGE A MAGNUSSON:6.26%"
+    },
+    {
+      "entity_id": 6998,
+      "entity_name": "COULTERVILLE REHABILITATION & HEALTH CARE CENTER, LLC",
+      "company_name": "TUTERA SENIOR LIVING & HEALTH CARE",
+      "total_ownership": "199.00",
+      "owner_count": 5,
+      "owners": "JOSEPH C TUTERA:100.00% | LAURA C TUTERA:24.75% | DOMINIC F TUTERA:24.75% | HANNAH M TUTERA:24.75% | JOSEPH C TUTERA:24.75%"
+    },
+    {
+      "entity_id": 7212,
+      "entity_name": "MARGATE OPERATING INVESTMENTS, LLC",
+      "company_name": "ONYX HEALTH",
+      "total_ownership": "198.00",
+      "owner_count": 2,
+      "owners": "AVRA MUSTASAM:99.00% | SAMUEL GUTMAN:99.00%"
+    },
+    {
+      "entity_id": 11808,
+      "entity_name": "LTC OF FALL CREEK LLC",
+      "company_name": "LTC OF FALL CREEK LLC",
+      "total_ownership": "198.00",
+      "owner_count": 5,
+      "owners": "SHARLYN THREADGILL:78.00% | STACIE W REED:50.00% | MICHAEL G REED:50.00% | MORGAN THREADGILL:10.00% | FORREST THREADGILL:10.00%"
+    },
+    {
+      "entity_id": 3061,
+      "entity_name": "ARC AT DWIGHT LLC",
+      "company_name": "ARCADIA CARE",
+      "total_ownership": "195.01",
+      "owner_count": 4,
+      "owners": "STEVEN TUROFSKY:100.00% | DOVID SEITLER:47.51% | YOSEF MEYSTEL:23.75% | DAVID A BERKOWITZ:23.75%"
+    },
+    {
+      "entity_id": 51,
+      "entity_name": "OPTIMA CARE WHITE PLAINS LLC",
+      "company_name": "OPTIMA CARE",
+      "total_ownership": "195.00",
+      "owner_count": 3,
+      "owners": "ERIC MENDEL:100.00% | ALEXANDER ROVT:90.00% | BORIS MENDEL:5.00%"
+    },
+    {
+      "entity_id": 7373,
+      "entity_name": "OPTIMA CARE SMITHTOWN LLC",
+      "company_name": "OPTIMA CARE",
+      "total_ownership": "195.00",
+      "owner_count": 3,
+      "owners": "ERIC MENDEL:100.00% | ALEXANDER ROVT:90.00% | BORIS MENDEL:5.00%"
+    },
+    {
+      "entity_id": 3350,
+      "entity_name": "GOLDWATER CARE BLOOMINGTON LLC",
+      "company_name": "GOLDWATER CARE",
+      "total_ownership": "175.00",
+      "owner_count": 4,
+      "owners": "YOSEF MEYSTEL:100.00% | MEIR KATZENSTEIN:35.00% | AARON TVERSKY:35.00% | DAVID A BERKOWITZ:5.00%"
+    },
+    {
+      "entity_id": 271,
+      "entity_name": "ALDEN ESTATES OF SHOREWOOD, INC",
+      "company_name": "THE ALDEN NETWORK",
+      "total_ownership": "174.83",
+      "owner_count": 6,
+      "owners": "FLOYD A SCHLOSSBERG:100.00% | RANDI SCHULLO:20.77% | LAUREN H MAGNUSSON:20.77% | AUDRA B ELISCO:20.77% | PAIGE A MAGNUSSON:6.26% | GARRETT E MAGNUSSON:6.26%"
+    },
+    {
+      "entity_id": 4181,
+      "entity_name": "CHILDRESS COUNTY HOSPITAL DISTRICT",
+      "company_name": "CHILDRESS COUNTY HOSPITAL DISTRICT",
+      "total_ownership": "169.00",
+      "owner_count": 4,
+      "owners": "SCOTT S SPORE:100.00% | PAUL F CHEBIB:30.00% | CARL L BRITTON:25.00% | ROGER J WOLCOTT:14.00%"
+    },
+    {
+      "entity_id": 5610,
+      "entity_name": "BRIA OF MASCOUTAH LP",
+      "company_name": "BRIA HEALTH SERVICES",
+      "total_ownership": "166.66",
+      "owner_count": 4,
+      "owners": "NATAN WEISS:50.00% | AMY WEISS:50.00% | DANIEL T WEISS:33.33% | AVRUM WEINFELD:33.33%"
+    },
+    {
+      "entity_id": 6484,
+      "entity_name": "CHAPEL RIDGE NURSING CENTER, LLC",
+      "company_name": "CENTRAL ARKANSAS NURSING CENTERS",
+      "total_ownership": "160.00",
+      "owner_count": 4,
+      "owners": "JERRY D SAMS:70.00% | MICHAEL S MORTON:70.00% | PARALEA L HURSH:10.00% | DAVID L NORSWORTHY:10.00%"
+    },
+    {
+      "entity_id": 6965,
+      "entity_name": "OPTIMA CARE BRENTWOOD LLC",
+      "company_name": "OPTIMA CARE",
+      "total_ownership": "160.00",
+      "owner_count": 3,
+      "owners": "ERIC MENDEL:100.00% | ALEXANDER ROVT:50.00% | BORIS MENDEL:10.00%"
+    },
+    {
+      "entity_id": 7767,
+      "entity_name": "COMPASS HEALTH INC",
+      "company_name": "COMPASS HEALTH, INC.",
+      "total_ownership": "159.02",
+      "owner_count": 6,
+      "owners": "MARK WOOLPERT:57.64% | PATRICIA WOOLPERT:57.64% | DARREN SMITH:18.14% | JUANITA MCMULLEN:10.35% | NANCY GERRISH:10.00% | WILLIAM GERRISH:5.25%"
+    },
+    {
+      "entity_id": 2063,
+      "entity_name": "BEACON BROOK ACQUISITION OPERATOR LLC",
+      "company_name": "NATIONAL HEALTH CARE ASSOCIATES",
+      "total_ownership": "158.24",
+      "owner_count": 10,
+      "owners": "MINDY EHRENFELD:72.43% | REBECCA LOPIANSKY:17.97% | MARVIN J. OSTREICHER:17.92% | ILANA OSTREICHER:10.00% | MARC E OSTREICHER:10.00% | SHAYNA STEG:8.98% | DAVID OSTREICHER:8.98% | YITZCHOK STEG:5.00% | MICHELLE OSTREICHER:5.00% | THOMAS JOSEPH GILMARTIN:1.96%"
+    }
+  ],
+  "role_distribution": [
+    {
+      "role": "board_member",
+      "cnt": 22084
+    },
+    {
+      "role": "director",
+      "cnt": 16512
+    },
+    {
+      "role": "officer",
+      "cnt": 12297
+    },
+    {
+      "role": "owner_indirect",
+      "cnt": 9107
+    },
+    {
+      "role": "owner_direct",
+      "cnt": 7034
+    },
+    {
+      "role": "managing_employee",
+      "cnt": 6152
+    },
+    {
+      "role": "member",
+      "cnt": 1154
+    }
+  ],
+  "source_distribution": [
+    {
+      "source": "cms_only",
+      "cnt": 45159,
+      "pct": "82.5"
+    },
+    {
+      "source": "crm_only",
+      "cnt": 7065,
+      "pct": "12.9"
+    },
+    {
+      "source": "both",
+      "cnt": 2353,
+      "pct": "4.3"
+    },
+    {
+      "source": "NULL",
+      "cnt": 137,
+      "pct": "0.3"
+    }
+  ],
+  "issues": [
+    {
+      "type": "inflated_count",
+      "principal_id": 22267,
+      "name": "CHAD B FULLMER",
+      "property_count": 729,
+      "max_ownership": "50.00"
+    },
+    {
+      "type": "inflated_count",
+      "principal_id": 27142,
+      "name": "DARIN S MCSPADDEN",
+      "property_count": 722,
+      "max_ownership": "50.00"
+    },
+    {
+      "type": "inflated_count",
+      "principal_id": 3764,
+      "name": "EDWARD PICKETT",
+      "property_count": 689,
+      "max_ownership": "15.00"
+    },
+    {
+      "type": "inflated_count",
+      "principal_id": 36853,
+      "name": "JASON W CRUMP",
+      "property_count": 689,
+      "max_ownership": "24.75"
+    },
+    {
+      "type": "inflated_count",
+      "principal_id": 14261,
+      "name": "CHARLES BRUCE STRATTON",
+      "property_count": 689,
+      "max_ownership": "15.00"
+    },
+    {
+      "type": "inflated_count",
+      "principal_id": 17950,
+      "name": "PAUL HENRY",
+      "property_count": 689,
+      "max_ownership": "15.00"
+    },
+    {
+      "type": "inflated_count",
+      "principal_id": 27141,
+      "name": "DEREK O WHITE",
+      "property_count": 689,
+      "max_ownership": "24.75"
+    },
+    {
+      "type": "inflated_count",
+      "principal_id": 22736,
+      "name": "VICTOR BARRANCO",
+      "property_count": 689,
+      "max_ownership": "15.00"
+    },
+    {
+      "type": "inflated_count",
+      "principal_id": 26065,
+      "name": "ROBERT SANDERS",
+      "property_count": 689,
+      "max_ownership": "15.00"
+    },
+    {
+      "type": "inflated_count",
+      "principal_id": 11022,
+      "name": "WILLIAM FORREST",
+      "property_count": 605,
+      "max_ownership": "20.00"
+    },
+    {
+      "type": "inflated_count",
+      "principal_id": 25743,
+      "name": "DENA MCGREGOR",
+      "property_count": 605,
+      "max_ownership": "20.00"
+    },
+    {
+      "type": "inflated_count",
+      "principal_id": 3974,
+      "name": "MALISA A BLAKE",
+      "property_count": 591,
+      "max_ownership": "50.00"
+    },
+    {
+      "type": "inflated_count",
+      "principal_id": 38248,
+      "name": "ALFRED CISNEROS",
+      "property_count": 591,
+      "max_ownership": "33.33"
+    },
+    {
+      "type": "inflated_count",
+      "principal_id": 16654,
+      "name": "JACK H SANDERS",
+      "property_count": 591,
+      "max_ownership": "50.00"
+    },
+    {
+      "type": "inflated_count",
+      "principal_id": 8022,
+      "name": "GARY R BLAKE",
+      "property_count": 591,
+      "max_ownership": "50.00"
+    },
+    {
+      "type": "inflated_count",
+      "principal_id": 18687,
+      "name": "CLARK R SANDERSON",
+      "property_count": 570,
+      "max_ownership": "100.00"
+    },
+    {
+      "type": "inflated_count",
+      "principal_id": 10879,
+      "name": "KENDALL A BROUSSARD",
+      "property_count": 540,
+      "max_ownership": "65.00"
+    },
+    {
+      "type": "missing_source",
+      "count": 137,
+      "message": "Principals without principal_source set"
+    },
+    {
+      "type": "ownership_over_100",
+      "count": 100,
+      "message": "Entities with ownership percentages summing to >100%"
+    }
+  ]
+}
