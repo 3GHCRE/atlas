@@ -91,6 +91,62 @@ async function fixOwnershipOver100() {
     console.log(`  Cleared ownership % for ${updateResult.affectedRows} non-owner relationships`);
 
     // ========================================
+    // PART 2B: Fix "member" role ownership (nonprofit board members)
+    // ========================================
+    console.log('\n--- PART 2B: FIXING NONPROFIT MEMBER OWNERSHIP ---\n');
+
+    // "member" role with 100% typically means voting membership, not equity ownership
+    const [memberResult] = await atlas.query(`
+      UPDATE principal_entity_relationships
+      SET ownership_percentage = NULL,
+          role_detail = CONCAT(COALESCE(role_detail, ''), '; ownership_pct cleared (member = voting rights, not equity)')
+      WHERE end_date IS NULL
+        AND role = 'member'
+        AND ownership_percentage = 100
+    `);
+
+    console.log(`  Cleared ownership % for ${memberResult.affectedRows} "member" relationships with 100%`);
+
+    // ========================================
+    // PART 2C: Normalize multiple 100% indirect owners
+    // ========================================
+    console.log('\n--- PART 2C: NORMALIZING MULTIPLE 100% INDIRECT OWNERS ---\n');
+
+    // Find entities with multiple owner_indirect at 100%
+    const [multiIndirect] = await atlas.query(`
+      SELECT
+        entity_id,
+        COUNT(*) as owner_count
+      FROM principal_entity_relationships
+      WHERE role = 'owner_indirect'
+        AND ownership_percentage = 100
+        AND end_date IS NULL
+      GROUP BY entity_id
+      HAVING owner_count > 1
+    `);
+
+    console.log(`  Found ${multiIndirect.length} entities with multiple 100% indirect owners`);
+
+    let normalizedCount = 0;
+    for (const entity of multiIndirect) {
+      const equalShare = Math.round(100 / entity.owner_count * 100) / 100;
+
+      await atlas.query(`
+        UPDATE principal_entity_relationships
+        SET ownership_percentage = ?,
+            role_detail = CONCAT(COALESCE(role_detail, ''), '; normalized from 100% (multiple indirect owners)')
+        WHERE entity_id = ?
+          AND role = 'owner_indirect'
+          AND ownership_percentage = 100
+          AND end_date IS NULL
+      `, [equalShare, entity.entity_id]);
+
+      normalizedCount++;
+    }
+
+    console.log(`  Normalized ${normalizedCount} entities to equal shares`);
+
+    // ========================================
     // PART 3: Consolidate Duplicate Principal-Entity Relationships
     // ========================================
     console.log('\n--- PART 3: CONSOLIDATING DUPLICATES ---\n');
@@ -149,6 +205,37 @@ async function fixOwnershipOver100() {
     }
 
     console.log(`  Consolidated ${consolidatedCount} pairs, end-dated ${endDatedCount} duplicates`);
+
+    // ========================================
+    // PART 3B: Normalize any remaining over-100% entities
+    // ========================================
+    console.log('\n--- PART 3B: NORMALIZING REMAINING OVER-100% ENTITIES ---\n');
+
+    // Get all entities still over 100%
+    const [stillOver100] = await atlas.query(`
+      SELECT entity_id, SUM(ownership_percentage) as total
+      FROM principal_entity_relationships
+      WHERE ownership_percentage > 0 AND end_date IS NULL
+      GROUP BY entity_id
+      HAVING total > 100
+    `);
+
+    console.log(`  Found ${stillOver100.length} entities still over 100%`);
+
+    for (const entity of stillOver100) {
+      const scaleFactor = 100 / entity.total;
+
+      await atlas.query(`
+        UPDATE principal_entity_relationships
+        SET ownership_percentage = ROUND(ownership_percentage * ?, 2),
+            role_detail = CONCAT(COALESCE(role_detail, ''), '; scaled to fit 100% total')
+        WHERE entity_id = ?
+          AND ownership_percentage > 0
+          AND end_date IS NULL
+      `, [scaleFactor, entity.entity_id]);
+    }
+
+    console.log(`  Scaled ${stillOver100.length} entities to 100% total`);
 
     // ========================================
     // PART 4: Verify Fix

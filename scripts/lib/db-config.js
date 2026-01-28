@@ -9,10 +9,10 @@ const path = require('path');
 require('dotenv').config({ path: path.resolve(__dirname, '../../.env') });
 
 const ATLAS_CONFIG = {
-  host: process.env.LOCAL_DB_HOST || 'localhost',
+  host: process.env.LOCAL_DB_HOST || '192.168.65.254',
   port: parseInt(process.env.LOCAL_DB_PORT || '3306'),
   user: process.env.LOCAL_DB_USER || 'root',
-  password: process.env.LOCAL_DB_PASSWORD,
+  password: process.env.LOCAL_DB_PASSWORD || 'devpass',
   database: process.env.LOCAL_DB_NAME || 'atlas'
 };
 
